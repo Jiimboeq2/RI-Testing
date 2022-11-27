@@ -1,0 +1,139 @@
+Captain's Lament
+Custom
+FastTravel "Isle of Mara"
+6.87 -2.38 117.17
+Custom
+-18.36 -2.38 129.12
+-52.77 -2.52 103.32
+-50.59 -2.51 93.42
+Custom
+HailActor "Captain Ethan" 4
+-50.59 -2.51 93.42
+Custom
+-57.45 -2.52 112.53
+-12.30 -2.38 126.21
+6.48 -2.38 116.32
+Custom
+FastTravel "Feerrott Bell"
+6.48 -2.38 116.32
+Custom
+107.18 -0.78 -135.09
+106.89 68.50 -134.42
+63.58 63.86 -79.22
+16.10 61.90 -17.47
+-26.69 60.14 38.20
+-64.43 58.58 87.29
+-106.44 56.85 141.93
+-133.07 55.75 176.57
+-133.07 13.72 176.57
+-129.35 13.72 176.28
+Custom
+HailActor "Keevan Fastmarch" 4
+-129.35 13.72 176.28
+Custom
+-129.35 13.72 176.28
+-129.35 75.17 176.28
+-78.82 77.93 123.83
+-45.46 74.49 87.69
+1.20 66.71 33.82
+41.34 60.02 -12.52
+71.37 55.01 -47.19
+111.93 49.29 -79.84
+113.44 30.81 -80.88
+113.45 -6.88 -80.87
+125.23 -6.77 -84.61
+Custom
+HailActor "Ghostclaw" 6
+125.23 -6.77 -84.61
+Custom
+FastTravel "Stonebrunt Highlands Wizard Spires"
+125.23 -6.77 -84.61
+Custom
+-257.52 326.29 586.08
+-270.18 328.29 606.74
+-261.39 330.33 615.68
+-251.59 334.65 601.55
+-266.87 338.61 601.32
+-258.80 342.84 614.35
+-254.17 347.11 599.79
+-269.68 351.08 605.89
+-257.64 355.43 612.43
+-236.53 360.61 604.79
+-224.89 364.34 596.00
+-213.82 366.44 593.38
+-199.71 366.46 594.49
+-199.74 366.46 590.84
+Custom
+HailActor "Researcher Tahar" 2
+Custom
+ExamineItem "Bundle of Ulteran Spire Technology"
+-199.74 366.46 590.84
+Custom
+ScribeBook "Experimental spire device plan"
+-131.80 366.44 614.97
+Custom
+CraftIt "Unattuned spire device"
+-131.80 366.44 614.97
+Custom
+FastTravel "Feerrott Bell"
+-131.80 366.44 614.97
+109.00 -0.68 -130.88
+124.52 -7.33 -90.32
+127.78 -6.97 -87.02
+Custom
+HailActor "Ghostclaw" 4
+127.78 -6.97 -87.02
+Custom
+FastTravel "Loping Plains Spire"
+Custom
+127.78 -6.97 -87.02
+66.74 36.21 -314.68
+66.74 88.60 -314.68
+66.74 116.80 -314.68
+29.08 110.51 -272.65
+-6.63 108.76 -234.00
+-44.91 106.87 -192.56
+-91.62 104.56 -141.99
+-133.51 102.49 -96.65
+-174.18 100.48 -52.62
+-212.87 98.57 -10.74
+-250.25 96.73 29.72
+-279.84 95.27 61.76
+-315.99 93.90 79.18
+-369.25 92.09 85.20
+-423.30 90.26 80.29
+-423.30 22.95 80.29
+-423.31 16.85 80.25
+Custom
+Target  "a departing spirit"
+-423.31 16.85 80.25
+Custom
+MoveToActor "a departing spirit"
+-427.43 15.94 71.57
+Custom
+MessageBox "Use Unattuned spire device on a departing spirit and press Resume"
+Custom
+WaitForZoning
+0 0 0
+Custom
+-477.68 13.43 54.50
+-481.66 12.09 45.75
+-493.39 10.14 19.98
+-504.92 6.24 -5.36
+-517.65 -1.44 -33.33
+-525.88 -5.41 -51.40
+-515.62 0.59 -61.56
+Custom
+MessageBox "Tether the spirit anchor here by clicking on the green glowing spot and press Resume"
+Custom
+FastTravel "Isle of Mara"
+-515.62 0.59 -61.56
+Custom
+6.87 -2.38 117.17
+-19.73 -2.38 129.75
+-48.11 -2.52 103.67
+-55.59 -2.52 96.75
+-51.52 -2.51 93.34
+Custom
+HailActor "Captain Ethan" 2
+-51.52 -2.51 93.34
