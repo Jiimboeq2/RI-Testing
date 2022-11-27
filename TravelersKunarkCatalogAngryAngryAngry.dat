@@ -209,5 +209,5 @@ TravelMap "Sundered Frontier"
 2280.53 -202.38 2495.65
 2280.86 -200.40 2505.54
 Custom
-HailActor "Mei Lan" 1
+HailActor "Mei Lan" 6 1
 2280.00 -199.19 2518.41
