@@ -1,39 +1,40 @@
 A Gathering Obsession, Part IV
 Custom
-CheckAndSet -InZone "The Village of Shin" 7
+CheckAndSet -InZone "The Village of Shin" 15
 0 0 0
 Custom
 FastTravel "Isle of Mara"
 0 0 0
-5.81 -2.38 117.80
-2.37 -2.38 119.68
--13.94 25 46.87
--34.44 25 -32.43
--40.29 25 -55.04
--43.73 5.97 -67.56
--38.25 9.38 -85.70
--27.32 10.28 -110.67
+Custom
+Path -PL 10 -CPSP
+5.66 -2.13 119.13
+5.66 27.50 119.13
+-22.01 24.95 61.91
+-51.69 24.64 1.73
+-61.89 24.54 -18.94
+-55.13 24.43 -41.60
+-49.27 24.32 -64.90
+-42.84 8.41 -90.48
+-36.97 11.46 -104.17
+-31.97 9.85 -114.32
 Custom
 HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
--34.17 10.43 -106.40
--34.17 10.43 -106.40
--34.75 11.15 -101.73
-Custom
-FlyUp 2
--34.75 11.15 -101.73
--38.25 9.38 -85.70
--43.73 5.97 -67.56
--40.29 25 -55.04
--34.44 25 -32.43
--13.94 25 46.87
-2.37 -2.38 119.68
-5.81 -2.38 117.80
-Custom
-FlyDown
-5.81 -2.38 117.80
+-30.17 9.91 -111.73
+Custom 
+Path -PL 10 -CPSP
+-30.17 9.82 -110.81
+-44.20 8.43 -91.57
+-57.90 2.04 -68.88
+-68.49 14.88 -48.99
+-68.37 28.20 -30.71
+-59.02 35.98 -7.21
+-41.99 20.11 32.89
+-21.53 12.18 75.93
+-0.18 4.49 119.29
+6.63 -2.38 117.95
 Custom
 ClickActor mariners_bell TRUE FALSE 50
-5.81 -2.38 117.80
+4.21 -2.38 118.78
 Custom
 TravelMap "Enchanted Lands" 1
 7.38 -2.38 116.84
@@ -41,72 +42,46 @@ wait
 5
 0 0 0
 -1.76 4.48 82.44
-Path -PL 122 -L -DFPWD -R -QA "-A|wretched arbor|-T|QSC:gathered samples of severed briarwood from the Enchanted|-E|H" -QA "-A|rhythmic stone|-T|QSC:mined some velium clusters from the Enchanted|-E|H" -QA "-A|velvety roots|-T|QSC:gathered some tussah roots from the Enchanted|-E|H" -QA "-A|animal den|-T|QSC:gathered some griffin meat from the Enchanted|-E|H" -QA "-A|animal den|-T|QSC:gathered some bear meat from the Enchanted|-E|H" -QA "-A|rythmic stone|-T|QSC:mined some rough opaline from the Enchanted|-E|H" -QA "-A|mystical natural garden|-T|QSC:gathered some cucumbers from the Enchanted|-E|H" -QA "-A|mystical natural garden|-T|QSC:gathered some green tea leaves from the Enchanted|-E|H" -QA "-A|throng of fish|-T|QSC:fished up some shark fins from the Enchanted|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 102 -L -R -DFPWD -QA "-QD|200|-A|wretched arbor|-T|QSC:gathered samples of severed briarwood from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some green tea leaves from the Enchanted|-E|H" -QA "-QD|200|-A|velvety roots|-T|QSC:gathered some tussah roots from the Enchanted|-E|H" -QA "-QD|200|-A|rythmic stone|-T|QSC:mined some rough opaline from the Enchanted|-E|H" -QA "-QD|200|-A|throng of fish|-T|QSC:fished up some shark fins from the Enchanted|-E|H"-QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some cucumbers from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some velium clusters from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some griffin meat from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some bear meat from the Enchanted|-E|H" 
 -1.16 4.48 72.56
 -1.77 4.48 81.89
 -1.17 4.48 68.81
 -1.36 4.48 58.36
--1.19 4.48 48.03
--28.65 -4.99 72.51
--27.50 -4.72 21.29
--55.93 -4.72 10.84
--83.23 -4.72 17.59
--106.59 -4.72 27.32
--132.03 -4.71 39.10
--160.77 -4.72 60.03
--186.70 -4.70 76.67
--212.52 -4.71 88.63
--232.90 -4.71 97.70
--251.41 -4.70 105.94
--279.61 -4.17 118.50
--300.11 -4.80 127.62
--322.34 -4.73 137.52
--344.18 -4.71 147.24
--360.14 0.08 139.19
--392.57 3.96 122.84
--427.44 0.05 117.91
--440.74 -1.09 95.17
--434.72 3.05 72.19
--415.08 7.01 48.73
--400.25 5.49 35.44
--371.11 0.31 34.24
--339.62 9.67 33.10
--346.13 4.93 7.09
--352.29 0.10 -15.30
--335.03 1.80 -17.08
--319.64 0.61 -24.69
--293.94 3.96 -22.47
--277.57 5.26 -37.77
--258.36 7.18 -27.51
--240.61 8.67 -17.75
--229.35 5.50 -36.37
--232.65 6.49 -46.96
--239.05 4.47 -67.46
--234.70 2.92 -85.29
--216.22 4.07 -79.29
--205.33 4.01 -68.47
--200.41 5.60 -48.69
--193.39 2.55 -20.47
--172.77 -1.35 -4.33
--143.82 -0.90 6.37
--127.32 -1.67 -7.90
--130.53 0.24 -31.35
--135.82 3.38 -40.19
--102.95 1.77 -48.19
--72.94 4.90 -66.14
--41.02 2.34 -65.87
--6.36 -2.71 -65.69
-22.78 1.74 -65.54
-25.43 1.72 -96.28
-32.79 0.69 -106.17
-46.45 0.16 -103.84
-58.87 -0.17 -93.51
-86.43 -1.13 -96.90
-88.72 0.79 -113.96
-105.55 0.55 -121.86
-138.66 5.67 -160.81
-154.09 10.52 -165.15
-171.40 6.05 -170.00
+-98.99 -5.20 29.04
+-132.68 -5.28 229.42
+-177.33 -4.48 59.96
+-288.19 -5.20 129.23
+-385.14 -4.17 155.13
+-444.65 -5.28 131.35
+-450.69 -5.30 23.67
+-398.88 -5.44 2.33
+-363.64 -2.15 -22.64
+-291.92 -5.20 -73.95
+-279.73 -0.69 -59.32
+-292.72 3.24 -30.18
+-326.50 0.37 -23.78
+-329.84 2.64 -15.47
+-282.24 6.19 6.43
+-182.27 2.00 26.83
+-188.20 4.70 -48.78
+-119.14 -1.09 -31.72
+-78.65 2.47 -116.60
+-14.34 0.86 -145.97
+47.79 2.00 -116.38
+47.75 -0.75 -92.49
+85.91 -1.35 -66.60
+171.65 2.20 -117.30
+162.96 7.22 -151.82
+118.00 7.17 -201.86
+95.55 -1.20 -230.74
+61.82 14.40 -255.35
+75.88 19.15 -287.11
+94.19 23.12 -328.46
+112.22 1.42 -366.94
+120.56 -5.42 -385.77
+165.58 -4.71 -357.51
+196.02 -5.45 -369.88
+217.59 -5.27 -371.40
 227.54 2.33 -160.12
 242.50 0.95 -169.87
 238.37 1.57 -242.70
@@ -182,77 +157,64 @@ wait
 5
 0 0 0
 Custom
-Path -PL 478 -L -DFPWD -R -QA "-A|marred arbor|-T|QSC:gathered samples of severed briarwood from Zek|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:I gathered some green tea leaves from Zek|-E|H" -QA "-A|vestigial roots|-T|QSC:gathered some tussah roots|-E|H" -QA "-A|animal den|-T|QSC:gathered some griffin meat|-E|H" -QA "-A|animal den|-T|QSC:gathered some bear meat|-E|H" -QA "-A|mud stone|-T|QSC:mined some rough opaline|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:gathered some cucumbers|-E|H" -QA "-A|fury of fish|-T|QSC:fished up some shark fins from Zek|-E|H" -QA "-A|mud stone|-T|QSC:mined some velim clusters from Zek|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
--62.88 -33.14 359.23
--73.03 -32.56 339.24
--63.45 -31.75 324.20
--32.41 -33.01 317.06
--30.56 -32.26 306.91
--30.27 -32.20 300.73
--24.44 -35.25 275.18
--15.85 -34.94 255.86
-4.26 -34.71 266.65
-22.71 -33.85 266.79
-44.27 -34.27 265.46
-109.47 -40.48 264.10
-118.93 -41.06 275.22
-118.17 -46.91 327.55
-147.80 -46.91 322.21
-185.63 -46.62 319.32
-210.02 -46.76 326.93
-151.97 -44.19 308.06
-153.84 -42.35 289.23
-Custom
-FlyUp 20
-153.84 -42.35 289.23
-153.84 107.00 289.23
-173.64 69.94 189.29
-326.31 106.78 138.78
-338.29 17.07 177.46
-344.84 -30.20 197.18
-346.15 -39.68 201.14
-Custom
-FlyDown
-348.05 -43.19 206.88
-351.23 -43.84 219.74
-337.62 -37.60 251.94
-307.06 -39.73 254.75
-294.56 -39.94 244.45
-304.88 -39.81 246.58
-321.92 -40.00 225.95
-368.72 -41.77 219.59
-368.72 -41.77 219.59
-379.90 -40.00 206.32
-385.64 -40.00 205.87
-414.39 -40.00 200.30
-411.41 -40.00 215.58
-391.46 -40.00 236.01
-371.89 -39.45 254.29
-371.23 -36.27 287.17
-378.76 -35.63 290.05
-348.17 -35.48 146.40
-376.00 -24.73 90.63
-380.71 -16.94 30.19
-441.36 -16.90 41.86
-440.10 -16.79 42.05
-439.38 -17.79 28.55
-447.45 -16.92 -6.70
-457.96 -17.28 -8.35
-439.57 -16.19 -19.36
-Custom
-FlyUp 5
-409.79 -16.62 3.24
-Custom
-FlyUp 5
-409.79 101.34 3.24
-Custom
-FlyDown
-261.22 14.28 -103.63
-253.72 14.28 -111.04
-258.28 9.83 -173.10
-274.62 11.96 -193.69
-287.19 12.03 -220.08
-308.29 12.01 -227.65
+Path -PL 70 -L -DFPWD -R -QA "-A|marred arbor|-T|QSC:gathered samples of severed briarwood from Zek|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:I gathered some green tea leaves from Zek|-E|H" -QA "-A|vestigial roots|-T|QSC:gathered some tussah roots|-E|H" -QA "-A|mud stone|-T|QSC:mined some rough opaline|-E|H"-QA "-A|fury of fish|-T|QSC:fished up some shark fins from Zek|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:gathered some cucumbers|-E|H" -QA "-A|mud stone|-T|QSC:mined some velim clusters from Zek|-E|H" -QA "-A|animal den|-T|QSC:gathered some griffin meat|-E|H" -QA "-A|animal den|-T|QSC:gathered some bear meat|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
+532.96 -41.68 340.91
+532.96 -1.05 340.91
+545.98 -26.88 240.48
+545.97 -39.99 240.49
+598.98 -40.14 222.14
+663.30 -38.05 216.95
+580.25 -40.03 221.93
+659.59 -37.85 221.97
+619.31 -40.25 206.84
+663.47 -38.60 153.29
+666.38 -31.43 91.65
+628.68 -17.84 33.78
+626.55 -16.14 -7.61
+582.26 -16.16 1.18
+549.89 -19.18 -11.84
+548.71 -20.81 -23.55
+523.65 -17.83 -9.98
+522.61 -16.55 5.17
+509.53 -16.31 9.78
+485.15 -16.61 11.78
+489.54 -20.20 -14.84
+508.38 -22.05 -40.66
+508.38 -22.05 -40.66
+587.67 -20.78 -41.29
+675.42 -19.68 -42.05
+654.00 -18.33 -104.09
+648.25 -21.18 -186.30
+632.88 -23.25 -254.55
+586.37 -22.27 -277.20
+585.34 -24.62 -310.19
+570.25 -26.51 -334.35
+545.60 -23.78 -393.00
+502.73 -25.97 -388.49
+454.95 -20.99 -414.09
+407.92 -22.61 -357.48
+317.62 -20.03 -353.27
+259.81 -23.91 -354.66
+238.49 -29.31 -414.72
+290.18 -28.80 -417.56
+262.34 -26.07 -347.64
+219.54 -25.67 -329.23
+175.25 112.91 -304.84
+92.34 85.22 -306.12
+4.92 49.17 -304.00
+-68.23 -9.26 -310.21
+-149.13 -27.97 -283.41
+-235.57 -28.45 -270.92
+-295.61 -27.66 -268.22
+-274.24 -28.00 -318.28
+-249.12 -27.71 -378.06
+-259.73 -28.01 -419.33
+-269.51 -28.00 -468.47
+-234.15 -24.41 -500.33
+-217.80 -31.48 -510.27
+-217.40 -40.03 -506.96
+-227.57 -40.03 -558.66
+-194.53 -36.72 -581.58
 Custom
 FastTravel "Isle of Mara"
 0 0 0
