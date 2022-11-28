@@ -43,6 +43,7 @@ TravelMap "The Feerrott" 1
 -31.49 36.37 52.03
 3.80 -2.38 120.79
 111.87 -1.00 -134.80
+Custom
 Path -PL 76 -L -DFPWD -R -QA "-A|putrid arbor|-T|QSC:gathered samples of severed teak from the Feerrott|-E|H" -QA "-A|overgrown bed of thistle|-T|QSC:I gathered some pu-erh tea leaves from the Feerrott|-E|H" -QA "-A|animal den|-T|QSC:gathered some strengthened leather pelts from the Feerrott|-E|H" -QA "-A|hermetic stone|-T|QSC:mined some bloodstone from the Feerrott|-E|H" -QA "-A|hatch of fish|-T|QSC:fished up some nerius trout from the Feerrott|-E|H" -QA "-A|overgrown bed of thistle|-T|QSC:gathered some browncap mushrooms from the Feerrott|-E|H" -QA "-A|hermetic stone|-T|QSC:mined some diamondine clusters from the Feerrot|-E|H"-QA "-A|animal den|-T|QSC:gathered some wyrm meat|-E|H" -QA "-A|animal den|-T|QSC:gathered some owlbear meat|-E|H" -QA "-A|hatch of fish|-T|QSC:fished up some cauldron blowfish from the Feerrott|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
 111.87 -1.00 -134.80
 111.87 -1.00 -134.80
