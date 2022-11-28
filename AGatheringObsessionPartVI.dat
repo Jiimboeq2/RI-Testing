@@ -1,23 +1,63 @@
 A Gathering Obsession, Part VI
 Custom
-CheckAndSet -InZone "The Village of Shin" 7
+CheckAndSet -InZone "The Village of Shin" 15
 0 0 0
 Custom
 FastTravel "Isle of Mara"
 0 0 0
 Custom
-Path -PL 8 -CPSP
-5.81 -2.38 117.80
-2.37 -2.38 119.68
--13.94 25 46.87
--34.44 25 -32.43
--40.29 25 -55.04
--43.73 5.97 -67.56
--38.25 9.38 -85.70
--27.32 10.28 -110.67
+Path -PL 10 -CPSP
+5.66 -2.13 119.13
+5.66 27.50 119.13
+-22.01 24.95 61.91
+-51.69 24.64 1.73
+-61.89 24.54 -18.94
+-55.13 24.43 -41.60
+-49.27 24.32 -64.90
+-42.84 8.41 -90.48
+-36.97 11.46 -104.17
+-31.97 9.85 -114.32
 Custom
-HailActor "Qho Augren" 2 1 TRUE TRUE FALSE
--32.46 9.90 -110.52
+HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
+-30.17 9.91 -111.73
+Custom 
+Path -PL 10 -CPSP
+-32.81 11.08 -104.75
+-38.32 9.81 -96.39
+-43.55 8.21 -87.74
+-48.46 5.38 -79.09
+-53.38 3.39 -70.42
+-58.25 1.60 -61.84
+-63.23 0.17 -53.08
+-68.31 -0.93 -44.14
+-73.38 -1.84 -35.22
+-78.32 -2.74 -26.51
+-83.30 -4.35 -17.74
+-88.29 -5.12 -8.95
+-93.31 -5.06 -0.11
+-98.37 -4.65 8.79
+-103.33 -1.99 17.54
+-108.41 -2.52 26.49
+-113.48 -2.52 35.41
+-114.10 -2.22 45.41
+-107.27 -2.52 52.95
+-100.31 -2.52 60.65
+-93.47 -2.52 68.21
+-86.64 -2.52 75.76
+-79.91 -2.52 83.20
+-73.06 -2.52 90.87
+-66.50 -2.52 98.46
+-59.89 -2.52 106.09
+-53.10 -2.52 113.93
+-46.48 -2.50 121.58
+-39.72 -2.48 129.38
+-29.59 -2.48 130.65
+-19.75 -2.38 127.62
+-9.66 -2.38 126.57
+-0.55 -2.38 121.80
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+4.21 -2.38 118.78
 Custom
 TravelMap "The Sinking Sands"
 6.87 -2.38 117.17
@@ -36,7 +76,7 @@ Wait
 -1392.19 -227.42 -474.01
 -1388.14 -227.42 -479.26
 Custom
-Path -PL 89 -L -DFPWD -R -QA "-A|arid timber|-T|QSC:gathered samples of sandalwood|-E|H" -QA "-A|parched shrubbery|-T|QSC:gathered some samples of articoke|-E|H" -QA "-A|parched shrubbery|-T|QSC:gathered some samples of Maj'dul coffee beans|-E|H" -QA "-A|beast den|-T|QSC:gathered some caiman meat|-E|H" -QA "-A|beast den|-T|QSC:gathered some sabertooth meat|-E|H" -QA "-A|parched shrubbery|-T|QSC:gathered some prickly pears|-E|H" -QA "-A|parched shrubbery|-T|QSC:gathered some darjeeling tea leaves|-E|H"-QA "-A|clutch of fish|-T|QSC:fished up some congur eel|-E|H" -QA "-A|clutch of fish|-T|QSC:fished up some tiger shrimp|-E|H" -QA "-A|beast den|-T|QSC:gathered some stonehide leather pelts|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 89 -L -DFPWD -R -QA "-QD|200|-A|arid timber|-T|QSC:gathered samples of sandalwood|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some samples of articoke|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some samples of Maj'dul coffee beans|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some caiman meat|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some sabertooth meat|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some prickly pears|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some darjeeling tea leaves|-E|H"-QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some congur eel|-E|H" -QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some tiger shrimp|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some stonehide leather pelts|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
 -1388.14 -227.42 -479.26
 -1376.76 -227.42 -484.92
 -1356.15 -225.67 -499.42
