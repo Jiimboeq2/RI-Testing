@@ -1,0 +1,29 @@
+A Gathering Obsession, Part VIII
+Custom
+CheckAndSet -InZone "The Village of Shin" 16
+0 0 0
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+5.81 -2.38 117.80
+2.37 -2.38 119.68
+-13.94 25 46.87
+-34.44 25 -32.43
+-40.29 25 -55.04
+-43.73 5.97 -67.56
+-38.25 9.38 -85.70
+-27.32 10.28 -110.67
+Custom
+HailActor "Qho Augren" 2 1 TRUE TRUE FALSE
+-28.26 10.26 -108.56
+-28.37 9.92 -113.13
+-19.62 12.01 -107.70
+-9.24 13.89 -116.65
+6.10 14.74 -104.82
+24.55 14.73 -94.04
+23.94 14.73 -78.87
+21.71 14.73 -74.12
+12.23 14.73 -75.31
+Custom
+HailActor "Mei Ling Ventur" 3 1
+12.23 14.73 -75.31
