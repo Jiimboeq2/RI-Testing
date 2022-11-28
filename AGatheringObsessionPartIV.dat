@@ -43,7 +43,7 @@ wait
 0 0 0
 -1.76 4.48 82.44
 Custom
-Path -PL 102 -L -R -DFPWD -QA "-QD|200|-A|wretched arbor|-T|QSC:gathered samples of severed briarwood from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some green tea leaves from the Enchanted|-E|H" -QA "-QD|200|-A|velvety roots|-T|QSC:gathered some tussah roots from the Enchanted|-E|H" -QA "-QD|200|-A|rythmic stone|-T|QSC:mined some rough opaline from the Enchanted|-E|H" -QA "-QD|200|-A|throng of fish|-T|QSC:fished up some shark fins from the Enchanted|-E|H"-QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some cucumbers from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some velium clusters from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some griffin meat from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some bear meat from the Enchanted|-E|H" 
+Path -PL 102 -L -R -DFPWD -QA "-QD|200|-A|wretched arbor|-T|QSC:gathered samples of severed briarwood from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some green tea leaves from the Enchanted|-E|H" -QA "-QD|200|-A|velvety roots|-T|QSC:gathered some tussah roots from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some rough opaline from the Enchanted|-E|H" -QA "-QD|200|-A|throng of fish|-T|QSC:fished up some shark fins from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some cucumber from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some velium clusters from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some griffin meat from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some bear meat from the Enchanted|-E|H" 
 -0.41 4.48 84.14
 -0.61 4.48 55.60
 -2.95 2.77 30.86
@@ -167,7 +167,7 @@ wait
 5
 0 0 0
 Custom
-Path -PL 70 -L -DFPWD -R -QA "-A|marred arbor|-T|QSC:gathered samples of severed briarwood from Zek|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:I gathered some green tea leaves from Zek|-E|H" -QA "-A|vestigial roots|-T|QSC:gathered some tussah roots|-E|H" -QA "-A|mud stone|-T|QSC:mined some rough opaline|-E|H"-QA "-A|fury of fish|-T|QSC:fished up some shark fins from Zek|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:gathered some cucumbers|-E|H" -QA "-A|mud stone|-T|QSC:mined some velim clusters from Zek|-E|H" -QA "-A|animal den|-T|QSC:gathered some griffin meat|-E|H" -QA "-A|animal den|-T|QSC:gathered some bear meat|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 56 -L -DFPWD -R -QA "-A|marred arbor|-T|QSC:gathered some samples of severed briarwood from Zek|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:I gathered some green tea leaves from Zek|-E|H" -QA "-A|vestigial roots|-T|QSC:gathered some tussah roots from Zek|-E|H" -QA "-A|mud stone|-T|QSC:mined some rough opaline from Zek|-E|H" -QA "-A|fury of fish|-T|QSC:fished up some shark fins from Zek|-E|H" -QA "-A|flattened bed of thistle|-T|QSC:gathered some cucumber from Zek|-E|H" -QA "-A|mud stone|-T|QSC:mined some velium clusters from Zek|-E|H" -QA "-A|animal den|-T|QSC:gathered some griffin meat from Zek|-E|H" -QA "-A|animal den|-T|QSC:gathered some bear meat from Zek|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
 532.96 -41.68 340.91
 532.96 -1.05 340.91
 545.98 -26.88 240.48
