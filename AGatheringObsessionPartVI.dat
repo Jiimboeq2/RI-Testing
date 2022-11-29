@@ -6,7 +6,7 @@ Custom
 FastTravel "Isle of Mara"
 0 0 0
 Custom
-Path -PL 10 -CPSP
+Path 
 5.66 -2.13 119.13
 5.66 27.50 119.13
 -22.01 24.95 61.91
@@ -21,7 +21,7 @@ Custom
 HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 -30.17 9.91 -111.73
 Custom 
-Path -PL 10 -CPSP
+Path
 -34.89 11.62 -103.29
 -54.05 2.98 -65.57
 -72.09 -2.15 -29.49
@@ -54,7 +54,7 @@ Wait
 -1392.19 -227.42 -474.01
 -1388.14 -227.42 -479.26
 Custom
-Path -PL 89 -L -DFPWD -R -QA "-QD|200|-A|arid timber|-T|QSC:gathered samples of sandalwood|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some samples of articoke|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some samples of Maj'dul coffee beans|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some caiman meat|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some sabertooth meat|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some prickly pears|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some darjeeling tea leaves|-E|H"-QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some congur eel|-E|H" -QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some tiger shrimp|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some stonehide leather pelts|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 99 -L -DFPWD -R -QA "-QD|200|-A|arid timber|-T|QSC:gathered samples of sandalwood|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some of articoke|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some Maj'dul coffee beans|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some caiman meat|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some sabertooth meat|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some prickly pears|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some darjeeling tea leaves|-E|H"-QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some congur eel|-E|H" -QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some tiger shrimp|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some stonehide leather pelts|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
 -1388.14 -227.42 -479.26
 -1376.76 -227.42 -484.92
 -1356.15 -225.67 -499.42

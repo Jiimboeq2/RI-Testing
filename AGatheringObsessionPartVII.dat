@@ -6,7 +6,7 @@ Custom
 FastTravel "Isle of Mara"
 0 0 0
 Custom
-Path -PL 10 -CPSP
+Path 
 5.66 -2.13 119.13
 5.66 27.50 119.13
 -22.01 24.95 61.91
@@ -20,24 +20,9 @@ Path -PL 10 -CPSP
 Custom
 HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 -30.17 9.91 -111.73
-Custom 
-Path -PL 10 -CPSP
--34.89 11.62 -103.29
--54.05 2.98 -65.57
--72.09 -2.15 -29.49
--87.40 -4.24 1.14
--108.36 -2.52 43.09
--86.95 -2.52 66.67
--63.27 -2.52 92.74
--41.65 -2.55 116.54
--30.50 -2.38 128.82
--9.88 -2.38 125.45
-5.83 -2.38 117.54
-Custom
-ClickActor mariners_bell TRUE FALSE 50
-4.21 -2.38 118.78
 Custom
 FastTravel "Tenebrous Tangle"
+0 0 0
 -54.69 21.99 232.60
 -41.21 20.15 232.67
 -26.63 20.92 232.79
@@ -46,7 +31,7 @@ FastTravel "Tenebrous Tangle"
 -8.05 17.54 124.05
 -6.90 17.55 84.65
 Custom
-Path -PL 146 -L -DFPWD -R -QA "-QD|200|-A|school of flying fish|-T|QSC:gathered some flying fish|-E|H" -QA "-QD|200|-A|trip roots|-T|QSC:gathered some hanging roots|-E|H"-QA "-QD|200|-A|twisted wood|-T|QSC:gathered samples of rosewood|-E|H" -QA "-QD|200|-A|withered shrubbery|-T|QSC:gathered some samples of squash|-E|H" -QA "-QD|200|-A|withered shrubbery|-T|QSC:gathered some sampeles of soaring coffee beans|-E|H" -QA "-QD|200|-A|tangled nest|-T|QSC:gathered some ravasect meat|-E|H" -QA "-QD|200|-A|tangled nest|-T|QSC:gathered some aviak meat|-E|H" -QA "-QD|200|-A|withered shrubbery|-T|QSC:gathered some xegonberries|-E|H" -QA "-QD|200|-A|withered shrubbery|-T|QSC:gathered some sweet chai tea leaves|-E|H"-QA "-QD|200|-A|tangled nest|-T|QSC:gathered some horned leather pelts|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 146 -L -DFPWD -R -QA "-QD|200|-A|school of flying fish|-T|QSC:fished up some flying fish|-E|H" -QA "-QD|200|-A|trip roots|-T|QSC:gathered some hanging roots|-E|H" -QA "-QD|200|-A|twisted wood|-T|QSC:gathered samples of rosewood|-E|H" -QA "-QD|200|-A|breeze leaf foliage|-T|QSC:gathered some samples of squash|-E|H" -QA "-QD|200|-A|breeze leaf foliage|-T|QSC:gathered some soaring coffee beans|-E|H" -QA "-QD|200|-A|tangled nest|-T|QSC:gathered some ravasect meat|-E|H" -QA "-QD|200|-A|tangled nest|-T|QSC:gathered some aviak meat|-E|H" -QA "-QD|200|-A|breeze leaf foliage|-T|QSC:gathered some xegonberries|-E|H" -QA "-QD|200|-A|breeze leaf foliage|-T|QSC:gathered some sweet chai tea leaves|-E|H" -QA "-QD|200|-A|tangled nest|-T|QSC:gathered some horned leather pelts|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
 -5.88 17.39 80.28
 -0.02 27.41 -9.99
 -3.23 38.74 -47.24
