@@ -54,7 +54,7 @@ Wait
 -1392.19 -227.42 -474.01
 -1388.14 -227.42 -479.26
 Custom
-Path -PL 99 -L -DFPWD -R -QA "-QD|200|-A|arid timber|-T|QSC:gathered samples of sandalwood|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some of articoke|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some Maj'dul coffee beans|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some caiman meat|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some sabertooth meat|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some prickly pears|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some darjeeling tea leaves|-E|H" -QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some congr eel|-E|H" -QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some tiger shrimp|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some stonehide leather pelts|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 99 -L -DFPWD -R -QA "-QD|200|-A|arid timber|-T|QSC:gathered samples of sandalwood|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some of articoke|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some Maj'dul coffee beans|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some caiman meat|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some sabertooth meat|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some prickly pears|-E|H" -QA "-QD|200|-A|parched shrubbery|-T|QSC:gathered some darjeeling tea leaves|-E|H" -QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some conger eel|-E|H" -QA "-QD|200|-A|clutch of fish|-T|QSC:fished up some tiger shrimp|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some stonehide leather pelts|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
 -1388.14 -227.42 -479.26
 -1376.76 -227.42 -484.92
 -1356.15 -225.67 -499.42
