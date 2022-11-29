@@ -1,26 +1,41 @@
 A Gathering Obsession, Part VIII
 Custom
-Custom
-CheckAndSet -InZone "The Village of Shin" 16
+CheckAndSet -InZone "The Village of Shin" 19
 0 0 0
 Custom
 FastTravel "Isle of Mara"
 0 0 0
-5.81 -2.38 117.80
-2.37 -2.38 119.68
--13.94 25 46.87
--34.44 25 -32.43
--40.29 25 -55.04
--43.73 5.97 -67.56
--38.25 9.38 -85.70
--27.32 10.28 -110.67
 Custom
-HailActor "Qho Augren" 2 1 TRUE TRUE FALSE
--28.26 10.26 -108.56
--28.37 9.92 -113.13
+Path -PL 10 -CPSP
+5.66 -2.13 119.13
+5.66 27.50 119.13
+-22.01 24.95 61.91
+-51.69 24.64 1.73
+-61.89 24.54 -18.94
+-55.13 24.43 -41.60
+-49.27 24.32 -64.90
+-42.84 8.41 -90.48
+-36.97 11.46 -104.17
+-31.97 9.85 -114.32
 Custom
-HailActorGetQuest -Actor ""Qho Augren"" 4
--34.79 11.50 -104.45
+HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
+-30.17 9.91 -111.73
+Custom 
+Path -PL 10 -CPSP
+-34.89 11.62 -103.29
+-54.05 2.98 -65.57
+-72.09 -2.15 -29.49
+-87.40 -4.24 1.14
+-108.36 -2.52 43.09
+-86.95 -2.52 66.67
+-63.27 -2.52 92.74
+-41.65 -2.55 116.54
+-30.50 -2.38 128.82
+-9.88 -2.38 125.45
+5.83 -2.38 117.54
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+4.21 -2.38 118.78
 Custom
 FastTravel "Kylong Plains"
 -34.79 11.50 -104.45
@@ -29,7 +44,7 @@ FastTravel "Kylong Plains"
 825.21 -1.25 417.51
 824.26 -1.21 394.89
 Custom
-Path -PL 145 -L -DFPWD -R -QA "-A|calcified timber|-T|QSC:gathered some samples of redwood|-E|H" -QA "-A|kylong briar|-T|QSC:gathered some cranberries|-E|H"-QA "-A|kylong briar|-T|QSC:gathered some Cabilis cocoa beans|-E|H" -QA "-A|ornamental geode|-T|QSC:mined some rough kunzite|-E|H" -QA "-A|ornamental geode|-T|QSC:mined some deklium cluster|-E|H" -QA "-A|kylong briar|-T|QSC:gathered some succulent petals|-E|H" -QA "-A|kylong briar|-T|QSC:gathered some Torsis tea leaves|-E|H" -QA "-A|southshore school|-T|QSC:fished up some barracudas|-E|H" -QA "-A|southshore school|-T|QSC:fished up some king prawns|-E|H"-QA "-A|germinating roots|-T|QSC:gathered up some lichenclover|-E|H" -QA "-A|varmint burrow|-T|QSC:gathered up some bristled leather pelts|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 145 -L -DFPWD -R -QA "-QD|200|-A|calcified timber|-T|QSC:gathered some samples of redwood|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some cranberries|-E|H"-QA "-QD|200|-A|kylong briar|-T|QSC:gathered some Cabilis cocoa beans|-E|H" -QA "-QD|200|-A|ornamental geode|-T|QSC:mined some rough kunzite|-E|H" -QA "-QD|200|-A|ornamental geode|-T|QSC:mined some deklium cluster|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some succulent petals|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some Torsis tea leaves|-E|H" -QA "-QD|200|-A|southshore school|-T|QSC:fished up some barracudas|-E|H" -QA "-QD|200|-A|southshore school|-T|QSC:fished up some king prawns|-E|H"-QA "-QD|200|-A|germinating roots|-T|QSC:gathered up some lichenclover|-E|H" -QA "-QD|200|-A|varmint burrow|-T|QSC:gathered up some bristled leather pelts|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
 816.99 -1.20 354.09
 812.75 -1.19 330.84
 778.41 -1.18 321.93
