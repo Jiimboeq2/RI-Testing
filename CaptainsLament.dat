@@ -1,18 +1,21 @@
-Captain's Lament
+The Captain's Lament
 Custom
-CheckAndSet -InZone "The Village of Shin" 16
+CheckAndSet -InZone "The Village of Shin" 11
 0 0 0
 Custom
 FastTravel "Isle of Mara"
 0 0 0
 Custom
--18.36 -2.38 129.12
--52.77 -2.52 103.32
--50.59 -2.51 93.42
+Path
+-6.30 -2.38 124.97
+-22.55 -2.38 129.69
+-54.48 -2.52 104.29
+-52.44 -2.51 95.65
 Custom
 HailActor "Captain Ethan" 4
 -50.59 -2.51 93.42
 Custom
+Path
 -57.45 -2.52 112.53
 -12.30 -2.38 126.21
 6.48 -2.38 116.32
@@ -23,12 +26,16 @@ Custom
 ClickActor "Ulteran Spire Portal"
 20.70 -20.10 -12.84
 Custom
-TravelMap "The Feerrott"
+TravelMap "The Feerrott" 1
 -129.35 13.72 176.28
+Wait
+10
+0 0 0
 Custom
 HailActor "Keevan Fastmarch" 4
 -129.35 13.72 176.28
 Custom
+Path
 -129.35 13.72 176.28
 -129.35 75.17 176.28
 -78.82 77.93 123.83
@@ -49,10 +56,17 @@ FastTravel "Myrist"
 Custom
 ClickActor "Ulteran Spire Portal"
 20.70 -20.10 -12.84
+Wait
+10
+0 0 0
 Custom
 TravelMap "Stonebrunt Highlands"
 125.23 -6.77 -84.61
+Wait
+10
+0 0 0
 Custom
+Path
 -257.52 326.29 586.08
 -270.18 328.29 606.74
 -261.39 330.33 615.68
@@ -81,16 +95,23 @@ CraftIt "Unattuned spire device"
 Custom
 FastTravel "Myrist"
 0 0 0
+Wait
+10
+0 0 0
 Custom
 ClickActor "Ulteran Spire Portal"
 20.70 -20.10 -12.84
 Custom
 TravelMap "The Feerrott"
 -129.35 13.72 176.28
+Wait
+10
+0 0 0
 Custom
 HailActor "Keevan Fastmarch" 4
 -129.35 13.72 176.28
 Custom
+Path
 -129.35 13.72 176.28
 -129.35 75.17 176.28
 -78.82 77.93 123.83
@@ -113,7 +134,12 @@ ClickActor "Ulteran Spire Portal"
 20.70 -20.10 -12.84
 Custom
 TravelMap "Loping Plains"
+0 0 0
+Wait
+10
+0 0 0
 Custom
+Path
 127.78 -6.97 -87.02
 66.74 36.21 -314.68
 66.74 88.60 -314.68
@@ -144,6 +170,7 @@ Custom
 WaitForZoning
 0 0 0
 Custom
+Path
 -477.68 13.43 54.50
 -481.66 12.09 45.75
 -493.39 10.14 19.98
@@ -157,6 +184,7 @@ Custom
 FastTravel "Isle of Mara"
 -515.62 0.59 -61.56
 Custom
+Path
 6.87 -2.38 117.17
 -19.73 -2.38 129.75
 -48.11 -2.52 103.67

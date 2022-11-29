@@ -21,7 +21,7 @@ Custom
 HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 -30.17 9.91 -111.73
 Custom 
-Path 
+Path
 -34.89 11.62 -103.29
 -54.05 2.98 -65.57
 -72.09 -2.15 -29.49
@@ -37,7 +37,7 @@ Custom
 ClickActor mariners_bell TRUE FALSE 50
 4.21 -2.38 118.78
 Custom
-FastTravel "Kylong Plains"
+TravelMap  "Kylong Plains"
 -34.79 11.50 -104.45
 843.17 2.51 415.49
 843.17 -1.42 433.26
