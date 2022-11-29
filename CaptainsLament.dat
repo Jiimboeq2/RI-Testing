@@ -1,7 +1,10 @@
 Captain's Lament
 Custom
+CheckAndSet -InZone "The Village of Shin" 16
+0 0 0
+Custom
 FastTravel "Isle of Mara"
-6.87 -2.38 117.17
+0 0 0
 Custom
 -18.36 -2.38 129.12
 -52.77 -2.52 103.32
@@ -14,18 +17,13 @@ Custom
 -12.30 -2.38 126.21
 6.48 -2.38 116.32
 Custom
-FastTravel "Feerrott Bell"
-6.48 -2.38 116.32
+FastTravel "Myrist"
+0 0 0
 Custom
-107.18 -0.78 -135.09
-106.89 68.50 -134.42
-63.58 63.86 -79.22
-16.10 61.90 -17.47
--26.69 60.14 38.20
--64.43 58.58 87.29
--106.44 56.85 141.93
--133.07 55.75 176.57
--133.07 13.72 176.57
+ClickActor "Ulteran Spire Portal"
+20.70 -20.10 -12.84
+Custom
+TravelMap "The Feerrott"
 -129.35 13.72 176.28
 Custom
 HailActor "Keevan Fastmarch" 4
@@ -46,7 +44,13 @@ Custom
 HailActor "Ghostclaw" 6
 125.23 -6.77 -84.61
 Custom
-FastTravel "Stonebrunt Highlands Wizard Spires"
+FastTravel "Myrist"
+0 0 0
+Custom
+ClickActor "Ulteran Spire Portal"
+20.70 -20.10 -12.84
+Custom
+TravelMap "Stonebrunt Highlands"
 125.23 -6.77 -84.61
 Custom
 -257.52 326.29 586.08
@@ -75,16 +79,40 @@ Custom
 CraftIt "Unattuned spire device"
 -131.80 366.44 614.97
 Custom
-FastTravel "Feerrott Bell"
--131.80 366.44 614.97
-109.00 -0.68 -130.88
-124.52 -7.33 -90.32
-127.78 -6.97 -87.02
+FastTravel "Myrist"
+0 0 0
+Custom
+ClickActor "Ulteran Spire Portal"
+20.70 -20.10 -12.84
+Custom
+TravelMap "The Feerrott"
+-129.35 13.72 176.28
+Custom
+HailActor "Keevan Fastmarch" 4
+-129.35 13.72 176.28
+Custom
+-129.35 13.72 176.28
+-129.35 75.17 176.28
+-78.82 77.93 123.83
+-45.46 74.49 87.69
+1.20 66.71 33.82
+41.34 60.02 -12.52
+71.37 55.01 -47.19
+111.93 49.29 -79.84
+113.44 30.81 -80.88
+113.45 -6.88 -80.87
+125.23 -6.77 -84.61
 Custom
 HailActor "Ghostclaw" 4
 127.78 -6.97 -87.02
 Custom
-FastTravel "Loping Plains Spire"
+FastTravel "Myrist"
+0 0 0
+Custom
+ClickActor "Ulteran Spire Portal"
+20.70 -20.10 -12.84
+Custom
+TravelMap "Loping Plains"
 Custom
 127.78 -6.97 -87.02
 66.74 36.21 -314.68
