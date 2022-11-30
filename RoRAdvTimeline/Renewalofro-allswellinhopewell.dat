@@ -2,6 +2,9 @@ renewal of ro: All's well in hopewell
 Custom
 CheckAndSet -InZone "Raj'Dur Plateaus" 7
 0 0 0
+Custom
+FastTravel "Raj'Dur Plateaus"
+0 0 0
 163.04 -59.90 482.86
 170.81 -60.24 478.16
 192.94 -60.12 450.07
