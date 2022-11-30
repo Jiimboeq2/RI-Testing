@@ -1,5 +1,8 @@
 A Gathering Obsession, Part VII
 Custom
+CheckPreReqs -Completed "A Gathering Obsession, Part VI"
+0 0 0
+Custom
 CheckAndSet -InZone "The Village of Shin" 19
 0 0 0
 Custom

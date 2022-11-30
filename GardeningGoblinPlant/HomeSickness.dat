@@ -163,7 +163,6 @@ Path -PL 9 -L -R -CT "QuestStepChecked:I gathered" -QA "-QD|200|-A|splintered lu
 Custom
 GoFreeportQeynos
 0 0 0 
-0 0 0
 Custom
 MessageBox "Navigate to house with a gardening goblin and press Resume"
 0 0 0

@@ -1,4 +1,7 @@
-A Gathering Obsession, Part VIII
+A Gathering Obsession, Final Errand
+Custom
+CheckPreReqs -Completed "A Gathering Obsession, Part VIII"
+0 0 0
 Custom
 CheckAndSet -InZone "The Village of Shin" 15
 0 0 0
