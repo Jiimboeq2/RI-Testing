@@ -1,4 +1,4 @@
-RZ Work In Progress Test Files
+RI Work In Progress Test Files
 
 Place the files in InnerSpace\Scripts\RI\ZoneFiles
 
