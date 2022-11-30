@@ -1,8 +1,5 @@
 The Return of A Gathering Obsession
 Custom
-CheckAndSet -InZone "The Great Divide" 12
-0 0 0
-Custom
 FastTravel "Isle of Mara"
 0 0 0
 Custom
@@ -60,7 +57,7 @@ Custom
 TravelMap "Sundered Frontier"
 1004.75 -50.09 3386.88
 Custom
-Path -PL 161 -L -DFPWD -R -QA "-A|Toxxulia timber|-T|QSC:gathered some samples of sumac|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some kejekan palmfruit|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some lapsang tea leaf|-E|H" -QA "-A|molten formation|-T|QSC:mined some amber|-E|H" -QA "-A|molten formation|-T|QSC:mined some quicksilver cluster|-E|H" -QA "-A|Toxxulia root culm|-T|QSC:gathered some bamboo shoots|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some Marr cherries|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some giant octopus meat|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some seahorse roe|-E|H" -QA "-A|germinating roots|-T|QSC:gathered up some caynar nuts|-E|H" -QA "-A|craggy lair|-T|QSC:gathered up some mottled pelts|-E|H"  -QA "-A|infused deposit|-T|QSC:gathered up some titanium ore|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 160 -L -DFPWD -R -QA "-A|Toxxulia timber|-T|QSC:gathered some samples of sumac|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some kejekan palmfruit|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some lapsang tea leaf|-E|H" -QA "-A|molten formation|-T|QSC:mined some amber|-E|H" -QA "-A|molten formation|-T|QSC:mined some quicksilver cluster|-E|H" -QA "-A|Toxxulia root culm|-T|QSC:gathered some bamboo shoots|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some Marr cherries|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some giant octopus meat|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some seahorse roe|-E|H" -QA "-A|germinating roots|-T|QSC:gathered up some caynar nuts|-E|H" -QA "-A|craggy lair|-T|QSC:gathered up some mottled pelts|-E|H" -QA "-A|infused deposit|-T|QSC:gathered up some titanium ore|-E|H" -CT "QSC:I gathered yet more harvests for Qho Augren"
 1024.42 -52.89 3376.84
 1015.42 -52.76 3358.80
 1025.14 -52.71 3337.45
@@ -226,6 +223,8 @@ Path -PL 161 -L -DFPWD -R -QA "-A|Toxxulia timber|-T|QSC:gathered some samples o
 Custom
 FastTravel "Isle of Mara"
 0 0 0
+Custom
+Path
 5.81 -2.38 117.80
 2.37 -2.38 119.68
 -13.94 25 46.87
