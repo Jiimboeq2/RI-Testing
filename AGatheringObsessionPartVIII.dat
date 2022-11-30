@@ -35,16 +35,17 @@ Path
 5.83 -2.38 117.54
 Custom
 ClickActor mariners_bell TRUE FALSE 50
-4.21 -2.38 118.78
+6.87 -2.38 117.17
 Custom
-TravelMap  "Kylong Plains"
+TravelMap "Kylong Plains"
+6.87 -2.38 117.17
 -34.79 11.50 -104.45
 843.17 2.51 415.49
 843.17 -1.42 433.26
 825.21 -1.25 417.51
 824.26 -1.21 394.89
 Custom
-Path -PL 145 -L -DFPWD -R -QA "-QD|200|-A|calcified timber|-T|QSC:gathered some samples of redwood|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some cranberries|-E|H"-QA "-QD|200|-A|kylong briar|-T|QSC:gathered some Cabilis cocoa beans|-E|H" -QA "-QD|200|-A|ornamental geode|-T|QSC:mined some rough kunzite|-E|H" -QA "-QD|200|-A|ornamental geode|-T|QSC:mined some deklium cluster|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some succulent petals|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some Torsis tea leaves|-E|H" -QA "-QD|200|-A|southshore school|-T|QSC:fished up some barracudas|-E|H" -QA "-QD|200|-A|southshore school|-T|QSC:fished up some king prawns|-E|H" -QA "-QD|200|-A|germinating roots|-T|QSC:gathered up some lichenclover|-E|H" -QA "-QD|200|-A|varmint burrow|-T|QSC:gathered up some bristled leather pelts|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 146 -L -DFPWD -R -QA "-QD|200|-A|calcified timber|-T|QSC:gathered samples of redwood|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some cranberries|-E|H"-QA "-QD|200|-A|kylong briar|-T|QSC:gathered some Cabilis cocoa beans|-E|H" -QA "-QD|200|-A|ornamental geode|-T|QSC:mined some rough kunzite|-E|H" -QA "-QD|200|-A|ornamental geode|-T|QSC:mined some deklium cluster|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some succulent petals|-E|H" -QA "-QD|200|-A|kylong briar|-T|QSC:gathered some Torsis tea leaves|-E|H" -QA "-QD|200|-A|southshore school|-T|QSC:fished up some barracudas|-E|H" -QA "-QD|200|-A|southshore school|-T|QSC:fished up some king prawns|-E|H" -QA "-QD|200|-A|germinating roots|-T|QSC:gathered some lichenclover|-E|H" -QA "-QD|200|-A|varmint burrow|-T|QSC:gathered some bristled|-E|H" -CT "QSC:I gathered yet more harvests for Qho Augren"
 816.99 -1.20 354.09
 812.75 -1.19 330.84
 778.41 -1.18 321.93

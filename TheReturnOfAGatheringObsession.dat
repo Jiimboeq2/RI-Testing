@@ -1,6 +1,15 @@
 The Return of A Gathering Obsession
 Custom
-FastTravel "The Great Divide Thuragdin Harbor"
+FastTravel "Isle of Mara"
+0 0 0
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Wait
+20
+0 0 0
+Custom
+TravelMap "The Great Divide"
 1356.05 -540.25 473.10
 1356.05 -518.33 473.10
 1356.05 -498.18 473.10
@@ -14,13 +23,12 @@ FastTravel "The Great Divide Thuragdin Harbor"
 1117.08 -473.18 445.35
 1108.77 -468.89 441.31
 Custom
-ZoneDoor "Thurgadin"
-982.04 -308.36 357.35
+ClickActor "thurgadin_entrance_from_dock" FALSE FALSE 10
+Wait
+20
+0 0 0
 Custom
-FastTravel "Isle of Mara"
-6.87 -2.38 117.17
-Custom
-CheckAndSet -InZone "The Village of Shin" 16
+OpenMail "PLEASE PLEASE PLEASE"
 0 0 0
 Custom
 FastTravel "Isle of Mara"
@@ -38,10 +46,18 @@ HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 -28.26 10.26 -108.56
 -28.37 9.92 -113.13
 Custom
-FastTravel "Sundered Frontier Druid"
+FastTravel "Kunzar Jungle"
+0 0 0
+-155.15 1.86 -88.50
+-152.42 1.85 -83.90
+Custom
+ClickActor Blessed Shrubbery TRUE FALSE 50
+-152.42 1.85 -83.90
+Custom
+TravelMap "Sundered Frontier"
 1004.75 -50.09 3386.88
 Custom
-Path -PL 161 -L -DFPWD -R -QA "-A|Toxxulia timber|-T|QSC:gathered some samples of sumac|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some kejekan palmfruit|-E|H"-QA "-A|perennial shrub|-T|QSC:gathered some lapsang tea leaf|-E|H" -QA "-A|molten formation|-T|QSC:mined some amber|-E|H" -QA "-A|molten formation|-T|QSC:mined some quicksilver cluster|-E|H" -QA "-A|Toxxulia root culm|-T|QSC:gathered some bamboo shoots|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some Marr cherries|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some giant octopus meat|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some seahorse roe|-E|H"-QA "-A|germinating roots|-T|QSC:gathered up some caynar nuts|-E|H" -QA "-A|craggy lair|-T|QSC:gathered up some mottled pelts|-E|H"  -QA "-A|infused deposit|-T|QSC:gathered up some titanium ore|-E|H" -QA -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 160 -L -DFPWD -R -QA "-A|Toxxulia timber|-T|QSC:gathered some samples of sumac|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some kejekan palmfruit|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some lapsang tea leaf|-E|H" -QA "-A|molten formation|-T|QSC:mined some amber|-E|H" -QA "-A|molten formation|-T|QSC:mined some quicksilver cluster|-E|H" -QA "-A|Toxxulia root culm|-T|QSC:gathered some bamboo shoots|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some Marr cherries|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some giant octopus meat|-E|H" -QA "-A|school of tiny fish|-T|QSC:fished up some seahorse roe|-E|H" -QA "-A|germinating roots|-T|QSC:gathered up some caynar nuts|-E|H" -QA "-A|craggy lair|-T|QSC:gathered up some mottled pelts|-E|H" -QA "-A|infused deposit|-T|QSC:gathered up some titanium ore|-E|H" -CT "QSC:I gathered yet more harvests for Qho Augren"
 1024.42 -52.89 3376.84
 1015.42 -52.76 3358.80
 1025.14 -52.71 3337.45
@@ -205,11 +221,10 @@ Path -PL 161 -L -DFPWD -R -QA "-A|Toxxulia timber|-T|QSC:gathered some samples o
 -187.24 246.89 2963.34
 -172.30 247.22 2995.34
 Custom
-CheckAndSet -InZone "The Village of Shin" 16
-0 0 0
-Custom
 FastTravel "Isle of Mara"
 0 0 0
+Custom
+Path
 5.81 -2.38 117.80
 2.37 -2.38 119.68
 -13.94 25 46.87
@@ -230,11 +245,32 @@ HailActor "Lian Augren" 4
 Custom
 HailActor "Qho Augren" 3
 -53.24 11.74 -109.67
+Path
+-34.89 11.62 -103.29
+-54.05 2.98 -65.57
+-72.09 -2.15 -29.49
+-87.40 -4.24 1.14
+-108.36 -2.52 43.09
+-86.95 -2.52 66.67
+-63.27 -2.52 92.74
+-41.65 -2.55 116.54
+-30.50 -2.38 128.82
+-9.88 -2.38 125.45
+5.83 -2.38 117.54
 Custom
-FastTravel "Sinking Sands"
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Sinking Sands"
 -53.24 11.74 -109.67
+Wait
+10
+0 0 0
 Custom
 "HailActor "Stissa" 1 1
+WaitForZoning
+10
+0 0 0
 -1504.33 -214.28 -388.79
 -1672.84 -520.37 -2424.86
 -1628.81 -530.24 -2395.90
@@ -267,7 +303,7 @@ Custom
 HailActor "a coldain griffin rider" 2 1
 -1387.50 -507.57 -2250.29
 Custom
-FastTravel "Thurgadin Harbor"
+TravelMap "Thurgadin Harbor"
 -365.80 -530.89 -1830.44
 1330.56 -540.25 408.90
 1330.56 -520.15 408.90
@@ -277,7 +313,10 @@ FastTravel "Thurgadin Harbor"
 1135.77 -474.67 458.49
 1110.06 -468.89 440.47
 Custom
-ZoneDoor
+ClickActor "thurgadin_entrance_from_dock" FALSE FALSE 10
+Wait
+10
+0 0 0
 1110.06 -468.89 440.47
 986.24 -308.36 319.04
 944.56 -303.39 318.28
@@ -297,8 +336,12 @@ ZoneDoor
 655.68 -308.47 494.56
 612.53 -300.42 484.69
 575.68 -288.00 470.04
+Wait
+10
 Custom
-HailActor "Qho Augren" 
+HailActor "Qho Augren" 1 1
+Wait
+10
 567.76 -286.33 467.35
 567.76 -286.33 467.35
 596.45 -295.88 479.54
@@ -320,7 +363,11 @@ HailActor "Qho Augren"
 674.42 -251.45 76.34
 673.49 -244.99 53.11
 Custom
-ZoneDoor
+ClickActor "exit_to_great_divide_north" FALSE FALSE 10
+0 0 0
+Wait
+50
+0 0 0
 673.49 -244.99 53.11
 805.07 -181.23 53.85
 758.25 -182.20 40.88
@@ -346,8 +393,14 @@ ZoneDoor
 381.17 -15.01 486.93
 Custom
 HarvestNode "Goahmari Herb"
+Wait
+10
+0 0 0
 Custom
 HailActor "Qho Augren" 2 1
+Wait
+10
+0 0 0
 362.78 -14.93 486.43
 370.22 -14.96 488.17
 365.75 44.97 488.16
@@ -366,7 +419,12 @@ HailActor "Qho Augren" 2 1
 793.34 -181.77 49.53
 811.83 -180.91 54.20
 Custom
-ZoneDoor
+Custom
+ClickActor "Name -> thurgadin_entrance_from_gd" FALSE FALSE 10
+0 0 0
+Wait
+50
+0 0 0
 811.83 -180.91 54.20
 674.89 -249.14 131.37
 641.94 -251.35 135.42
@@ -389,9 +447,15 @@ HailActor "Merchant Hagus"
 Custom
 BuyFromVendor "Thurgadin Souvenir Snowglobe"
 335.79 -291.06 247.95
+Wait
+10
+0 0 0
 Custom
 HailActor "Qho Augren" 2 1
 332.56 -292.11 249.93
+Wait
+10
+0 0 0
 Custom
 FastTravel "Isle of Mara"
 332.56 -292.11 249.93
