@@ -1,0 +1,279 @@
+Custom
+HailActor "Riddan" 6 1 TRUE FALSE FALSE
+wait
+20
+24.90 12.14 -234.74
+94.06 10.45 -232.84
+85.25 17.57 -288.06
+81.20 19.81 -294.19 27.27
+wait 
+10
+;zonespecial here
+wait 100
+84.45 85.82 -313.09
+82.29 85.07 -336.28
+62.45 87.25 -358.79
+70.67 87.18 -381.09
+29.14 87.43 -455.59
+-18.09 89.37 -454.98 
+-14.32 94.78 -424.13
+7.38 94.70 -430.19
+;assuming side quests have been loaded and done, we should be able to move on to this step.
+Custom
+HailActor "Ismail" 11 1 TRUE FALSE FALSE
+wait
+20
+;this asshole gave us another side quest to do. we need to go back to the river's edge.
+-12.04 89.08 -451.13
+-40.14 89.49 -503.37
+-123.86 90.80 -526.32
+-159.06 87.92 -513.81 109.92
+;zone special
+-159.06 87.92 -513.81
+;we should be looking for "marid's mist lillies" around the following coords.
+-189.39 86.70 -503.80
+-192.06 87.23 -479.99
+-187.48 87.05 -472.25
+-184.98 86.69 -477.30
+-159.04 87.31 -531.39
+-189.76 86.60 -541.26
+-195.34 87.21 -533.24
+QSC:Gather marid's mist lillies from the Kalickia River's edge
+;moving to grab entrappers
+;ended up being carpets.
+;found one here
+-220.82 98.56 -303.53
+-240.38 98.34 -293.85
+-283.46 104.74 -263.41
+-283.10 104.80 -247.34
+-226.98 106.01 -217.47
+-212.18 106.07 -219.79
+-197.20 106.17 -224.81-186.02
+-186.02 111.49 -266.98
+-188.64 111.46 -257.32
+-200.93 111.37 -270.50
+-272.97 114.66 -180.41
+;tons in this area
+-302.30 116.79 -146.69
+-277.48 115.67 -166.27
+-279.50 117.81 -135.57
+-287.63 117.49 -137.69
+Path -PL 19 -L -R -QA "-QD|100|-A|an enchanted trapper|-T|QSC:I have mari'd mist lillies and dervin binding powder for Ismail|-E|K"
+;we should be going back to Ismail
+-237.44 105.40 -223.16
+-223.90 106.02 -230.17
+-216.57 103.33 -274.33
+-254.07 98.53 -378.18
+-248.20 98.13 -420.80
+-190.34 85.23 -454.96
+-140.48 90.29 -525.05
+-39.70 89.49 -504.25
+-14.21 89.14 -452.50
+-18.55 94.68 -427.09
+9.47 94.72 -429.78
+Custom
+HailActor "Ismail" 4 1 TRUE FALSE FALSE
+wait
+20
+a flute? tf do i do with it?
+;looks like use the flute, it makes pockets appear around the right set of tents
+UseItem ""Ismail's Flute"
+;at the moment when something attacks you -- the buff drops and you have to recast flute.
+-37.83 91.55 -479.27
+-135.93 90.29 -524.42
+-222.73 95.11 -431.86
+-253.64 99.03 -415.91
+-238.48 98.24 -335.90
+-216.63 98.50 -303.62
+;zone special here ^^
+-234.05 98.39 -312.62
+-205.95 106.06 -227.02
+-202.74 106.07 -215.13
+;^ zone special "portable pocket"
+;failure message= This portable pocket did not contain Anwar's journal
+-207.92 106.04 -233.34
+-174.69 111.75 -247.50
+-187.74 111.46 -269.50
+-183.73 111.55 -267.98
+;^zone special
+QSC:I should return to Ismail, hiding out in the western section of Raj'Durabad, as soon as I can.
+;lets go back to Ismail to finish "the threatening Truth"
+-206.37 106.05 -231.44
+-250.43 98.24 -357.35
+-251.54 98.45 -417.19
+-189.27 85.23 -451.88
+-140.15 90.24 -521.24
+-72.30 91.16 -513.35
+-8.18 89.10 -466.58
+-22.74 94.76 -425.45
+10.81 94.72 -430.11
+Custom
+HailActor "Ismail" 4 1 TRUE FALSE FALSE
+wait
+20
+Custom
+HailActor "Ismail" 8 1 TRUE FALSE FALSE
+wait
+20
+;moving to head honcho's tent up top of the camp.
+4.74 94.73 -430.53
+-53.92 90.27 -509.62
+-138.45 90.23 -520.59
+-203.86 88.98 -441.81
+-257.19 100.03 -415.76
+-250.61 98.37 -374.73
+-231.84 98.64 -297.68
+-214.59 105.24 -252.15
+-206.53 106.05 -232.15
+-241.05 105.45 -220.67
+-286.06 116.35 -150.50
+-311.22 117.54 -120.34
+QSC:Enter the Sultan's Mahallah
+Custom
+HailActor "Aldys, Sultan of the Daggers" 9 1 TRUE FALSE FALSE
+wait
+50
+;we need to kill Riddan here in front of us.
+;behind us is the next mob
+-317.22 117.54 -120.31
+;kill Zizzez
+-300.07 117.54 -118.99
+;here we should zone special to pick up Riddan's body.
+-305.70 117.53 -133.62
+;pathing from tent back to Jawdah at Hopewell Harbor
+-277.28 116.21 -158.30
+-262.57 117.59 -109.36
+;jumped off cliff, hope this doesn't kill us.
+-231.08 44.08 -31.60
+-217.08 28.31 25.57
+-161.11 10.48 72.70
+-119.21 -1.40 234.61
+-73.98 -16.13 310.01
+24.54 -10.91 337.46
+132.38 -36.67 382.99
+187.78 -59.91 456.13
+192.70 -60.24 462.92
+180.25 -60.09 464.17
+178.69 -60.15 461.17
+Custom
+HailActor "Jawdah the Mystic" 3 1 TRUE FALSE FALSE
+wait
+50
+QSC:Riddan is now recovering under Jawdah the Mystic's care in Hopewell Harbor.
+wait
+20
+Custom
+HailActor "Nouzar" 3 1 TRUE FALSE FALSE
+wait
+10
+;we now should be able to enter Blood and Sand.
+;;125.28 -56.57 488.45 is the loc of the premium edition merc. not important to quest, just noted.
+185.25 -60.19 466.88
+165.02 -59.91 478.56
+;we are now at the Blood and Sand zone in
+;i think zone function should work -- no heroic door options at the 
+wait
+200
+0 0 0
+;we should now be in Blood and Sand [solo]
+;stop for combat all along the following waypoints
+208.90 -60.24 579.78
+193.58 -60.23 566.26
+203.94 -60.24 557.41
+200.54 -60.24 544.47
+199.14 -60.24 528.74
+186.19 -60.24 524.61
+178.15 -60.09 525.93
+170.71 -53.82 517.72
+157.16 -59.36 500.25
+166.44 -59.95 486.78
+195.29 -60.33 459.80
+;we should be right in front of Baka
+;starting combat with Baka -- add pull syntax here.
+QSC:The Raj'Dur attack on Hopewell Harbor was a distraction
+;we should clear more camp sites in the zone.
+127.53 -33.98 377.56
+44.17 -12.13 339.42
+-45.57 -12.00 312.44
+-93.38 -9.30 288.14
+-119.67 -17.95 333.20
+-166.11 -10.91 382.03
+-190.19 -21.85 407.10
+-214.30 -27.17 460.92
+-402.96 -24.28 514.63
+-423.70 -20.14 509.60
+;we should now be in the vale area.
+;-438.33 -18.49 503.45 location of Goldami camp
+-435.65 -19.39 515.55
+-490.74 -6.50 530.79
+-526.85 1.36 499.76
+;we should pull the quartermaster.
+;this mob has a major knockback
+;we should try pulling in this tent -544.89 3.57 483.56
+QSC:I cleared the Raj'Dur from the Goldamni Reservoir Camp
+-514.37 -3.55 521.68
+-457.25 -10.30 535.02
+-241.14 -27.63 484.46
+-194.54 -22.09 412.39
+-139.55 -13.50 312.02
+;we should be back in the vale
+-194.69 -4.52 174.00
+-306.22 -14.01 143.40
+-334.31 -19.46 135.69
+-342.69 -17.83 108.43
+-389.84 -10.69 96.44
+-407.94 -9.09 107.25
+-404.78 -7.93 130.82
+-395.32 -6.48 175.76
+-373.66 -6.76 177.79
+;we've cleared some trash just in case
+-359.33 -5.86 197.51
+-381.95 -6.65 176.29
+-398.95 -6.56 174.68
+-407.90 -9.11 101.98
+-388.89 0.51 68.30
+-436.61 6.01 75.33
+-442.91 8.83 96.58
+-440.35 8.52 136.93
+;we are now at Farid the doggo
+;pull Farid
+;no strat taht i have noticed other than adds.
+;we will now move to Kulaidi
+-443.31 8.14 91.47
+-405.28 2.00 65.68
+-403.57 -7.84 144.45
+-390.90 -6.25 183.97
+-364.72 -5.84 173.36
+-355.01 -5.90 186.65
+-330.10 1.11 236.91
+-274.42 9.74 216.92
+-246.21 7.70 192.42
+-104.28 2.95 190.60
+153.91 2.11 121.01
+277.98 5.52 133.93
+322.94 8.86 142.48
+330.07 9.03 155.39
+328.65 9.46 166.05
+;we are safe to pull Khadra Chatt, 
+328.04 9.92 171.66
+QSC:I successfully defended the Hizite reservoir camps and Hopewell Harbor from the attactking Raj'Durs
+321.18 8.82 139.16
+220.70 12.06 105.35
+71.77 -0.49 138.98
+0.88 -1.28 153.08
+;here we can pull Mustapha Droughtbringer-- no strat at this time
+-24.80 -3.19 141.76
+;we can use this portal to zone out.
+;use door 1 option
+wait
+100
+0 0 0
+167.38 -60.06 489.82
+180.57 -60.11 465.60
+184.45 -59.93 462.80
+180.10 -60.08 461.41
+Custom
+HailActor "Nouzar" 6 1 TRUE FALSE FALSE
+wait
+10
+;this quest should now be DONE!

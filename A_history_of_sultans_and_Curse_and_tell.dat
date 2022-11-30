@@ -1,0 +1,174 @@
+7.38 94.70 -430.19
+;we should be standing in front of Ismail, we need to finish side quests before hailing him.
+2.89 94.77 -439.76
+-48.29 89.63 -504.69
+-130.24 90.49 -524.11
+-215.85 92.90 -430.76
+-243.16 96.83 -428.16
+-248.16 98.61 -408.50 
+-252.79 98.63 -390.34
+-231.62 98.52 -306.90
+-253.69 98.44 -363.85
+-301.84 106.91 -364.65
+-301.74 107.00 -402.63
+-304.14 107.31 -413.63
+304.66 107.39 -417.96
+;-304.66 107.39 -417.96 this is where we should be
+;picking up side quests
+HailActor "Xamira" 7 1 TRUE FALSE FALSE
+wait
+20
+HailActor "Sezgin" 7 1 TRUE FALSE FALSE
+wait
+20
+;Xamira's quest first -- A history of sultans
+-295.38 106.99 -382.09
+ClickActor "wild bulgur wheat"
+-288.87 104.97 -362.23
+;bulgur what below this line use zone special
+-234.16 98.24 -342.85
+-234.09 98.24 -342.78
+;bulgur what below this line use zone special
+-223.51 104.02 -360.64
+-223.51 104.02 -360.64
+wait
+5
+;bulgur what below this line use zone special
+-213.38 102.99 -344.10
+-209.80 99.21 -322.67
+;bulgur what below this line use zone special
+-206.99 98.48 -306.22
+-236.35 98.24 -327.56
+;bulgur what below this line use zone special
+-233.63 98.24 -339.61
+;bulgur what below this line use zone special
+-253.57 100.07 -326.50
+-234.23 98.50 -305.91
+;bulgur what below this line use zone special
+-240.60 101.04 -274.00
+;bulgur what below this line use zone special
+-214.37 103.35 -276.36
+;if we need to , this path should be loopable
+QSC:Gather wild bulgar wheat
+;we should have the wheat we need, moving on.
+-239.05 98.24 -336.07
+wait
+10
+;use reversing of this path to go back up to wheat area.
+-250.56 98.56 -392.44
+-251.13 98.38 -418.92
+-149.72 89.06 -517.73
+-83.07 91.25 -516.70
+6.05 89.21 -464.85
+60.09 88.57 -427.76
+63.16 86.90 -384.97
+73.68 87.43 -375.44
+67.99 86.73 -367.99
+;hopefully we've avoided the fences.
+64.87 87.07 -354.35
+85.59 84.79 -326.02
+;-38.71 105.70 -343.95 this is total BS that can't be automated with out flying
+;we should be looking for highland chargers, but they are strewn through out the mountains.
+;actually we might be able to do it with out flying still 
+;-128.93 105.97 -210.98 are more sheepy bois
+-148.82 105.94 -210.01
+QSC: I have the highland charger meat and wild bulgur wheat for Xamira's fresh kibbeh
+; we should look for cablash on the way back
+-195.73 106.40 -230.97
+-205.98 106.05 -224.18
+-210.54 106.09 -216.34
+wait
+10
+;we have 2 cablashes at this location
+;zone special here
+-210.54 106.09 -216.34
+;zone special here as well
+-209.16 106.08 -216.67
+-211.97 106.04 -228.32
+;we can zonespecial here as well
+-198.02 106.12 -222.34
+-210.35 106.03 -234.51
+-228.89 105.96 -217.27
+;we can zonespecial here below around these areas
+-283.11 104.80 -246.44
+-287.32 104.80 -244.78
+-277.62 104.09 -253.34
+;we can zonespecial here below x2
+-284.41 104.74 -264.15
+QSC:I found enough raffia wine calabashes to satisfy Sezgin's drinking habbits for a while.
+-272.54 104.36 -245.47
+-232.28 98.28 -318.90
+-250.30 98.27 -366.62
+-294.84 106.48 -360.10
+-303.52 107.08 -405.45
+-305.02 107.40 -418.23
+HailActor "Xamira" 7 1 TRUE FALSE FALSE
+wait
+20
+HailActor "Sezgin" 7 1 TRUE FALSE FALSE
+wait
+20
+;lets look for gamblers
+-295.29 106.41 -365.64
+-244.97 98.24 -359.58
+-217.35 105.24 -251.41
+-190.42 106.93 -229.51
+-177.41 111.26 -255.46
+-187.50 111.58 -261.89
+;kill a raj'dur blackguard|a raj'dur marauder|a raj'dur cutthroat in this area
+;-185.88 111.43 -257.96 gamblers
+QSC: I recovered Sezgin's fizzlethorp amulet!
+;this quest is done, we need to turn it in-- but let's check for A history of sultan's updates while we're out.
+;lets move to detractors from here.
+-194.48 106.84 -235.63
+-223.09 104.99 -252.52
+-225.15 102.65 -282.05
+-245.15 98.72 -330.07
+-251.85 98.55 -414.83
+-204.94 88.65 -446.51
+-195.45 85.23 -458.33
+-120.76 90.20 -523.81
+-25.46 89.51 -488.20
+-13.19 94.30 -432.08
+-54.40 98.64 -412.47
+-90.54 100.20 -441.68
+-128.52 100.21 -395.44
+;update here below
+-127.84 100.22 -393.24
+QSC:I don;t want to delay my return to Xamira, the sotryteller at the Rad'Durabad hana.
+;-129.40, 100.21 , -389. detractors should be here?
+wait
+10
+;lets go turn these in.
+-142.55 100.15 -421.48
+-219.86 92.85 -442.15
+-255.51 99.47 -408.72
+-244.74 98.24 -383.42
+-278.32 102.61 -361.22
+-309.08 107.01 -368.03
+-308.65 106.80 -398.94
+-301.74 107.30 -413.93
+-305.85 107.40 -417.09
+-305.49 107.40 -418.77
+HailActor "Xamira" 6 1 TRUE FALSE FALSE
+wait
+20
+HailActor "Sezgin" 4 1 TRUE FALSE FALSE
+wait
+20
+;lets head back to Ismail
+304.66 107.39 -417.96
+-304.14 107.31 -413.63
+-301.74 107.00 -402.63
+-301.84 106.91 -364.65
+-253.69 98.44 -363.85
+-231.62 98.52 -306.90
+-252.79 98.63 -390.34
+-248.16 98.61 -408.50
+-243.16 96.83 -428.16
+-215.85 92.90 -430.76
+-130.24 90.49 -524.11
+-48.29 89.63 -504.69
+2.89 94.77 -439.76
+7.38 94.70 -430.19
+;we're back! side quests should be over -- back to the main quests.

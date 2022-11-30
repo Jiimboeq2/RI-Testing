@@ -1,0 +1,52 @@
+189.57 -60.10 572.19
+Custom
+HailActor "Hakim al-Imam" 5 1 TRUE FALSE FALSE
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom 	
+TravelMap "Greater Faydark"
+6.87 -2.38 117.17
+Wait
+10
+0 0 0
+wait 10
+457.63 91.71 180.08
+;cloister is where we should be headed.
+;681, 52, 136
+444.65 91.71 169.22
+488.61 66.26 91.33
+551.21 46.12 63.91
+574.12 44.97 70.53
+677.94 51.58 134.77
+Custom
+HailActor "Firiona Vie" 11 1 TRUE FALSE FALSE
+;QSC:DEVLERROR no text provided
+;catch up with the adventure party at Nerive resivoir camp
+;lets assume for the moment that you can fast travel to the new zone.
+wait
+10
+;FastTravel "Raj'Dur Platteaus"
+0 0 0
+198.58 -60.55 457.61
+131.77 -36.61 383.48
+87.63 -19.02 351.36
+-52.89 -13.94 309.19
+-216.65 -8.75 281.83
+;we should be passing through vale rn
+-241.63 -23.46 502.74
+-471.90 -8.44 535.56
+-536.01 2.31 495.60
+-518.87 5.61 447.56
+-538.62 10.29 428.55
+-550.93 10.41 436.71
+Custom
+HailActor "Firiona Vie" 1 1 TRUE FALSE FALSE
+;QSC:DEVLERROR no text provided
+wait
+20
+;THIS QUEST IS DONE Renewal of Ro:Chosen Follower
