@@ -96,7 +96,7 @@ echo sttarting seeking mystic solutions
 339.08 -51.02 414.87
 410.28 -48.11 440.19
 464.98 -54.04 469.00
-;around here is where i want it to kill snappers along the coast line
+echo checking for snappers along the coast line
 500.51 -60.66 474.75
 498.65 -60.21 475.54
 563.78 -61.10 336.28
@@ -105,13 +105,13 @@ echo sttarting seeking mystic solutions
 485.00 -60.34 146.25
 559.28 -60.49 120.80
 Path -PL 19 -L -R -QA "-QD|100|-A|a sand snapper|-T|QSC:Hunt sand snapper ticks for blood samples|-E|K"
-;looking to kill corpsebeaks within this area and click on a golden feather
+echo looking to kill corpsebeaks within this area and click on a golden feather
 -381.75 -27.87 523.91
 Path -PL 19 -L -R -QA "-QD|100|-A|a dryland corpsebeak|-T|QSC:I have the sand snapper tick blood samples and a golden corpsebeak feather Jawdah sent me after.|-E|K"
 clickactor
 golden feather
 wait 20
-;hopefully this has hunted what we and is returning back to Jawdah.
+echo hopefully this has hunted what we and is returning back to Jawdah.
 -381.75 -27.87 523.91
 -123.06 -8.79 299.91
 -28.38 -11.03 316.32
@@ -121,7 +121,7 @@ wait 20
 180.35 -60.08 463.48
 Custom
 HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
-;quest complete
+echo quest should be completed
 QSC:I gave Jawdah the mystical components he requested
 ;new quest fight or fright
 180.35 -60.08 463.48
@@ -151,7 +151,7 @@ Path -PL 19 -L -R -QA "-QD|100|-A|a vengeful ekimuu|-T|QSC:I should return to Ja
 179.27 -60.14 460.47
 custom
 HailActor "Jawdah the Mystic" 3 1 TRUE FALSE FALSE
-;at this point we should be lucking petals for habibibibibibibbibibibiti's kiss in Najami Oassis
-;Najami Oassis 18.01, 4.21, 25.12
+echo at this point we should be lucking petals for habibibibibibibbibibibiti's kiss in Najami Oassis
+echo Najami Oassis 18.01, 4.21, 25.12
 184.34 -60.17 466.93
-;moving back to Renewal of ro quest
+echo moving back to Renewal of ro quest
