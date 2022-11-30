@@ -1,0 +1,127 @@
+The Scrivener's Tale: Animating the Inanimate
+Custom
+CheckAndSet -InZone "Myrist, the Great Library" 7
+0 0 0
+Custom
+FastTravel "Myrist, the Great Library"
+0 0 0
+Custom
+CheckAndSet -NearLocation "659.10 411.60 58.38" 40 41
+0 0 0
+31.68 -20.08 -11.34
+71.01 -20.10 -13.34
+122.02 -5.23 -13.22
+191.68 -5.21 -13.23
+Custom
+OpenMail "Assistance Requested"
+264.70 -5.35 -13.2
+316.19 -5.88 -19.69
+407.38 -5.22 -13.50
+Custom
+ClickActor "Lift Switch Main Floor" FALSE FALSE 5
+419.65 -4.96 -13.47
+Wait
+40
+419.65 -4.96 -13.47
+420.40 15.60 -13.54
+415.23 15.30 -13.58
+395.04 15.26 -13.72
+303.59 15.26 106.29
+305.34 15.31 111.68
+314.80 15.23 140.77
+350.35 15.21 141.08
+350.71 15.21 147.46
+350.61 15.22 167.47
+Custom
+ClickActor "Teleporter to Smiths' Gallery" FALSE FALSE 5
+388.57 15.67 169.98
+Wait
+10
+647.15 411.75 24.92
+0 0 0
+Custom
+HailActorGetQuest -Actor "Ghida Borrell"
+659.10 411.60 58.38
+Custom
+Path -PL 5 -L -R -QA "-A|scroll|-T|QSC:I have found the recipe scroll|-E|H"
+659.10 411.60 58.38
+636.00 411.62 42.64
+645.06 411.63 20.06
+668.58 411.53 21.76
+675.71 411.62 44.87
+657.51 411.52 55.90
+659.46 411.53 57.53
+Custom
+Path -PL 5 -L -R -QA "-A|Crate of Firing Sheets|-T|QSC:I have found a high quality firing sheet|-E|H"
+659.10 411.60 58.38
+636.00 411.62 42.64
+645.06 411.63 20.06
+668.58 411.53 21.76
+675.71 411.62 44.87
+657.51 411.52 55.90
+659.46 411.53 57.53
+Custom
+BuyFromVendor "Oleene Wanderweaver" "Prepared Malachite Shards" 1
+672.83 411.68 29.73
+Custom
+ClickActor "Teleporter to South Wing Catalog" FALSE FALSE 5
+647.15 411.75 24.92
+Wait
+10
+388.57 15.67 169.98
+Custom
+ClickActor "Teleporter to Crafters' Gallery" FALSE FALSE 5
+332.37 15.65 173.57
+Wait
+10
+903.34 411.75 25.10
+Custom
+Path -PL 5 -L -R -QA "-A|Planar Binding Kit|-T|QSC:I have found a Planar Binding Kit|-E|H"
+903.34 411.75 25.10
+923.23 411.33 23.54
+928.55 411.33 44.26
+912.08 411.33 54.78
+895.81 411.33 42.19
+912.43 411.29 37.67
+Custom
+Path -PL 5 -L -R -QA "-A|box of latch bindings|-T|QSC:I have collected all of the items|-E|H"
+903.34 411.75 25.10
+923.23 411.33 23.54
+928.55 411.33 44.26
+912.08 411.33 54.78
+895.81 411.33 42.19
+912.43 411.29 37.67
+903.34 411.75 25.10
+Custom
+ClickActor "Teleporter to South Wing Catalog" FALSE FALSE 5
+903.34 411.75 25.22
+Wait
+10
+332.37 15.65 173.57
+Custom
+ClickActor "Teleporter to Smiths' Gallery" FALSE FALSE 5
+388.57 15.67 169.98
+Wait
+10
+647.15 411.75 24.92
+Custom
+HailActor "Ghida Borrell" 6 1 TRUE FALSE FALSE
+659.10 411.60 58.38
+Custom
+ScribeBook "Recipe Scroll: Myrist Trunk"
+645.08 411.68 52.14
+Custom
+CraftIt "Non-operational Myrist Trunk" 1
+645.08 411.68 52.14
+Custom
+ClickActor "?" FALSE FALSE 5
+652.49 411.33 54.18
+Custom
+Target "Non-operational Myrist Trunk"
+652.77 411.33 53.86
+Custom
+UseItem "Embolden Spellbook"
+652.77 411.33 53.86
+Custom
+HailActor "Ghida Borrell" 1 1 TRUE FALSE FALSE
+659.10 411.60 58.38

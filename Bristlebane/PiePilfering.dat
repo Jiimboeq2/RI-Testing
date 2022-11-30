@@ -1,0 +1,155 @@
+Pie Pilfering
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Enchanted Lands"
+6.87 -2.38 117.17
+Wait
+10
+0 0 0
+61.48 35 11.32
+61.48 -1.28 11.32
+74.56 -0.90 20.38
+Custom
+HailActor "Garby Gingham Gigglegibber" 8 1 TRUE FALSE TRUE
+74.56 -0.90 20.38
+Custom
+HailActor "Garby Gingham Gigglegibber" 8 1 TRUE FALSE TRUE
+74.56 -0.90 20.38
+74.56 35 20.38
+36.16 35 35.57
+36.16 1.49 35.57
+Custom
+HailActor "Roselia Goldencrust" 5 1 TRUE FALSE FALSE
+36.16 1.49 35.57
+36.16 35 35.57
+61.48 35 11.32
+61.48 -1.28 11.32
+74.56 -0.90 20.38
+Custom
+HailActor "Garby Gingham Gigglegibber" 8 1 TRUE FALSE TRUE
+74.56 -0.90 20.38
+Custom
+FastTravel "Kunzar Jungle"
+0 0 0
+-155.15 1.86 -88.50
+-152.42 1.85 -83.90
+Custom
+ClickActor Blessed Shrubbery TRUE FALSE 50
+-152.42 1.85 -83.90
+Custom
+TravelMap "Loping Plains"
+-152.42 1.85 -83.90
+Wait
+10
+0 0 0
+-412.66 27.17 429.85
+-412.66 100 429.85
+-262.75 100 408.61
+-163.51 100 434.45
+-108.52 100 454.11
+-108.51 -3.96 454.11
+Custom
+Path -PL 44 -L -R -QA "-A|an Idol of Good Fortune|-T|QSC:I found an Idol of Good Fortune|-E|H"
+-108.51 -3.96 454.11
+-114.80 -3.95 478.24
+-130.73 -4.41 489.69
+-131.86 -5.10 493.66
+-108.51 -3.96 454.1
+-91.42 -3.93 454.37
+-81.04 -3.82 454.39
+-70.89 -3.93 454.07
+-60.64 -4.07 452.08
+-51.83 -4.43 446.98
+-51.18 -4.63 436.70
+-49.97 -3.92 426.47
+-46.79 -3.83 416.89
+-42.44 -3.06 407.43
+-37.71 -2.95 398.35
+-32.62 -3.48 389.55
+-26.97 -3.96 381.22
+-21.98 -4.13 372.49
+-17.47 -4.19 363.04
+-12.29 -4.18 353.89
+-3.18 -4.11 349.67
+6.70 -4.14 347.02
+16.68 -4.52 344.74
+23.76 -3.85 337.51
+26.81 -4.07 341.46
+35.66 -4.90 336.65
+45.70 -4.13 335.34
+55.83 -3.94 333.30
+66.09 -4.46 331.14
+76.15 -5.06 329.01
+86.30 -5.09 326.97
+96.34 -4.07 325.08
+106.31 -3.13 323.20
+116.44 -3.27 320.93
+126.20 -3.66 318.21
+136.16 -3.31 315.82
+137.47 -4.23 325.98
+137.19 -4.06 336.64
+135.41 -4.28 346.52
+133.80 -4.71 356.58
+132.44 -4.76 366.83
+125.03 -4.25 374.25
+116.92 -3.88 380.54
+106.97 -4.19 383.69
+97.02 -3.21 383.19
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Enchanted Lands"
+6.87 -2.38 117.17
+Wait
+10
+0 0 0
+-0.97 4.48 57.89
+-0.97 35 57.89
+36.16 35 35.57
+36.16 1.49 35.57
+Custom
+HailActor "Roselia Goldencrust" 5 1 TRUE FALSE FALSE
+36.16 1.49 35.57
+Custom
+Path -PL 1 -L -R -QA "-A|freshly baked pie|-T|QSC:The deed is done!|-E|H"
+36.16 1.49 35.57
+36.16 1.49 35.57
+Custom
+Path -PL 1 -L -R -QA "-A|freshly baked pie|-T|QSC:The deed is done!|-E|H"
+36.16 1.49 35.57
+36.16 1.49 35.57
+Custom
+Path -PL 1 -L -R -QA "-A|freshly baked pie|-T|QSC:The deed is done!|-E|H"
+36.16 1.49 35.57
+36.16 1.49 35.57
+Custom
+Path -PL 1 -L -R -QA "-A|freshly baked pie|-T|QSC:The deed is done!|-E|H"
+36.16 1.49 35.57
+36.16 1.49 35.57
+Wait
+250
+36.16 1.49 35.57
+Custom
+HailActor "Roselia Goldencrust" 5 1 TRUE FALSE FALSE
+36.16 1.49 35.57
+Custom
+HailActor "Roselia Goldencrust" 5 1 TRUE FALSE FALSE
+36.16 1.49 35.57
+36.16 35 35.57
+61.48 35 11.32
+61.48 -1.28 11.32
+74.56 -0.90 20.38
+Custom
+HailActor "Garby Gingham Gigglegibber" 8 1 TRUE FALSE TRUE
+74.56 -0.90 20.38

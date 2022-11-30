@@ -1,0 +1,164 @@
+Bristlebane's Beloved
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Enchanted Lands"
+6.87 -2.38 117.17
+Wait
+10
+0 0 0
+-0.35 4.48 85.71
+-0.35 35 85.71
+31.07 35 45.64
+31.07 1.49 45.64
+36.31 1.49 45.13
+Custom
+HailActor "Hoppert Barbinsteel" 10 1 TRUE FALSE FALSE
+36.31 1.49 45.13
+Custom
+FastTravel "Myrist, the Great Library"
+0 0 0
+22.34 -20.10 -12.90
+16.70 -20.10 -13.38
+Wait
+10
+0 0 0
+Custom
+ClickAllActors "Ulteran Spire Portal" 5
+16.70 -20.10 -13.38
+Custom
+TravelMap Antonica 1 1
+16.70 -20.10 -13.38
+Wait
+10
+0 0 0
+-2056.70 11.81 -644.13
+-2066.05 13.12 -628.74
+-2066.05 55 -628.74
+-2078.91 55 -573.04
+-2088.04 55 -533.50
+-2095.88 55 -499.55
+-2103.88 55 -464.86
+-2111.49 55 -431.94
+-2119.56 55 -396.94
+-2128.82 55 -356.87
+-2139.68 55 -309.83
+-2147.70 55 -275.08
+-2154.75 55 -244.54
+-2154.75 55 -244.54
+-2161.16 55 -216.79
+-2167.83 55 -187.89
+-2174.44 0.42 -159.27
+-2197.93 2.19 -117.81
+-2217.84 1.15 -90.16
+-2233.26 0.35 -68.74
+-2250.35 -0.46 -48.40
+-2250.34 -13.79 -48.40
+-2286.24 -14.54 -57.22
+-2297.89 -5.53 -70.93
+-2318.00 5.99 -81.60
+-2338.96 7.94 -67.07
+-2338.16 7.89 -68.04
+Custom
+ClickAllActors
+-2338.96 8.00 -67.66
+Wait
+10
+0 0 0
+Custom
+ZoneDoor "To the Shattered Vale" 1 FALSE 20 True
+-2338.96 8.00 -67.66
+Wait
+10
+-2354.10 9.73 -60.55
+-2372.67 10.94 -56.68
+-2410.40 10.02 -75.91
+-2449.41 15.64 -75.73
+-2468.13 15.69 -79.20
+Custom
+HailActor "Iffatia Honeymeadow" 5 1 TRUE FALSE TRUE
+-2468.13 15.69 -79.20
+Custom
+Path -PL 11 -L -R -QA "-QD|100|-A|an exotic game hunter|-T|QSC:I successfully prevented|-E|K"
+-2475.62 15.69 -71.39
+-2494.16 15.67 -64.55
+-2520.50 15.67 -67.88
+-2511.33 15.67 -61.57
+-2514.86 15.67 -57.47
+-2501.50 15.67 -49.72
+-2506.50 15.67 -36.75
+Custom
+Path -PL 3 -L -R -QA "-QD|100|-A|an exotic game hunter|-T|QSC:I successfully prevented|-E|K"
+-2498.38 15.67 -62.89
+-2498.38 15.67 -62.89
+-2506.59 15.67 -49.11
+-2468.13 15.69 -79.20
+Custom
+HailActor "Iffatia Honeymeadow" 6 1 TRUE FALSE TRUE
+-2468.13 15.69 -79.20
+-2467.22 15.69 -78.21
+-2479.96 15.67 -71.84
+-2498.99 15.67 -62.33
+-2519.10 15.67 -52.28
+-2530.85 15.67 -46.40
+Custom
+HailActor "Bristlebane's Beloved" 3 1 TRUE FALSE TRUE
+-2530.85 15.67 -46.40
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Enchanted Lands"
+6.87 -2.38 117.17
+Wait
+10
+0 0 0
+-0.35 4.48 85.71
+-0.35 35 85.71
+31.07 35 45.64
+31.07 1.49 45.64
+36.31 1.49 45.13
+Custom
+HailActor "Hoppert Barbinsteel" 5 1 TRUE FALSE FALSE
+36.31 1.49 45.13
+32.01 1.49 44.82
+32.50 1.49 27.75
+32.85 -1.06 15.48
+33.08 -0.70 7.79
+44.34 -0.60 10.15
+55.25 -1.01 12.44
+64.14 -1.09 14.31
+70.74 -0.92 15.69
+67.60 -1.02 15.42
+58.05 -1.00 14.19
+48.27 -0.78 12.92
+39.93 -0.70 11.83
+32.94 -0.82 10.93
+32.58 -1.06 19.16
+32.24 1.49 26.91
+31.88 1.49 35.20
+31.51 1.49 43.80
+31.34 1.49 47.74
+0.60 4.48 48.30
+0.57 4.48 41.33
+0.61 4.48 49.80
+10.73 1.49 49.88
+20.42 1.49 49.95
+27.72 1.49 49.17
+33.63 1.49 47.35
+36.33 1.49 45.16
+Custom
+MessageBox "Cast Ability 'Return to My Body' and press Resume at Hoppert Barbinsteel"
+36.33 1.49 45.16
+Custom
+HailActor "Hoppert Barbinsteel" 5 1 TRUE FALSE FALSE
+36.31 1.49 45.13
