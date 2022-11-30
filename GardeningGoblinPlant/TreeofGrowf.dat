@@ -64,8 +64,8 @@ Custom
 HailActor Growf 5
 80.321014 -171.308716 -680.707092
 Custom
-MessageBox "Navigate to your house and Place House Item An Obulus Frontier Seedling, check back in 24 hours"
-0 0 0 
-Custom
 GoFreeportQeynos
+0 0 0
+Custom
+MessageBox "Navigate to your house and Place House Item An Obulus Frontier Seedling, check back in 24 hours"
 0 0 0 

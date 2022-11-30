@@ -6,7 +6,7 @@ Custom
 HailActor Growf 3
 78.48 -171.31 -679.46
 Custom
-MessageBox "summon gardening goblin and hail to advance quest and press Resume"
+MessageBox "summon gardening goblin (you must have AA spec) and hail to advance quest and press Resume"
 0 0 0
 Custom
 HailActor "Growf" 
