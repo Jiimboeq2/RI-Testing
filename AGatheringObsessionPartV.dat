@@ -1,12 +1,12 @@
 A Gathering Obsession, Part V
 Custom
-CheckAndSet -InZone "The Village of Shin" 19
+CheckAndSet -InZone "The Village of Shin" 15
 0 0 0
 Custom
 FastTravel "Isle of Mara"
 0 0 0
 Custom
-Path 
+Path -PL 10 -CPSP
 5.66 -2.13 119.13
 5.66 27.50 119.13
 -22.01 24.95 61.91
@@ -35,7 +35,7 @@ Wait
 10
 0 0 0
 Custom
-Path -PL 188 -L -DFPWD -R -QA "-QD|200|-A|putrid arbor|-T|QSC:gathered samples of severed teak from the Feerrott|-E|H" -QA "-QD|200|-A|overgrown bed of greenslade|-T|QSC:gathered some pu-erh tea leaves from the Feerrott|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some strengthened leather pelts from the Feerrott|-E|H" -QA "-QD|200|-A|hermetic stone|-T|QSC:mined some rough bloodstone from the Feerrott|-E|H" -QA "-QD|200|-A|hatch of fish|-T|QSC:fished up some nerius trout from the Feerrott|-E|H" -QA "-QD|200|-A|overgrown bed of greenslade|-T|QSC:gathered some browncap mushrooms from the Feerrott|-E|H" -QA "-QD|200|-A|hermetic stone|-T|QSC:mined some diamondine clusters from the Feerrot|-E|H"-QA "-QD|200|-A|animal den|-T|QSC:gathered some wyrm meat|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some owlbear meat|-E|H" -QA "-QD|200|-A|hatch of fish|-T|QSC:fished up some cauldron blowfish from the Feerrott|-E|H"
+Path -PL 188 -L -DFPWD -R -QA "-QD|200|-A|putrid arbor|-T|QSC:gathered samples of severed teak from the Feerrott|-E|H" -QA "-QD|200|-A|overgrown bed of greenslade|-T|QSC:gathered some pu-erh tea leaves from the Feerrott|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some strengthened leather pelts from the Feerrott|-E|H" -QA "-QD|200|-A|hermetic stone|-T|QSC:mined some rough bloodstone from the Feerrott|-E|H" -QA "-QD|200|-A|hatch of fish|-T|QSC:fished up some nerius trout from the Feerrott|-E|H" -QA "-QD|200|-A|overgrown bed of greenslade|-T|QSC:gathered some browncap mushrooms from the Feerrott|-E|H" -QA "-QD|200|-A|hermetic stone|-T|QSC:mined some diamondine clusters from the Feerrott|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some wyrm meat from the Feerott|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some owlbear meat from the Feerrott|-E|H" -QA "-QD|200|-A|hatch of fish|-T|QSC:fished up some cauldron blowfish from the Feerrott|-E|H"
 -566.86 -14.78 840.57
 -581.84 -15.03 822.19
 -595.71 -13.69 836.37

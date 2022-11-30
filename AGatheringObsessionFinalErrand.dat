@@ -1,6 +1,6 @@
 A Gathering Obsession, Part VIII
 Custom
-CheckAndSet -InZone "The Village of Shin" 16
+CheckAndSet -InZone "The Village of Shin" 15
 0 0 0
 Custom
 FastTravel "Isle of Mara"
