@@ -59,8 +59,9 @@ wait
 5
 550.13 -25.05 50.07
 custom
-ApplyVerb "Hakim al-Imam"Examine the Body
+ApplyVerb "Hakim al-Imam" Examine the Body
 QSC:It's a relief, the Qayyud is alive,
+echo we have located bill cosby's victim.
 wait
 20
 490.88 -21.57 11.15
@@ -78,8 +79,6 @@ wait
 233.73 -60.28 484.53
 wait
 10
-wait
-10
 Custom
 HailActor "Silrena" 3 1 TRUE FALSE FALSE
 QSC:Silrena is adamant i must find a way to help the Qayyid recover.
@@ -88,7 +87,7 @@ QSC:Silrena is adamant i must find a way to help the Qayyid recover.
 HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
 182.67 -59.99 463.84
 wait
-5
+5b
 echo sttarting seeking mystic solutions
 180.86 -60.03 460.71
 180.19 -60.08 460.22
@@ -152,9 +151,92 @@ Path -PL 19 -L -R -QA "-QD|100|-A|a vengeful ekimuu|-T|QSC:I should return to Ja
 115.96 -28.76 368.68
 192.57 -60.31 463.76
 179.27 -60.14 460.47
+;might need to fit in pathing here to oasis
 custom
 HailActor "Jawdah the Mystic" 3 1 TRUE FALSE FALSE
 echo at this point we should be lucking petals for habibibibibibibbibibibiti's kiss in Najami Oassis
+Path -PL 19 -L -R -QA "-QD|100|-A|Habibti's Kiss|-T|QSC:I Need the Syntax for this|-H|"
+18.01, 4.21, 25.12
+18.72 4.34 27.61
+16.16 4.32 -26.51
+53.00 9.05 -37.88
+54.93 11.27 -54.22
+65.22 19.45 -73.86
+96.53 20.78 -87.22
+76.16 21.12 -109.71
+82.68 21.15 -124.52
+86.15 15.53 -150.26
+77.37 4.23 -180.31
+110.65 8.88 -189.72
+108.09 15.23 -235.30
+81.12 9.95 -247.32
+52.91 10.84 -233.31
+21.43 12.42 -231.89
+24.94 16.02 -255.85
+12.41 19.55 -274.82
 echo Najami Oassis 18.01, 4.21, 25.12
+echo --- this is fucked up some where here, i have no idea what's going on ---
 184.34 -60.17 466.93
-echo moving back to Renewal of ro quest
+;i think i need to make pathing back to harbor ?
+echo pathing back to haikm
+233.10 -60.16 481.07
+221.88 -60.05 460.98
+192.94 -60.12 450.07
+170.81 -60.24 478.16
+154.92 -59.03 491.84
+152.36 -54.95 495.92
+163.20 -58.83 508.57
+154.92 -59.03 491.84
+163.04 -59.90 482.86
+194.71 -60.33 457.67
+188.10 -59.62 450.49
+136.93 -38.98 389.40
+131.87 -36.28 382.02
+77.99 -15.95 348.28
+-32.20 -11.06 315.90
+-102.38 -8.47 292.08
+-56.90 -6.21 184.25
+105.81 3.34 130.25
+203.92 6.49 121.59
+247.18 -5.17 30.76
+315.17 -5.64 24.03
+365.10 -9.54 6.03
+386.50 -10.82 -12.17
+425.94 -17.96 4.09
+456.63 -26.29 21.60
+494.55 -21.33 9.76
+528.84 -21.91 7.76
+550.36 -25.06 50.48
+ClickActor Hakim al-Imam
+custom
+ApplyVerb "Hakim al-Imam" Fit the bangle on the Qayyid's wrist
+550.36 -25.06 50.48
+528.84 -21.91 7.76
+494.55 -21.33 9.76
+456.63 -26.29 21.60
+425.94 -17.96 4.09
+425.94 -17.96 4.09
+386.50 -10.82 -12.17
+365.10 -9.54 6.03
+315.17 -5.64 24.03
+247.18 -5.17 30.76
+203.92 6.49 121.59
+105.81 3.34 130.25
+105.81 3.34 130.25
+-56.90 -6.21 184.25
+-102.38 -8.47 292.08
+-32.20 -11.06 315.90
+77.99 -15.95 348.28
+131.87 -36.28 382.02
+136.93 -38.98 389.40
+188.10 -59.62 450.49
+194.71 -60.33 457.67
+163.04 -59.90 482.86
+154.92 -59.03 491.84
+163.20 -58.83 508.57
+152.36 -54.95 495.92
+154.92 -59.03 491.84
+170.81 -60.24 478.16
+192.94 -60.12 450.07
+221.88 -60.05 460.98
+233.10 -60.16 481.07
