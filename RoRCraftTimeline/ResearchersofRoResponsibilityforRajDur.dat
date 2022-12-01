@@ -228,7 +228,7 @@ Path -PL 316 -L -DFPWD -R -QA "-QD|200|-A|rough ore|-T|QSC:gathered pallasite or
 -113.66 -11.16 305.15
 -105.72 -10.34 298.62
 echo path back to camp after this
-Portable Work Bench v2.0
+Useitem Portable Work Bench v2.0
 CraftIt "Hopewell Display Table" 1
 CraftIt "Desert Work Bench" 1
 CraftIt "Desert Chemistry Table" 1
