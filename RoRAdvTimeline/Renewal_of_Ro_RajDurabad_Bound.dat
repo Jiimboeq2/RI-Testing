@@ -74,7 +74,7 @@ Path -PL 19 -L -R -QA "-QD|100|-A|a winged hunter|-T|QSC:Return to Riddan at the
 149.14 -47.11 408.66
 193.84 -60.26 461.50
 178.05 -60.15 463.16
-;we should be looking at Riddan RN
+echo we should be looking at Riddan
 Custom
 HailActor "Riddan" 6 1 TRUE FALSE FALSE
 ;at this poitnt we are given a Ruffian Disguise to use from inventory
@@ -122,8 +122,7 @@ HailActor "Riddan" 4 1 TRUE FALSE FALSE
 -87.32 -13.29 293.70
 -162.00 -13.11 306.77
 -236.10 -6.59 271.45
-;i forgot what was out here, done for the night.
-;dustmaw area -- come back to put in pathing -243.95 -13.26 448.34
+echo dustmaw area -- come back to put in pathing -243.95 -13.26 448.34
 -243.95 -13.26 448.34
 -382.69 -14.98 489.48
 -406.68 -11.12 487.29
@@ -146,7 +145,7 @@ Path -PL 19 -L -R -QA "-QD|100|-A|a malicous dustmat|-T|QSC:Hunt malicious dustm
 -177.32 -51.43 754.30
 Path -PL 19 -L -R -QA "-QD|100|-A|a arachnid sandstalker|-T|QSC:Hunt arachnid sandstalkers for shells|-E|K"
 -183.19 -54.85 765.57
-;i should be looking for ro's eye agate now
+echo ya boi should be looking for ro's eye agate
 Path -PL 470 -L -R -QA "-A|Ro's eye agate|QSC:I've retrieved the lizard skins, scorpion shells andagate Rahele requested
 -199.44 -59.84 760.99
 -210.22 -59.73 747.81
@@ -156,13 +155,13 @@ Path -PL 470 -L -R -QA "-A|Ro's eye agate|QSC:I've retrieved the lizard skins, s
 -211.45 -49.11 703.79
 -224.14 -51.59 697.19
 -223.01 -49.86 690.35
-;we should be on the way back to Rahele now
+echo we should be on the way back to Rahele now
 -240.78 -55.65 662.03
 -191.82 -37.00 618.41
 -199.98 -31.30 541.70
 -214.90 -28.93 485.50
 -160.94 -14.86 323.84
-;we can re-use this path down to the harbor, this loc -- -52.01 -13.80 307.28 ---- is standing open in the mouth of the pass
+echo we can re-use this path down to the harbor, this loc -- -52.01 -13.80 307.28 ---- is standing open in the mouth of the pass
 -138.14 -15.67 320.37
 -52.01 -13.80 307.28
 43.08 -12.55 341.07
@@ -184,8 +183,10 @@ HailActor "Rahle" 2 1 TRUE FALSE FALSE
 wait 5
 Custom
 HailActor "Rahle" 6 1 TRUE FALSE FALSE
-;hopefully i accepted the quest.
-;we should be going to gather mirage crystas and coconuts from palm trees now. -- i should be going to the oasis i think. 93.45 4.80 -190.39
+echo hopefully i accepted the quest.
+wait
+10
+echowe should be going to gather mirage crystas and coconuts from palm trees now. -- i should be going to the oasis i think. 93.45 4.80 -190.39
 188.57 -60.22 544.68
 157.17 -59.97 501.74
 160.91 -59.80 486.71
@@ -195,7 +196,7 @@ HailActor "Rahle" 6 1 TRUE FALSE FALSE
 -52.01 -13.80 307.28
 -138.14 -15.67 320.37
 -52.01 -13.80 307.28
-;we should be at the top of the opening of pass now.
+echo we should be at the top of the opening of pass now.
 -46.01 -12.11 312.47 66.99
 -97.80 -4.20 251.87
 -18.65 -2.76 141.92
@@ -206,10 +207,10 @@ HailActor "Rahle" 6 1 TRUE FALSE FALSE
 82.37 17.98 -139.69
 70.89 4.33 -171.23
 110.43 10.47 -209.06
-;there is a small pathing gap here rn between this area and trees -- i didn't feel like going back
+echo there is a small pathing gap here rn between this area and trees -- this may need to be revised
 ;-88.11 5.98 39.87 76.33 0.00 0.00 palm trees here i should left click them "no coconuts fell from the palm tree. is the message we get on failure
-;This palm tree has recently been checked for coconuts.  is the message we get if we do it too many times
-; coconut should be on ground
+echo This palm tree has recently been checked for coconuts.  is the message we get if we do it too many times
+echo coconut should be on ground
 Custom ClickActor Coconut
 ;or applyverb Gather Coconut
 -68.78 5.69 59.39
