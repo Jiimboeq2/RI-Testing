@@ -49,7 +49,7 @@ Wait
 158.92 -60.15 584.24
 Custom
 HailActor "Bairam Najafi" 6 1 TRUE FALSE FALSE
-Path -PL 316 -L -DFPWD -R -QA "-QD|200|-A|rough ore|-T|QSC:gathered pallasite ore|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered dustmaw hide|-E|H" -QA "-QD|200|-A|fallen branch|-T|QSC:gathered some desert willow wood|-E|H" -QA "-CT|| I need to find out where the fuck brittlebush taproot come from  "QSC:I gathered some harvests"
+Path -PL 160 -L -DFPWD -R -QA "-A|rough ore|-T|QSC:gathered pallasite ore|-E|H" -QA "-A|animal den|-T|QSC:gathered dustmaw hide|-E|H" -QA "-A|perennial shrub|-T|QSC:gathered some lapsang tea leaf|-E|H" -QA "-A|fallen branch|-T|QSC:gathered some desert willow wood|-E|H" -QA "-A|twisted root|-T|QSC:gathered some roots|-E|H" -QA -CT "QSC:I gathered"
 149.78 -60.16 585.89
 159.72 -60.16 581.96
 169.29 -60.03 578.18
