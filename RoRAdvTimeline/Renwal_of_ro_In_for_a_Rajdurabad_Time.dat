@@ -8,7 +8,7 @@ wait
 81.20 19.81 -294.19 27.27
 wait 
 10
-;zonespecial here
+zonespecial
 wait 100
 84.45 85.82 -313.09
 82.29 85.07 -336.28
@@ -30,7 +30,7 @@ wait
 -159.06 87.92 -513.81 109.92
 ;zone special
 -159.06 87.92 -513.81
-;we should be looking for "marid's mist lillies" around the following coords.
+echo we should be looking for "marid's mist lillies" around the following coords.
 -189.39 86.70 -503.80
 -192.06 87.23 -479.99
 -187.48 87.05 -472.25
@@ -75,10 +75,8 @@ Custom
 HailActor "Ismail" 4 1 TRUE FALSE FALSE
 wait
 20
-a flute? tf do i do with it?
-;looks like use the flute, it makes pockets appear around the right set of tents
-UseItem ""Ismail's Flute"
-;at the moment when something attacks you -- the buff drops and you have to recast flute.
+echo looks like use the flute, it makes pockets appear around the right set of tents
+useitem called "Ismail's Flute"
 -37.83 91.55 -479.27
 -135.93 90.29 -524.42
 -222.73 95.11 -431.86
@@ -89,13 +87,13 @@ UseItem ""Ismail's Flute"
 -234.05 98.39 -312.62
 -205.95 106.06 -227.02
 -202.74 106.07 -215.13
-;^ zone special "portable pocket"
+zonespecial "portable pocket"
 ;failure message= This portable pocket did not contain Anwar's journal
 -207.92 106.04 -233.34
 -174.69 111.75 -247.50
 -187.74 111.46 -269.50
 -183.73 111.55 -267.98
-;^zone special
+zonespecial "portable pocket"
 QSC:I should return to Ismail, hiding out in the western section of Raj'Durabad, as soon as I can.
 ;lets go back to Ismail to finish "the threatening Truth"
 -206.37 106.05 -231.44
@@ -115,7 +113,7 @@ Custom
 HailActor "Ismail" 8 1 TRUE FALSE FALSE
 wait
 20
-;moving to head honcho's tent up top of the camp.
+echo moving to head honcho's tent up top of the camp.
 4.74 94.73 -430.53
 -53.92 90.27 -509.62
 -138.45 90.23 -520.59
@@ -133,10 +131,9 @@ Custom
 HailActor "Aldys, Sultan of the Daggers" 9 1 TRUE FALSE FALSE
 wait
 50
-;we need to kill Riddan here in front of us.
-;behind us is the next mob
+echo we need to kill Riddan here in front of us.
 -317.22 117.54 -120.31
-;kill Zizzez
+echo kill Zizzez
 -300.07 117.54 -118.99
 ;here we should zone special to pick up Riddan's body.
 -305.70 117.53 -133.62
@@ -170,13 +167,12 @@ wait
 ;;125.28 -56.57 488.45 is the loc of the premium edition merc. not important to quest, just noted.
 185.25 -60.19 466.88
 165.02 -59.91 478.56
-;we are now at the Blood and Sand zone in
-;i think zone function should work -- no heroic door options at the 
+echo we are now at the Blood and Sand zone in
 wait
 200
 0 0 0
-;we should now be in Blood and Sand [solo]
-;stop for combat all along the following waypoints
+echo we should now be in Blood and Sand [solo]
+echo stop for combat all along the following waypoints
 208.90 -60.24 579.78
 193.58 -60.23 566.26
 203.94 -60.24 557.41
@@ -188,8 +184,8 @@ wait
 157.16 -59.36 500.25
 166.44 -59.95 486.78
 195.29 -60.33 459.80
-;we should be right in front of Baka
-;starting combat with Baka -- add pull syntax here.
+echo we should be right in front of Baka
+echo starting combat with Baka -- add pull syntax here.
 QSC:The Raj'Dur attack on Hopewell Harbor was a distraction
 ;we should clear more camp sites in the zone.
 127.53 -33.98 377.56
@@ -202,14 +198,17 @@ QSC:The Raj'Dur attack on Hopewell Harbor was a distraction
 -214.30 -27.17 460.92
 -402.96 -24.28 514.63
 -423.70 -20.14 509.60
-;we should now be in the vale area.
+echo we should now be in the vale area.
 ;-438.33 -18.49 503.45 location of Goldami camp
 -435.65 -19.39 515.55
 -490.74 -6.50 530.79
 -526.85 1.36 499.76
-;we should pull the quartermaster.
-;this mob has a major knockback
-;we should try pulling in this tent -544.89 3.57 483.56
+echo this mob has a major knockback
+custom
+lockandwait
+-544.89 3.57 483.56
+custom
+waitformobquery "named here" 50 TRUE 400
 QSC:I cleared the Raj'Dur from the Goldamni Reservoir Camp
 -514.37 -3.55 521.68
 -457.25 -10.30 535.02
@@ -235,10 +234,10 @@ QSC:I cleared the Raj'Dur from the Goldamni Reservoir Camp
 -436.61 6.01 75.33
 -442.91 8.83 96.58
 -440.35 8.52 136.93
-;we are now at Farid the doggo
+echo should now be at Farid the doggo
 ;pull Farid
 ;no strat taht i have noticed other than adds.
-;we will now move to Kulaidi
+echo move to Kulaidi
 -443.31 8.14 91.47
 -405.28 2.00 65.68
 -403.57 -7.84 144.45
@@ -254,16 +253,16 @@ QSC:I cleared the Raj'Dur from the Goldamni Reservoir Camp
 322.94 8.86 142.48
 330.07 9.03 155.39
 328.65 9.46 166.05
-;we are safe to pull Khadra Chatt, 
+echo we are safe to pull Khadra Chatt, 
 328.04 9.92 171.66
 QSC:I successfully defended the Hizite reservoir camps and Hopewell Harbor from the attactking Raj'Durs
 321.18 8.82 139.16
 220.70 12.06 105.35
 71.77 -0.49 138.98
 0.88 -1.28 153.08
-;here we can pull Mustapha Droughtbringer-- no strat at this time
+echo here we can pull Mustapha Droughtbringer-- no strat at this time
 -24.80 -3.19 141.76
-;we can use this portal to zone out.
+zone
 ;use door 1 option
 wait
 100
@@ -276,4 +275,4 @@ Custom
 HailActor "Nouzar" 6 1 TRUE FALSE FALSE
 wait
 10
-;this quest should now be DONE!
+echo this quest should now be DONE!
