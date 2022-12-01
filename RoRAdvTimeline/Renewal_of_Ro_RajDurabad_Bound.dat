@@ -1,28 +1,42 @@
-;we should be at Riddan for the next quest.
-178.90 -60.15 462.36
+renewal of ro: Rak'Durabad Bound
 Custom
+CheckAndSet -InZone "Raj'Dur Plateaus" 7
+0 0 0
+Custom
+FastTravel "Raj'Dur Plateaus"
+0 0 0
+182.67 -59.99 463.84
+HailActor "Jawdah the Mystic" 4 1 TRUE FALSE FALSE
+wait
+20
 HailActor "Riddan" 7 1 TRUE FALSE FALSE
-;DEVLError-- not event given.
-;we should be looking for raj'dur ambushers again, as well as taaffeite crystals near sunscar vale and winged hunters.
 188.61 -60.54 467.64
-;-319.24 -16.63 140.12 is the camp it self, let's go check out whats along the way
 192.39 -60.12 460.10
 136.14 -37.40 381.86
 -42.78 -11.54 313.51
 -117.47 -17.46 339.44
 -152.84 -11.80 371.06
 -171.67 -7.33 221.49
+path -PL 19 -L -R -QA "-QD|100|-A|a raj'dur|-T|-QD|100|-A|a winged hunter|-T|QSC:need this to check for 8/8
+-198.60 4.14 157.04
+-226.46 -2.18 165.44
+-301.39 -13.01 145.71
+-338.61 -19.91 130.09
+-360.91 -14.77 103.46
+-406.74 -9.45 104.44
+-392.43 -4.05 82.66
+-400.59 3.81 61.58
+-449.89 8.54 104.95
+-438.44 9.25 111.02
+-439.17 8.61 154.26
+-404.42 -7.82 146.81
+-391.93 -6.18 183.78
+-370.18 -6.59 176.34
+-367.16 -5.86 197.89
+-325.50 1.42 228.52
+-322.98 0.56 208.34
+-307.24 -14.28 142.12
 ;there should be some dudes here
--171.67 -7.33 221.49
--189.93 2.64 159.93
--220.83 0.17 200.20
--229.59 5.24 185.07
--237.08 -2.66 162.54
--319.16 -15.71 150.95
--407.22 -8.89 97.46
--405.66 -7.93 132.19
--384.65 -6.91 180.31
--362.90 -6.02 193.64
 Path -PL 19 -L -R -QA "-QD|100|-A|a Raj'Dur ambusher|-T|QSC:Hunt Raj'Dur ambushers at Nerive Resrvoir Camp to obtain Raj'Dur garment pieces|-E|K"
 -227.77 -7.83 275.33
 ;this should put us in the sunscar vale
@@ -385,8 +399,8 @@ QSC:Return to Riddan near the Raj'Duraband lift
 66.46 86.39 -346.24
 81.50 85.40 -340.18
 88.23 85.90 -311.65
-;we should be in front of the smol post
-;zonespecial here
+echo we should be in front of the smol post
+zonespecial
 wait 100
 ;path back to ridan
 84.77 18.88 -290.98
