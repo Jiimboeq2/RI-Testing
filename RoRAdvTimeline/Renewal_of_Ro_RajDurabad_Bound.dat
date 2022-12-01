@@ -409,4 +409,4 @@ wait 100
 23.30 20.35 -282.11
 Custom
 HailActor "Riddan" 7 1 TRUE FALSE FALSE
-;we are now done with Raj'Durabad Bound!
+echo we should be done with Raj'Durabad Bound!
