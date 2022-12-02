@@ -102,6 +102,8 @@ Path -PL 38 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit
 Custom
 UseItem Totem of escape
 0 0 0
+Custom
+Path
 587.95 45.28 64.64
 202.66 -60.51 454.07
 173.07 -60.18 479.80
