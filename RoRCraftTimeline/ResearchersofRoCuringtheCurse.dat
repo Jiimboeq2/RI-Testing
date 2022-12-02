@@ -3,12 +3,12 @@ Custom
 HailActorGetQuest -Actor "Bairam Najafi" 3 1
 151.71 -60.17 583.68
 Custom
-FastTravel "Isle of Mara"
+FastTravel "Timorous Deep"
 0 0 0
-6.87 -2.38 117.17
+2332.89 1.80 1441.56
 Custom
 ClickActor mariners_bell TRUE FALSE 50
-6.87 -2.38 117.17
+2332.89 1.80 1441.56
 Custom
 TravelMap "Greater Faydark"
 151.71 -60.17 583.68
