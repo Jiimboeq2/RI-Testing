@@ -12,10 +12,8 @@ Wait
 50
 -547.51 10.96 429.88
 Custom
-ClickActor zone_portal_to_takish_dungeons FALSE FALSE 10
--547.51 10.96 429.88
-Custom
-Door 1
+ZoneDoor zone_portal_to_takish_dungeons 1 FALSE 50 FALSE
+-551.02 11.39 429.25
 -547.51 10.96 429.88
 CheckAndSet -InZone "Buried Takish'Hiz: Terrene threshold" 2
 -920.91 1.20 -33.59
@@ -265,3 +263,15 @@ DontStopForCombat
 echo we can zone out here
 Custom
 ClickActor zone_exit
+-543.86 10.85 437.37
+Custom
+HailActor "Firiona Vie" 11 1 TRUE FALSE FALSE
+-544.51 10.91 437.43
+Wait
+20
+-544.51 10.91 437.43
+-541.59 11.00 430.58
+-550.65 11.39 428.22
+Custom
+ZoneDoor zone_portal_to_takish_dungeons 4 FALSE 50 FALSE
+-551.02 11.39 429.25
