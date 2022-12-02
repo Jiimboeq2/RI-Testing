@@ -68,7 +68,9 @@ HailActor "Bairam Najafi" 6 1
 -30.77 -11.01 315.19
 -54.79 -13.79 306.50
 Custom
-Path -PL 198 -L -DFPWD -R -QA "-QD|100|-Atwisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-Afallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-Arough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-Agem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-Aanimal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
+Path -PL 200 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
+-54.79 -13.79 306.50
+-55.99 -14.05 310.49
 -60.12 -14.60 306.47
 -69.97 -16.41 303.37
 -80.07 -15.95 302.73
