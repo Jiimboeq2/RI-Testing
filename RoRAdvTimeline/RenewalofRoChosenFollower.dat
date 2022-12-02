@@ -1,4 +1,3 @@
-Renewal of Ro: Chosen Follower
 190.86 -60.10 567.19
 Custom
 HailActor "Hakim al-Imam" 5 1 TRUE FALSE FALSE
@@ -152,4 +151,3 @@ FastTravel "Raj'Dur Plateaus" TRUE
 Custom
 HailActor "Firiona Vie" 2 1 TRUE FALSE FALSE
 -545.23 11.00 437.00
-echo done son!
