@@ -1,0 +1,62 @@
+Researchers of Ro: Sandstone Setup
+Custom
+HailActor "Hamdi" 
+644.99 155.29 -695.92
+Custom
+UseItem Call of the Delta
+0 0 0
+Custom
+HailActor "Shahin" 5
+752.86 115.82 -445.89
+Custom
+UseItem Portable Work Bench v2.0
+0 0 0
+Custom
+CraftIt "Desert Forge"
+752.86 115.82 -445.89
+Custom
+CraftIt "Desert Stove and Keg"
+752.86 115.82 -445.89
+Custom
+CraftIt "Desert Engraved Desk"
+752.86 115.82 -445.89
+Custom
+ClickActor Place Tables
+757.65 116.02 -443.57
+Custom
+HailActor "Shahin" 
+757.65 116.02 -443.57
+750.93 115.82 -448.37
+756.99 116.58 -453.34
+Custom
+CraftIt "Pest Repellent Scroll" 3
+756.99 116.58 -453.34
+750.31 115.98 -445.84
+755.98 115.96 -445.67
+Custom
+HailActor "Shahin" 2
+755.98 115.96 -445.67
+751.26 115.82 -449.02
+760.91 116.52 -455.74
+Custom
+CraftIt "Water Purification Tablet" 3
+760.91 116.52 -455.74
+755.21 116.73 -451.77
+752.70 115.82 -450.05
+Custom
+HailActor "Shahin" 
+755.22 115.83 -446.38
+Custom
+FastTravel "Isle of Mara" FALSE
+0 0 0
+Custom
+Path 
+-6.91 -2.38 124.77
+-13.57 -2.38 128.76
+-72.76 -2.52 93.42
+-81.51 -2.37 98.72
+-85.54 -2.26 100.43
+-85.16 -2.27 102.95
+Custom
+HailActor "Jaranna Thistlebloom" 6 1
+-83.08 -2.27 103.03
