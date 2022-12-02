@@ -123,7 +123,7 @@ Custom
 CraftIt "Desert Curse Prevention Potion" 6
 146.19 -60.23 580.74
 Custom
-HailActorGetQuest -Actor "Bairam Najafi" 3 1
+HailActor "Bairam Najafi" 3 1 TRUE FALSE FALSE
 151.71 -60.17 583.68
 ClickActor Potential Trade Goods
 153.41 -60.17 583.33
@@ -162,5 +162,6 @@ HailActor "Rela Lesan" 6 1
 152.42 -60.16 586.10
 150.43 -60.15 585.75
 Custom
-HailActorGetQuest -Actor "Bairam Najafi" 3 1
-151.71 -60.17 583.68
+HailActor "Bairam Najafi" 3 1 TRUE FALSE FALSE
+151.71 -60.17 583.6
+Custom
