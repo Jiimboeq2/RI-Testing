@@ -310,9 +310,21 @@ Path
 Custom
 HailActor "Bairam Najafi" 3 1
 149.95 -60.15 585.90
-Useitem Portable Work Bench v2.0
+Custom
+UseItem Portable Work Bench v2.0
+0 0 0
+Custom
 CraftIt "Hopewell Display Table" 1
+0 0 0
+Custom
 CraftIt "Desert Work Bench" 1
+0 0 0
+Custom
 CraftIt "Desert Chemistry Table" 1
-clickactor place items
-echo done
+0 0 0
+Custom
+ClickActor Place Tables
+153.68 -60.17 582.66
+Custom
+HailActor "Bairam Najafi" 1 1
+149.95 -60.15 585.90
