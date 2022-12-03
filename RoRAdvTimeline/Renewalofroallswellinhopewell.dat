@@ -1,4 +1,5 @@
 renewal of ro: All's well in hopewell
+MessageBox "This is still in testing stages, please report any bugs/ how and where it breaks."
 Custom
 FastTravel "Raj'Dur Plateaus"
 0 0 0
@@ -102,7 +103,7 @@ wait
 5
 549.43 -25.04 47.46
 custom
-ApplyVerb "Hakim al-Imam" Examine the Body
+ApplyVerb "Hakim al-Imam" "Examine the Body"
 QSC:It's a relief
 echo we have located bill cosby's victim.
 wait
@@ -149,10 +150,10 @@ echo checking for snappers along the coast line
 474.35 -59.54 219.91
 485.00 -60.34 146.25
 559.28 -60.49 120.80
-Path -PL 19 -L -R -QA "-QD|100|-A|a sand snapper|-T|QSC:Hunt sand snapper ticks for blood samples|-E|K"
+Path -PL 19 -L -R -QA "-QD|100|-A|sand snapper|-T|QSC:Hunt sand snapper ticks for blood samples|-E|K"
 echo looking to kill corpsebeaks within this area and click on a golden feather
 -381.75 -27.87 523.91
-Path -PL 19 -L -R -QA "-QD|100|-A|a dryland corpsebeak|-T|QSC:I have the sand snapper tick blood samples and a golden corpsebeak feather Jawdah sent me after.|-E|K"
+Path -PL 19 -L -R -QA "-QD|100|-A|dryland corpsebeak|-T|QSC:I have the sand snapper tick blood samples and a golden corpsebeak feather Jawdah sent me after.|-E|K"
 clickactor
 golden feather
 wait 20
@@ -183,7 +184,7 @@ HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
 335.75 21.42 -208.22
 383.93 23.37 -194.62
 437.28 26.94 -204.70
-"Path -PL 19 -L -R -QA "-QD|100|-A|a vengeful ekimuu|-T|QSC:I should return to Jawdah's tent at Hopewell Harbor
+Path -PL 19 -L -R -QA "-QD|100|-A|a vengeful ekimuu|-T|QSC:I should return to Jawdah's tent at Hopewell Harbor|-E|K
 489.45 30.38 -206.63
 453.75 30.05 -112.92
 456.74 31.30 -41.11
@@ -194,7 +195,7 @@ HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
 115.96 -28.76 368.68
 192.57 -60.31 463.76
 179.27 -60.14 460.47
-;might need to fit in pathing here to oasis
+echo might need to fit in pathing here to oasis
 custom
 HailActor "Jawdah the Mystic" 3 1 TRUE FALSE FALSE
 echo at this point we should be lucking petals for habibibibibibibbibibibiti's kiss in Najami Oassis
@@ -316,7 +317,7 @@ echo hopefully we have our oils!
 184.27 -60.02 465.07
 HailActor "Jawdah the Mystic" 13 1 TRUE FALSE FALSE
 182.67 -59.99 463.84
-QSC:Upon examinatio
+QSC:Upon examination
 echo heading to goldami camp
 wait
 5
