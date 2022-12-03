@@ -1,5 +1,4 @@
 renewal of ro: All's well in hopewell
-MessageBox "This is still in testing stages, please report any bugs/ how and where it breaks."
 Custom
 FastTravel "Raj'Dur Plateaus"
 0 0 0
@@ -26,22 +25,19 @@ HailActor "Silrena" 15 1 TRUE FALSE FALSE
 Custom
 HailActor "Anisha" 6 1 TRUE TRUE FALSE
 191.42 -60.25 565.19
-189.51 -60.14 566.47
-191.82 -60.25 528.31
-189.71 -60.28 528.00
-184.10 -60.24 526.44
-178.79 -59.86 524.95
-177.87 -59.33 524.69
-176.55 -58.11 523.44
-174.61 -56.10 521.16
-173.03 -54.46 519.31
-167.25 -55.04 512.53
-161.32 -60.10 504.20
-169.16 -60.04 495.60
-136.93 -38.98 389.40
-171.96 -60.19 476.73
-199.29 -60.57 456.03
-190.67 -59.82 448.17
+192.69 -60.28 562.95
+200.41 -60.24 563.89
+223.02 -62.47 567.96
+223.02 -62.47 567.96
+228.87 -62.37 549.09
+229.36 -62.37 547.37
+220.70 -62.34 524.62
+220.02 -62.38 522.84
+199.25 -62.34 501.82
+199.25 -62.37 501.82
+195.06 -62.35 488.83
+191.02 -62.33 472.79
+188.93 -60.11 464.49
 169.82 -55.11 429.18
 151.31 -48.59 412.30
 136.01 -38.65 388.99
@@ -125,14 +121,14 @@ wait
 10
 Custom
 HailActor "Silrena" 3 1 TRUE FALSE FALSE
+232.92 -60.26 485.51
 QSC:Silrena is adamant i must find a way to help the Qayyid recover.
-231.98 -60.09 476.33
-204.74 -60.46 452.97
+221.71 -60.16 463.57
 HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
-182.67 -59.99 463.84
+182.05 -59.98 461.02
 wait
-5b
-echo sttarting seeking mystic solutions
+5
+echo starting seeking mystic solutions
 180.86 -60.03 460.71
 190.91 -60.02 453.61
 214.38 -60.53 456.38
@@ -157,7 +153,6 @@ Path -PL 19 -L -R -QA "-QD|100|-A|dryland corpsebeak|-T|QSC:I have the sand snap
 clickactor
 golden feather
 wait 20
-echo hopefully this has hunted what we and is returning back to Jawdah.
 -381.75 -27.87 523.91
 -123.06 -8.79 299.91
 -28.38 -11.03 316.32
@@ -184,7 +179,7 @@ HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
 335.75 21.42 -208.22
 383.93 23.37 -194.62
 437.28 26.94 -204.70
-Path -PL 19 -L -R -QA "-QD|100|-A|a vengeful ekimuu|-T|QSC:I should return to Jawdah's tent at Hopewell Harbor|-E|K
+437.28 26.94 -204.70
 489.45 30.38 -206.63
 453.75 30.05 -112.92
 456.74 31.30 -41.11
@@ -374,4 +369,4 @@ echo we can use this path from the mouth of the canyon to harbor
 188.52 -59.97 460.11
 183.41 -59.96 463.71
 HailActor "Jawdah the Mystic" 7 1 TRUE FALSE FALSE
-182.67 -59.99 463.8
+182.67 -59.99 463.7
