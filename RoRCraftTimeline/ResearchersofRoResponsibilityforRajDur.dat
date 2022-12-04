@@ -10,7 +10,6 @@ FastTravel "Isle of Mara" FALSE
 -72.76 -2.52 93.42
 -81.51 -2.37 98.72
 -85.54 -2.26 100.43
--85.16 -2.27 102.95
 Custom
 HailActor "Jaranna Thistlebloom" 10 1
 -85.16 -2.27 102.95
@@ -20,7 +19,6 @@ FastTravel "Raj'Dur Plateaus" FALSE
 197.70 -60.55 452.63
 Wait
 20
-189.57 -60.00 459.55
 189.57 -60.00 459.55
 181.46 -60.14 466.71
 173.32 -60.05 473.92
@@ -38,7 +36,6 @@ Wait
 184.02 -60.04 566.94
 176.44 -60.03 573.98
 168.34 -60.03 579.92
-149.95 -60.15 585.90
 Custom
 HailActor "Bairam Najafi" 6 1
 149.95 -60.15 585.90
@@ -64,9 +61,8 @@ HailActor "Bairam Najafi" 6 1
 17.58 -10.60 332.69
 -4.53 -10.79 324.69
 -30.77 -11.01 315.19
--54.79 -13.79 306.50
 Custom
-Path -PL 200 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
+Path -PL 199 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
 -54.79 -13.79 306.50
 -55.99 -14.05 310.49
 -60.12 -14.60 306.47
@@ -267,11 +263,10 @@ Path -PL 200 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the roo
 -2.80 14.02 255.69
 -20.17 14.01 266.89
 -42.38 5.40 279.90
+0 0 0
 Custom
 UseItem Totem of escape
 0 0 0
-Custom
-Path
 189.57 -60.00 459.55
 181.46 -60.14 466.71
 173.32 -60.05 473.92
@@ -289,7 +284,6 @@ Path
 184.02 -60.04 566.94
 176.44 -60.03 573.98
 168.34 -60.03 579.92
-149.95 -60.15 585.90
 Custom
 HailActor "Bairam Najafi" 3 1
 149.95 -60.15 585.90
