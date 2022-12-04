@@ -5,8 +5,6 @@ CheckAndSet -InZone "The Village of Shin" 7
 Custom
 FastTravel "Isle of Mara" FALSE
 0 0 0
-Custom
-Path 
 -6.91 -2.38 124.77
 -13.57 -2.38 128.76
 -72.76 -2.52 93.42
@@ -296,7 +294,7 @@ Custom
 HailActor "Bairam Najafi" 3 1
 149.95 -60.15 585.90
 Custom
-UseItem Portable Work Bench v2.0
+UseItem "Portable Work Bench v2.0"
 0 0 0
 Custom
 CraftIt "Hopewell Display Table" 1
@@ -308,7 +306,7 @@ Custom
 CraftIt "Desert Chemistry Table" 1
 0 0 0
 Custom
-ClickActor Place Tables
+ClickActor "Place Tables"
 153.68 -60.17 582.66
 Custom
 HailActor "Bairam Najafi" 1 1
