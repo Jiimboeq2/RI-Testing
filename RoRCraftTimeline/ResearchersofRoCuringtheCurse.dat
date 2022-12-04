@@ -1,14 +1,14 @@
 Researchers of Ro: Curing the Curse
 Custom
-HailActorGetQuest -Actor "Bairam Najafi" 3 1
+HailActor "Bairam Najafi" 3 1
 151.71 -60.17 583.68
 Custom
-FastTravel "Timorous Deep"
+FastTravel "Isle of Mara"
 0 0 0
-2332.89 1.80 1441.56
+6.87 -2.38 117.17
 Custom
 ClickActor mariners_bell TRUE FALSE 50
-2332.89 1.80 1441.56
+6.87 -2.38 117.17
 Custom
 TravelMap "Greater Faydark"
 151.71 -60.17 583.68
@@ -100,8 +100,8 @@ Path -PL 38 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit
 50.83 4.67 -124.84
 37.63 4.21 -109.50
 Custom
-UseItem Totem of escape
-0 0 0
+FastTravel "Raj'Dur Plateaus"
+587.95 45.28 64.64
 Custom
 Path
 587.95 45.28 64.64

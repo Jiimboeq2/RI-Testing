@@ -263,10 +263,11 @@ Path -PL 199 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the roo
 -2.80 14.02 255.69
 -20.17 14.01 266.89
 -42.38 5.40 279.90
-0 0 0
 Custom
-UseItem Totem of escape
-0 0 0
+FastTravel "Raj'Dur Plateaus"
+587.95 45.28 64.64
+Wait
+20
 189.57 -60.00 459.55
 181.46 -60.14 466.71
 173.32 -60.05 473.92

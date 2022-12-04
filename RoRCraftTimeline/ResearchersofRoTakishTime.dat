@@ -203,7 +203,7 @@ Path -PL 109 -L -DFPWD -R -QA -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the
 -219.76 120.04 -478.62
 -250.05 118.77 -441.96
 Custom
-BalanceTrash evac
+UseItem Totem of escape
 -251.27 119.11 -440.67
 650.40 155.29 -722.13
 648.49 155.29 -710.42
