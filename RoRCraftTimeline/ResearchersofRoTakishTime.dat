@@ -111,11 +111,8 @@ ClickActor "Zone to Takish Badlands" FALSE TRUE 100
 Custom
 TravelMap "Takish Badlands"
 0 0 0
-Custom
-WaitWhileMoving
-0 0 0
 Wait
-1
+15
 652.79 155.29 -722.90
 650.98 155.29 -716.69
 644.94 155.29 -695.61
