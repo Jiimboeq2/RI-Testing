@@ -102,8 +102,8 @@ ClickActor Growth Prayer Stone Location
 -59.29 139.84 -858.69
 -79.92 140.14 -845.60
 Custom
-HailActor "Firiona Vie" 
--79.92 140.14 -845.60
+HailActor "Firiona Vie" 1 1 TRUE FALSE FALSE
+-81.09 140.14 -845.72
 Wait
 50
 -79.92 140.14 -845.60
