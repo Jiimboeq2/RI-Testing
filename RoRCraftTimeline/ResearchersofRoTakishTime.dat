@@ -60,8 +60,16 @@ HailActor "Bairam Najafi" 8 1 TRUE FALSE FALSE
 -529.14 1.96 484.82
 -532.28 3.56 475.38
 Custom
-Zone "Takish Badlands"
--532.28 3.56 475.38
+ClickActor "Zone to Takish Badlands" FALSE TRUE 100
+-531.68 3.57 472.71
+Custom
+TravelMap "Takish Badlands"
+0 0 0
+Custom
+WaitWhileMoving
+0 0 0
+Wait
+1
 652.79 155.29 -722.90
 650.98 155.29 -716.69
 644.94 155.29 -695.61
