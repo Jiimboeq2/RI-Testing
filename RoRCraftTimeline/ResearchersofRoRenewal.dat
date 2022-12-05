@@ -4,7 +4,7 @@ HailActor "Bairam Najafi" 6 1 TRUE FALSE FALSE
 150.43 -60.15 585.75
 148.47 -60.19 580.35
 Custom
-CraftIt "Growth Prayer Stones" 5
+CraftIt "Growth Prayer Stone" 5
 148.47 -60.19 580.35
 151.23 -60.15 585.82
 167.11 -60.03 578.63
@@ -107,7 +107,7 @@ HailActor "Firiona Vie" 1 1 TRUE FALSE FALSE
 Wait
 120
 Custom
-WaitMob "a cursed Elddar remnant" 20
+WaitMob "a cursed Elddar remnant" 200
 -79.12 139.92 -844.33
 -79.92 140.14 -845.60
 -62.56 139.99 -833.72

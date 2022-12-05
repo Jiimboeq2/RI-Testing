@@ -145,7 +145,7 @@ HailActor "Hamdi" 4
 383.92 103.38 -590.60
 375.06 100.49 -582.55
 Custom
-Path -PL 109 -L -DFPWD -R -QA -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
+Path -PL 109 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
 375.06 100.49 -582.55
 378.02 98.93 -576.28
 387.79 92.16 -557.57
