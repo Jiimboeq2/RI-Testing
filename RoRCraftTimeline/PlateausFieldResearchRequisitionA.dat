@@ -26,10 +26,7 @@ Wait
 176.44 -60.03 573.98
 168.34 -60.03 579.92
 Custom
-HailActor "Bairam Najafi" 1 2 TRUE TRUE
-150.15 -60.16 585.64
-Custom
-HailActor "Bairam Najafi" 1 1 FALSE
+HailActorMultiOption "Bairam Najafi" 1 2 1 1 TRUE TRUE
 150.15 -60.16 585.64
 154.47 -60.17 585.10
 171.75 -60.03 578.44
