@@ -26,7 +26,10 @@ Wait
 176.44 -60.03 573.98
 168.34 -60.03 579.92
 Custom
-HailActor "Bairam Najafi" 2 1 1 1
+HailActor "Bairam Najafi" 1 2 TRUE TRUE
+150.15 -60.16 585.64
+Custom
+HailActor "Bairam Najafi" 1 1 FALSE
 150.15 -60.16 585.64
 154.47 -60.17 585.10
 171.75 -60.03 578.44
@@ -260,10 +263,10 @@ Path -PL 200 -L -DFPWD -R -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the woo
 -42.38 5.40 279.90
 Custom
 CheckActiveQuest "Craft the item needed"
--84.14 140.14 -847.30
+0 0 0
 Custom
-FastTravel "Raj'Dur Plateaus"
--84.14 140.14 -847.30
+UseItem "Totem of escape"
+0 0 0
 202.66 -60.51 454.06
 189.41 -60.08 463.88
 177.95 -60.35 473.50
@@ -287,5 +290,5 @@ Custom
 CraftIt "Amazing Amphorae" 3
 149.06 -60.18 580.06
 Custom
-HailActor "Bairam Najafi" 3
+HailActor "Bairam Najafi" 1 3 TRUE
 149.36 -60.17 585.20
