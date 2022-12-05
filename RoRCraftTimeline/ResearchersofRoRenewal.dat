@@ -120,7 +120,9 @@ WaitMob "a cursed Elddar remnant" 20
 -113.32 139.95 -855.15
 -82.40 140.14 -845.99
 Wait
-50
+220
+Custom
+WaitMob "Lady Vox" 100
 -81.50 140.14 -845.24
 Custom
 CheckActiveQuest "Return to Bairam"
