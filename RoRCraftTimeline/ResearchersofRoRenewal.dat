@@ -147,7 +147,7 @@ FastTravel "Raj'Dur Plateaus"
 149.41 -60.14 586.95
 148.14 -60.18 585.21
 Custom
-HailActor "Bairam Najafi" 
+HailActor "Bairam Najafi" 6 1 TRUE FALSE FALSE
 149.36 -60.17 585.20
 148.41 -60.19 580.94
 148.14 -60.18 585.21
@@ -155,5 +155,5 @@ Custom
 CraftIt "Events of the Renewal Ceremony"
 149.06 -60.18 580.06
 Custom
-HailActor "Bairam Najafi" 
+HailActor "Bairam Najafi" 2 1 TRUE FALSE FALSE
 149.36 -60.17 585.20
