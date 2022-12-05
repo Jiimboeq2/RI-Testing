@@ -29,7 +29,7 @@ FastTravel "Raj'Dur Plateaus"
 -43.65 -11.71 316.07
 -49.92 -13.07 313.64
 Custom
-Path -PL 199 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested Bonytail Chub|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested Dustmaw Hides|-E|H" -CT "QSC:harvested the needed"
+Path -PL 199 -L -DFPWD -R -QA "-QD|100|-A|animal den|-T|QSC:harvested Goat Meat|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Cactus Fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish Fig|-E|H" -CT "QSC:harvested the needed"
 -54.79 -13.79 306.50
 -55.99 -14.05 310.49
 -60.12 -14.60 306.47
