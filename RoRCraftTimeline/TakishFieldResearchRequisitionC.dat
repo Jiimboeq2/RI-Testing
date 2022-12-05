@@ -126,7 +126,7 @@ HailActor "Hamdi" 1 1 FALSE
 383.92 103.38 -590.60
 375.06 100.49 -582.55
 Custom
-Path -PL 109 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish Figs|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Cactus Fruits|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested Desert Willow Wood|-E|H" -CT "QSC:harvested the needed"
+Path -PL 106 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish Figs|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Cactus Fruits|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested Desert Willow Wood|-E|H" -CT "QSC:harvested the needed"
 375.06 100.49 -582.55
 378.02 98.93 -576.28
 387.79 92.16 -557.57
@@ -149,9 +149,6 @@ Path -PL 109 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish F
 279.09 29.45 -187.93
 222.88 32.59 -188.76
 197.70 38.53 -169.22
-172.34 40.38 -156.40
-158.17 45.92 -186.80
-172.70 43.60 -197.06
 199.75 43.57 -227.46
 223.75 45.21 -247.81
 241.40 54.11 -259.85
