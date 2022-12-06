@@ -12,13 +12,13 @@ Custom
 UseItem Portable Work Bench v2.0
 0 0 0
 Custom
-CraftIt "Desert Forge"
+CraftIt "Desert Forge" 1
 752.86 115.82 -445.89
 Custom
-CraftIt "Desert Stove and Keg"
+CraftIt "Desert Stove and Keg" 1
 752.86 115.82 -445.89
 Custom
-CraftIt "Desert Engraved Desk"
+CraftIt "Desert Engraved Desk" 1
 752.86 115.82 -445.89
 Custom
 ClickActor Place Tables
