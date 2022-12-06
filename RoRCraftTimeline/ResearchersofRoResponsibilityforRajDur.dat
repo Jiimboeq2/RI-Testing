@@ -1,68 +1,6 @@
 Researchers of Ro: Responsibility for Raj'Dur
 Custom
-CheckAndSet -InZone "The Village of Shin" 7
-0 0 0
-Custom
-FastTravel "Isle of Mara" FALSE
-0 0 0
--6.91 -2.38 124.77
--13.57 -2.38 128.76
--72.76 -2.52 93.42
--81.51 -2.37 98.72
--85.54 -2.26 100.43
-Custom
-HailActor "Jaranna Thistlebloom" 10 1
--85.16 -2.27 102.95
-Custom
-FastTravel "Raj'Dur Plateaus" FALSE
-0 0 0
-197.70 -60.55 452.63
-Wait
-20
-189.57 -60.00 459.55
-181.46 -60.14 466.71
-173.32 -60.05 473.92
-165.32 -59.93 481.04
-158.85 -59.52 489.24
-155.16 -57.32 498.35
-161.44 -60.13 506.90
-167.37 -54.34 513.78
-174.27 -56.28 521.80
-183.38 -60.24 525.63
-193.38 -60.24 525.32
-191.86 -60.29 536.57
-190.89 -60.27 547.66
-190.03 -60.19 558.82
-184.02 -60.04 566.94
-176.44 -60.03 573.98
-168.34 -60.03 579.92
-Custom
-HailActor "Bairam Najafi" 6 1
-149.95 -60.15 585.90
-150.05 -60.15 586.17
-164.01 -60.04 578.97
-193.57 -60.28 561.46
-191.17 -60.16 566.47
-204.08 -60.24 556.52
-201.51 -60.24 536.72
-195.02 -60.24 525.92
-195.03 -62.95 505.49
-195.03 -62.82 484.56
-192.92 -61.77 468.87
-188.95 -59.93 455.62
-172.74 -56.07 432.21
-169.01 -55.20 433.87
-151.83 -47.43 407.45
-132.40 -37.00 384.46
-112.24 -27.67 369.86
-86.70 -20.14 358.83
-61.06 -14.27 348.43
-39.02 -12.52 340.45
-17.58 -10.60 332.69
--4.53 -10.79 324.69
--30.77 -11.01 315.19
-Custom
-Path -PL 199 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood.|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore.|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gems.|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hides.|-E|H" -CT "QSC:returned with the harvestables"
+Path -PL 198 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gems|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hides.|-E|H" -CT "QSC:returned with the harvestables"
 -54.79 -13.79 306.50
 -55.99 -14.05 310.49
 -60.12 -14.60 306.47
@@ -263,9 +201,10 @@ Path -PL 199 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the roo
 -2.80 14.02 255.69
 -20.17 14.01 266.89
 -42.38 5.40 279.90
+0 0 0
 Custom
-FastTravel "Raj'Dur Plateaus"
-587.95 45.28 64.64
+UseItem Totem of escape
+0 0 0
 Wait
 20
 189.57 -60.00 459.55
