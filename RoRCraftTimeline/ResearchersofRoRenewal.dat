@@ -126,6 +126,7 @@ Custom
 WaitMob "Lady Vox" 100
 -81.50 140.14 -845.24
 Custom
+QSC: The Renewal ceremony
 CheckActiveQuest "Return to Bairam"
 -84.14 140.14 -847.30
 Custom
