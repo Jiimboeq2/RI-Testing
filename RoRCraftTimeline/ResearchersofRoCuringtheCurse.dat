@@ -60,7 +60,7 @@ Path
 -22.65 -11.13 322.12
 -51.37 -13.83 308.17
 Custom
-Path -PL 38 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:Takish figs harvested|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested the fish|-E|H" -CT "QSC:harvested the needed food"
+Path -PL 38 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:Takish figs harvested|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested Bonytail Chub|-E|H" -CT "QSC:harvested the needed food"
 -51.37 -13.83 308.17
 -54.36 -13.71 305.38
 -69.55 -15.40 291.17
