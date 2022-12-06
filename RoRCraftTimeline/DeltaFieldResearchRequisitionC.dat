@@ -6,6 +6,9 @@ Custom
 UseItem "Call of the Delta"
 0 0 0
 Custom
+BuyFromVendor "Tarkin" "Call of the Delta" 1
+749.95 115.88 -453.07
+Custom
 HailActorMultiOption "Shahin" 2 1 1 1
 752.86 115.82 -445.89
 Custom

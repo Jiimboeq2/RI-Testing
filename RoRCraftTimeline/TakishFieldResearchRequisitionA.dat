@@ -96,7 +96,7 @@ Wait
 650.98 155.29 -716.69
 644.94 155.29 -695.61
 Custom
-HailActorMultiOption  "Hamdi" 1 2 1 1 TRUE TRUE
+HailActorMultiOption "Hamdi" 2 1 1
 644.94 155.29 -695.61
 644.48 155.29 -697.71
 636.69 155.29 -697.73
