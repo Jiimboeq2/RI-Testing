@@ -1,25 +1,22 @@
 Researchers of Ro: Curing the Curse
 Custom
-HailActor "Bairam Najafi" 3 1
+HailActorGetQuest -Actor "Bairam Najafi"
 151.71 -60.17 583.68
-0 0 0
 Custom
 FastTravel "Isle of Mara" FALSE
 0 0 0
-6.87 -2.38 117.17
 Custom
 ClickActor mariners_bell TRUE FALSE 50
 6.87 -2.38 117.17
 Custom
 TravelMap "Greater Faydark"
-151.71 -60.17 583.68
+6.87 -2.38 117.17
 458.63 91.71 183.08
 458.63 104.18 183.08
 486.62 90.55 141.31
 517.55 73.60 101.21
 579.15 50.30 69.17
 579.13 44.98 69.16
-587.95 45.28 64.64
 Custom
 HailActor "Miralith Flitterwing" 7 1
 587.95 45.28 64.64
@@ -28,19 +25,19 @@ FastTravel "Raj'Dur Plateaus"
 587.95 45.28 64.64
 202.66 -60.51 454.07
 173.07 -60.18 479.80
+Wait
+1
 162.36 -60.10 505.09
 168.36 -53.94 513.73
 177.58 -59.26 524.80
+Wait
+1
 190.19 -60.24 525.69
 188.78 -60.20 560.07
 172.49 -60.03 576.48
 150.80 -60.12 587.31
-148.53 -60.17 586.15
 Custom
 HailActor "Rasime Najafi" 6 1
-148.53 -60.17 586.15
-Custom
-Path
 148.53 -60.17 586.15
 177.58 -60.03 574.69
 188.66 -60.22 562.77
@@ -59,9 +56,8 @@ Path
 11.94 -10.62 331.09
 -5.52 -10.83 327.87
 -22.65 -11.13 322.12
--51.37 -13.83 308.17
 Custom
-Path -PL 38 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:Takish figs harvested|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested Bonytail Chub|-E|H" -CT "QSC:harvested the needed food"
+Path -PL 37 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:Takish figs harvested|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:I have harvested the fish|-E|H" -CT "QSC:harvested the needed food"
 -51.37 -13.83 308.17
 -54.36 -13.71 305.38
 -69.55 -15.40 291.17
@@ -89,8 +85,8 @@ Path -PL 38 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit
 -71.19 7.29 -181.49
 -71.71 8.91 -199.63
 -70.25 9.50 -222.59
--62.79 7.18 -221.98
--37.21 2.29 -212.52
+-59.11 5.64 -202.11
+-30.70 2.39 -206.59
 -17.57 2.40 -203.64
 2.11 2.41 -194.74
 18.13 2.42 -186.28
@@ -100,33 +96,37 @@ Path -PL 38 -L -DFPWD -R -QA "-QD|100|-A|desert shrub|-T|QSC:harvested the fruit
 62.44 4.35 -145.02
 50.83 4.67 -124.84
 37.63 4.21 -109.50
+0 0 0
 Custom
-FastTravel "Raj'Dur Plateaus"
-587.95 45.28 64.64
+FastTravel "Isle of Mara" FALSE
+0 0 0
 Custom
-Path
-587.95 45.28 64.64
+FastTravel "Raj'Dur Plateaus" FALSE
+0 0 0
 202.66 -60.51 454.07
 173.07 -60.18 479.80
+Wait
+1
 162.36 -60.10 505.09
 168.36 -53.94 513.73
 177.58 -59.26 524.80
+Wait
+1
 190.19 -60.24 525.69
 188.78 -60.20 560.07
 172.49 -60.03 576.48
 150.80 -60.12 587.31
-148.53 -60.17 586.15
 Custom
 HailActor "Rasime Najafi" 6 1
 148.53 -60.17 586.15
-146.19 -60.23 580.74
 Custom
 CraftIt "Desert Curse Prevention Potion" 6
 146.56 -60.21 582.05
 Custom
 HailActor "Bairam Najafi" 3 1 TRUE FALSE FALSE
 151.71 -60.17 583.68
-ClickActor Potential Trade Goods
+Custom
+ClickActor "Potential Trade Goods"
 153.41 -60.17 583.33
 151.77 -60.11 587.55
 166.04 -60.03 582.47
@@ -137,11 +137,12 @@ ClickActor Potential Trade Goods
 191.94 -60.28 532.69
 193.33 -60.24 523.55
 207.62 -63.17 514.42
+Wait
+1
 229.41 -60.23 498.75
 231.51 -60.25 491.94
 231.48 -60.22 482.35
 221.61 -60.25 485.28
-209.82 -60.25 493.23
 Custom
 HailActor "Rela Lesan" 6 1
 209.82 -60.25 493.23
@@ -154,6 +155,8 @@ HailActor "Rela Lesan" 6 1
 220.31 -62.80 582.73
 212.90 -62.78 590.68
 201.01 -62.79 588.47
+Wait
+1
 193.01 -58.56 583.97
 198.11 -60.24 573.99
 195.51 -60.23 567.08
@@ -161,7 +164,6 @@ HailActor "Rela Lesan" 6 1
 174.61 -60.03 576.52
 159.63 -60.13 583.38
 152.42 -60.16 586.10
-150.43 -60.15 585.75
 Custom
 HailActor "Bairam Najafi" 3 1 TRUE FALSE FALSE
 151.71 -60.17 583.6
