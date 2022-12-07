@@ -2,8 +2,9 @@ Researchers of Ro: Curing the Curse
 Custom
 HailActor "Bairam Najafi" 3 1
 151.71 -60.17 583.68
+0 0 0
 Custom
-FastTravel "Isle of Mara"
+FastTravel "Isle of Mara" FALSE
 0 0 0
 6.87 -2.38 117.17
 Custom
