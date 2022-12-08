@@ -1,6 +1,6 @@
-8Researchers of Ro: Takish Time
+Researchers of Ro: Takish Time
 Custom
-HailActor "Bairam Najafi" 8 1 TRUE FALSE FALSE
+HailActorGetQuest -Actor "Bairam Najafi"
 152.02 -60.15 586.27
 162.46 -60.03 584.95
 171.45 -60.03 579.71
@@ -104,7 +104,6 @@ HailActor "Bairam Najafi" 8 1 TRUE FALSE FALSE
 -527.57 1.43 499.43
 -531.52 1.98 490.13
 -531.77 2.99 479.86
--531.58 3.57 474.58
 Custom
 ClickActor "Zone to Takish Badlands" FALSE FALSE 1
 -531.68 3.57 472.71
@@ -112,12 +111,13 @@ Custom
 TravelMap "Takish Badlands"
 652.79 155.29 -722.90
 Wait
-50Custom
+50
+0 0 0
+Custom
 WaitWhileMoving
 0 0 0
 652.79 155.29 -722.90
 650.98 155.29 -716.69
-644.94 155.29 -695.61
 Custom
 HailActor "Hamdi" 4
 644.94 155.29 -695.61
@@ -146,7 +146,7 @@ HailActor "Hamdi" 4
 383.92 103.38 -590.60
 375.06 100.49 -582.55
 Custom
-Path -PL 109 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
+Path -PL 107 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the root|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gem|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hide|-E|H" -CT "QSC:returned with the harvestables"
 375.06 100.49 -582.55
 378.02 98.93 -576.28
 387.79 92.16 -557.57
@@ -255,18 +255,18 @@ Path -PL 109 -L -DFPWD -R -QA "-QD|100|-A|twisted roots|-T|QSC:harvested the roo
 -227.30 124.98 -508.39
 -219.76 120.04 -478.62
 -250.05 118.77 -441.96
+0 0 0
 Custom
-UseItem Totem of escape
--251.27 119.11 -440.67
+Evac
+0 0 0
 650.40 155.29 -722.13
 648.49 155.29 -710.42
-645.95 155.29 -698.34
 Custom
 HailActor "Hamdi" 1
 645.13 155.29 -694.84
 Custom
-UseItem Portable Work Bench v2.0
-0 0 0
+UseItem "Portable Work Bench"
+639.11 155.29 -697.15
 Custom
 CraftIt "Madman's Research Equipment" 1
 639.11 155.29 -697.15
@@ -277,7 +277,7 @@ Custom
 CraftIt "Desert Woodworking Table" 1
 639.11 155.29 -697.15
 Custom
-ClickActor Place Tables
+ClickActor "Place Tables"
 643.90 155.29 -696.29
 640.67 155.29 -693.93
 Custom
