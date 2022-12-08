@@ -263,7 +263,10 @@ Path -PL 191 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested 
 -44.32 2.75 283.42
 0 0 0
 Custom
-Evac
+FastTravel "Isle of Mara" FALSE
+0 0 0
+Custom
+FastTravel "Raj'Dur Plateaus" FALSE
 0 0 0
 Wait
 20
