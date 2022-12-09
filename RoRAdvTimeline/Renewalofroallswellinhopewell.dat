@@ -117,14 +117,13 @@ wait
 294.74 -54.27 429.45
 263.51 -58.59 474.04
 233.73 -60.28 484.53
-Custom
-HailActor "Silrena" 4 1 TRUE FALSE FALSE
 231.70 -60.25 485.00
 232.92 -60.26 485.51
 QSC:Silrena is adamant i must find a way to help the Qayyid recover.
 221.71 -60.16 463.57
 HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
-182.05 -59.98 461.02
+Custom
+221.71 -60.16 463.57
 wait
 5
 echo starting seeking mystic solutions
