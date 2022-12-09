@@ -40,7 +40,8 @@ HailActor "Saida" 5 1 TRUE FALSE FALSE
 -84.64 43.77 -21.59
 -90.82 38.09 -27.04
 -97.04 32.31 -32.57
-target prickly armapines
+Custom
+PathKill 45 35 35 1 1 1 "a prickly armapine "Insert QS info here" 1
 -112.39 29.60 -45.51
 -109.02 29.73 -72.46
 -106.95 29.10 -82.44
