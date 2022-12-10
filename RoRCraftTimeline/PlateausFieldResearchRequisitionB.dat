@@ -262,7 +262,7 @@ Custom
 CheckActiveQuest "Craft the item needed"
 0 0 0
 Custom
-UseItem Totem of escape
+Evac
 0 0 0
 202.66 -60.51 454.06
 189.41 -60.08 463.88

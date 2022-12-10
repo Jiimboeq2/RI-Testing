@@ -232,7 +232,7 @@ Path -PL 106 -L -DFPWD -R -QA "-QD|100|-A|animal den|-T|QSC:harvested Dustmaw Hi
 -250.05 118.77 -441.96
 0 0 0
 Custom
-UseItem Totem of escape
+Evac
 0 0 0
 650.40 155.29 -722.13
 648.49 155.29 -710.42

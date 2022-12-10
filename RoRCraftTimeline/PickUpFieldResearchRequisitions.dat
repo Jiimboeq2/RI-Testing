@@ -110,9 +110,6 @@ Custom
 HailActorMultiOption "Shahin" 2 1 1 1
 752.86 115.82 -445.89
 Custom
-CheckAndSet -InZone "Raj'Dur Plateaus" 27
-0 0 0
-Custom
 FastTravel "Raj'Dur Plateaus" FALSE
 0 0 0
 197.70 -60.55 452.63
@@ -372,8 +369,30 @@ Custom
 CheckActiveQuest "Craft the item needed"
 0 0 0
 Custom
-UseItem Totem of escape
+MessageBox "Make sure all harvesting completed then hit resume."
 0 0 0
+Custom
+Evac
+0 0 0
+Wait
+20
+189.57 -60.00 459.55
+181.46 -60.14 466.71
+173.32 -60.05 473.92
+165.32 -59.93 481.04
+158.85 -59.52 489.24
+155.16 -57.32 498.35
+161.44 -60.13 506.90
+167.37 -54.34 513.78
+174.27 -56.28 521.80
+183.38 -60.24 525.63
+193.38 -60.24 525.32
+191.86 -60.29 536.57
+190.89 -60.27 547.66
+190.03 -60.19 558.82
+184.02 -60.04 566.94
+176.44 -60.03 573.98
+168.34 -60.03 579.92
 Custom
 MessageBox "Craft the item for Plataeus Requisitions"
 0 0 0
