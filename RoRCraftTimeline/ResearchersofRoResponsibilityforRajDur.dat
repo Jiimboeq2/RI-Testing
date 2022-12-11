@@ -13,7 +13,7 @@ Wait
 -85.54 -2.26 100.43
 Custom
 HailActorGetQuest -Actor "Jaranna Thistlebloom"
--85.16 -2.27 102.95
+-81.02 -2.26 104.90
 Custom
 FastTravel "Raj'Dur Plateaus" FALSE
 0 0 0
