@@ -8,16 +8,16 @@ FastTravel "Raj'Dur Plateaus" FALSE
 197.70 -60.55 452.63
 Wait
 20
-Hopewell Harbor /  198, -62, 504 
-Goldami Reservoir Camp /  -521, 6, 446 
-Nerive Reservoir Camp /  -380, -13, 105 
-Scorched Shores /  555, -62, 281 
-Kulaidi Reservoir Camp /  259, 4, 137 
-Raj'Durabad /  -208, 106, -242 
-Sultan's Mahallah /  -290, 116, -150 
-Hanging Gardens of Najami /  -27, 48, -77 
-Desert of Woe /  -303, -34, 574 
-Scales of Ro /  -337, 42, 192 
+# Hopewell Harbor /  198, -62, 504 
+# Goldami Reservoir Camp /  -521, 6, 446 
+# Nerive Reservoir Camp /  -380, -13, 105 
+# Scorched Shores /  555, -62, 281 
+# Kulaidi Reservoir Camp /  259, 4, 137 
+# Raj'Durabad /  -208, 106, -242 
+# Sultan's Mahallah /  -290, 116, -150 
+# Hanging Gardens of Najami /  -27, 48, -77 
+# Desert of Woe /  -303, -34, 574 
+# Scales of Ro /  -337, 42, 192 
 Custom
 FastTravel "Raj'Dur Plateaus" FALSE
 0 0 0
@@ -108,26 +108,26 @@ TravelMap "Takish Badlands"
 Wait
 200
 0 0 0
-Pillars of Fate /  296, 248, -700  
-Ruins of Takish'Hiz /  137, 103, -553  
-Renewal Pond /  106, 82, -339  
-Petrous Woods /  -461, 128, -625  
-Dunetooth Bluff /  -708, 184, 120  
-Mhyt-moo Todal Burrows /  97, 4, -134  
-Tet Haket /  529, 1, 1019  
-Deadly Shallows /  541, 2, -199  
-Glorysong Cascades /  -169, 240, -976  
-Whispering Pillars /  -71, 250, -617  
+# Pillars of Fate /  296, 248, -700  
+# Ruins of Takish'Hiz /  137, 103, -553  
+# Renewal Pond /  106, 82, -339  
+# Petrous Woods /  -461, 128, -625  
+# Dunetooth Bluff /  -708, 184, 120  
+# Mhyt-moo Todal Burrows /  97, 4, -134  
+# Tet Haket /  529, 1, 1019  
+# Deadly Shallows /  541, 2, -199  
+# Glorysong Cascades /  -169, 240, -976  
+# Whispering Pillars /  -71, 250, -617  
 Custom
 UseItem "Call of the Delta"
 0 0 0
-Mouth of Prexus /  -171, -38, -16  
-Kren Rommol /  34, 41, -455  
-Relic Shard /  -271, 8, 170  
-HopewellSandstone Escarpment /  654, 116, -273  
-HopewellGodsfall /  798, 180, -736  
-HopewellSaltscorch Steppes /  410, 112, -498  
-Well of Life /  180, 3, -514  
-Tsmang Blightswarm Hive /  532, 108, -692  
-Sandscoured Coast /  -192, 10, -261  
-Lifire River /  515, 6, -316  
+# Mouth of Prexus /  -171, -38, -16  
+# Kren Rommol /  34, 41, -455  
+# Relic Shard /  -271, 8, 170  
+# Sandstone Escarpment /  654, 116, -273  
+# Godsfall /  798, 180, -736  
+# Saltscorch Steppes /  410, 112, -498  
+# Well of Life /  180, 3, -514  
+# Tsmang Blightswarm Hive /  532, 108, -692  
+# Sandscoured Coast /  -192, 10, -261  
+# Lifire River /  515, 6, -316  
