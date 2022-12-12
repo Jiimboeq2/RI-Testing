@@ -164,31 +164,25 @@ HailActorMultiOption "Bairam Najafi" 2 1 1 1
 -42.39 -11.50 313.27
 -61.17 -14.84 306.27
 Custom
-Path -PL 200 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood.|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore.|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gems.|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hides.|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Cactus Fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish Fig|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested Bonytail Chub|-E|H" -CT "QSC:harvested the needed"
+Path -PL 191 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood.|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore.|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gems.|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hides.|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Cactus Fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish Fig|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested Bonytail Chub|-E|H" -CT "QSC:harvested the needed"
 -54.79 -13.79 306.50
 -55.99 -14.05 310.49
 -60.12 -14.60 306.47
 -69.97 -16.41 303.37
 -80.07 -15.95 302.73
 -90.15 -15.25 305.85
--100.45 -15.08 309.92
--109.51 -15.08 315.31
--118.55 -15.71 320.78
--124.22 -17.59 330.00
--127.72 -17.99 339.70
--129.51 -15.80 349.34
--131.17 -13.89 359.49
--132.91 -13.77 370.10
--134.52 -13.92 380.45
--134.64 -13.64 391.33
--133.50 -11.97 402.16
--129.92 -9.49 411.52
+-96.58 -11.64 341.02
+-101.11 3.94 362.00
+-104.64 3.57 377.40
+-109.73 3.51 396.49
 -126.02 -7.24 421.63
 -122.47 -5.62 431.58
 -120.32 -3.91 441.63
 -123.71 -3.77 452.17
 -128.16 -3.76 461.28
 -133.35 -3.59 470.23
+-139.13 -3.75 479.71
+-157.43 5.40 467.87
 -139.13 -3.75 479.71
 -144.63 -8.25 488.50
 -150.06 -12.96 497.19
@@ -282,6 +276,7 @@ Path -PL 200 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested 
 -189.66 -21.78 404.62
 -183.86 -21.22 395.77
 -177.72 -19.79 386.95
+-202.40 -2.54 353.59
 -171.88 -17.00 378.53
 -166.20 -14.72 370.36
 -160.00 -12.63 361.43
@@ -293,7 +288,6 @@ Path -PL 200 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested 
 -121.51 -12.09 311.61
 -113.66 -11.16 305.15
 -105.72 -10.34 298.62
--105.59 -12.37 303.33
 -102.08 -6.88 284.07
 -100.04 -5.17 266.42
 -99.35 -3.90 248.33
@@ -303,13 +297,13 @@ Path -PL 200 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested 
 -122.35 1.27 175.52
 -139.35 -4.77 167.31
 -157.48 -7.49 167.50
--171.46 -6.29 168.04
+-165.07 -6.31 162.49
 -161.13 -1.05 143.63
 -142.61 6.29 106.73
 -136.36 6.81 86.10
 -135.05 7.23 69.35
 -118.98 7.20 56.58
--99.19 7.65 41.92
+-92.40 5.98 48.51
 -74.28 6.12 -5.33
 -58.32 7.44 -103.09
 -63.91 8.78 -121.54
@@ -321,13 +315,9 @@ Path -PL 200 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested 
 -76.86 9.51 -222.49
 -85.50 10.18 -240.28
 -96.48 11.21 -253.32
--90.52 7.07 -268.22
--76.29 2.05 -278.13
--53.13 2.34 -275.08
--37.81 2.39 -265.43
--24.00 2.42 -253.37
--8.25 7.71 -241.24
-5.77 15.07 -237.03
+-59.21 5.69 -201.71
+-15.90 2.44 -206.18
+-3.44 2.40 -214.72
 16.63 13.54 -238.75
 32.04 11.23 -235.55
 50.91 9.89 -230.29
@@ -365,6 +355,8 @@ Path -PL 200 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested 
 -2.80 14.02 255.69
 -20.17 14.01 266.89
 -42.38 5.40 279.90
+-32.05 6.01 284.68
+-44.32 2.75 283.42
 Custom
 CheckActiveQuest "Craft the item needed"
 0 0 0
