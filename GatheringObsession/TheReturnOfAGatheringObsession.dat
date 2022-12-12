@@ -3,8 +3,24 @@ Custom
 CheckPreReqs -Completed "A Gathering Obsession, Final Errand"
 0 0 0
 Custom
+CheckAndSet -InZone "The Village of Shin" 20
+0 0 0
+Custom
 FastTravel "Isle of Mara"
 0 0 0
+Custom 
+Path
+-34.89 11.62 -103.29
+-54.05 2.98 -65.57
+-72.09 -2.15 -29.49
+-87.40 -4.24 1.14
+-108.36 -2.52 43.09
+-86.95 -2.52 66.67
+-63.27 -2.52 92.74
+-41.65 -2.55 116.54
+-30.50 -2.38 128.82
+-9.88 -2.38 125.45
+5.83 -2.38 117.54
 Custom
 ClickActor mariners_bell TRUE FALSE 50
 6.87 -2.38 117.17
@@ -248,7 +264,6 @@ HailActor "Lian Augren" 4
 Custom
 HailActor "Qho Augren" 3
 -53.24 11.74 -109.67
-Path
 -34.89 11.62 -103.29
 -54.05 2.98 -65.57
 -72.09 -2.15 -29.49
@@ -270,7 +285,8 @@ Wait
 10
 0 0 0
 Custom
-"HailActor "Stissa" 1 1
+HailActor "Stissa" 1 1
+-1506.63 -214.18 -389.17
 WaitForZoning
 10
 0 0 0
@@ -295,7 +311,7 @@ Path
 -1284.42 -517.20 -2176.30
 -1292.40 -511.60 -2138.95
 Custom
-Path -PL 10 -L -DFPWD -R -QA "-A|Windswept Frostflowers|-T|QSC:took Qho to to the ghoamari|-E|H"
+PathHarvest 9 50 1 1 1 0 "Windswept Frostflowers" 0 1
 -1262.50 -528.26 -2205.02
 -1272.13 -522.99 -2193.68
 -1277.93 -520.01 -2186.68
@@ -305,7 +321,6 @@ Path -PL 10 -L -DFPWD -R -QA "-A|Windswept Frostflowers|-T|QSC:took Qho to to th
 -1295.19 -511.37 -2135.99
 -1300.27 -511.44 -2127.78
 -1309.27 -511.39 -2118.59
--1318.18 -510.10 -2109.50
 Custom
 HailActor "Qho Augren" 2 1
 -1291.55 -512.56 -2146.91
@@ -411,7 +426,7 @@ Wait
 386.72 -10.60 472.99
 381.17 -15.01 486.93
 Custom
-Path -PL 13 -L -DFPWD -R -QA "-A|Goahmari Herb|-T|QSC:to see the othmir flowers|-E|H"
+PathHarvest 13 50 1 1 1 0 "Goahmari Herb" 0 1
 279.03 -10.77 428.24
 291.62 -12.22 428.47
 310.41 -14.57 430.94
@@ -462,7 +477,6 @@ Wait
 793.34 -181.77 49.53
 811.83 -180.91 54.20
 Custom
-Custom
 ClickActor "Name -> thurgadin_entrance_from_gd" FALSE FALSE 10
 0 0 0
 Wait
@@ -487,7 +501,7 @@ Custom
 HailActor "Merchant Hagus" 
 335.79 -291.06 247.95
 Custom
-BuyFromVendor "Thurgadin Souvenir Snowglobe"
+BuyFromVendor "Merchant Hagus" "Thurgadin Souvenir Snowglobe" 1
 335.79 -291.06 247.95
 Wait
 10

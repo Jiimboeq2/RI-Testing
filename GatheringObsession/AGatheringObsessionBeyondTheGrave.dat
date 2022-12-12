@@ -70,7 +70,6 @@ Path
 -56.57 55.78 -14.60
 Custom
 Path -PL 82 -L -DFPWD -R -QA "-A|astral shrub|-T|QSC:picked fresh lychees and|-E|H"
--32.29 80.45 -17.94
 -46.45 79.57 -14.88
 -46.60 58.57 -14.85
 -42.10 60.22 8.88
@@ -210,10 +209,11 @@ Path
 -2460.93 203.68 630.97
 -2463.87 206.47 618.94
 Custom
-HailActor "Qho Augren" 2 
+HailActor "Qho Augren" 3 
 -2463.87 206.47 618.94
 Wait
 20
+0 0 0
 Custom
 Path 
 -2463.87 206.47 618.94
@@ -230,6 +230,7 @@ Wait
 20
 0 0 0
 Custom
+Path 
 -2463.87 206.47 618.94
 -2463.87 234.38 618.94
 -2397.30 234.90 668.37
@@ -243,7 +244,6 @@ Custom
 Custom
 HailActor "Qho Augren"
 -2162.20 222.39 767.22
-Custom
 -2162.20 222.39 767.22
 -2162.17 238.23 767.91
 -2165.04 238.85 803.19
@@ -266,9 +266,8 @@ Custom
 -1404.85 231.22 626.12
 -1375.22 217.24 593.88
 Custom
-HailActor "Qho Augren" 
+HailActor "Qho Augren" 2
 -1375.22 217.24 593.88
-Custom 
 -1375.22 217.24 593.88
 -1356.56 217.71 585.09
 -1329.51 217.24 571.10
@@ -276,15 +275,13 @@ Custom
 Custom
 MessageBox "Click on the tree and press Resume"
 -1329.51 217.24 571.10
-Custom
 -1329.51 217.24 571.10
 -1331.49 217.38 570.60
 -1352.38 218.14 589.65
 -1372.75 217.21 591.72
 Custom
-HailActor "Qho Augren" 
+HailActor "Qho Augren" 2
 -1372.75 217.21 591.72
-Custom
 -1372.75 217.21 591.72
 -1347.22 218.15 587.54
 -1324.17 229.54 583.76
@@ -310,9 +307,8 @@ Custom
 -453.44 -3.78 543.71
 -437.14 -9.47 556.22
 Custom
-HailActor "Qho Augren" 
+HailActor "Qho Augren" 3
 -437.14 -9.47 556.22
-Custom
 -437.14 -9.47 556.22
 -419.68 -6.18 547.27
 -419.68 40.31 547.27
@@ -329,14 +325,12 @@ Custom
 -64.52 13.72 173.77
 -67.83 13.69 157.82
 Custom
-HailActor "Qho Augren" 
+HailActor "Qho Augren" 3
 -67.83 13.69 157.82
-Custom
 -64.77 13.70 164.69
 Custom
 MessageBox "Click on the Portal to go to Feerrott and press Resume"
 -64.77 13.70 164.69
-Custom
 -64.77 13.70 164.69
 -86.46 30.12 177.41
 -86.46 60.64 177.41
@@ -362,7 +356,7 @@ Custom
 -40.03 8.60 -84.86
 -34.78 11.41 -105.20
 Custom
-HailActor "Qho Augren" 
+HailActor "Qho Augren" 3
 -34.78 11.41 -105.20
 Custom
 FastTravel "Obol Plains"
