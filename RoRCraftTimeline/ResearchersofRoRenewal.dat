@@ -58,7 +58,7 @@ Custom
 HailActor "Firiona Vie" 3 1
 -546.03 11.00 437.81
 Custom
-ZoneDoor zone_portal_to_takish_dungeons
+ZoneDoor zone_portal_to_takish_dungeons "Takish'Hiz Arena: Renewal of Ro [Tradeskill]"
 -551.61 11.29 430.97
 -17.69 159.09 -831.31
 -40.11 140.13 -841.80
