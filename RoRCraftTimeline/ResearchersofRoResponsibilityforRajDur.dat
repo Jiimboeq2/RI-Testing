@@ -68,7 +68,7 @@ Wait
 -4.53 -10.79 324.69
 -30.77 -11.01 315.19
 Custom
-Path -PL 191 -L -DFPWD -R -YD 10 -QA "-QD|75|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|75|-A|fallen branch|-T|QSC:harvested the wood.|-E|H" -QA "-QD|75|-A|rough ore|-T|QSC:harvested the ore.|-E|H" -QA "-QD|75|-A|gem cluster|-T|QSC:harvested the gems.|-E|H" -QA "-QD|75|-A|animal den|-T|QSC:harvested the hides.|-E|H" -CT "QSC:returned with the harvestables"
+Path -PL 191 -L -DFPWD -YD 10 -QA "-QD|75|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|75|-A|fallen branch|-T|QSC:harvested the wood.|-E|H" -QA "-QD|75|-A|rough ore|-T|QSC:harvested the ore.|-E|H" -QA "-QD|75|-A|gem cluster|-T|QSC:harvested the gems.|-E|H" -QA "-QD|75|-A|animal den|-T|QSC:harvested the hides.|-E|H" -CT "QSC:returned with the harvestables"
 -54.79 -13.79 306.50
 -55.99 -14.05 310.49
 -60.12 -14.60 306.47

@@ -1,9 +1,9 @@
 Researchers of Ro: Sandstone Setup
 Custom
-HailActor "Hamdi" 
+HailActorGetQuest -Actor "Hamdi" 
 644.99 155.29 -695.92
 Custom
-UseItem Call of the Delta
+UseItem "Call of the Delta"
 0 0 0
 Custom
 BuyFromVendor "Tarkin" "Call of the Delta" 20
@@ -30,20 +30,21 @@ Custom
 HailActor "Shahin" 
 757.65 116.02 -443.57
 750.93 115.82 -448.37
-756.99 116.58 -453.34
 Custom
 CraftIt "Pest Repellent Scroll" 3
 756.99 116.58 -453.34
+Wait
+1
 750.31 115.98 -445.84
-755.98 115.96 -445.67
 Custom
 HailActor "Shahin" 2
 755.98 115.96 -445.67
 751.26 115.82 -449.02
-760.91 116.52 -455.74
 Custom
 CraftIt "Water Purification Tablet" 3
 760.91 116.52 -455.74
+Wait
+1
 755.21 116.73 -451.77
 752.70 115.82 -450.05
 Custom
@@ -52,14 +53,12 @@ HailActor "Shahin"
 Custom
 FastTravel "Isle of Mara" FALSE
 0 0 0
-Custom
-Path 
--6.91 -2.38 124.77
 -13.57 -2.38 128.76
+Wait
+1
 -72.76 -2.52 93.42
 -81.51 -2.37 98.72
 -85.54 -2.26 100.43
--85.16 -2.27 102.95
 Custom
 HailActor "Jaranna Thistlebloom" 6 1
 -81.02 -2.26 104.90
