@@ -113,7 +113,7 @@ Custom
 WaitMob "Lady Vox" 100
 -82.40 140.14 -845.99
 Custom
-WaitForAnnounceText "The Renewal ceremony Firiona Vie had planned did not go completely as planned"
+WaitForQuestStep "Return to Bairam"
 -82.40 140.14 -845.99
 Custom
 FastTravel "Raj'Dur Plateaus"
