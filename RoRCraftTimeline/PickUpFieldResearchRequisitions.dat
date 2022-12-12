@@ -1,6 +1,6 @@
 Pick Up Field Research Requisitions
 Custom
-CheckAndSet -InZone "Takish Badlands" 112
+CheckAndSet -InZone "Takish Badlands" 95
 0 0 0
 Custom
 FastTravel "Raj'Dur Plateaus" FALSE
