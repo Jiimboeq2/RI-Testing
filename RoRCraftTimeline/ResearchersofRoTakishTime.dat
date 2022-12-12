@@ -629,18 +629,20 @@ Custom
 HailActor "Hamdi" 1
 643.74 155.29 -697.52
 Custom
-ClickActor Growth Infused Samples 
-627.30 154.91 -650.53
-Custom
-ClickActor Growth Infused Samples
-539.40 139.23 -686.42
-Custom
-ClickActor Growth Infused Samples
-495.32 140.86 -647.23
-532.84 139.51 -658.63
-554.76 144.00 -697.39
-569.62 153.13 -703.15
-599.65 156.25 -704.52
+Path -PL 12 -L -R -QA "-QD|10|-A|Growth-Infused Samples|-T|QSC:I have picked some local flowers|-E|H"
+624.67 154.91 -652.65
+638.74 155.29 -701.23
+604.69 155.37 -703.54
+569.23 153.09 -704.49
+541.89 138.83 -687.19
+528.90 139.50 -653.66
+499.53 140.79 -647.19
+524.12 138.73 -645.68
+522.47 137.62 -626.61
+507.61 128.72 -613.38
+481.14 114.30 -623.61
+401.94 105.41 -598.38
+348.29 107.18 -593.49
 Custom
 HailActor "Hamdi" 3
 644.99 155.29 -695.92
