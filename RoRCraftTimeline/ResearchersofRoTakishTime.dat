@@ -137,7 +137,7 @@ FastTravel "Raj'Dur Plateaus" FALSE
 -4.53 -10.79 324.69
 -30.77 -11.01 315.19
 Custom
-Path -PL 358 -L -DFPWD -R -YD 10 -QA "-QD|75|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|75|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|75|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|75|-A|gem cluster|-T|QSC:harvested the gems|-E|H" -QA "-QD|75|-A|animal den|-T|QSC:harvested the hides|-E|H" -CT "QSC:I have harvested the items that Hamdi requires in order to begin his research"
+Path -PL 359 -L -DFPWD -R -YD 10 -QA "-QD|75|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|75|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|75|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|75|-A|gem cluster|-T|QSC:harvested the gems|-E|H" -QA "-QD|75|-A|animal den|-T|QSC:harvested the hides|-E|H" -CT "QSC:I have harvested the items that Hamdi requires in order to begin his research"
 -54.79 -13.79 306.50
 -55.99 -14.05 310.49
 -60.12 -14.60 306.47
@@ -241,6 +241,7 @@ Path -PL 358 -L -DFPWD -R -YD 10 -QA "-QD|75|-A|twisted roots|-T|QSC:harvested B
 -219.16 -28.57 484.60
 -210.16 -28.55 477.04
 -205.68 -27.25 466.64
+-238.22 -21.26 516.68
 -203.89 -27.06 455.95
 -202.80 -27.20 445.23
 -201.15 -25.84 434.73
