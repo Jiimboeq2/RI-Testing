@@ -1,0 +1,25 @@
+Renewal of Ro Tradeskill Timeline
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Yucca Wood" 1 "Echeveria root" 1 "Armapine Hide" 1 "Apatite Gem" 130 "Bonytail Chub" 12 "Brittlebush Taproot" 89 "Cactus Fruit" 12 "Desert Willow Wood" 50 "Dustmaw Hide" 30 "Goat Meat" 6 "Pallasite Ore" 125
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Astral Candle" 30 "Astral Coal" 65 "Astral Incense" 45 "Astral Sandpaper" 5 "Astral Kindling" 15
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Yucca Wood" 1 -ITEMQTY "Echeveria root" 1 -ITEMQTY "Armapine Hide" 1 -ITEMQTY "Apatite Gem" 130 -ITEMQTY "Bonytail Chub" 12 -ITEMQTY "Brittlebush Taproot" 89 -ITEMQTY "Cactus Fruit" 12 -ITEMQTY "Desert Willow Wood" 50 -ITEMQTY "Dustmaw Hide" 30 -ITEMQTY "Goat Meat" 6 -ITEMQTY "Pallasite Ore" 125 -ITEMQTY "Astral Candle" 30 -ITEMQTY "Astral Coal" 65 -ITEMQTY "Astral Incense" 45 -ITEMQTY "Astral Sandpaper" 5 -ITEMQTY "Astral Kindling" 15
+0 0 0
+Custom
+Quest "Researchers of Ro: Responsibility for Raj'Dur"
+0 0 0
+Custom
+Quest "Researchers of Ro: Curing the Curse"
+0 0 0
+Custom
+Quest "Researchers of Ro: Renewal"
+0 0 0
+Custom
+Quest "Researchers of Ro: Takish Time"
+0 0 0
+Custom
+Quest "Researchers of Ro: Sandstone Setup"
+0 0 0
