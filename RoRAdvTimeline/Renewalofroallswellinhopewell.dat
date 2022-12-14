@@ -1,4 +1,4 @@
-Renewal of Ro: All's well in Hopewell
+Renewal of Ro: All's Well in Hopewell
 Custom
 FastTravel "Raj'Dur Plateaus"
 0 0 0
@@ -101,7 +101,7 @@ wait
 custom
 ApplyVerb "Hakim al-Imam" "Examine the Body"
 QSC:It's a relief
-echo we have located bill cosby's victim.
+echo we have located the body
 wait
 70
 552.45 -24.80 56.77
@@ -119,100 +119,19 @@ wait
 233.73 -60.28 484.53
 231.70 -60.25 485.00
 232.92 -60.26 485.51
-QSC:Silrena is adamant i must find a way to help the Qayyid recover.
-221.71 -60.16 463.57
-HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
 Custom
+HailActor "Silrena" 2 1 TRUE FALSE FALSE
+230.88 -60.25 485.98
+QSC:Silrena is adamant I must find a way to help the Qayyid recover.
+221.71 -60.16 463.57
+Custom 
+HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
 221.71 -60.16 463.57
 wait
 5
-echo starting seeking mystic solutions
-180.86 -60.03 460.71
-190.91 -60.02 453.61
-214.38 -60.53 456.38
-239.14 -60.32 483.19
-276.73 -57.53 460.49
-299.07 -53.45 426.48
-339.08 -51.02 414.87
-410.28 -48.11 440.19
-464.98 -54.04 469.00
-echo checking for snappers along the coast line
-500.51 -60.66 474.75
-498.65 -60.21 475.54
-563.78 -61.10 336.28
-542.34 -60.38 292.82
-474.35 -59.54 219.91
-485.00 -60.34 146.25
-559.28 -60.49 120.80
-Path -PL 19 -L -R -QA "-QD|100|-A|sand snapper|-T|QSC:Hunt sand snapper ticks for blood samples|-E|K"
-echo looking to kill corpsebeaks within this area and click on a golden feather
--381.75 -27.87 523.91
-Path -PL 19 -L -R -QA "-QD|100|-A|dryland corpsebeak|-T|QSC:I have the sand snapper tick blood samples and a golden corpsebeak feather Jawdah sent me after.|-E|K"
-clickactor
-golden feather
-wait 20
--381.75 -27.87 523.91
--123.06 -8.79 299.91
--28.38 -11.03 316.32
-115.81 -28.84 369.59
-187.46 -59.48 447.41
-182.94 -60.16 467.14
-180.35 -60.08 463.48
 Custom
-HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
-echo quest should be completed
-QSC:I gave Jawdah the mystical components he requested
-;new quest fight or fright
-180.35 -60.08 463.48
-Custom
-HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
-184.73 -59.96 463.94
-109.88 -26.39 365.71
--81.62 -14.96 295.54
--59.31 -2.54 169.68
-64.37 2.94 73.09
-214.23 0.58 62.06
-276.15 5.48 -38.00
-267.93 14.03 -150.31  
-335.75 21.42 -208.22
-383.93 23.37 -194.62
-437.28 26.94 -204.70
-437.28 26.94 -204.70
-489.45 30.38 -206.63
-453.75 30.05 -112.92
-456.74 31.30 -41.11
-455.06 8.98 -12.32
-377.12 -11.29 -2.17
-143.11 6.97 87.46
--81.29 -15.91 303.76
-115.96 -28.76 368.68
-192.57 -60.31 463.76
-179.27 -60.14 460.47
-echo might need to fit in pathing here to oasis
-custom
-HailActor "Jawdah the Mystic" 3 1 TRUE FALSE FALSE
-echo at this point we should be lucking petals for habibibibibibibbibibibiti's kiss in Najami Oassis
-Path -PL 19 -L -R -QA "-QD|100|-A|Habibti's Kiss|-T|QSC:I Need the Syntax for this|-H|"
-18.0
-18.72 4.34 27.61
-16.16 4.32 -26.51
-53.00 9.05 -37.88
-54.93 11.27 -54.22
-65.22 19.45 -73.86
-96.53 20.78 -87.22
-76.16 21.12 -109.71
-82.68 21.15 -124.52
-86.15 15.53 -150.26
-77.37 4.23 -180.31
-110.65 8.88 -189.72
-108.09 15.23 -235.30
-81.12 9.95 -247.32
-52.91 10.84 -233.31
-21.43 12.42 -231.89
-24.94 16.02 -255.85
-12.41 19.55 -274.82
-echo Najami Oassis 18.0
-echo --- this is fucked up some where her
+HailActor "Azizah the Smith" 
+229.62 -60.02 467.20
 184.34 -60.17 466.93
 ;i think i need to make pathing back to harbor ?
 echo pathing back to haikm
@@ -245,8 +164,9 @@ echo pathing back to haikm
 528.84 -21.91 7.76
 550.36 -25.06 50.48
 ClickActor Hakim al-Imam
-custom
-ApplyVerb "Hakim al-Imam" Fit the bangle on the Qayyid's wrist
+550.36 -25.06 50.48
+Custom
+ApplyVerb "Hakim al-Imam" "Fit the bangle on the Qayyid's wrist"
 550.36 -25.06 50.48
 528.84 -21.91 7.76
 494.55 -21.33 9.76
@@ -275,10 +195,12 @@ ApplyVerb "Hakim al-Imam" Fit the bangle on the Qayyid's wrist
 154.92 -59.03 491.84
 170.81 -60.24 478.16
 192.94 -60.12 450.07
-221.88 -60.05 460.98
+Custom 
+HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
+221.71 -60.16 463.57
 233.10 -60.16 481.07
 echo moving to grab thresher oil
-Path -PL 19 -L -R -QA "-QD|100|-A|Vicious thrasher|-T|QSC:Obtain vicious thrasher oil|-K|"
+Path -PL 19 -L -R -QA "-QD|100|-A|vicious thrasher|-T|QSC:Obtain vicious thrasher oil|-K|"
 258.88 -59.10 473.21
 312.52 -52.01 419.71
 332.97 -51.03 418.34
@@ -339,7 +261,8 @@ echo heading to Nerive camp
 -335.58 -19.62 132.78
 QSC:Nerive reservoir camp was attacked
 -342.80 -18.73 154.04
-"Path -PL 19 -L -R -QA "-QD|100|-A|raj'dur|-T|QSC:The Goldami reservoir Camp had recently been attacked
+Custom
+Path -PL 19 -L -R -QA "-QD|100|-A|raj'dur|-T|QSC:The Goldami reservoir Camp had recently been attacked
 -328.20 -18.43 134.79
 -348.54 -16.96 104.69
 -403.19 -0.31 73.44
@@ -351,6 +274,7 @@ QSC:Nerive reservoir camp was attacked
 -400.71 -6.72 155.48
 -391.46 -6.56 178.14
 -393.92 -6.25 180.49
+Custom
 HailActor "a recent victim" 6 1 TRUE TRUE FALSE
 echo heading back to camp (from victim WP)
 -371.53 -6.76 179.88

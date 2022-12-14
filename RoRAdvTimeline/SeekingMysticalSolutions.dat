@@ -1,0 +1,37 @@
+Seeking Mystical Solutions
+Custom
+HailActorGetQuest -Actor "Jawdah the Mystic"
+182.09 -59.99 462.95
+180.86 -60.03 460.71
+190.91 -60.02 453.61
+214.38 -60.53 456.38
+239.14 -60.32 483.19
+Path -PL 19 -L -R -QA "-QD|100|-A|sand snapper|-T|QSC:Hunt sand snapper ticks for blood samples|-E|K"
+276.73 -57.53 460.49
+299.07 -53.45 426.48
+339.08 -51.02 414.87
+410.28 -48.11 440.19
+464.98 -54.04 469.00
+500.51 -60.66 474.75
+498.65 -60.21 475.54
+563.78 -61.10 336.28
+542.34 -60.38 292.82
+474.35 -59.54 219.91
+485.00 -60.34 146.25
+559.28 -60.49 120.80
+echo looking to kill corpsebeaks within this area and click on a golden feather
+-381.75 -27.87 523.91
+Path -PL 19 -L -R -QA "-QD|100|-A|dryland corpsebeak|-T|QSC:I have the sand snapper tick blood samples and a golden corpsebeak feather Jawdah sent me after.|-E|K"
+clickactor
+golden feather
+wait 20
+-381.75 -27.87 523.91
+-123.06 -8.79 299.91
+-28.38 -11.03 316.32
+115.81 -28.84 369.59
+187.46 -59.48 447.41
+182.94 -60.16 467.14
+180.35 -60.08 463.48
+Custom
+HailActor "Jawdah the Mystic" 5 1 TRUE FALSE FALSE
+182.09 -59.99 462.95
