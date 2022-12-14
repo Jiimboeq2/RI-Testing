@@ -69,7 +69,7 @@ echo at this point we are given a Ruffian Disguise to use from inventory
 -13.45 4.34 -146.72
 100.63 7.55 -205.30
 96.22 10.02 -222.80
-;here we should use "Raj'Dur Ruffian Disguise" from inventory, can't remember syntax for that.
+UseItem "Raj'Dur Ruffian Disguise"
 86.28 12.21 -272.03
 Custom
 HailActor "A Raj'Durabad lift guard" 3 1 TRUE FALSE FALSE
@@ -80,8 +80,6 @@ HailActor "A Raj'Durabad lift guard" 3 1 TRUE FALSE FALSE
 ;stop for combat in case adds
 Custom
 HailActor "Riddan" 3 1 TRUE FALSE FALSE
-;i have to get some kind of tribute for the sultan of the daggers.
-;you have to do the two sidequests in the harbour and then the sidequest NPC will give you the tribute
 26.11 3.94 -47.91
 15.47 -2.80 158.51
 -59.67 -14.48 305.57
@@ -92,16 +90,11 @@ HailActor "Riddan" 3 1 TRUE FALSE FALSE
 161.22 -60.04 507.80
 175.87 -58.13 524.05
 194.61 -60.28 530.99
+Custom
+HailActor "Rahele" 4 1 TRUE FALSE FALSE
 188.27 -60.21 543.84
-;we should be looking at Rahele for the next step to get all this side junk out of the way.
 Custom
-HailActor "Riddan" 4 1 TRUE FALSE FALSE
-;we should be starting Desert Products
-50
-;we should be done with this quest
-Custom
-HailActor "Rahle" 5 1 TRUE FALSE FALSE
-;we should go back to the Ridan now around the oasis area
+Path 
 188.57 -60.22 544.68
 194.56 -60.24 525.58
 180.09 -60.24 526.14
@@ -124,29 +117,23 @@ HailActor "Rahle" 5 1 TRUE FALSE FALSE
 67.16 8.84 -237.46
 48.65 9.34 -228.10
 23.94 12.85 -241.31
-22.76 20.39 -279.34
-;we should be staring right at Riddan's bitch ass
 Custom
-HailActor "Rahle" 5 1 TRUE FALSE FALSE
+HailActor "Riddan" 4 1 TRUE FALSE FALSE
+22.76 20.39 -279.34
 wait 10
-QSC: Return to Riddan near the Raj'Durabad lift
-;we should move back to the lift now for next quest.
 26.39 11.56 -229.77
 90.74 9.95 -233.94
 88.46 12.37 -272.81
-;we should be standing on lift guard's nuts
 wait 10
 Custom
 HailActor "A Raj'Durabad lift guard" 3 1 TRUE FALSE FALSE
-wait 20
-88.46 12.37 -272.81
-83.49 12.35 -276.41
-80.44 19.68 -293.59
-;we shouldn't have to get on the lift it self, left click the pole right in front of us
-ZoneSpecial
-;no idea if thats even right.
+81.42 12.40 -272.23
+82.22 19.78 -299.98
+ClickActor switch
 wait 95
-80.97 85.40 -340.39
+83.58 86.10 -301.23
+76.18 85.16 -338.09
+64.51 86.96 -364.18
 62.78 87.33 -351.35
 70.62 87.04 -379.53
 62.29 86.93 -389.23
@@ -156,17 +143,13 @@ wait 95
 -129.90 90.31 -522.96
 -199.46 87.65 -445.02
 -255.58 99.60 -409.28
--245.10 98.24 -384.24
--236.21 98.39 -311.52
--270.29 102.50 -263.95
--272.13 104.34 -245.37
--283.84 104.80 -248.61
+-235.32 106.03 -217.02
+-242.13 106.10 -215.74
+-283.24 104.80 -246.63
 Custom
 HailActor "Akhun" 9 1 TRUE FALSE FALSE
+-283.24 104.80 -246.63 54.07 0.00 0.00
 wait 10
-;for the love of god, why -- just end the quest.
-;looking for quest updates
-;kill stuff in this area
 -260.60 105.03 -230.36
 -231.90 105.99 -211.43
 -271.52 104.71 -241.11
@@ -174,55 +157,64 @@ wait 10
 -244.00 98.38 -300.14
 -222.52 98.54 -306.71
 Path -PL 19 -L -R -QA "-QD|100|-A|a Raj'Dur Maurauder|a Raj'Dur blackguard|a Raj'Dur cutthroat|-T|QSC: Cull Raj'Dur thieves|-E|K"
-;we should be able to left click these "Raj'Durabad Defense Glyph"
-;what ever zonespecial is
+; we should be able to left click these "Raj'Durabad Defense Glyph"
+Custom
+ClickActor "Raj'Durabad Defense Glyph"
 -254.08 100.05 -320.31
-;number 1
+Custom
+ClickActor "Raj'Durabad Defense Glyph"
 -230.96 98.47 -309.58
 -236.07 98.82 -352.68
-;number 2
+Custom
+ClickActor "Raj'Durabad Defense Glyph"
 -229.34 99.68 -354.29
-;number 3
+Custom
+ClickActor "Raj'Durabad Defense Glyph"
 -282.56 103.36 -362.17
-;number 4
+Custom
+ClickActor "Raj'Durabad Defense Glyph"
 -295.26 106.98 -370.33
-;we can now path back wards --respawn is fast
+; we can now path back wards --respawn is fast
 -282.56 103.36 -362.17
 -229.34 99.68 -354.29
 -236.07 98.82 -352.68
 -230.96 98.47 -309.58
 QSC:Destroy defensive glyphs around Raj'Duraband
-;we should be looking for hizite stuff
+Custom
+ClickActor "Stolen Hizite Goods"
 -231.26 98.24 -339.32
 -226.58 98.60 -337.09
-;zone special here
+Custom
+ClickActor "Stolen Hizite Goods"
 -239.80 98.24 -334.51
 -242.07 98.35 -313.27
 wait 10
 -224.71 98.95 -296.88
-;zone special here
+Custom
+ClickActor "Stolen Hizite Goods"
 -247.94 98.33 -312.64
 ;zone special here
 -239.96 98.40 -297.95
 -234.30 98.24 -342.15
 -227.81 98.26 -336.72
-;zone special here
+Custom
+ClickActor "Stolen Hizite Goods"
 wait 20
 -237.12 98.24 -347.53
 wait 10
 -250.76 99.29 -316.90
 wait 30
-;zone special here
+Custom
+ClickActor "Stolen Hizite Goods"
 -238.27 98.41 -308.27
 -225.40 98.94 -297.15
-;zone special here
-wait 50
+Custom
+ClickActor "Stolen Hizite Goods"
 -225.40 98.94 -297.15
+wait 50
 -235.00 98.24 -339.08
 -227.77 98.24 -334.52
-;we should have enough by now -- we could probably loop this path.
 QSC:Return to Riddan near the Raj'Duraband lift
-;pathing back to riddan
 -246.30 98.24 -346.20
 -216.47 103.08 -259.92
 -247.96 98.27 -368.86
@@ -236,13 +228,11 @@ QSC:Return to Riddan near the Raj'Duraband lift
 66.46 86.39 -346.24
 81.50 85.40 -340.18
 88.23 85.90 -311.65
-echo we should be in front of the smol post
-zonespecial
 wait 100
-;path back to ridan
 84.77 18.88 -290.98
 85.21 10.04 -244.95
 21.90 12.53 -221.47
 23.30 20.35 -282.11
 Custom
 HailActor "Riddan" 7 1 TRUE FALSE FALSE
+23.30 20.35 -282.11

@@ -1,4 +1,10 @@
 Renewal of Ro: In for a Raj'Durabad Time
+Custom 
+CheckPreReqs -Completed "A History of Sultans"
+0 0 0
+Custom
+CheckPreReqs -Completed "Curse and Tell"
+0 0 0
 Custom
 HailActor "Riddan" 6 1 TRUE FALSE FALSE
 wait

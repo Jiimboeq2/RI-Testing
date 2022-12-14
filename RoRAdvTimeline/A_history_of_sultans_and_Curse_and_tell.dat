@@ -1,7 +1,7 @@
 A History of Sultans
 Custom 
+Path 
 7.38 94.70 -430.19
-;we should be standing in front of Ismail, we need to finish side quests before hailing him.
 2.89 94.77 -439.76
 -48.29 89.63 -504.69
 -130.24 90.49 -524.11
@@ -14,13 +14,15 @@ Custom
 -301.84 106.91 -364.65
 -301.74 107.00 -402.63
 -304.14 107.31 -413.63
-304.66 107.39 -417.96
-;-304.66 107.39 -417.96 this is where we should be
-;picking up side quests
+-304.66 107.39 -417.96
+Custom 
 HailActor "Xamira" 7 1 TRUE FALSE FALSE
+-304.66 107.39 -417.96
 wait
 20
+Custom 
 HailActor "Sezgin" 7 1 TRUE FALSE FALSE
+-304.66 107.39 -417.96
 wait
 20
 ;Xamira's quest first -- A history of sultans
@@ -103,11 +105,14 @@ QSC:I found enough raffia wine calabashes to satisfy Sezgin's drinking habbits f
 -250.30 98.27 -366.62
 -294.84 106.48 -360.10
 -303.52 107.08 -405.45
--305.02 107.40 -418.23
+Custom 
 HailActor "Xamira" 7 1 TRUE FALSE FALSE
+-305.02 107.40 -418.23
 wait
 20
+Custom 
 HailActor "Sezgin" 7 1 TRUE FALSE FALSE
+-305.02 107.40 -418.23
 wait
 20
 ;lets look for gamblers
@@ -152,10 +157,14 @@ wait
 -301.74 107.30 -413.93
 -305.85 107.40 -417.09
 -305.49 107.40 -418.77
+Custom
 HailActor "Xamira" 6 1 TRUE FALSE FALSE
+-305.49 107.40 -418.77
 wait
 20
+Custom 
 HailActor "Sezgin" 4 1 TRUE FALSE FALSE
+-305.49 107.40 -418.77
 wait
 20
 ;lets head back to Ismail
