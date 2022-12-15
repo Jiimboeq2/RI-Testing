@@ -164,7 +164,7 @@ HailActorMultiOption "Bairam Najafi" 2 1 1 1
 -42.39 -11.50 313.27
 -61.17 -14.84 306.27
 Custom
-Path -PL 191 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood.|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore.|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gems.|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hides.|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Cactus Fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish Fig|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested Bonytail Chub|-E|H" -CT "QSC:harvested the needed"
+Path -PL 192 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested Brittlebush Taproot|-E|H" -QA "-QD|100|-A|fallen branch|-T|QSC:harvested the wood.|-E|H" -QA "-QD|100|-A|rough ore|-T|QSC:harvested the ore.|-E|H" -QA "-QD|100|-A|gem cluster|-T|QSC:harvested the gems.|-E|H" -QA "-QD|100|-A|animal den|-T|QSC:harvested the hides.|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Cactus Fruit|-E|H" -QA "-QD|100|-A|desert shrub|-T|QSC:harvested Takish Fig|-E|H" -QA "-QD|100|-A|shoal of fish|-T|QSC:harvested Bonytail Chub|-E|H" -CT "QSC:harvested the needed"
 -54.79 -13.79 306.50
 -55.99 -14.05 310.49
 -60.12 -14.60 306.47
@@ -298,6 +298,7 @@ Path -PL 191 -L -DFPWD -R -YD 10 -QA "-QD|100|-A|twisted roots|-T|QSC:harvested 
 -139.35 -4.77 167.31
 -157.48 -7.49 167.50
 -165.07 -6.31 162.49
+-210.46 -62.78 811.08
 -161.13 -1.05 143.63
 -142.61 6.29 106.73
 -136.36 6.81 86.10
