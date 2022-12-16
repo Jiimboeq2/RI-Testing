@@ -7,9 +7,6 @@ CheckAndSet -InZone "The Village of Shin" 19
 0 0 0
 Custom
 FastTravel "Isle of Mara"
-0 0 0
-Custom
-Path 
 5.66 -2.13 119.13
 5.66 27.50 119.13
 -22.01 24.95 61.91
@@ -25,7 +22,6 @@ HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 -30.17 9.91 -111.73
 Custom
 FastTravel "Tenebrous Tangle"
-0 0 0
 -54.69 21.99 232.60
 -41.21 20.15 232.67
 -26.63 20.92 232.79
@@ -184,7 +180,6 @@ Path -PL 146 -L -DFPWD -R -QA "-QD|200|-A|school of flying fish|-T|QSC:fished up
 439.34 250.66 -748.16
 Custom
 FastTravel "Isle of Mara"
-0 0 0
 5.81 -2.38 117.80
 2.37 -2.38 119.68
 -13.94 25 46.87
