@@ -280,7 +280,7 @@ ClickActor mariners_bell TRUE FALSE 50
 5.81 -2.38 117.80
 6.87 -2.38 117.17
 Custom
-TravelMap "Sinking Sands"
+TravelMap "The Sinking Sands"
 -53.24 11.74 -109.67
 Wait
 10
