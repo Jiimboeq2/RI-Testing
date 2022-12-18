@@ -41,6 +41,8 @@ wait
 5
 Custom
 Path -PL 163 -L -R -DFPWD -QA "-QD|200|-A|wretched arbor|-T|QSC:gathered samples of severed briarwood from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some green tea leaves from the Enchanted|-E|H" -QA "-QD|200|-A|velvety roots|-T|QSC:gathered some tussah roots from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some rough opaline from the Enchanted|-E|H" -QA "-QD|200|-A|throng of fish|-T|QSC:fished up some shark fins from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some cucumber from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some velium clusters from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some griffin meat from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some bear meat from the Enchanted|-E|H" 
+-0.14 -1.76 -0.20
+-0.61 4.48 55.60
 -2.95 2.77 30.86
 -4.90 -3.13 15.84
 -17.67 -3.83 13.66
