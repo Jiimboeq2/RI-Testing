@@ -7,9 +7,6 @@ CheckAndSet -InZone "The Village of Shin" 19
 0 0 0
 Custom
 FastTravel "Isle of Mara"
-0 0 0
-Custom
-Path 
 5.66 -2.13 119.13
 5.66 27.50 119.13
 -22.01 24.95 61.91
@@ -23,8 +20,6 @@ Path
 Custom
 HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 -30.17 9.91 -111.73
-Custom 
-Path
 -34.89 11.62 -103.29
 -54.05 2.98 -65.57
 -72.09 -2.15 -29.49
@@ -44,8 +39,6 @@ TravelMap "Enchanted Lands" 1
 7.38 -2.38 116.84
 wait
 5
-0 0 0
--1.76 4.48 82.44
 Custom
 Path -PL 163 -L -R -DFPWD -QA "-QD|200|-A|wretched arbor|-T|QSC:gathered samples of severed briarwood from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some green tea leaves from the Enchanted|-E|H" -QA "-QD|200|-A|velvety roots|-T|QSC:gathered some tussah roots from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some rough opaline from the Enchanted|-E|H" -QA "-QD|200|-A|throng of fish|-T|QSC:fished up some shark fins from the Enchanted|-E|H" -QA "-QD|200|-A|mystical natural garden|-T|QSC:gathered some cucumber from the Enchanted|-E|H" -QA "-QD|200|-A|rhythmic stone|-T|QSC:mined some velium clusters from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some griffin meat from the Enchanted|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:gathered some bear meat from the Enchanted|-E|H" 
 -0.41 4.48 84.14
@@ -214,7 +207,6 @@ Path -PL 163 -L -R -DFPWD -QA "-QD|200|-A|wretched arbor|-T|QSC:gathered samples
 -693.81 -1.49 -640.30
 Custom
 FastTravel "Isle of Mara"
-0 0 0
 6.87 -2.38 117.17
 Custom
 ClickActor mariners_bell TRUE FALSE 50
@@ -446,7 +438,6 @@ Path -PL 216 -L -DFPWD -R -QA "-QD|200|-A|marred arbor|-T|QSC:gathered some samp
 -94.66 -23.81 105.13
 Custom
 FastTravel "Isle of Mara"
-0 0 0
 5.81 -2.38 117.80
 2.37 -2.38 119.68
 -13.94 25 46.87
