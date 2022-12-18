@@ -8,8 +8,6 @@ CheckAndSet -InZone "The Village of Shin" 19
 Custom
 FastTravel "Isle of Mara"
 0 0 0
-Custom
-Path 
 5.66 -2.13 119.13
 5.66 27.50 119.13
 -22.01 24.95 61.91
@@ -23,8 +21,6 @@ Path
 Custom
 HailActor "Qho Augren" 4 1 TRUE TRUE FALSE
 -30.17 9.91 -111.73
-Custom 
-Path
 -34.89 11.62 -103.29
 -54.05 2.98 -65.57
 -72.09 -2.15 -29.49
@@ -197,7 +193,6 @@ Path -PL 146 -L -DFPWD -R -QA "-QD|200|-A|calcified timber|-T|QSC:gathered sampl
 1295.19 162.65 -2455.06
 Custom
 FastTravel "Isle of Mara"
-0 0 0
 5.81 -2.38 117.80
 2.37 -2.38 119.68
 -13.94 25 46.87
