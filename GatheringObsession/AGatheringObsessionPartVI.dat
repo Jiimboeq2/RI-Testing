@@ -3,7 +3,7 @@ Custom
 CheckPreReqs -Completed "A Gathering Obsession, Part V"
 0 0 0
 Custom
-CheckAndSet -InZone "The Village of Shin" 19
+CheckAndSet -InZone "The Village of Shin" 22
 0 0 0
 Custom
 FastTravel "Isle of Mara"
