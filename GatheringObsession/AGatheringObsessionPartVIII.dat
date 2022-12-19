@@ -3,10 +3,13 @@ Custom
 CheckPreReqs -Completed "A Gathering Obsession, Part VII"
 0 0 0
 Custom
-CheckAndSet -InZone "The Village of Shin" 19
+CheckAndSet -InZone "The Village of Shin" 22
 0 0 0
 Custom
 FastTravel "Isle of Mara"
+0 0 0
+Custom
+Path 
 5.66 -2.13 119.13
 5.66 27.50 119.13
 -22.01 24.95 61.91
@@ -18,7 +21,7 @@ FastTravel "Isle of Mara"
 -36.97 11.46 -104.17
 -31.97 9.85 -114.32
 Custom
-HailActor "Qho Augren" 4 1 TRUE TRUE FALSE
+HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 -30.17 9.91 -111.73
 -34.89 11.62 -103.29
 -54.05 2.98 -65.57
