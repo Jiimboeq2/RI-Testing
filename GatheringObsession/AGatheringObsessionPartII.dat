@@ -5,6 +5,7 @@ CheckPreReqs -Completed "A Gathering Obsession"
 Custom
 CheckAndSet -InZone "The Village of Shin" 19
 0 0 0
+Custom
 FastTravel "Isle of Mara"
 0 0 0
 5.66 -2.13 119.13
@@ -36,7 +37,7 @@ Wait
 685.12 -58.72 -103.17
 672.11 -59.07 -82.49
 Custom
-Path -PL 316 -L -DFPWD -R -QA "-QD|200|-A|wind felled tree|-T|QSC:gathered samples of severed maple|-E|H" -QA "-QD|200|-A|critter den|-T|QSC:gathered some tanned leather pelts|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some carrots|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some carrots|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some Antonican coffee beans|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some murdunk orange|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some black tea leaves|-E|H" -QA "-QD|200|-A|desert roots|-T|QSC:gathered some tuber strands|-E|H" -QA "-QD|200|-A|band of fish|-T|QSC:fished up some freewater groupers|-E|H" -QA "-QD|200|-A|band of fish|-T|QSC:some crab meat|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 317 -L -DFPWD -R -QA "-QD|200|-A|wind felled tree|-T|QSC:gathered samples of severed maple|-E|H" -QA "-QD|200|-A|critter den|-T|QSC:gathered some tanned leather pelts|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some carrots|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some carrots|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some Antonican coffee beans|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some murdunk orange|-E|H" -QA "-QD|200|-A|oasis shrubbery|-T|QSC:gathered some black tea leaves|-E|H" -QA "-QD|200|-A|desert roots|-T|QSC:gathered some tuber strands|-E|H" -QA "-QD|200|-A|band of fish|-T|QSC:fished up some freewater groupers|-E|H" -QA "-QD|200|-A|band of fish|-T|QSC:some crab meat|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
 672.11 -59.07 -82.49
 711.33 -59.80 -64.05
 749.09 -59.80 -53.57
