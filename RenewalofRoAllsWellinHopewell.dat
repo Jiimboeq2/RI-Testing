@@ -1,5 +1,13 @@
 Renewal of Ro: All's Well in Hopewell
 Custom
+CheckAndSet -InZone "Raj'Dur Plateaus" 9
+0 0 0
+Custom
+FastTravel "Raj'Dur Plateaus"
+0 0 0
+198.64 -60.55 457.57
+221.38 -60.19 465.73
+Custom
 HailActorGetQuest -Actor "Silrena"
 230.72 -60.25 485.74
 224.87 -60.25 477.22
