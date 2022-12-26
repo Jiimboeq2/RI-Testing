@@ -8,6 +8,8 @@ CheckPreReqs -Completed "The Captain's Lament"
 Custom
 CheckPreReqs -Completed "Fond Memories"
 0 0 0
+CheckAndSet -InZone "Obol Plains" 26
+0 0 0
 Custom
 FastTravel "Myrist, the Great Library"
 0 0 0
@@ -326,16 +328,15 @@ HailActor "Qho Augren" 3
 111.74 -7.25 -86.42
 Custom
 FastTravel "Isle of Mara"
-111.74 -7.25 -86.42
-Custom
-6.87 14.68 117.17
--1.91 16.19 92.67
--14.05 18.30 58.80
--27.81 20.71 20.39
--35.46 22.88 -15.34
--35.33 24.76 -47.24
--35.50 9.43 -47.34
--40.03 8.60 -84.86
+5.66 -2.13 119.13
+5.66 27.50 119.13
+-22.01 24.95 61.91
+-51.69 24.64 1.73
+-61.89 24.54 -18.94
+-55.13 24.43 -41.60
+-49.27 24.32 -64.90
+-42.84 8.41 -90.48
+-36.97 11.46 -104.17
 -34.78 11.41 -105.20
 Custom
 HailActor "Qho Augren" 3
