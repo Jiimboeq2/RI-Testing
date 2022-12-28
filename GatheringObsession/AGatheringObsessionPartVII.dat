@@ -26,6 +26,8 @@ HailActor "Qho Augren" 3 1 TRUE TRUE FALSE
 Custom
 FastTravel "Tenebrous Tangle"
 -54.69 21.99 232.60
+Custom 
+Path 
 -41.21 20.15 232.67
 -26.63 20.92 232.79
 1.60 19.37 215.29
