@@ -8,7 +8,8 @@ CheckPreReqs -Completed "The Captain's Lament"
 Custom
 CheckPreReqs -Completed "Fond Memories"
 0 0 0
-CheckAndSet -InZone "Obol Plains" 26
+Custom
+CheckAndSet -InZone "Obol Plains" 28
 0 0 0
 Custom
 FastTravel "Myrist, the Great Library"
