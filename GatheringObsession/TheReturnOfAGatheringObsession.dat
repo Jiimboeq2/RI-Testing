@@ -458,6 +458,7 @@ Wait
 0 0 0
 Custom
 HailActor "Qho Augren" 3 1
+0 0 0
 Wait
 10
 0 0 0
@@ -480,7 +481,7 @@ Wait
 811.83 -180.91 54.20
 Custom
 ClickActor "Name -> thurgadin_entrance_from_gd" FALSE FALSE 10
-0 0 0
+812.92 -180.91 54.55
 Wait
 50
 0 0 0
