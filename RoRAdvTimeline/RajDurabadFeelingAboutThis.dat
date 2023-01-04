@@ -5,7 +5,7 @@ HailActorGetQuest -Actor "Nouzar"
 184.92 -59.93 462.67
 172.62 -60.12 472.21
 Custom
-ZoneDoor zone_portal_to_dun_plateaus_01 "Raj'Dur Plateaus: Blood and Sand |Signature|"
+ZoneDoor zone_portal_to_dun_plateaus_01 "Raj'Dur Plateaus: Blood and Sand [Signature]"
 163.21 -59.76 477.74
 207.20 -60.24 578.06
 Wait
