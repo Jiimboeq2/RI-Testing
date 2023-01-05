@@ -9,36 +9,36 @@ Custom
 CheckPreReqs -Completed "Fond Memories"
 0 0 0
 Custom
-CheckAndSet -InZone "Obol Plains" 28
+CheckAndSet -InZone "Obol Plains" 38
 0 0 0
 Custom
-FastTravel "Myrist, the Great Library"
+CheckAndSet -InZone "The Village of Shin" 17
 0 0 0
-18.70 -20.10 -12.90
-16.70 -20.10 -13.38
-Wait
-1
-16.70 -20.10 -13.38
 Custom
-ClickAllActors "Ulteran Spire Portal" 5
-16.70 -20.10 -13.38
-Custom
-TravelMap "Obol Plains" 1
+FastTravel "Isle of Mara"
 0 0 0
 Custom
 Path
-79.92 36.51 -336.82
-79.92 93.01 -336.82
-79.92 103.20 -336.82
-4.75 103.20 -293.78
--67.48 103.20 -251.95
--131.05 103.20 -215.55
--185.44 103.20 -184.40
--226.68 103.20 -160.79
--267.38 103.20 -137.48
--301.01 103.20 -108.29
--336.24 103.20 -68.82
+-6.30 -2.38 124.97
+-22.55 -2.38 129.69
+-54.48 -2.52 104.29
+-52.44 -2.51 95.65
+Custom
+ClickActor
+Obol
+-51.360756 -2.506815 93.196594
+Custom
+Path
 -370.98 103.20 -29.91
+-398.38 103.20 0.79
+-430.95 103.20 37.27
+-435.63 59.30 42.51
+-435.63 22.30 42.51
+-435.63 14.49 42.50
+-428.64 13.46 28.00
+-393.43 13.10 2.24
+-343.28 13.74 -15.26
+-302.23 13.84 -15.73
 -301.60 14.56 -2.78
 Custom
 HailActor "Steve Echgar" 3 1
