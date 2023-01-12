@@ -1,0 +1,32 @@
+Renewal of Ro: Rebirth
+Custom
+HailActorGetQuest -Actor "Firiona Vie"
+-547.81 10.96 437.03
+Custom
+ZoneDoor zone_portal_to_takish_dungeons "Takish'Hiz Arena: Renewal of Ro"
+-553.06 11.72 428.46
+Custom
+HailActor "Firiona Vie" 1
+-82.78 139.93 -844.23
+Custom
+WaitForMob "a cursed Elddar remnant" 200
+-82.78 139.93 -844.23
+-74.44 140.06 -827.48
+-59.30 139.88 -847.10
+-52.83 139.82 -862.19
+-55.34 139.75 -894.25
+-75.84 139.74 -910.27
+-98.51 139.77 -909.30
+-114.52 140.02 -895.82
+-119.36 139.90 -875.62
+-109.38 139.90 -862.26
+-108.70 140.04 -837.82
+Custom
+WaitForQuestStep "Return to adventure party at Goldami Reservoir Camp"
+-84.12 140.14 -844.93
+Custom
+ZoneDoor zone_exit
+-7.32 159.47 -827.16
+Custom
+HailActor "Nairion Eldi" 10
+-548.12 10.96 437.56
