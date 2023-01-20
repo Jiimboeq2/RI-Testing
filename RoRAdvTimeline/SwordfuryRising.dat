@@ -1,0 +1,39 @@
+Swordfury Rising
+Custom
+HailActorGetQuest -Actor "Ulgaf"
+-252.71 15.67 -255.05
+Custom
+FlyUp 5
+-252.71 15.67 -255.05
+-252.71 65.74 -255.05
+-217.53 73.11 -289.96
+-182.02 73.11 -325.20
+-146.47 72.86 -360.40
+Custom
+Path -PL 13 -L -YI 3 -QA "-QD|150|-A|OL+Barrel of Fresh Water+|-T|QSC:Poison barrels of fresh water|-E|H" -QA "-QD|100|-A|a Swordfury follower|-T|QSC:Slay Swordfury followers|-E|K" -CT "QSC:I carried out Ulgaf's second plan focusing on the Swordfury cyclops clan found in Sandstone Delta"
+-105.82 70.83 -389.84
+-101.88 70.71 -392.50
+-56.28 70.71 -413.14
+-10.47 70.71 -433.22
+37.06 77.89 -447.41
+73.84 77.89 -458.39
+73.66 112.88 -494.26
+69.28 112.88 -544.20
+65.88 112.88 -582.81
+19.30 112.88 -564.03
+-30.71 112.88 -565.31
+-80.47 112.88 -571.56
+-126.79 112.88 -552.17
+-129.98 112.88 -502.08
+-96.73 112.88 -464.53
+-102.61 113.94 -387.33
+-141.97 73.00 -356.28
+-180.50 73.00 -324.14
+-213.26 51.73 -292.42
+-244.36 25.26 -263.55
+Custom
+FlyDown
+-254.56 21.37 -256.73
+Custom
+HailActor "Ulgaf" 2
+-254.54 16.70 -256.71
