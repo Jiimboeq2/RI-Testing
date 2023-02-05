@@ -246,3 +246,21 @@ FlyDown 2
 Custom
 ClickActor poi_dizolydia_music_box
 -25.30 143.36 -669.12
+Custom
+CheckQuest -NotActive "Sandstone Delta: The Dizolydia Music Box" 2
+0 0 0
+Custom
+CheckQuest -NotActive "Sandstone Delta: The Falydia Music Box" 2
+0 0 0
+Custom
+CheckQuest -NotActive "Sandstone Delta: The Gezolydia Music Box" 2
+0 0 0
+Custom
+CheckQuest -NotActive "Sandstone Delta: The Hypodoria Music Box" 2
+0 0 0
+Custom
+CheckQuest -NotActive "Sandstone Delta: The Mezolydia Music Box" 2
+0 0 0
+Custom
+CheckQuest -NotActive "Sandstone Delta: The Selydia Music Box" 2
+0 0 0

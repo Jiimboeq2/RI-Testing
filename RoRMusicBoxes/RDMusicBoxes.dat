@@ -163,13 +163,13 @@ CheckActiveQuest "Raj'Dur Plateaus: The Lydia Music Box" 207 FALSE
 198.64 120 457.57
 119.18 120 421.20
 136.22 134.28 372.95
-171.49 125.96 284.49
+93.99 84.14 286.98
 Custom
 FlyDown 2
-164.67 120 288.96
+93.99 53.01 286.98
 Custom
 ClickActor poi_lydia_music_box
-164.67 93.87 288.96
+93.99 53.01 286.98
 78.09 129.61 291.92
 123.17 129.83 225.87
 176.76 130.11 144.01
@@ -298,3 +298,21 @@ ClickActor poi_dedoria_music_box
 154.17 126.93 100.81
 48.82 126.93 132.48
 -31.23 126.93 217.64
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Ardoria Music Box" 5
+0 0 0
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Dedoria Music Box" 5
+0 0 0
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Doria Music Box" 5
+0 0 0
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Eafrygia Music Box" 5
+0 0 0
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Frygia Music Box" 5
+0 0 0
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Lydia Music Box" 5
+0 0 0
