@@ -36,7 +36,7 @@ Path -PL 11 -L -R -QA "-QD|100|-A|arachnid sandstalker|-T|QSC:I should slay|-E|K
 296.27 98.87 371.67
 253.60 102.27 356.01
 Custom 
-ExamineItem "Selydia Key Clue" 1
+ExamineItem "Selydia Key Clue" 1 1 1
 0 0 0
 Custom
 CheckQuest -NotActive "The Selydia Music Box Key" 12
@@ -93,7 +93,7 @@ Path -PL 10 -L -R -QA "-QD|100|-A|vengeful ekimmu|-T|QSC:I should slay|-E|K" -CT
 498.24 49.47 -182.65
 521.30 51.19 -213.38
 Custom 
-ExamineItem "Hypodoria Key Clue" 1
+ExamineItem "Hypodoria Key Clue" 1 1 1 1
 0 0 0
 Custom
 CheckQuest -NotActive "The Hypodoria Music Box Key" 70
@@ -138,7 +138,7 @@ Custom
 SetActiveQuest "Sandstone Delta: Gezolydia Music Box"
 440.57 135.61 -134.30
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|highland charger|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 20 -L -R -QA "-QD|100|-A|highland charger|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 166.71 130.11 -32.03
 176.38 139.30 -87.32
 149.12 140.06 -116.73
@@ -161,7 +161,7 @@ Path -PL 10 -L -R -QA "-QD|100|-A|highland charger|-T|QSC:I should slay|-E|K" -C
 -2.74 71.93 -38.84
 45.37 85.35 -32.11
 Custom 
-ExamineItem "Gezolydia Key Clue" 1
+ExamineItem "Gezolydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 CheckQuest -NotActive "The Gezolydia Music Box Key" 128
@@ -170,7 +170,7 @@ Custom
 SetActiveQuest "The Gezolydia Music Box Key"
 0 0 0
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|highland charger|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 20 -L -R -QA "-QD|100|-A|highland charger|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 166.71 130.11 -32.03
 176.38 139.30 -87.32
 149.12 140.06 -116.73
@@ -218,7 +218,7 @@ Custom
 SetActiveQuest "Sandstone Delta: Mezolydia Music Box"
 58.71 40.55 89.28
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 23 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 27.98 32.81 33.04
 33.35 30.65 -19.58
 59.24 28.83 -59.32
@@ -244,7 +244,7 @@ Path -PL 10 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -C
 -72.85 37.78 85.93
 -36.73 36.12 104.77
 Custom 
-ExamineItem "Mezolydia Key Clue" 1
+ExamineItem "Mezolydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 CheckQuest -NotActive "The Mezolydia Music Box Key" 208
@@ -253,7 +253,7 @@ Custom
 SetActiveQuest "The Mezolydia Music Box Key"
 0 0 0
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 23 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 27.98 32.81 33.04
 33.35 30.65 -19.58
 59.24 28.83 -59.32
@@ -291,7 +291,7 @@ Custom
 SetActiveQuest "Sandstone Delta: Falydia Music Box"
 440.57 135.61 -134.30
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|cacti abhorrence|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 31 -L -R -QA "-QD|100|-A|cacti abhorrence|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 112.54 17.68 195.43
 23.83 4.37 202.06
 33.24 8.75 227.93
@@ -325,7 +325,7 @@ Path -PL 10 -L -R -QA "-QD|100|-A|cacti abhorrence|-T|QSC:I should slay|-E|K" -C
 -88.60 11.05 102.06
 -36.62 7.92 110.14
 Custom 
-ExamineItem "Falydia Key Clue" 1
+ExamineItem "Falydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 CheckQuest -NotActive "The Falydia Music Box Key" 281
@@ -334,7 +334,7 @@ Custom
 SetActiveQuest "The Falydia Music Box Key"
 0 0 0
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|cacti abhorrence|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 31 -L -R -QA "-QD|100|-A|cacti abhorrence|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 -18.96 14.06 275.38
 -63.85 -0.70 288.68
 -98.47 -6.96 282.12
@@ -390,7 +390,7 @@ Custom
 SetActiveQuest "Sandstone Delta: Dizolydia Music Box"
 -211.72 -62.53 801.43
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|bluefin manta|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 24 -L -R -QA "-QD|100|-A|bluefin manta|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 -195.64 -62.82 828.91
 -161.44 -62.78 889.45
 -122.34 -62.78 914.90
@@ -417,7 +417,7 @@ Path -PL 10 -L -R -QA "-QD|100|-A|bluefin manta|-T|QSC:I should slay|-E|K" -CT "
 -277.05 -62.79 877.42
 -241.12 -62.68 868.07
 Custom 
-ExamineItem "Dizolydia Key Clue" 1
+ExamineItem "Dizolydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 CheckQuest -NotActive "The Dizolydia Music Box Key" 380

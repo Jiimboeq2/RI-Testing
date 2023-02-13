@@ -1,4 +1,4 @@
-RI_Runinstances Quest-TBMusicBoxes
+RI_Runinstances Quest-TBMusicBoxPart1
 Custom
 CheckAndSet -InZone "Takish Badlands" 9
 0 0 0
