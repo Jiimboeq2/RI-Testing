@@ -10,13 +10,13 @@ FastTravel "Raj'Dur Plateaus"
 160.74 112.37 303.81
 175.59 111.30 279.47
 Custom
-CheckCompletedQuest "The Selydia Music Box Key" 61
+CheckCompletedQuest "The Selydia Music Box Key" 64
 175.59 111.30 279.47
 Custom
-CheckQuestStep "Sandstone Delta: Selydia Music Box" "I should return" 61
+CheckQuestStep "Sandstone Delta: Selydia Music Box" "I should return" 64
 175.59 111.30 279.47
 Custom
-CheckQuest -NotActive "Sandstone Delta: Selydia Music Box" 61
+CheckQuest -NotActive "Sandstone Delta: Selydia Music Box" 64
 175.59 111.30 279.47
 Custom
 SetActiveQuest "Sandstone Delta: Selydia Music Box"
@@ -38,11 +38,14 @@ Path -PL 11 -L -R -QA "-QD|100|-A|arachnid sandstalker|-T|QSC:I should slay|-E|K
 Custom 
 ExamineItem "Selydia Key Clue" 1 1 1
 0 0 0
-Custom
-CheckQuest -NotActive "The Selydia Music Box Key" 12
+Custom 
+ExamineItem "Selydia Key Clue" 1 1 1
 0 0 0
 Custom
 SetActiveQuest "The Selydia Music Box Key"
+0 0 0
+Custom
+CheckQuest -NotActive "The Selydia Music Box Key" 12
 0 0 0
 Custom
 Path -PL 11 -L -R -QA "-QD|100|-A|arachnid sandstalker|-T|QSC:I should slay some more|-E|K" -CT "QSC:I have found the correct key"
@@ -68,13 +71,13 @@ Path
 406.01 133.98 -74.43
 440.57 135.61 -134.30
 Custom
-CheckCompletedQuest "The Hypodoria Music Box Key" 117
+CheckCompletedQuest "The Hypodoria Music Box Key" 123
 440.57 135.61 -134.30
 Custom
-CheckQuestStep "Sandstone Delta: Hypodoria Music Box" "I should return" 117
+CheckQuestStep "Sandstone Delta: Hypodoria Music Box" "I should return" 123
 440.57 135.61 -134.30
 Custom
-CheckQuest -NotActive "Sandstone Delta: Hypodoria Music Box" 117
+CheckQuest -NotActive "Sandstone Delta: Hypodoria Music Box" 123
 440.57 135.61 -134.30
 Custom
 SetActiveQuest "Sandstone Delta: Hypodoria Music Box"
@@ -95,11 +98,14 @@ Path -PL 10 -L -R -QA "-QD|100|-A|vengeful ekimmu|-T|QSC:I should slay|-E|K" -CT
 Custom 
 ExamineItem "Hypodoria Key Clue" 1 1 1 1
 0 0 0
-Custom
-CheckQuest -NotActive "The Hypodoria Music Box Key" 70
+Custom 
+ExamineItem "Hypodoria Key Clue" 1 1 1 1
 0 0 0
 Custom
 SetActiveQuest "The Hypodoria Music Box Key"
+0 0 0
+Custom
+CheckQuest -NotActive "The Hypodoria Music Box Key" 73
 0 0 0
 Custom
 Path -PL 10 -L -R -QA "-QD|100|-A|vengeful ekimmu|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
@@ -126,13 +132,13 @@ Path
 224.85 175.34 -0.13
 166.71 130.11 -32.03
 Custom
-CheckCompletedQuest "The Gezolydia Music Box Key" 195
+CheckCompletedQuest "The Gezolydia Music Box Key" 204
 440.57 135.61 -134.30
 Custom
-CheckQuestStep "Sandstone Delta: Gezolydia Music Box" "I should return" 195
+CheckQuestStep "Sandstone Delta: Gezolydia Music Box" "I should return" 204
 440.57 135.61 -134.30
 Custom
-CheckQuest -NotActive "Sandstone Delta: Gezolydia Music Box" 195
+CheckQuest -NotActive "Sandstone Delta: Gezolydia Music Box" 204
 440.57 135.61 -134.30
 Custom
 SetActiveQuest "Sandstone Delta: Gezolydia Music Box"
@@ -163,11 +169,14 @@ Path -PL 20 -L -R -QA "-QD|100|-A|highland charger|-T|QSC:I should slay|-E|K" -C
 Custom 
 ExamineItem "Gezolydia Key Clue" 1 1 1 1
 0 0 0
-Custom
-CheckQuest -NotActive "The Gezolydia Music Box Key" 128
+Custom 
+ExamineItem "Gezolydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 SetActiveQuest "The Gezolydia Music Box Key"
+0 0 0
+Custom
+CheckQuest -NotActive "The Gezolydia Music Box Key" 134
 0 0 0
 Custom
 Path -PL 20 -L -R -QA "-QD|100|-A|highland charger|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
@@ -206,13 +215,13 @@ Path
 174.76 14.48 174.58
 141.32 18.53 174.41
 Custom
-CheckCompletedQuest "The Mezolydia Music Box Key" 281
+CheckCompletedQuest "The Mezolydia Music Box Key" 293
 58.71 40.55 89.28
 Custom
-CheckQuestStep "Sandstone Delta: Mezolydia Music Box" "I should return" 281
+CheckQuestStep "Sandstone Delta: Mezolydia Music Box" "I should return" 293
 58.71 40.55 89.28
 Custom
-CheckQuest -NotActive "Sandstone Delta: Mezolydia Music Box" 281
+CheckQuest -NotActive "Sandstone Delta: Mezolydia Music Box" 293
 58.71 40.55 89.28
 Custom
 SetActiveQuest "Sandstone Delta: Mezolydia Music Box"
@@ -246,11 +255,14 @@ Path -PL 23 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -C
 Custom 
 ExamineItem "Mezolydia Key Clue" 1 1 1 1
 0 0 0
-Custom
-CheckQuest -NotActive "The Mezolydia Music Box Key" 208
+Custom 
+ExamineItem "Mezolydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 SetActiveQuest "The Mezolydia Music Box Key"
+0 0 0
+Custom
+CheckQuest -NotActive "The Mezolydia Music Box Key" 217
 0 0 0
 Custom
 Path -PL 23 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
@@ -279,13 +291,13 @@ Path -PL 23 -L -R -QA "-QD|100|-A|prickly armapine|-T|QSC:I should slay|-E|K" -C
 -72.85 37.78 85.93
 -36.73 36.12 104.77
 Custom
-CheckCompletedQuest "The Falydia Music Box Key" 366
+CheckCompletedQuest "The Falydia Music Box Key" 381
 440.57 135.61 -134.30
 Custom
-CheckQuestStep "Sandstone Delta: Falydia Music Box" "I should return" 366
+CheckQuestStep "Sandstone Delta: Falydia Music Box" "I should return" 381
 440.57 135.61 -134.30
 Custom
-CheckQuest -NotActive "Sandstone Delta: Falydia Music Box" 366
+CheckQuest -NotActive "Sandstone Delta: Falydia Music Box" 381
 440.57 135.61 -134.30
 Custom
 SetActiveQuest "Sandstone Delta: Falydia Music Box"
@@ -327,11 +339,14 @@ Path -PL 31 -L -R -QA "-QD|100|-A|cacti abhorrence|-T|QSC:I should slay|-E|K" -C
 Custom 
 ExamineItem "Falydia Key Clue" 1 1 1 1
 0 0 0
-Custom
-CheckQuest -NotActive "The Falydia Music Box Key" 281
+Custom 
+ExamineItem "Falydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 SetActiveQuest "The Falydia Music Box Key"
+0 0 0
+Custom
+CheckQuest -NotActive "The Falydia Music Box Key" 293
 0 0 0
 Custom
 Path -PL 31 -L -R -QA "-QD|100|-A|cacti abhorrence|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
@@ -378,13 +393,13 @@ Path
 -211.03 1.18 794.43
 -211.72 -62.53 801.43
 Custom
-CheckCompletedQuest "The Dizolydia Music Box Key" 454
+CheckCompletedQuest "The Dizolydia Music Box Key" 472
 -211.72 -62.53 801.43
 Custom
-CheckQuestStep "Sandstone Delta: Dizolydia Music Box" "I should return" 454
+CheckQuestStep "Sandstone Delta: Dizolydia Music Box" "I should return" 472
 -211.72 -62.53 801.43
 Custom
-CheckQuest -NotActive "Sandstone Delta: Dizolydia Music Box" 454
+CheckQuest -NotActive "Sandstone Delta: Dizolydia Music Box" 472
 -211.72 -62.53 801.43
 Custom
 SetActiveQuest "Sandstone Delta: Dizolydia Music Box"
@@ -419,11 +434,14 @@ Path -PL 24 -L -R -QA "-QD|100|-A|bluefin manta|-T|QSC:I should slay|-E|K" -CT "
 Custom 
 ExamineItem "Dizolydia Key Clue" 1 1 1 1
 0 0 0
-Custom
-CheckQuest -NotActive "The Dizolydia Music Box Key" 380
+Custom 
+ExamineItem "Dizolydia Key Clue" 1 1 1 1
 0 0 0
 Custom
 SetActiveQuest "The Dizolydia Music Box Key"
+0 0 0
+Custom
+CheckQuest -NotActive "The Dizolydia Music Box Key" 395
 0 0 0
 Custom
 Path -PL 24 -L -R -QA "-QD|100|-A|bluefin manta|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
