@@ -1,4 +1,4 @@
-RI_Runinstances Quest-TBMusicBoxes
+RI_Runinstances Quest-TBMusicBoxPart2
 Custom
 CheckAndSet -InZone "Takish Badlands" 22
 0 0 0
@@ -20,7 +20,10 @@ FastTravel "Takish Badlands"
 474.67 354.46 -282.51
 485.57 353.47 -347.51
 Custom
-CheckQuest -NotActive "Takish Badlands: The Fypodoria Music Box" 47
+CheckQuest -NotActive "Takish Badlands: The Fypodoria Music Box" 50
+543.93 200.89 -365.90
+Custom
+SetActiveQuest "Takish Badlands: The Fypodoria Music Box"
 543.93 200.89 -365.90
 Custom
 Path -PL 32 -L -R -QA "-QD|100|-A|a vicious leafcutter|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -62,7 +65,10 @@ Path
 668.42 71.00 -259.23
 574.02 66.91 -221.27
 Custom
-CheckQuest -NotActive "Takish Badlands: The Hypofrygia Music Box" 74
+CheckQuest -NotActive "Takish Badlands: The Hypofrygia Music Box" 80
+543.93 200.89 -365.90
+Custom
+SetActiveQuest "Takish Badlands: The Hypofrygia Music Box"
 543.93 200.89 -365.90
 Custom
 Path -PL 17 -L -R -QA "-QD|100|-A|floralhide gnawer|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -94,7 +100,10 @@ Path
 198.51 183.58 -26.56
 119.71 193.71 -110.14
 Custom
-CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 101
+CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 110
+84.42 199.14 -160.75
+Custom
+SetActiveQuest "Takish Badlands: The Fypolydia Music Box"
 84.42 199.14 -160.75
 Custom
 Path -PL 22 -L -R -QA "-QD|100|-A|a verdant bullfrog|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -120,7 +129,10 @@ Path
 113.93 168.43 -583.91
 97.41 175.22 -638.12
 Custom
-CheckQuest -NotActive "Takish Badlands: The Hypolydia Music Box" 128
+CheckQuest -NotActive "Takish Badlands: The Hypolydia Music Box" 153
+84.42 199.14 -160.75
+Custom
+SetActiveQuest "Takish Badlands: The Hypolydia Music Box"
 84.42 199.14 -160.75
 Custom
 Path -PL 13 -L -R -QA "-QD|100|-A|a cursed Elddar|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -148,7 +160,10 @@ Path
 -306.32 194.69 -575.92
 -352.04 198.38 -617.22
 Custom
-CheckQuest -NotActive "Takish Badlands: The Gepofrygia Music Box" 158
+CheckQuest -NotActive "Takish Badlands: The Gepofrygia Music Box" 186
+-362.97 200.03 -643.23
+Custom
+SetActiveQuest "Takish Badlands: The Gepofrygia Music Box"
 -362.97 200.03 -643.23
 Custom
 Path -PL 15 -L -R -QA "-QD|100|-A|a malignant fulgurite|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -178,7 +193,10 @@ Path
 -644.57 213.52 52.17 149.85
 -684.49 230.48 120.89 149.85
 Custom
-CheckQuest -NotActive "Takish Badlands: The Epofrygia Music Box" 195
+CheckQuest -NotActive "Takish Badlands: The Epofrygia Music Box" 226
+-666.27 212.48 160.64
+Custom
+SetActiveQuest "Takish Badlands: The Epofrygia Music Box"
 -666.27 212.48 160.64
 Custom
 Path -PL 23 -L -R -QA "-QD|100|-A|a dustwing ravager|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"

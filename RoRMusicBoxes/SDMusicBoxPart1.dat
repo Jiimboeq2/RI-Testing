@@ -1,4 +1,4 @@
-RI_Runinstances Quest-DeltaMusicBoxes
+RI_Runinstances Quest-DeltaMusicBoxPart1
 Custom
 UseItem "Call of the Delta"
 0 0 0
@@ -7,7 +7,7 @@ BuyFromVendor "Tarkin" "Call of the Delta" 1
 749.95 115.88 -453.07
 740.46 116.15 -450.09
 Custom
-CheckActiveQuest "Sandstone Delta: The Falydia Music Box" 23 FALSE
+CheckActiveQuest "Sandstone Delta: Falydia Music Box" 23 FALSE
 740.46 166.29 -450.09
 734.78 217.33 -366.62
 787.58 213.41 -256.21
@@ -21,7 +21,7 @@ ClickActor poi_falydia_music_box
 733.40 226.38 -373.36
 714.06 249.67 -485.15
 Custom
-CheckActiveQuest "Sandstone Delta: The Falydia Music Box" 36 FALSE
+CheckActiveQuest "Sandstone Delta: Falydia Music Box" 36 FALSE
 746.52 253.98 -541.50
 799.98 230.61 -575.26
 Custom
@@ -34,7 +34,7 @@ ClickActor poi_falydia_music_box
 413.02 209.86 -547.07
 324.98 238.66 -567.80
 Custom
-CheckActiveQuest "Sandstone Delta: The Falydia Music Box" 52 FALSE
+CheckActiveQuest "Sandstone Delta: Falydia Music Box" 52 FALSE
 229.85 258.20 -579.01
 148.83 250.53 -616.00
 128.21 245.17 -673.92
@@ -49,7 +49,7 @@ ClickActor poi_falydia_music_box
 205.47 193.32 -594.72
 276.80 200.25 -562.13
 Custom
-CheckActiveQuest "Sandstone Delta: The Mezolydia Music Box" 63 FALSE
+CheckActiveQuest "Sandstone Delta: Mezolydia Music Box" 63 FALSE
 304.72 203.17 -578.36
 Custom
 FlyDown 2
@@ -63,7 +63,7 @@ ClickActor poi_mezolydia_music_box
 548.44 166.52 -361.41
 643.21 154.14 -295.68
 Custom
-CheckActiveQuest "Sandstone Delta: The Mezolydia Music Box" 76 FALSE
+CheckActiveQuest "Sandstone Delta: Mezolydia Music Box" 76 FALSE
 712.67 153.74 -237.88
 Custom
 FlyDown 2
@@ -77,7 +77,7 @@ ClickActor poi_mezolydia_music_box
 771.55 244.73 75.07
 728.21 223.83 120.93
 Custom
-CheckActiveQuest "Sandstone Delta: The Mezolydia Music Box" 92 FALSE
+CheckActiveQuest "Sandstone Delta: Mezolydia Music Box" 92 FALSE
 754.48 193.65 205.33
 782.73 170.81 254.99
 821.26 151.58 282.82
@@ -94,7 +94,7 @@ ClickActor poi_mezolydia_music_box
 351.50 186.74 119.02
 276.19 206.01 95.49
 Custom
-CheckActiveQuest "Sandstone Delta: The Hypodoria Music Box" 107 FALSE
+CheckActiveQuest "Sandstone Delta: Hypodoria Music Box" 107 FALSE
 276.19 206.01 95.49
 Custom
 FlyDown 2
@@ -109,7 +109,7 @@ ClickActor poi_hypodoria_music_box
 -6.92 198.56 204.73
 -104.82 198.56 242.07
 Custom
-CheckActiveQuest "Sandstone Delta: The Hypodoria Music Box" 120 FALSE
+CheckActiveQuest "Sandstone Delta: Hypodoria Music Box" 120 FALSE
 -68.67 202.29 272.59
 Custom
 FlyDown 2
@@ -118,7 +118,7 @@ Custom
 ClickActor poi_hypodoria_music_box
 -65.87 146.35 272.07
 Custom
-CheckActiveQuest "Sandstone Delta: The Selydia Music Box" 136 FALSE
+CheckActiveQuest "Sandstone Delta: Selydia Music Box" 136 FALSE
 -65.31 189.73 273.37
 -20.53 199.00 362.12
 20.61 203.04 437.58
@@ -140,7 +140,7 @@ ClickActor poi_selydia_music_box
 -231.35 138.31 -238.84
 -222.98 147.06 -325.87
 Custom
-CheckActiveQuest "Sandstone Delta: The Selydia Music Box" 153 FALSE
+CheckActiveQuest "Sandstone Delta: Selydia Music Box" 153 FALSE
 -221.37 118.56 -328.06
 Custom
 FlyDown 2
@@ -152,7 +152,7 @@ ClickActor poi_selydia_music_box
 -95.26 93.62 -312.76
 -48.25 98.55 -318.24
 Custom
-CheckActiveQuest "Sandstone Delta: The Dizolydia Music Box" 165 FALSE
+CheckActiveQuest "Sandstone Delta: Dizolydia Music Box" 165 FALSE
 -45.75 97.02 -319.76
 Custom
 FlyDown 2
@@ -164,7 +164,7 @@ ClickActor poi_dizolydia_music_box
 6.78 82.86 -330.36
 82.74 69.51 -336.95
 Custom
-CheckActiveQuest "Sandstone Delta: The Hypodoria Music Box" 175 FALSE
+CheckActiveQuest "Sandstone Delta: Hypodoria Music Box" 175 FALSE
 82.74 69.51 -336.95
 Custom
 FlyDown 2
@@ -176,7 +176,7 @@ ClickActor poi_hypodoria_music_box
 14.26 105.69 -421.63
 14.26 105.69 -421.63
 Custom
-CheckActiveQuest "Sandstone Delta: The Dizolydia Music Box" 187 FALSE
+CheckActiveQuest "Sandstone Delta: Dizolydia Music Box" 187 FALSE
 -15.16 114.82 -490.06
 Custom
 FlyDown 2
@@ -188,7 +188,7 @@ ClickActor poi_dizolydia_music_box
 -59.56 121.54 -514.84
 -86.40 125.18 -537.39
 Custom
-CheckActiveQuest "Sandstone Delta: The Gezolydia Music Box" 199 FALSE
+CheckActiveQuest "Sandstone Delta: Gezolydia Music Box" 199 FALSE
 -86.34 140.61 -537.41
 Custom
 FlyDown 2
@@ -198,7 +198,7 @@ ClickActor poi_gezolydia_music_box
 -82.30 114.51 -542.42
 -84.44 152.55 -540.93
 Custom
-CheckActiveQuest "Sandstone Delta: The Gezolydia Music Box" 211 FALSE
+CheckActiveQuest "Sandstone Delta: Gezolydia Music Box" 211 FALSE
 -154.96 140.41 -543.79
 -192.09 134.08 -544.87
 -237.44 126.15 -539.66
@@ -212,7 +212,7 @@ ClickActor poi_gezolydia_music_box
 -157.99 176.14 -550.72
 -117.76 156.04 -562.53
 Custom
-CheckActiveQuest "Sandstone Delta: The Selydia Music Box" 225 FALSE
+CheckActiveQuest "Sandstone Delta: Selydia Music Box" 225 FALSE
 -152.72 153.13 -600.62
 -190.65 163.38 -655.76
 -224.20 182.70 -700.35
@@ -226,7 +226,7 @@ ClickActor poi_selydia_music_box
 -125.96 236.95 -620.31
 -108.05 232.79 -644.67
 Custom
-CheckActiveQuest "Sandstone Delta: The Gezolydia Music Box" 237 FALSE
+CheckActiveQuest "Sandstone Delta: Gezolydia Music Box" 237 FALSE
 -94.80 219.39 -681.41
 Custom
 FlyDown 2
@@ -238,7 +238,7 @@ ClickActor poi_gezolydia_music_box
 -61.18 219.83 -675.55
 -25.80 223.98 -664.88
 Custom
-CheckActiveQuest "Sandstone Delta: The Dizolydia Music Box" 248 FALSE
+CheckActiveQuest "Sandstone Delta: Dizolydia Music Box" 248 FALSE
 -25.80 223.98 -664.88
 Custom
 FlyDown 2
@@ -247,20 +247,20 @@ Custom
 ClickActor poi_dizolydia_music_box
 -25.30 143.36 -669.12
 Custom
-CheckQuest -NotActive "Sandstone Delta: The Dizolydia Music Box" 2
+CheckQuest -NotActive "Sandstone Delta: Dizolydia Music Box" 2
 0 0 0
 Custom
-CheckQuest -NotActive "Sandstone Delta: The Falydia Music Box" 2
+CheckQuest -NotActive "Sandstone Delta: Falydia Music Box" 2
 0 0 0
 Custom
-CheckQuest -NotActive "Sandstone Delta: The Gezolydia Music Box" 2
+CheckQuest -NotActive "Sandstone Delta: Gezolydia Music Box" 2
 0 0 0
 Custom
-CheckQuest -NotActive "Sandstone Delta: The Hypodoria Music Box" 2
+CheckQuest -NotActive "Sandstone Delta: Hypodoria Music Box" 2
 0 0 0
 Custom
-CheckQuest -NotActive "Sandstone Delta: The Mezolydia Music Box" 2
+CheckQuest -NotActive "Sandstone Delta: Mezolydia Music Box" 2
 0 0 0
 Custom
-CheckQuest -NotActive "Sandstone Delta: The Selydia Music Box" 2
+CheckQuest -NotActive "Sandstone Delta: Selydia Music Box" 2
 0 0 0

@@ -9,10 +9,13 @@ FastTravel "Raj'Dur Plateaus"
 198.64 59 457.57
 198.64 120 457.57
 Custom
-CheckQuest -NotActive "Raj'Dur Plateaus: The Dedoria Music Box" 44
+CheckQuest -NotActive "Raj'Dur Plateaus: The Dedoria Music Box" 46
 350.75 46.62 487.72
 Custom
-Path -PL 25 -L -R -QA "-QD|100|-A|sand snapper|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
+SetActiveQuest "Raj'Dur Plateaus: The Dedoria Music Box" 
+350.75 46.62 487.72
+Custom
+Path -PL 25 -L -R -QA "-QD|100|-A|a dryland corpsebeak|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
 255.85 62.79 450.74
 350.75 46.62 487.72
 310.73 32.47 510.00
@@ -41,10 +44,13 @@ Path -PL 25 -L -R -QA "-QD|100|-A|sand snapper|-T|QSC:I should search for clues 
 157.26 114.23 322.91
 199.93 67.51 398.51
 Custom
-CheckQuest -NotActive "Raj'Dur Plateaus: The Ardoria Music Box" 95
+CheckQuest -NotActive "Raj'Dur Plateaus: The Ardoria Music Box" 93
 199.93 67.51 398.51
 Custom
-Path -PL 38 -L -R -QA "-QD|100|-A|a dryland corpsebeak|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
+SetActiveQuest "Raj'Dur Plateaus: The Ardoria Music Box" 
+199.93 67.51 398.51
+Custom
+Path -PL 38 -L -R -QA "-QD|100|-A|sand snapper|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
 292.53 35.86 427.65
 397.92 11.75 442.88
 477.39 1.28 451.41
@@ -92,7 +98,10 @@ Path
 302.07 73.70 47.76
 226.53 6.11 67.18
 Custom
-CheckQuest -NotActive "Raj'Dur Plateaus: The Doria Music Box" 131
+CheckQuest -NotActive "Raj'Dur Plateaus: The Doria Music Box" 130
+226.53 6.11 67.18
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Doria Music Box" 
 226.53 6.11 67.18
 Custom
 Path -PL 21 -L -R -QA "-QD|100|-A|a desert coyote|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -128,7 +137,10 @@ Path
 -204.62 167.74 -232.98
 -229.56 171.47 -304.72
 Custom
-CheckQuest -NotActive "Raj'Dur Plateaus: The Lydia Music Box" 170
+CheckQuest -NotActive "Raj'Dur Plateaus: The Lydia Music Box" 169
+-162.06 139.84 -289.57
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Lydia Music Box"
 -162.06 139.84 -289.57
 Custom
 Path -PL 33 -L -R -QA "-A|an enchanted entrapper|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -167,7 +179,10 @@ Path -PL 33 -L -R -QA "-A|an enchanted entrapper|-T|QSC:I should search for clue
 -280.65 117.84 -121.18
 -256.05 117.35 -134.34
 Custom
-CheckQuest -NotActive "Raj'Dur Plateaus: The Eafrygia Music Box" 195
+CheckQuest -NotActive "Raj'Dur Plateaus: The Eafrygia Music Box" 210
+-162.06 139.84 -289.57
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Eafrygia Music Box" 
 -162.06 139.84 -289.57
 Custom
 Path -PL 17 -L -R -QA "-A|Raj'Dur|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
@@ -194,10 +209,16 @@ Path -PL 17 -L -R -QA "-A|Raj'Dur|-T|QSC:I should search for clues to the wherea
 -183.92 169.79 -306.88
 Custom 
 Path 
+-180.04 133.54 -287.94
+-131.86 129.43 -280.98
 -138.52 134.68 -316.54
 Custom
-CheckQuest -NotActive "Raj'Dur Plateaus: The Frygia Music Box" 225
+CheckQuest -NotActive "Raj'Dur Plateaus: The Frygia Music Box" 242
 -110.70 38.77 -306.54
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Frygia Music Box" 
+-110.70 38.77 -306.54
+-100.08 58.36 -277.53
 Custom
 Path -PL 21 -L -R -QA "-A|a vicious snapjaw|-T|QSC:I should search for clues to the whereabouts of the key|-E|K" -CT "QSC:I did not find the key"
 -85.90 0.19 -305.65
@@ -222,6 +243,3 @@ Path -PL 21 -L -R -QA "-A|a vicious snapjaw|-T|QSC:I should search for clues to 
 -14.24 2.42 -202.35
 -59.03 2.36 -224.25
 -63.52 6.80 -199.86
-Custom
-FastTravel "Takish Badlands"
-237.17 48.13 1181.16
