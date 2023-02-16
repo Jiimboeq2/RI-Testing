@@ -1,0 +1,13 @@
+Sealed with a Curse
+Custom
+HailActorGetQuest -Actor "Shawah"
+-534 10 420
+Custom
+ClickActor "Takish'Hiz Sigil Plate"
+-551.83 11.46 429.06
+Custom
+ZoneDoor zone_portal_to_takish_dungeons "Buried Takish'Hiz: Foundation of Knowledge [Solo]"
+-551.83 11.46 429.06
+Custom
+Instance
+0 0 0
