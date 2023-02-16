@@ -1,0 +1,249 @@
+Kulaidi Coyote Deterrent
+Custom
+Path 
+187.50 -59.94 460.68
+187.50 -20.35 460.68
+187.50 66.65 460.68
+187.50 134.36 460.68
+219.51 131.64 384.28
+277.55 125.69 244.97
+322.42 121.23 141.06
+325.76 66.91 133.73
+323.85 8.82 138.13
+Custom
+HailActorGetQuest -Actor "Dulamah" 6 1
+323.85 8.82 138.13
+297.52 8.82 133.15
+265.14 3.34 129.99
+265.11 3.23 133.44
+237.08 7.17 146.82
+205.90 12.16 159.74
+Custom
+PauseCombatBot 1
+205.90 12.16 159.74
+Custom
+Target "a cacti abhorrence"
+205.90 12.16 159.74
+Custom
+UseItem "Cacti Toxin Extractor"
+205.90 12.16 159.74
+Wait
+20
+205.90 12.16 159.74
+Custom
+PauseCombatBot 0
+205.90 12.16 159.74
+199.64 10.98 154.01
+172.88 2.00 121.80
+132.51 3.08 68.87
+Custom
+PauseCombatBot 1
+132.51 3.08 68.87
+Custom
+Target "a cacti abhorrence"
+132.51 3.08 68.87
+Custom
+UseItem "Cacti Toxin Extractor"
+132.51 3.08 68.87
+Wait
+20
+132.51 3.08 68.87
+Custom
+PauseCombatBot 0
+132.51 3.08 68.87
+118.65 2.87 71.90
+99.76 2.25 76.02
+82.80 2.44 79.73
+69.81 2.32 92.58
+62.09 1.80 103.45
+47.27 3.58 116.64
+34.16 5.66 125.61
+49.26 0.84 140.45
+63.30 2.21 154.24
+76.56 9.63 167.25
+Custom
+PauseCombatBot 1
+76.56 9.63 167.25
+Custom
+Target "a cacti abhorrence"
+76.56 9.63 167.25
+Custom
+UseItem "Cacti Toxin Extractor"
+76.56 9.63 167.25
+Wait
+20
+76.56 9.63 167.25
+Custom
+PauseCombatBot 0
+76.56 9.63 167.25
+59.24 5.72 173.53
+41.07 -1.20 181.35
+22.94 -0.85 190.35
+14.33 2.13 194.14
+7.48 4.10 196.92
+Custom
+PauseCombatBot 1
+7.48 4.10 196.92
+Custom
+Target "a cacti abhorrence"
+7.48 4.10 196.92
+Custom
+UseItem "Cacti Toxin Extractor"
+7.48 4.10 196.92
+Wait
+20
+7.48 4.10 196.92
+Custom
+PauseCombatBot 0
+7.48 4.10 196.92
+-5.07 2.78 187.58
+-30.97 -4.14 168.27
+-47.30 -0.61 153.28
+-60.06 2.46 140.29
+-71.88 2.21 129.46
+Custom
+PauseCombatBot 1
+-71.88 2.21 129.46
+Custom
+Target "a cacti abhorrence"
+-71.88 2.21 129.46
+Custom
+UseItem "Cacti Toxin Extractor"
+-71.88 2.21 129.46
+Wait
+20
+-71.88 2.21 129.46
+Custom
+PauseCombatBot 0
+-71.88 2.21 129.46
+-67.07 2.40 127.30
+-49.44 2.73 119.40
+-39.78 4.30 115.08
+Custom
+PauseCombatBot 1
+-39.78 4.30 115.08
+Custom
+Target "a cacti abhorrence"
+-39.78 4.30 115.08
+Custom
+UseItem "Cacti Toxin Extractor"
+-39.78 4.30 115.08
+Wait
+20
+-39.78 4.30 115.08
+Custom
+PauseCombatBot 0
+-39.78 4.30 115.08
+-53.70 3.76 114.29
+-80.44 2.08 112.77
+-103.95 0.96 123.32
+-121.99 -0.00 131.64
+-158.55 -2.61 146.53
+Custom
+PauseCombatBot 1
+-158.55 -2.61 146.53
+Custom
+Target "a cacti abhorrence"
+-158.55 -2.61 146.53
+Custom
+UseItem "Cacti Toxin Extractor"
+-158.55 -2.61 146.53
+Wait
+20
+-158.55 -2.61 146.53
+Custom
+PauseCombatBot 0
+-158.55 -2.61 146.53
+-155.83 -6.95 163.42
+-150.42 -3.84 187.01
+-140.93 -0.11 212.59
+-127.19 0.90 218.49
+-108.98 -1.75 231.80
+-87.21 -6.31 246.24
+-57.89 -4.03 245.42
+-54.41 19.14 244.97
+-38.86 8.78 242.93
+Custom
+PauseCombatBot 1
+-38.86 8.78 242.93
+Custom
+Target "a cacti abhorrence"
+-38.86 8.78 242.93
+Custom
+UseItem "Cacti Toxin Extractor"
+-38.86 8.78 242.93
+Wait
+20
+-38.86 8.78 242.93
+Custom
+PauseCombatBot 0
+-38.86 8.78 242.93
+-33.66 9.16 247.13
+-23.94 13.01 255.00
+-16.78 14.01 264.89
+Custom
+PauseCombatBot 1
+-16.78 14.01 264.89
+Custom
+Target "a cacti abhorrence"
+-16.78 14.01 264.89
+Custom
+UseItem "Cacti Toxin Extractor"
+-16.78 14.01 264.89
+Wait
+20
+-16.78 14.01 264.89
+Custom
+PauseCombatBot 0
+-16.78 14.01 264.89
+Custom
+Path -PL 51 -L -R -QA "-A|coyote|-T|QSC:Hunt desert coyotes|-E|K" -CT "QSC:I was able to thin the coyote pack"
+-23.30 3.77 112.41
+-60.38 2.86 118.77
+-103.72 1.38 116.79
+-138.61 -2.94 147.04
+-169.29 -6.53 195.66
+-151.23 -2.62 225.42
+-154.28 -8.83 277.91
+-153.97 -15.44 335.35
+-180.16 -18.48 373.23
+-214.09 -20.00 416.83
+-208.15 -27.58 470.04
+-176.02 -23.41 511.19
+-147.10 -16.88 506.64
+-139.45 -3.57 474.96
+-130.76 -8.42 418.73
+-157.86 -14.08 381.30
+-73.73 -15.69 294.27
+-79.84 -7.59 215.59
+-115.75 2.54 201.82
+-74.19 -1.78 181.60
+-11.12 -1.89 173.23
+55.70 4.10 177.67
+108.69 17.12 194.87
+61.49 1.46 94.81
+180.02 12.83 171.96
+224.85 9.93 151.76
+268.77 3.41 133.03
+298.09 8.82 130.65
+326.88 8.82 142.81
+Custom
+FastTravel "Kunzar Jungle"
+0 0 0
+Custom
+FastTravel "Raj'Dur Plateaus"
+0 0 0
+Custom
+Path 
+187.50 -59.94 460.68
+187.50 -20.35 460.68
+187.50 66.65 460.68
+187.50 134.36 460.68
+219.51 131.64 384.28
+277.55 125.69 244.97
+322.42 121.23 141.06
+325.76 66.91 133.73
+323.85 8.82 138.13
+Custom
+HailActor "Dulamah" 6 1
+323.85 8.82 138.13
