@@ -1,6 +1,6 @@
 Alchemist's Curious Components
 Custom
-CheckAndSet -InZone "Sandstone Delta" 26
+CheckAndSet -InZone "Sandstone Delta" 25
 0 0 0
 Custom
 UseItem "Call of the Delta"
@@ -24,8 +24,8 @@ Path
 672.65 51.26 157.45
 675.16 51.26 168.63
 Custom
-HailActorGetQuest -Actor "Ozraa" 3 1
-675.16 51.26 168.63
+HailActorGetQuest -Actor "Ozraa" 4 1
+673.89 51.26 171.51
 660.61 51.25 161.22
 639.74 60.54 155.09
 615.47 78.39 147.96
@@ -59,10 +59,10 @@ HailActorGetQuest -Actor "Ozraa" 3 1
 374.32 142.25 -140.23
 404.66 137.82 -135.75
 413.05 138.99 -115.72
+Custom
+Path -PL 26 -L -R -QA "-QD|200|-A|Mysterious Rune Stone|-T|QSC:I have the rune stones|-E|H" -CT "QSC:I have the scales and rune stones"
 407.01 140.97 -91.71
 384.51 142.67 -70.27
-Custom 
-Path -PL 12 -L -R -QA "-QD|200|-A|spikebone lizard|-T|QSC:Hunt spikebone lizards|-E|K" -QA "-QD|200|-A|Mysterious Rune Stone|-T|QSC:Gather mysterious rune stones|-E|H" -CT "QSC:I have the scales and rune stones"
 379.66 141.88 -67.10
 379.66 157.47 -67.10
 379.66 177.06 -67.10
@@ -83,5 +83,28 @@ Path -PL 12 -L -R -QA "-QD|200|-A|spikebone lizard|-T|QSC:Hunt spikebone lizards
 663.72 51.26 170.09
 674.76 51.26 169.86
 Custom
-HailActor "Ozraa"
-675.16 51.26 168.63
+Path -PL 26 -L -R -QA "-QD|200|-A|spikebone lizard|-T|QSC:I have the scales|-E|K" -CT "QSC:I have the scales and rune stones"
+407.01 140.97 -91.71
+384.51 142.67 -70.27
+379.66 141.88 -67.10
+379.66 157.47 -67.10
+379.66 177.06 -67.10
+401.25 189.35 -56.98
+438.25 189.35 -39.66
+484.04 189.35 1.55
+505.75 189.35 26.82
+529.19 189.35 54.12
+552.60 189.35 81.38
+574.11 189.35 106.43
+593.05 189.35 121.46
+625.69 189.35 143.92
+656.40 189.35 165.06
+663.72 167.37 170.09
+663.72 134.68 170.09
+663.72 102.52 170.09
+663.72 67.73 170.09
+663.72 51.26 170.09
+674.76 51.26 169.86
+Custom
+HailActor "Ozraa" 6 1
+673.89 51.26 171.51
