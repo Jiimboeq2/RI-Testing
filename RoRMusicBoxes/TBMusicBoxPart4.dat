@@ -50,7 +50,7 @@ Custom
 ClickActor poi_gepofrygia_music_box
 -559.13 322.94 102.93
 Custom
-CheckQuest -NotActive "Takish Badlands: The Gepofrygia Music Box" 60 FALSE
+CheckQuest -NotActive "Takish Badlands: The Gepofrygia Music Box" 63 FALSE
 -576.15 310.18 85.36
 110.13 260.55 661.58
 9.24 298.34 593.65
@@ -61,7 +61,7 @@ CheckQuest -NotActive "Takish Badlands: The Gepofrygia Music Box" 60 FALSE
 -578.01 371.61 173.44
 -586.29 364.02 108.81
 Custom
-CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 87 FALSE
+CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 99 FALSE
 -556.16 375.70 105.21
 -449.69 365.81 122.29
 -335.72 354.33 140.41
@@ -72,7 +72,7 @@ Custom
 ClickActor poi_fypolydia_music_box
 -336.43 126.15 138.47
 Custom
-CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 87 FALSE
+CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 99 FALSE
 -336.65 143.05 115.72
 -254.91 174.25 36.86
 -182.96 193.34 -32.32
@@ -84,7 +84,7 @@ Custom
 ClickActor poi_fypolydia_music_box
 -100.97 183.48 -142.35
 Custom
-CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 87 FALSE
+CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 99 FALSE
 -98.42 242.77 -148.38
 -105.19 221.89 -252.06
 -117.07 212.05 -356.19

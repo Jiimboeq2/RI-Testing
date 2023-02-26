@@ -17,7 +17,7 @@ Custom
 CheckQuest -NotActive "Raj'Dur Plateaus: The Eafrygia Music Box" 88
 2.77 31.08 314.33
 Custom
-CheckQuestStep "Raj'Dur Plateaus: The Eafrygia Music Box" "I should return" 86
+CheckQuestStep "Raj'Dur Plateaus: The Eafrygia Music Box" "I should return" 88
 2.77 31.08 314.33
 Custom
 SetActiveQuest "Raj'Dur Plateaus: The Eafrygia Music Box"
