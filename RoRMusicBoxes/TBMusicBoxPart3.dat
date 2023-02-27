@@ -10,19 +10,19 @@ BuyFromVendor "Tarkin" "Call of the Delta" 1
 749.95 115.88 -453.07
 740.46 116.15 -450.09
 Custom
-CheckCompletedQuest "The Hypofrygia Music Box Key" 59
+CheckCompletedQuest "The Hypofrygia Music Box Key" 46
 738.99 116.12 -450.60
 Custom
-CheckQuestStep "Takish Badlands: The Hypofrygia Music Box" "I should return" 59
+CheckQuestStep "Takish Badlands: The Hypofrygia Music Box" "I should return" 46
 738.99 116.12 -450.60
 Custom
-CheckQuest -NotActive "Takish Badlands: The Hypofrygia Music Box" 59
+CheckQuest -NotActive "Takish Badlands: The Hypofrygia Music Box" 46
 738.99 116.12 -450.60
 Custom
 SetActiveQuest "Takish Badlands: The Hypofrygia Music Box"
 738.99 116.12 -450.60
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|garden pest|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 20 -L -R -QA "-QD|100|-A|garden pest|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 738.99 116.12 -450.60
 730.95 115.69 -443.60
 730.95 129.95 -443.60
@@ -38,43 +38,30 @@ Custom
 ExamineItem "Hypofrygia Key Clue" 1
 0 0 0
 Custom
-CheckQuest -NotActive "The Hypofrygia Music Box Key" 12
-0 0 0
-Custom
 SetActiveQuest "The Hypofrygia Music Box Key"
 0 0 0
 Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|garden pest|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
-738.99 116.12 -450.60
-730.95 115.69 -443.60
-730.95 129.95 -443.60
-739.59 126.32 -412.62
-695.98 130.76 -381.85
-664.97 135.15 -424.54
-707.58 139.25 -448.11
-702.77 141.15 -425.53
-697.77 142.38 -411.44
-686.09 143.77 -399.63
-719.96 147.25 -423.97
+CheckQuest -NotActive "The Hypofrygia Music Box Key" 12
+0 0 0
 Custom 
 Path 
 713.60 143.22 -395.07
 689.20 140.48 -350.62
 666.74 149.94 -328.23
 Custom
-CheckCompletedQuest "The Fypodoria Music Box Key" 119
+CheckCompletedQuest "The Fypodoria Music Box Key" 89
 666.74 149.94 -328.23
 Custom
-CheckQuestStep "Takish Badlands: The Fypodoria Music Box" "I should return" 119
+CheckQuestStep "Takish Badlands: The Fypodoria Music Box" "I should return" 89
 666.74 149.94 -328.23
 Custom
-CheckQuest -NotActive "Takish Badlands: The Fypodoria Music Box" 119
+CheckQuest -NotActive "Takish Badlands: The Fypodoria Music Box" 89
 666.74 149.94 -328.23
 Custom
 SetActiveQuest "Takish Badlands: The Fypodoria Music Box"
 666.74 149.94 -328.23
 Custom
-Path -PL 14 -L -R -QA "-QD|100|-A|savannah stalker|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 23 -L -R -QA "-QD|100|-A|savannah stalker|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 651.38 142.98 -306.67
 636.97 138.04 -272.49
 629.94 129.89 -226.85
@@ -94,28 +81,11 @@ Custom
 ExamineItem "Fypodoria Key Clue" 1
 0 0 0
 Custom
-CheckQuest -NotActive "The Fypodoria Music Box Key" 64
+SetActiveQuest "Takish Badlands: The Fypodoria Music Box"
 0 0 0
 Custom
-SetActiveQuest "The Fypodoria Music Box Key"
+CheckQuest -NotActive "The Fypodoria Music Box Key" 51
 0 0 0
-Custom
-Path -PL 14 -L -R -QA "-QD|100|-A|savannah stalker|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
-651.38 142.98 -306.67
-636.97 138.04 -272.49
-629.94 129.89 -226.85
-654.72 133.38 -226.35
-679.53 136.96 -252.12
-720.93 141.19 -293.72
-749.50 141.47 -325.08
-724.34 157.09 -309.03
-686.85 153.14 -272.40
-696.38 168.54 -227.98
-679.83 157.67 -170.98
-642.21 146.77 -124.29
-626.81 140.07 -87.74
-617.07 132.98 -47.34
-601.37 126.20 -11.64
 Custom 
 Path 
 601.40 142.34 -11.61
@@ -133,19 +103,19 @@ Path
 542.16 107.13 -689.81
 503.29 102.22 -690.25
 Custom
-CheckCompletedQuest "The Epofrygia Music Box Key" 206
+CheckCompletedQuest "The Epofrygia Music Box Key" 151
 503.29 102.22 -690.25
 Custom
-CheckQuestStep "Takish Badlands: The Epofrygia Music Box" "I should return" 206
+CheckQuestStep "Takish Badlands: The Epofrygia Music Box" "I should return" 151
 503.29 102.22 -690.25
 Custom
-CheckQuest -NotActive "Takish Badlands: The Epofrygia Music Box" 206
+CheckQuest -NotActive "Takish Badlands: The Epofrygia Music Box" 151
 503.29 102.22 -690.25
 Custom
 SetActiveQuest "Takish Badlands: The Epofrygia Music Box"
 503.29 102.22 -690.25
 Custom
-Path -PL 22 -L -R -QA "-A|Tsmang Blightswarm drone|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 31 -L -R -QA "-A|Tsmang Blightswarm|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 464.90 92.29 -693.00
 454.54 92.35 -710.39
 437.16 90.98 -713.17
@@ -173,36 +143,11 @@ Custom
 ExamineItem "Epofrygia Key Clue" 1
 0 0 0
 Custom
-CheckQuest -NotActive "The Epofrygia Music Box Key" 135
+SetActiveQuest "Takish Badlands: The Epofrygia Music Box"
 0 0 0
 Custom
-SetActiveQuest "The Epofrygia Music Box Key"
+CheckQuest -NotActive "The Epofrygia Music Box Key" 106
 0 0 0
-Custom
-Path -PL 22 -L -R -QA "-A|Tsmang Blightswarm drone|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
-464.90 92.29 -693.00
-454.54 92.35 -710.39
-437.16 90.98 -713.17
-415.67 91.70 -668.44
-392.45 92.29 -674.74
-350.82 93.92 -659.84
-329.07 94.97 -687.72
-359.02 92.05 -704.41
-356.25 92.83 -724.15
-356.82 92.60 -682.77
-364.14 93.92 -661.85
-397.41 91.54 -677.41
-430.87 92.11 -679.50
-432.99 90.86 -711.50
-429.83 91.82 -677.59
-394.43 91.77 -676.67
-357.52 94.01 -661.22
-337.12 93.74 -678.09
-312.46 96.38 -664.18
-291.30 93.72 -704.13
-262.28 84.94 -707.98
-231.41 83.88 -704.37
-207.19 79.45 -700.81
 Custom 
 Path 
 141.44 77.73 -654.90
@@ -213,19 +158,19 @@ Path
 49.32 133.02 -480.42
 35.24 126.00 -446.52
 Custom
-CheckCompletedQuest "The Gepofrygia Music Box Key" 292
+CheckCompletedQuest "The Gepofrygia Music Box Key" 209
 35.24 126.00 -446.52
 Custom
-CheckQuestStep "Takish Badlands: The Gepofrygia Music Box" "I should return" 292
+CheckQuestStep "Takish Badlands: The Gepofrygia Music Box" "I should return" 209
 35.24 126.00 -446.52
 Custom
-CheckQuest -NotActive "Takish Badlands: The Gepofrygia Music Box" 292
+CheckQuest -NotActive "Takish Badlands: The Gepofrygia Music Box" 209
 35.24 126.00 -446.52
 Custom
 SetActiveQuest "Takish Badlands: The Gepofrygia Music Box"
 35.24 126.00 -446.52
 Custom
-Path -PL 25 -L -R -QA "-QD|100|-A|swordfury|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 34 -L -R -QA "-QD|100|-A|swordfury|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 35.24 126.00 -446.52
 35.24 78.32 -446.52
 8.39 56.46 -426.43
@@ -256,39 +201,11 @@ Custom
 ExamineItem "Gepofrygia Key Clue" 1
 0 0 0
 Custom
-CheckQuest -NotActive "The Gepofrygia Music Box Key" 215
+SetActiveQuest "Takish Badlands: The Gepofrygia Music Box"
 0 0 0
 Custom
-SetActiveQuest "The Gepofrygia Music Box Key"
+CheckQuest -NotActive "The Gepofrygia Music Box Key" 160
 0 0 0
-Custom
-Path -PL 25 -L -R -QA "-QD|100|-A|swordfury|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
-35.24 126.00 -446.52
-35.24 78.32 -446.52
-8.39 56.46 -426.43
--36.24 56.46 -429.93
--46.86 60.79 -462.96
--61.53 67.76 -468.23
--86.82 61.69 -434.92
--102.72 58.02 -420.65
--125.35 53.59 -407.31
--91.21 34.87 -399.32
--67.34 52.66 -399.57
--30.26 62.80 -401.83
-11.01 59.54 -406.67
-45.13 64.17 -418.19
-71.59 76.46 -435.01
-84.25 86.47 -455.37
-77.13 114.35 -481.66
-75.21 102.05 -515.29
-49.60 95.94 -524.44
-13.79 87.23 -546.80
--23.03 109.53 -555.37
--36.47 122.12 -527.66
--63.70 114.60 -506.45
--98.53 108.86 -498.85
--100.47 101.50 -476.67
--71.75 84.21 -448.08
 Custom
 Path 
 -67.01 81.85 -444.68
@@ -303,19 +220,19 @@ Path
 -292.77 81.83 60.58
 -303.32 80.10 109.20
 Custom
-CheckCompletedQuest "The Fypolydia Music Box Key" 352
+CheckCompletedQuest "The Fypolydia Music Box Key" 256
 -303.32 40.23 109.20
 Custom
-CheckQuestStep "Takish Badlands: The Fypolydia Music Box" "I should return" 352
+CheckQuestStep "Takish Badlands: The Fypolydia Music Box" "I should return" 256
 -303.32 40.23 109.20
 Custom
-CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 352
+CheckQuest -NotActive "Takish Badlands: The Fypolydia Music Box" 256
 -303.32 40.23 109.20
 Custom
 SetActiveQuest "Takish Badlands: The Fypolydia Music Box"
 -303.32 40.23 109.20
 Custom
-Path -PL 16 -L -R -QA "-QD|100|-A|deceased|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 25 -L -R -QA "-QD|100|-A|deceased|-T|QSC:I should slay|-E|K" -QA "-QD|100|-A|fallen|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 -303.32 40.23 109.20
 -330.80 31.39 138.37
 -300.41 23.04 159.22
@@ -331,24 +248,11 @@ Custom
 ExamineItem "Fypolydia Key Clue" 1
 0 0 0
 Custom
-CheckQuest -NotActive "The Fypolydia Music Box Key" 305
+SetActiveQuest "Takish Badlands: The Fypolydia Music Box"
 0 0 0
 Custom
-SetActiveQuest "The Fypolydia Music Box Key"
+CheckQuest -NotActive "The Fypolydia Music Box Key" 222
 0 0 0
-Custom
-Path -PL 10 -L -R -QA "-QD|100|-A|deceased|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
--303.32 40.23 109.20
--330.80 31.39 138.37
--300.41 23.04 159.22
--285.32 21.62 165.71
--255.44 24.51 178.56
--221.84 21.12 197.04
--202.92 18.94 182.43
--217.04 37.53 154.49
--243.13 34.99 142.61
--277.56 31.59 125.45
--303.58 28.99 111.74
 Custom
 Path 
 -320.85 32.08 127.52
@@ -358,19 +262,19 @@ Path
 -393.83 47.27 212.74
 -410.22 51.16 236.61
 Custom
-CheckCompletedQuest "The Hypolydia Music Box Key" 426
+CheckCompletedQuest "The Hypolydia Music Box Key" 307
 -411.50 -10.50 238.47
 Custom
-CheckQuestStep "Takish Badlands: The Hypolydia Music Box" "I should return" 426
+CheckQuestStep "Takish Badlands: The Hypolydia Music Box" "I should return" 307
 -411.50 -10.50 238.47
 Custom
-CheckQuest -NotActive "Takish Badlands: The Hypolydia Music Box" 426
+CheckQuest -NotActive "Takish Badlands: The Hypolydia Music Box" 307
 -411.50 -10.50 238.47
 Custom
 SetActiveQuest "Takish Badlands: The Hypolydia Music Box"
 -411.50 -10.50 238.47
 Custom
-Path -PL 20 -L -R -QA "-QD|100|-A|grisly fathomlurker|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+Path -PL 29 -L -R -QA "-QD|100|-A|grisly fathomlurker|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
 -417.32 -20.24 228.67
 -428.43 -20.24 209.99
 -441.49 -20.24 188.02
@@ -396,31 +300,8 @@ Custom
 ExamineItem "Hypolydia Key Clue" 1
 0 0 0
 Custom
-CheckQuest -NotActive "The Hypolydia Music Box Key" 360
+SetActiveQuest "Takish Badlands: The Hypolydia Music Box"
 0 0 0
 Custom
-SetActiveQuest "The Hypolydia Music Box Key"
+CheckQuest -NotActive "The Hypolydia Music Box Key" 264
 0 0 0
-Custom
-Path -PL 20 -L -R -QA "-QD|100|-A|grisly fathomlurker|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
--417.32 -20.24 228.67
--428.43 -20.24 209.99
--441.49 -20.24 188.02
--462.05 -20.24 162.49
--482.65 -20.24 147.38
--497.17 -20.24 129.32
--528.06 -20.24 109.53
--579.75 -18.22 93.45
--625.59 -18.22 74.59
--634.18 -18.22 119.54
--599.86 -18.22 164.34
--544.60 -18.22 254.20
--468.72 -18.22 321.08
--411.59 -18.22 351.65
--344.98 -18.22 322.55
--293.39 -18.22 291.73
--262.99 -18.22 279.37
--305.42 -13.84 243.89
--381.10 -13.84 279.74
--424.66 -13.84 235.86
--446.09 -13.84 175.74
