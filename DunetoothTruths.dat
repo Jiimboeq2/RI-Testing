@@ -1,30 +1,86 @@
 Dunetooth Truths
 Custom
-HailActorGetQuest -Actor "Dramon Gontalor" 4
--306.57 122.54 -415.39
--492.93 77.21 -325.02
--530.05 74.85 -258.40
-Custom 
-Path -PL 9 -L -R -QA "-A|fallen branch|-T|QSC:Dunetooth|-E|K" -CT "QSC:I found a crude axe head embedded"
-Custom 
-ClickActor "fallen branch"
--552.18 82.94 -204.25
-Custom 
-ClickActor "fallen branch"
--549.17 81.23 -210.98
-Custom 
-ClickActor "fallen branch"
--549.17 81.23 -210.98
--521.23 74.16 -279.36
--467.61 85.75 -369.24
--416.67 92.64 -387.94
--375.04 107.01 -412.89
--306.50 122.61 -417.99
--492.93 77.21 -325.02
+HailActorGetQuest -Actor "Dramon Gontalor"
+-306.57 122 -415.39
+-306.57 175 -415.39
+-327.14 175 -417.24
+-356.37 175 -418.60
+-449.40 175 -365.51
+-535.90 175 -316.38
+-545.24 175 -230.74
 Custom
-HailActor "Dramon Gontalor" 4
+CheckQuestStep "Dunetooth Truths" "There's a crude axe" 45
+-545.19 77.36 -230.79
+-545.19 77.36 -230.79
+Custom
+ClickAllActors
+-545.07 77.27 -231.65
+Custom
+CheckQuestStep "Dunetooth Truths" "There's a crude axe" 46
+-545.07 77.27 -231.65
+Custom
+ClickAllActors
+-552.49 82.54 -206.56
+Custom
+CheckQuestStep "Dunetooth Truths" "There's a crude axe" 52
+-552.49 82.54 -206.56
+Custom
+ClickAllActors
+-587.77 88.85 -200.71
+Custom
+CheckQuestStep "Dunetooth Truths" "There's a crude axe" 58
+-587.77 88.85 -200.71
+Custom
+ClickAllActors
+-588.17 86.52 -215.33
+Custom
+CheckQuestStep "Dunetooth Truths" "There's a crude axe" 63
+-588.17 86.52 -215.33
+Custom
+ClickAllActors
+-567.95 80.06 -237.14
+Custom
+CheckQuestStep "Dunetooth Truths" "There's a crude axe" 70
+-567.95 80.06 -237.14
+-545.19 77.36 -230.79
+Custom
+ClickAllActors
+-545.07 77.27 -231.65
+Custom
+CheckQuestStep "Dunetooth Truths" "I found a crude axe" 76
+-545.07 77.27 -231.65
+Custom
+ClickAllActors
+-552.49 82.54 -206.56
+Custom
+CheckQuestStep "Dunetooth Truths" "I found a crude axe" 76
+-552.49 82.54 -206.56
+Custom
+ClickAllActors
+-587.77 88.85 -200.71
+Custom
+CheckQuestStep "Dunetooth Truths" "I found a crude axe" 76
+-587.77 88.85 -200.71
+Custom
+ClickAllActors
+-588.17 86.52 -215.33
+Custom
+CheckQuestStep "Dunetooth Truths" "I found a crude axe" 76
+-588.17 86.52 -215.33
+Custom
+ClickAllActors
+-567.95 80.06 -237.14
+Custom
+CheckQuestStep "Dunetooth Truths" "I found a crude axe" 76
+-567.95 80.06 -237.14
+-545.24 175 -230.74
+-535.90 175 -316.38
+-449.40 175 -365.51
+-356.37 175 -418.60
+-327.14 175 -417.24
+Custom
+HailActor "Dramon Gontalor" 8
 -306.57 122.54 -415.39
--306.51 122.61 -417.98
 -306.51 151.37 -417.98
 -357.99 150.41 -399.58
 -394.96 148.31 -383.78

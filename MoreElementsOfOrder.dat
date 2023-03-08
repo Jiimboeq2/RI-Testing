@@ -10,7 +10,7 @@ HailActorGetQuest -Actor "Ehasbehas"
 -166.87 105.26 -460.51
 -130.40 95.35 -490.76
 Custom
-Path -PL 29 -L -R -QA "-QD|100|-A|hornet|-T|QSC:I have obtained|-E|K" -QA "-A|maelstrom|-T|QSC:I have obtained|-E|K" -QA "-A|Tempest Coral|-T|QSC:I have obtained|-E|H" -CT "QSC:I have obtained"
+Path -PL 29 -L -R -QA "-QD|200|-A|a desert hornet|-T|QSC:Obtain empyreal|-E|K" -QA "-A|maelstrom|-T|QSC:I have obtained|-E|K" -QA "-A|Tempest Coral|-T|QSC:Obtain tempest|-E|H" -CT "QSC:I have obtained"
 -280.94 22.99 -344.85
 -279.98 34.79 -361.54
 -277.12 41.11 -371.88
@@ -49,5 +49,5 @@ Path
 -270.77 43.59 -260.60
 -279.45 35.20 -345.52
 Custom
-HailActorGetQuest -Actor "Ehasbehas"
+HailActor "Ehasbehas" 6 1
 -279.05 22.66 -347.88

@@ -44,7 +44,7 @@ HailActorGetQuest -Actor "Ozraa"
 272.89 25.30 -244.02
 261.87 4.61 -273.24
 Custom
-Path -PL 30 -L -R -QA "-QD|200|-A|hippolisk|-T|QSC:I have the|-E|K" -QA "-QD|200|-A|gully ensnarer|-T|QSC:I have the|-E|K" -CT "QSC:I have the tusks, barbs and rune salt crystals"
+Path -PL 30 -L -R -QA "-QD|100|-A|a hippolisk|-T|QSC:I have the|-E|K" -QA "-QD|100|-A|gully ensnarer|-T|QSC:I have the|-E|K" -CT "QSC:I have the tusks, barbs, and rune salt crystals"
 270.88 3.62 -229.38
 259.21 6.40 -180.97
 220.34 6.13 -157.88

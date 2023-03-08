@@ -37,7 +37,7 @@ HailActorGetQuest -Actor "Ehasbehas"
 -166.87 105.26 -460.51
 -130.40 95.35 -490.76
 Custom
-Path -PL 43 -L -R -QA "-QD|100|-A|walker|-T|QSC:I have obtained|-E|K" -QA "-A|flame of devotion|-T|QSC:I have obtained|-E|K" -QA "-A|Crystallized Sulfur|-T|QSC:I have obtained|-E|H" -CT "QSC:I have obtained"
+Path -PL 43 -L -R -DFPWD -QA "-QD|100|-A|walker|-T|QSC:I have obtained|-E|K" -QA "-A|flame of devotion|-T|QSC:I have obtained|-E|K" -QA "-A|Crystallized Sulfur|-T|QSC:I have obtained|-E|H" -CT "QSC:I have obtained plenty of the first two"
 -126.88 103.78 -478.68
 -145.57 116.18 -484.19
 -173.32 110.15 -489.21
@@ -97,5 +97,5 @@ Path
 -279.79 26.40 -339.20
 -279.05 22.66 -347.88
 Custom
-HailActorGetQuest -Actor "Ehasbehas"
+HailActor "Ehasbehas" 6 1
 -279.05 22.66 -347.88
