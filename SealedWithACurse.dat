@@ -11,3 +11,9 @@ ZoneDoor zone_portal_to_takish_dungeons "Buried Takish'Hiz: Foundation of Knowle
 Custom
 Instance
 0 0 0
+Custom
+ZoneDoor zone_exit
+0 0 0
+Custom
+HailActor "Shawah" 3 1
+-533.54 10.33 423.31
