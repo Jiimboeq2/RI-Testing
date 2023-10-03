@@ -1,0 +1,65 @@
+Rumble in the Jungle
+Custom
+HailActorGetQuest -Actor "Findink Topgallant"
+11.53 5.42 273.44
+21.34 4.71 270.72
+30.31 3.43 266.33
+33.96 2.77 256.91
+Wait
+1
+36.07 2.33 239.13
+36.07 61.33 239.13
+73.54 73.29 208.08
+110.24 88.94 177.68
+146.87 105.03 147.32
+174.25 140.59 124.64
+204.81 171.06 99.32
+232.18 206.60 76.64
+266.94 228.51 47.84
+305.36 232.85 16.00
+343.60 239.20 -15.68
+381.35 239.20 -48.82
+416.75 239.20 -84.28
+452.21 239.20 -119.80
+487.61 239.20 -155.26
+522.95 239.20 -190.66
+558.32 239.20 -226.09
+593.85 239.20 -261.68
+628.87 227.89 -295.68
+662.70 210.74 -328.65
+696.45 194.33 -361.73
+Custom
+FlyDown
+724.92 171.15 -392.67
+Custom
+HailActor "Shaman Bawiggi" 5
+728.09 167.95 -393.23
+731.50 168.01 -386.48
+Custom
+ZoneDoor "Zone to Karuupa Jungle: Heart of Conflict dungeons" "Karupa Jungle: Heart of Conflict [Solo]"
+744.06 168.06 -386.73
+Custom
+HailActor "Findink Topgallant" 8
+723.28 106.80 -325.86
+Custom
+ClickActor "boom barrels"
+724.57 106.86 -323.42
+Wait
+20
+724.57 106.86 -323.42
+Custom
+ClickActor "mechano harpooners"
+724.57 106.86 -323.42
+Wait
+20
+724.57 106.86 -323.42
+Custom
+Instance
+723.28 106.80 -325.86
+Custom
+ZoneDoor Exit
+448.20 163.98 -194.08
+740.70 168.10 -392.72
+Custom
+HailActor "Shaman Bawiggi" 3
+731.72 167.99 -393.81

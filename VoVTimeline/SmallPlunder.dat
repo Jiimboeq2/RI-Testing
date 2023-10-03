@@ -1,0 +1,11 @@
+Small Plunder
+Custom
+HailActorGetQuest -Actor "Captain Douglan Wakerunner"
+35.94 12.23 429.83
+Custom
+Quest "Head Over Heals"
+0 0 0
+35.88 12.24 423.67
+Custom
+HailActor "Captain Douglan Wakerunner" 2
+35.64 12.22 428.56
