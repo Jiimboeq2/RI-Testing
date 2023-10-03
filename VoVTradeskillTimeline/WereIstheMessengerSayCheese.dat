@@ -1,0 +1,40 @@
+Were Is the Messenger: Say Cheese
+Custom
+HailActorGetQuest -Actor "Fivalt"
+-804.33 175.10 -710.66
+Custom
+HailActor "Fivalt" 5
+-804.33 175.10 -710.66
+Custom
+ClickActor Rennet
+-803.23 175.41 -705.50
+Custom
+ClickActor "Fresh Milk"
+-803.23 175.41 -705.50
+Custom
+ClickActor "Mystery Ingredients"
+-803.23 175.41 -705.50
+Custom
+CraftIt Cheesecloth 1
+-806.45 175.10 -706.31
+Custom
+CraftIt "Mahngavi Muenster" 1
+-806.45 175.10 -706.31
+Custom
+HailActor "Fivalt" 5
+-804.78 175.10 -708.36
+Custom
+CraftIt "Potion of Perpetual Purging" 1
+-806.85 175.21 -706.01
+Custom
+HailActor "Fivalt" 2
+-805.05 175.10 -708.38
+Custom
+ZoneDoor "Single-use Port to Mahngavi Wastes"
+-805.05 175.10 -708.38
+Custom
+ClickActor "Odd Debris"
+307.08 150.86 652.96
+Wait
+20
+307.08 150.86 652.96

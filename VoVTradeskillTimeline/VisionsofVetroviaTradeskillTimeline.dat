@@ -1,0 +1,47 @@
+Visions of Vetrovia Tradeskill Timeline
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Amsonia Roots" 329 "Forlorn Ore" 85 "Greytusk Hide" 90 "Mahngavi Mango" 70 "Narra Wood" 65 "Star Diopside" 150 "Svarni Silverfin" 10 "Wild Rhino Meat" 30 "Wild Rice" 55 "Baptista Root" 3 "Deino Hide" 1 "Kamapor Tea" 1 "Tsavorite" 3 "Pteradon Meat" 1
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Astral Candle" 20 "Astral Coal" 40 "Astral Filament" 55 "Astral Incense" 56 "Astral Sandpaper" 3 "Astral Kindling" 40
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Amsonia Roots" 329 -ITEMQTY "Forlorn Ore" 85 -ITEMQTY "Greytusk Hide" 90 -ITEMQTY "Mahngavi Mango" 70 -ITEMQTY "Narra Wood" 65 -ITEMQTY "Star Diopside" 150 -ITEMQTY "Svarni Silverfin" 10 -ITEMQTY "Wild Rhino Meat" 30 -ITEMQTY "Wild Rice" 55 -ITEMQTY "Baptista Root" 3 -ITEMQTY "Deino Hide" 1 -ITEMQTY "Kamapor Tea" 1 -ITEMQTY "Tsavorite" 3 -ITEMQTY "Pteradon Meat" 1 -ITEMQTY "Astral Candle" 20 -ITEMQTY "Astral Coal" 40 -ITEMQTY "Astral Filament" 55 -ITEMQTY "Astral Incense" 56 -ITEMQTY "Astral Sandpaper" 3 -ITEMQTY "Astral Kindling" 40
+0 0 0
+Custom
+CheckAndSet -NotInZone "Guild Hall" 17
+0 0 0
+Custom
+FastTravel "Svarni Expanse"
+0 0 0
+647.29 5.57 516.21
+Custom
+Quest "Were is the Messenger: Local Living"
+0 0 0
+Custom
+Quest "Were is the Messenger: Different Tastes"
+0 0 0
+Custom
+Quest "Were is the Messenger: Find the Father"
+0 0 0
+Custom
+Quest "Were is the Messenger: Simple Gifts"
+0 0 0
+Custom
+Quest "Were is the Messenger: Covers and Crunchies"
+0 0 0
+Custom
+Quest "Were is the Messenger: Say Cheese"
+0 0 0
+Custom
+Quest "Were is the Messenger: Wild Ride"
+0 0 0
+Custom
+Quest "Were is the Messenger: Mad Machinations"
+0 0 0
+Custom
+Quest "Were is the Messenger: 'Ware the Were"
+0 0 0
+Custom
+Quest "Were is the Messenger: Where the Weres Are"
+0 0 0

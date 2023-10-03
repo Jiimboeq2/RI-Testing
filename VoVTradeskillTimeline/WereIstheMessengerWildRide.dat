@@ -1,0 +1,24 @@
+Were Is the Messenger: Wild Ride
+Wait
+20
+307.08 150.86 652.96
+Custom
+ClickActor "a restless deino"
+297.15 150.07 682.68
+Custom
+CraftIt "Meaty Deino Treat" 1
+308.99 150.85 655.85
+Custom
+ClickActor "a restless deino"
+296.55 149.93 682.59
+Wait
+50
+0 0 0
+Custom
+WaitWhileMoving
+0 0 0
+399.80 104.36 465.67
+390.60 102.90 465.29
+Custom
+HailActor "Assistant Virdell" 0
+388.80 102.74 459.67
