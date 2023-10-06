@@ -1,4 +1,5 @@
-Stirring Up Trouble in Nektulos Repeatable
+Stirring Up Trouble in Nektulos
+Repeatable
 Custom
 CheckPreReqs -ITEMQTY "Glowing Kindling" 6 
 0 0 0
@@ -24,7 +25,7 @@ TravelMap "Nektulos"
 766.72 -0.90 -128.99
 765.39 -0.90 -131.20
 Custom
-HailActor -Actor "Drahk Bonebroth" 1 3
+HailActorGetQuest -Actor "Drahk Bonebroth"
 766.72 -0.90 -128.99
 Custom 
 Wait 1
@@ -33,21 +34,6 @@ Wait 1
 Custom
 ClickActor -Actor "Provisioner's Barrel"
 769.41 -0.90 -134.32
-Custom
-Path -PL 12 -R -YD 10 -QA "-QD|20|-A|Ethereal Condensate|-E|H"
-771.72 -0.90 -131.11
-717.96 -0.90 -111.96
-694.38 -0.90 -85.06
-661.61 -0.90 -77.06
-632.23 -0.90 -60.57
-595.62 -0.84 -40.02
-585.19 2.07 -54.50
-613.16 -0.63 -67.76
-640.90 -0.90 -80.75
-684.68 -0.90 -100.47
-736.73 -0.90 -124.85
-773.57 -0.90 -131.74
-756.86 -0.90 -125.00
 Custom
 CraftIt "Oggok Kvass" 3
 796.48 -0.90 -139.79
