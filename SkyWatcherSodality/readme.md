@@ -1,7 +1,2 @@
 RI_Runinstances Quest-SkyWatcherSodality/ThreadingRecoveryInThundering
 
-RI_Runinstances Quest-SkyWatcherSodality/StirringUpTroubleInNektulos
-
-RI_Runinstances Quest-SkyWatcherSodality/ForgingAheadInNektulos
-
-RI_Runinstances Quest-SkyWatcherSodality/BuildingRecoveringInThundering
