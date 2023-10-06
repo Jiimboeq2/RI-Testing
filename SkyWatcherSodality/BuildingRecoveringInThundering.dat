@@ -41,7 +41,7 @@ Custom
 FlyUp 1
 -469.27 -18.38 -444.40
 Custom
-PathHarvest 41 25 1 1 1 0 "Ethereal Condensate" 0 6
+Path -PL 41 -R -YD 10 -QA "-QD|6|-A|Ethereal Condensat|-H|
 -466.11 -18.38 -443.69
 -466.11 4.97 -443.69
 -521.07 -28.06 -520.66
