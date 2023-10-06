@@ -28,7 +28,7 @@ Path
 -468.14 -18.38 -442.05
 -462.65 -18.38 -440.47
 Custom
-HailActor -Actor "Brumund Stubthread" 1
+HailActor -Actor "Brumund Stubthread" 1 3
 -463.97 -18.38 -440.85
 Custom 
 Wait 1

@@ -24,7 +24,7 @@ TravelMap "Nektulos"
 777.24 -0.90 -132.06
 780.36 -0.90 -134.38
 Custom
-HailActor -Actor "Salea L'Nix" 1 2
+HailActor -Actor "Salea L'Nix" 1 3
 778.55 -0.90 -135.77
 Custom 
 Wait 1

@@ -24,7 +24,7 @@ TravelMap "Nektulos"
 766.72 -0.90 -128.99
 765.39 -0.90 -131.20
 Custom
-HailActor -Actor "Drahk Bonebroth" 1
+HailActor -Actor "Drahk Bonebroth" 1 3
 766.72 -0.90 -128.99
 Custom 
 Wait 1
