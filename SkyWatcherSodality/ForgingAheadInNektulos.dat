@@ -37,7 +37,7 @@ Custom
 ClickActor -Actor "Smiths' Crate"
 776.58 -0.90 -145.32
 Custom
-PathHarvest 12 25 1 1 1 0 "ethereal condensate" 6 6
+Path -PL 12 -R -YD 10 -QA "-QD|6|-A|Ethereal Condensate|-H|"
 771.72 -0.90 -131.11
 717.96 -0.90 -111.96
 694.38 -0.90 -85.06

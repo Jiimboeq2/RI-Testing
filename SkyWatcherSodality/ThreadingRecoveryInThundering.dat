@@ -38,7 +38,7 @@ ClickActor Tailors' Crate
 -463.97 -18.38 -440.85
 -463.17 -18.38 -440.52
 Custom
-PathHarvest 41 25 1 1 1 0 "Ethereal Condensate" 0 6
+Path -PL 41 -R -YD 10 -QA "-QD|6|-A|Ethereal Condensate|-H|"
 -466.11 -18.38 -443.69
 -466.11 4.97 -443.69
 Custom
