@@ -37,7 +37,7 @@ Custom
 ClickActor -Actor "Smiths' Crate"
 776.58 -0.90 -145.32
 Custom
-Path -PL 12 -R -YD 10 -QA "-QD|6|-A|Ethereal Condensate|-E|H"
+Path -PL 12 -R -YD 10 -QA "-QD|20|-A|Ethereal Condensate|-E|H"
 771.72 -0.90 -131.11
 717.96 -0.90 -111.96
 694.38 -0.90 -85.06
