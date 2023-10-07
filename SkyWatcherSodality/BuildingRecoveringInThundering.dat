@@ -1,4 +1,5 @@
-Building Recovery in Thundering Repeatable
+Building Recovery in Thundering
+Repeatable
 Custom
 CheckPreReqs -ITEMQTY "Glowing Sandpaper" 6
 0 0 0
@@ -28,7 +29,7 @@ Path
 -468.14 -18.38 -442.05
 -462.65 -18.38 -440.47
 Custom
-HailActor -Actor "Grathe McMerrin" 1 3
+HailActorGetQuest -Actor "Grathe McMerrin"
 -463.97 -18.38 -440.85
 Custom 
 Wait 1
@@ -41,7 +42,7 @@ Custom
 FlyUp 1
 -469.27 -18.38 -444.40
 Custom
-Path -PL 41 -R -YD 10 -QA "-QD|20|-A|Ethereal Condensate|-E|H"
+Path -PL 41 -R -YD 10 -QA "-QD|20|-A|ethereal condensate|-E|H"
 -466.11 -18.38 -443.69
 -466.11 4.97 -443.69
 -521.07 -28.06 -520.66
@@ -109,4 +110,4 @@ HailActor -Actor "Grathe McMerrin" 3 1
 -463.97 -18.38 -440.85
 Custom 
 Wait 1
-0 0 0
+0 0 0 

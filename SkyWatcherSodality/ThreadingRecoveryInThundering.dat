@@ -1,4 +1,5 @@
-Threading Recovering in Thundering Repeatable
+Threading Recovering in Thundering
+Repeatable
 Custom
 CheckPreReqs -ITEMQTY "Glowing Filament" 6
 0 0 0
@@ -28,7 +29,7 @@ Path
 -468.14 -18.38 -442.05
 -462.65 -18.38 -440.47
 Custom
-HailActor -Actor "Brumund Stubthread" 1 3
+HailActorGetQuest -Actor "Brumund Stubthread"
 -463.97 -18.38 -440.85
 Custom 
 Wait 1
@@ -38,12 +39,9 @@ ClickActor Tailors' Crate
 -463.97 -18.38 -440.85
 -463.17 -18.38 -440.52
 Custom
-Path -PL 41 -R -YD 10 -QA "-QD|20|-A|Ethereal Condensate|-E|H"
+Path -PL 41 -R -YD 10 -QA "-QD|20|-A|ethereal condensate|-E|H"
 -466.11 -18.38 -443.69
 -466.11 4.97 -443.69
-Custom
-FlyUp 1
--469.27 -18.38 -444.40
 -521.07 -28.06 -520.66
 -530.80 -34.95 -475.67
 -515.16 -35.99 -425.03
@@ -76,6 +74,9 @@ FlyUp 1
 -548.74 -53.63 -244.72
 -510.95 -39.30 -259.14
 -477.82 -25.53 -274.21
+Custom
+FlyUp 1
+-469.27 -18.38 -444.40
 -463.17 5.58 -440.52
 -511.66 -3.59 -458.37
 -571.12 -15.08 -478.00
