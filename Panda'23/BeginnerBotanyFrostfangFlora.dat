@@ -1,0 +1,122 @@
+Beginner Botany: Frostfang Flora
+Custom
+CheckAndSet -InZone "Sundered Frontier" 14
+0 0 0
+Custom
+FastTravel "Myrist"
+0 0 0
+Custom
+ClickActor "Ulteran Spire Portal"
+20.70 -20.10 -12.84
+Custom
+TravelMap "Sundered Frontier"
+20.70 -20.10 -12.84
+2264.11 -207.22 2470.68
+2292.75 -200.00 2499.90
+2298.24 -199.84 2499.40
+Custom
+HailActorGetQuest -Actor "Bao Bao"
+2298.24 -199.84 2499.40
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Frostfang Sea"
+-373.79 29.19 207.46
+Custom
+FlyUp 5
+-376.60 89.69 212.67
+-498.17 104.98 114.05
+-546.32 108.75 69.95
+-612.09 113.06 -0.31
+-669.14 122.09 -109.48
+-648.29 132.04 -230.38
+-552.95 143.38 -352.21
+-452.39 130.89 -480.93
+-383.54 104.92 -565.73
+-318.00 77.93 -669.12
+-291.15 56.15 -765.83
+-250.41 38.94 -796.81
+Custom
+Path -PL 9 -L -R -QA "-A|spores|-T|QSC:1/1|-E|H" -CT "QSC:Again, while not really plants"
+-250.41 38.94 -796.81
+-243.32 36.19 -775.03
+-204.46 33.26 -766.97
+-196.33 36.25 -787.54
+-168.89 42.04 -830.01
+-174.86 46.84 -852.81
+-209.79 45.50 -832.62
+-204.13 42.05 -818.24
+-238.44 38.99 -798.77
+Custom
+FlyUp 5
+-212.05 79.60 -787.99
+-44.02 87.44 -674.01
+46.83 103.42 -607.81
+110.11 114.54 -561.70
+214.09 132.83 -485.94
+271.51 142.93 -444.10
+342.84 155.47 -392.12
+410.56 167.38 -342.77
+528.60 159.73 -295.47
+626.46 130.58 -289.48
+705.47 107.05 -284.65
+774.90 86.37 -280.40
+917.73 44.00 -276.42
+942.50 24.66 -311.83
+Custom
+FlyDown
+942.50 24.66 -311.83
+Custom
+Path -PL 6 -L -R -QA "-A|driftwood|-T|QSC:3/3|-E|H" -CT "QSC:I have gathered some driftwood samples"
+942.50 24.66 -311.83
+981.22 24.57 -326.48
+1008.70 26.82 -317.02
+1018.00 28.62 -287.36
+978.36 29.21 -301.46
+934.51 25.47 -303.58
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Frostfang Sea"
+-373.79 29.19 207.46
+-388.69 94.75 196.01
+-403.91 103.45 45.43
+-322.97 95.48 34.75
+-263.53 118.61 44.49
+-224.01 136.13 12.14
+-142.36 144.40 -11.52
+-38.25 147.62 -31.19
+28.52 148.13 -45.73
+Custom
+Path -PL 11 -L -R -QA "-A|erollisi bloom|-T|QSC:3/3|-E|H" -CT "QSC:I have found some lovely purple blooms"
+40.74 148.24 -31.12
+61.86 147.86 -34.70
+63.96 148.14 -57.34
+49.11 148.21 -60.32
+27.57 147.97 -54.95
+26.70 148.09 -42.72
+Custom
+FastTravel "Myrist"
+0 0 0
+Custom
+ClickActor "Ulteran Spire Portal"
+20.70 -20.10 -12.84
+Custom
+TravelMap "Sundered Frontier"
+20.70 -20.10 -12.84
+2264.11 -207.22 2470.68
+2292.75 -200.00 2499.90
+2298.24 -199.84 2499.40
+Custom
+HailActor "Bao Bao" 3 1
+2298.24 -199.84 2499.40
