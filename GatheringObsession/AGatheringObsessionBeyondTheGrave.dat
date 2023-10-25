@@ -357,6 +357,9 @@ HailActor "Qho Augren" 3
 -75.43 -2.52 79.99
 -59.58 -2.52 98.24
 -49.85 -2.50 92.51
+Wait
+20
+0 0 0
 Custom
 ClickActor
 Obol

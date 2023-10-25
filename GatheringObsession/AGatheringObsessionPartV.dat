@@ -231,11 +231,11 @@ FastTravel "Isle of Mara"
 0 0 0
 Custom
 ClickActor mariners_bell TRUE FALSE 50
-4.21 -2.38 118.78
+6.87 -2.38 117.17
 Custom
 TravelMap "Enchanted Lands" 1
-7.38 -2.38 116.84
-wait
+6.87 -2.38 117.17
+Wait
 5
 0 0 0
 1.24 4.48 84.44

@@ -67,7 +67,7 @@ FlyUp 5
 19.05 -16.42 -180.75
 19.94 -34.31 -190.05
 Custom
-Path -PL 10 -L -R -QA "-A|Mushroom|-T|QSC:3/3|-E|H" -CT "QSC:Plant, fungust, whatever. It will be different"
+Path -PL 10 -L -DFPWD -QA "-A|Mushroom|-T|QSC:3/3|-E|H" -CT "QSC:Plant, fungust, whatever. It will be different"
 39.18 -33.44 -212.06
 55.18 -34.40 -213.34
 72.59 -36.89 -203.91
@@ -93,7 +93,7 @@ FlyUp 5
 476.85 -22.46 -257.52
 456.42 -24.46 -292.84
 Custom
-Path -PL 9 -L -R -QA "-A|leaves|-T|QSC:3/3|-E|H" -CT "QSC:That tree is HUGE"
+Path -PL 9 -L -DFPWD -QA "-A|leaves|-T|QSC:3/3|-E|H" -CT "QSC:That tree is HUGE"
 467.14 -32.36 -305.36
 486.68 -32.10 -290.48
 487.85 -32.44 -277.18

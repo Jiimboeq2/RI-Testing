@@ -42,7 +42,7 @@ FlyUp 5
 -803.24 92.86 268.02
 -821.84 87.60 237.61
 Custom
-Path -PL 1 -L -R -QA "-A|fungus|-T|QSC:1/1|-E|H" -CT "QSC:It may not technically be a plant"
+Path -PL 1 -L -DFPWD -QA "-A|fungus|-T|QSC:1/1|-E|H" -CT "QSC:It may not technically be a plant"
 -821.84 87.60 237.61
 Custom
 FlyUp 5
@@ -64,7 +64,7 @@ FlyDown
 -84.81 -7.16 54.40
 -68.07 8.28 -55.18
 Custom
-Path -PL 16 -L -R -QA "-A|water reeds|-T|QSC:3/3|-E|H" -CT "QSC:I picked some water reeds"
+Path -PL 16 -L -DFPWD -QA "-A|water reeds|-T|QSC:3/3|-E|H" -CT "QSC:I picked some water reeds"
 -79.59 -9.42 52.61
 -74.29 -11.05 67.59
 -71.36 -10.91 92.67
@@ -106,7 +106,7 @@ FlyUp
 -255.15 -64.14 -636.55
 -315.96 -69.19 -711.58
 Custom
-Path -PL 11 -L -R -QA "-A|kelp|-T|QSC:3/3|-E|H" -CT "QSC:I hope Bao Bao appreciates"
+Path -PL 11 -L -DFPWD-QA "-A|kelp|-T|QSC:3/3|-E|H" -CT "QSC:I hope Bao Bao appreciates"
 -315.96 -69.19 -711.58
 -316.54 -69.61 -737.94
 -316.18 -68.83 -761.12
