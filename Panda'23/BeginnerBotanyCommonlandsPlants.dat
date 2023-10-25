@@ -49,7 +49,7 @@ FlyDown
 758.73 -54.62 121.23
 785.49 -59.80 -113.56
 Custom
-Path -PL 11 -L -R -QA "-A|Savannah Leaves|-T|QSC:3/3|-E|H" -CT "QSC:I have collected some leaves"
+Path -PL 11 -L -DFPWD -QA "-A|Savannah Leaves|-T|QSC:3/3|-E|H" -CT "QSC:I have collected some leaves"
 785.49 -59.80 -113.56
 750.58 -59.80 -131.57
 719.83 -59.80 -141.73
@@ -70,7 +70,7 @@ FlyUp 5
 502.67 7.21 477.32
 519.43 -52.63 563.27
 Custom
-Path -PL 7 -L -R -QA "-A|Dead bark|-T|QSC:3/3|-E|H" -CT "QSC:I have collected some bark"
+Path -PL 7 -L -DFPWD -QA "-A|Dead bark|-T|QSC:3/3|-E|H" -CT "QSC:I have collected some bark"
 520.83 -53.40 559.83
 525.16 -53.41 538.91
 551.10 -53.86 510.56
@@ -93,7 +93,7 @@ FlyUp 5
 -1293.66 -69.21 340.39
 -1303.90 -69.27 340.93
 Custom
-Path -PL 13 -L -R -QA "-A|Turmoil Grave Moss|-T|QSC:3/3|-E|H" -CT "QSC:Moss is a plant"
+Path -PL 12 -L -DFPWD -QA "-A|Turmoil Grave Moss|-T|QSC:3/3|-E|H" -CT "QSC:Moss is a plant"
 -1303.90 -69.27 340.93
 -1312.50 -69.39 352.62
 -1323.66 -69.51 366.50

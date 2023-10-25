@@ -58,7 +58,7 @@ ClickActor "Acorn Stash"
 -1782.88 86.14 932.33
 -1782.86 58.46 932.33
 Custom
-Path -PL 7 -L -R -QA "-A|Pine Cone|-T|QSC:3/3|-E|H" -CT "QSC:I picked up some pine cones"
+Path -PL 7 -L -DFPWD -QA "-A|Pine Cone|-T|QSC:3/3|-E|H" -CT "QSC:I picked up some pine cones"
 -1782.86 58.46 932.3
 -1779.27 58.04 933.19
 -1789.48 62.89 940.06
@@ -82,7 +82,7 @@ Path -PL 7 -L -R -QA "-A|Pine Cone|-T|QSC:3/3|-E|H" -CT "QSC:I picked up some pi
 -1883.79 -20.14 -109.16
 -1888.77 -19.55 -165.51
 Custom
-Path -PL 8 -L -R -QA "-A|Fresh Produce|-T|QSC:3/3|-E|H" -CT "QSC:I found some lovely produce"
+Path -PL 8 -L -DFPWD -QA "-A|Fresh Produce|-T|QSC:3/3|-E|H" -CT "QSC:I found some lovely produce"
 -1888.77 -19.55 -165.51
 -1867.44 -20.74 -165.46
 -1901.87 -18.80 -122.8
@@ -107,28 +107,3 @@ TravelMap "Sundered Frontier"
 Custom
 HailActor "Bao Bao" 3 1
 2298.24 -199.84 2499.40
-ClickActor Fresh Produce
--1888.77 -19.55 -165.51
-Custom
-ClickActor Fresh Produce
--1867.44 -20.74 -165.46
-Custom
-ClickActor Fresh Produce
--1901.87 -18.80 -122.85
-Custom
-CheckAndSet -InZone "Sundered Frontier" 16
-0 0 0
-Custom
-FastTravel "Myrist"
-0 0 0
-Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
-Custom
-TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
-2263.70 -207.00 2474.16
-2273.01 -205.26 2477.54
-Custom
-HailActor "Bao Bao" 3 1
-2297.29 -200.14 2497.06

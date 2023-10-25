@@ -36,7 +36,7 @@ FlyUp 5
 -291.15 56.15 -765.83
 -250.41 38.94 -796.81
 Custom
-Path -PL 9 -L -R -QA "-A|spores|-T|QSC:1/1|-E|H" -CT "QSC:Again, while not really plants"
+Path -PL 9 -L -DFPWD -QA "-A|spores|-T|QSC:1/1|-E|H" -CT "QSC:Again, while not really plants"
 -250.41 38.94 -796.81
 -243.32 36.19 -775.03
 -204.46 33.26 -766.97
@@ -66,13 +66,14 @@ Custom
 FlyDown
 942.50 24.66 -311.83
 Custom
-Path -PL 6 -L -R -QA "-A|driftwood|-T|QSC:3/3|-E|H" -CT "QSC:I have gathered some driftwood samples"
-942.50 24.66 -311.83
-981.22 24.57 -326.48
-1008.70 26.82 -317.02
-1018.00 28.62 -287.36
-981.22 24.57 -326.48
-942.50 24.66 -311.83
+Path -PL 7 -L -DFPWD -QA "-A|driftwood|-T|QSC:3/3|-E|H" -CT "QSC:I have gathered some driftwood samples"
+942.96 24.58 -310.60
+959.49 25.19 -311.43
+979.33 24.56 -325.98
+994.89 25.75 -322.14
+1007.29 26.99 -308.71
+1012.64 29.40 -292.26
+1013.51 29.59 -281.30
 Custom
 FlyUp 5
 937.21 106.29 -309.50
@@ -103,18 +104,14 @@ FlyUp 5
 -111.27 145.96 -21.74
 -61.64 147.20 -28.33
 -7.07 146.44 -37.36
-31.19 148.76 -38.25
-34.10 148.10 -33.68
-44.54 148.06 -31.90
-59.93 148.00 -35.41
+29.37 148.01 -36.91
+33.28 148.07 -34.07
 Custom
-Path -PL 11 -L -R -QA "-A|erollisi bloom|-T|QSC:3/3|-E|H" -CT "QSC:I have found some lovely purple blooms"
-40.74 148.24 -31.12
-61.86 147.86 -34.70
-63.96 148.14 -57.34
-49.11 148.21 -60.32
-27.57 147.97 -54.95
-26.70 148.09 -42.72
+Path -PL 4 -L -DFPWD -QA "-A|blooms|-T|QSC:3/3|-E|H" -CT "QSC:I found some lovely purple blooms"
+54.40 148.06 -33.86
+63.65 148.00 -38.66
+68.29 148.39 -53.62
+59.69 148.14 -59.18
 Custom
 FastTravel "Myrist"
 0 0 0
