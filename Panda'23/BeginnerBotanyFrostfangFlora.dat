@@ -107,7 +107,7 @@ FlyUp 5
 29.37 148.01 -36.91
 33.28 148.07 -34.07
 Custom
-Path -PL 4 -L -DFPWD -QA "-A|blooms|-T|QSC:3/3|-E|H" -CT "QSC:I found some lovely purple blooms"
+Path -PL 3 -L -DFPWD -QA "-A|blooms|-T|QSC:3/3|-E|H" -CT "QSC:I found some lovely purple blooms"
 54.40 148.06 -33.86
 63.65 148.00 -38.66
 68.29 148.39 -53.62
