@@ -6,11 +6,11 @@ Custom
 FastTravel "Myrist"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40
@@ -113,14 +113,14 @@ Path -PL 3 -L -DFPWD -QA "-A|blooms|-T|QSC:3/3|-E|H" -CT "QSC:I found some lovel
 68.29 148.39 -53.62
 59.69 148.14 -59.18
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40
