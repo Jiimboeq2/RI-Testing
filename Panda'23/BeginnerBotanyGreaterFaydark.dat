@@ -3,14 +3,14 @@ Custom
 CheckAndSet -InZone "Sundered Frontier" 14
 0 0 0
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40
@@ -18,14 +18,14 @@ Custom
 HailActorGetQuest -Actor "Bao Bao"
 2298.24 -199.84 2499.40
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Greater Faydark"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 Custom
 FlyUp 5
 -432.98 77.51 338.52
@@ -106,7 +106,7 @@ FlyUp
 -255.15 -64.14 -636.55
 -315.96 -69.19 -711.58
 Custom
-Path -PL 11 -L -DFPWD-QA "-A|kelp|-T|QSC:3/3|-E|H" -CT "QSC:I hope Bao Bao appreciates"
+Path -PL 11 -L -DFPWD -QA "-A|kelp|-T|QSC:I hope Bao|-E|H" -CT "QSC:I hope Bao Bao appreciates"
 -315.96 -69.19 -711.58
 -316.54 -69.61 -737.94
 -316.18 -68.83 -761.12
@@ -120,14 +120,14 @@ Path -PL 11 -L -DFPWD-QA "-A|kelp|-T|QSC:3/3|-E|H" -CT "QSC:I hope Bao Bao appre
 -328.98 -71.93 -751.51
 -322.37 -71.10 -708.54
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40

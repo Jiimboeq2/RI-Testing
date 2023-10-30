@@ -3,14 +3,14 @@ Custom
 CheckAndSet -InZone "Sundered Frontier" 14
 0 0 0
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40
@@ -108,14 +108,14 @@ Path -PL 12 -L -DFPWD -QA "-A|Turmoil Grave Moss|-T|QSC:3/3|-E|H" -CT "QSC:Moss 
 -1307.07 -69.26 337.75
 -1331.60 -69.49 351.20
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40

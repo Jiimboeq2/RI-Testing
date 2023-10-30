@@ -3,14 +3,14 @@ Custom
 CheckAndSet -InZone "Sundered Frontier" 14
 0 0 0
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40
@@ -93,14 +93,14 @@ Path -PL 8 -L -DFPWD -QA "-A|Fresh Produce|-T|QSC:3/3|-E|H" -CT "QSC:I found som
 -1917.58 -18.64 -149.23
 -1947.72 -17.76 -172.41
 Custom
-FastTravel "Myrist"
+FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor "Ulteran Spire Portal"
-20.70 -20.10 -12.84
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
 Custom
 TravelMap "Sundered Frontier"
-20.70 -20.10 -12.84
+-589.04 -46.54 -401.60
 2264.11 -207.22 2470.68
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40
