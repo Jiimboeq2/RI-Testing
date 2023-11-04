@@ -1,4 +1,4 @@
-A Gathering Obsession, Part III
+A Gathering Obsession"," Part III
 Custom
 CheckPreReqs -Completed "A Gathering Obsession, Part II"
 0 0 0
@@ -47,7 +47,7 @@ Wait
 833.95 3.61 -44.89
 841.25 4.31 -51.81
 Custom
-Path -PL 229 -L -DFPWD -QA "-QD|200|-A|arbor|-T|QSC:gathered some severed ash in Nektulos|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some pig meat in Nektulos|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some lion meat in Nektulos|-E|H" -QA "-QD|200|-A|polluted natural garden|-T|QSC:gathered some sweet onions in Nektulos|-E|H" -QA "-QD|200|-A|rancid roots|-T|QSC:gathered some belladonna roots in Nektulos|-E|H" -QA "-QD|200|-A|polluted natural garden|-T|QSC:gathered some Steppes mountain beans in Nektulos|-E|H" -QA "-QD|200|-A|swarm of fish|-T|QSC:fished up some seafury mackerel in Nektulos|-E|H" -QA "-QD|200|-A|eventide stone|-T|QSC:mined some gold clusters in Nektulos|-E|H" -QA "-QD|200|-A|eventide stone|-T|QSC:mined some rough agate in Nektulos|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
+Path -PL 229 -L -DFPWD -R -QA "-QD|200|-A|arbor|-T|QSC:gathered some severed ash in Nektulos|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some pig meat in Nektulos|-E|H" -QA "-QD|200|-A|beast den|-T|QSC:gathered some lion meat in Nektulos|-E|H" -QA "-QD|200|-A|polluted natural garden|-T|QSC:gathered some sweet onions in Nektulos|-E|H" -QA "-QD|200|-A|rancid roots|-T|QSC:gathered some belladonna roots in Nektulos|-E|H" -QA "-QD|200|-A|polluted natural garden|-T|QSC:gathered some Steppes mountain beans in Nektulos|-E|H" -QA "-QD|200|-A|swarm of fish|-T|QSC:fished up some seafury mackerel in Nektulos|-E|H" -QA "-QD|200|-A|eventide stone|-T|QSC:mined some gold clusters in Nektulos|-E|H" -QA "-QD|200|-A|eventide stone|-T|QSC:mined some rough agate in Nektulos|-E|H" -CT "QSC:I gathered some harvests for Qho Augren"
 841.25 4.31 -51.81
 848.70 0.98 -58.13
 853.54 -2.06 -72.44
