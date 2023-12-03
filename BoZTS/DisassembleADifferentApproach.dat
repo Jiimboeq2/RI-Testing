@@ -1,0 +1,10 @@
+Disassemble: A Different Approach
+Custom
+HailActorGetQuest -Actor "Burnish" 
+697.13 -46.35 -439.70
+Custom
+HailActor "Dargrim" 6 1
+713.16 -43.62 -457.59
+Custom
+HailActor "Burnish" 4 1
+697.13 -46.35 -439.70
