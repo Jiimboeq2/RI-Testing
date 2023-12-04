@@ -12,9 +12,6 @@ Custom
 UnpackItem "Adjusted W.H.O.O. Components"
 713.37 -43.77 -471.91
 Custom
-MessageBox "Did it UNPACK Adjusted W.H.O.O. Components?"
-713.37 -43.77 -471.91
-Custom
 CraftIt "Adjusted W.H.O.O." 1
 720.37 -43.67 -470.15
 Custom
