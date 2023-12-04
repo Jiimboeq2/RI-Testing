@@ -111,7 +111,6 @@ ClickActor "Zone to Splendor Sky Aerie"
 Custom
 WaitForZoning
 0 0 0
--711.87 229.62 -751.98
 Custom
 ZoneDoor "Splendor Sky Aerie" 1 FALSE 20 True
 -711.87 229.62 -751.98

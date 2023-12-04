@@ -3,7 +3,7 @@ Repeatable
 Custom
 HailActorGetQuest -Actor "Burnish" 
 711.79 -43.80 -472.62
-Custom 
+Custom
 Path -PL 32 -R -L -QA "-QD|200|-A|animal den|-T|QSC:harvested the hide|-E|H" -QA "-QD|200|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|200|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -CT "QSC:I have harvested the resources"
 697.21 -46.35 -431.16
 626.84 -25.54 -406.74

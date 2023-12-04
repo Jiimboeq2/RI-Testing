@@ -2,7 +2,7 @@ Disassemble: A Rocky Beginning
 Custom
 HailActorGetQuest -Actor "Burnish" 
 697.13 -46.35 -439.70
-Custom 
+Custom
 Path -PL 33 -L -QA "-QD|200|-A|aether roots|-T|QSC:I have harvested the root|-E|H" -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the breadfruit|-E|H" -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the seeds|-E|H" -QA "-QD|200|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|200|-A|gem cluster|-T|QSC:harvested the gems|-E|H" -CT "QSC:I have harvested a number"
 697.21 -46.35 -431.16
 626.84 -25.54 -406.74

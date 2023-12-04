@@ -9,9 +9,10 @@ ClickActor "Stray Feathers"
 Wait
 5
 719.67 -43.70 -469.03
+720.19 -43.65 -470.92
 Custom
 ClickActor "Bivouac Forge"
-719.67 -43.70 -469.03
+720.19 -43.65 -470.92
 Custom
 CraftIt "Hooluk Illusion Potion" 1
 720.79 -43.61 -472.14
