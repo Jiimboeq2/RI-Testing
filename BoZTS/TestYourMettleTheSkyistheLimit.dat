@@ -1,6 +1,6 @@
 Test Your Mettle: The Sky is the Limit
 Custom
-CheckAndSet -NotInZone "Guild Hall" 16
+CheckAndSet -NotInZone "Guild Hall" 17
 0 0 0
 Custom
 RemoveFromDepot "Harvesting Supply Depot" "Pepitas Seeds" 15 "Trystine Gem" 6 "Aether Ore" 1 "Bittersweet Vineroot" 9 "Corymbia Wood" 9 "Direbeak Hide" 9 "Breadfruit" 6 "Charger meat" 6
