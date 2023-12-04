@@ -3,6 +3,7 @@ Repeatable
 Custom
 HailActorGetQuest -Actor "Burnish" 
 711.79 -43.80 -472.62
+711.79 -43.80 -472.62
 Custom 
 Path -PL 32 -R -L -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the breadfruit|-E|H" -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the seeds|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:harvested the meat|-E|H" -CT "QSC:I have harvested the resources"
 697.21 -46.35 -431.16

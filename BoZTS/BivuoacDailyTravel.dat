@@ -1,4 +1,4 @@
-Bivuoac Daily Run
+Bivuoac Daily
 Custom
 CheckAndSet -NotInZone "Guild Hall" 8
 0 0 0
@@ -63,40 +63,3 @@ Path -PL 4 -L -CPSP -R
 Custom
 HailActor "Burnish" 2 1
 711.79 -43.80 -472.62
-Custom
-MakeActiveQuest "Bivouac: Barricades"
-716.24 -43.70 -471.57
-Custom
-CheckAndSet -NotActiveQuest "Bivouac: Barricades" 75
-716.24 -43.70 -471.57
-Custom
-Quest "Bivouac: Barricades"
-716.24 -43.70 -471.57
-Custom
-MakeActiveQuest "Bivouac: Healing"
-716.24 -43.70 -471.57
-Custom
-CheckAndSet -NotActiveQuest "Bivouac: Healing" 84
-716.24 -43.70 -471.57
-Custom
-Quest "Bivouac: Healing"
-716.24 -43.70 -471.57
-Custom
-MakeActiveQuest "Bivouac: Provisions"
-716.24 -43.70 -471.57
-Custom
-CheckAndSet -NotActiveQuest "Bivouac: Provisions" 93
-716.24 -43.70 -471.57
-Custom
-Quest "Bivouac: Provisions"
-716.24 -43.70 -471.57
-Custom
-MakeActiveQuest "Bivouac: Repairs"
-716.24 -43.70 -471.57
-Custom
-CheckAndSet -NotActiveQuest "Bivouac: Repairs" 102
-716.24 -43.70 -471.57
-Custom
-Quest "Bivouac: Repairs"
-716.24 -43.70 -471.57
-716.24 -43.70 -471.57

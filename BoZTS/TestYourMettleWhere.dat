@@ -7,7 +7,7 @@ HailActorGetQuest -Actor "Hydona"
 307.64 286.42 930.23
 291.83 286.42 911.52
 Custom
-Path -PL 116 -L -YD 10 -DFPWD -QA "-QD|125|-A|aether roots|-T|QSC:I have harvested the root|-E|H" -QA "-QD|125|-A|aether shrub|-T|QSC:harvested the breadfruit|-E|H" -QA "-QD|125|-A|animal den|-T|QSC:I have harvested the meat.|-E|H" -QA "-QD|125|-A|aether shrub|-T|QSC:harvested the seeds.|-E|H" -QA "-QD|125|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|125|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|125|-A|gem cluster|-T|QSC:Harvest trystine gems|-E|H" -QA "-QD|125|-A|animal den|-T|QSC:harvested the hides|-E|H" -CT "QSC:I have gathered a number of local harvests"
+Path -PL 116 -L -R -YD 10 -DFPWD -QA "-QD|125|-A|aether roots|-T|QSC:I have harvested the root|-E|H" -QA "-QD|125|-A|aether shrub|-T|QSC:harvested the breadfruit|-E|H" -QA "-QD|125|-A|animal den|-T|QSC:I have harvested the meat.|-E|H" -QA "-QD|125|-A|aether shrub|-T|QSC:harvested the seeds.|-E|H" -QA "-QD|125|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|125|-A|rough ore|-T|QSC:harvested the ore|-E|H" -QA "-QD|125|-A|gem cluster|-T|QSC:Harvest trystine gems|-E|H" -QA "-QD|125|-A|animal den|-T|QSC:harvested the hides|-E|H" -CT "QSC:I have gathered a number of local harvests"
 288.28 285.90 893.44
 291.06 282.77 872.53
 297.77 276.21 850.81
@@ -127,30 +127,19 @@ Path -PL 116 -L -YD 10 -DFPWD -QA "-QD|125|-A|aether roots|-T|QSC:I have harvest
 -539.84 75.95 377.53
 Custom
 Path -PL 29 -CPSP
--332.74 83.00 291.98
--347.31 74.42 277.94
--361.65 69.91 257.55
--372.43 66.60 240.52
--376.35 65.27 234.15
--381.17 62.84 226.39
--379.22 63.75 227.50
--369.22 67.19 254.63
--363.34 67.02 276.27
--365.00 68.89 296.33
--362.20 75.34 318.31
--358.07 80.28 336.74
--354.51 83.45 358.24
--360.88 83.03 374.94
--374.84 79.49 384.18
--387.91 77.42 379.22
--409.14 73.47 369.97
--427.72 70.15 360.27
--449.64 67.94 349.71
--461.90 69.89 352.78
--479.23 73.00 361.89
--498.34 74.21 368.89
--515.48 77.68 373.46
--535.65 76.77 378.83
+331.19 286.45 957.75
+320.41 286.42 932.36
+283.78 273.79 838.21
+306.75 247.37 746.89
+186.47 209.13 658.65
+112.78 149.03 546.05
+44.09 88.33 418.80
+-2.22 77.26 394.99
+-116.06 43.38 420.31
+-230.82 72.44 452.25
+-305.24 91.60 428.90
+-363.58 82.23 377.18
+-538.38 75.02 371.80
 -546.26 77.80 382.85
 -572.19 67.30 426.45
 -599.82 59.81 483.30
