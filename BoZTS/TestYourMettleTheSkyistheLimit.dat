@@ -1,6 +1,6 @@
 Test Your Mettle: The Sky is the Limit
 Custom
-CheckAndSet -NotInZone "Guild Hall" 17
+CheckAndSet -NotInZone "Guild Hall" 16
 0 0 0
 Custom
 RemoveFromDepot "Harvesting Supply Depot" "Pepitas Seeds" 15 "Trystine Gem" 6 "Aether Ore" 1 "Bittersweet Vineroot" 9 "Corymbia Wood" 9 "Direbeak Hide" 9 "Breadfruit" 6 "Charger meat" 6
@@ -41,7 +41,7 @@ Wait
 -471.78 -24.55 -360.77
 ; check name of debri
 Custom
-ClickAllActors "Invasion Debris"
+ClickActor "Invasion Debris" 5
 -471.78 -24.55 -360.77
 Wait
 40
@@ -55,7 +55,7 @@ Custom
 HailActor "Orren" 1 1
 -542.90 -63.29 -429.00
 Custom
-ClickAllActors
+ClickActor flight_path_isle01_a
 -463.43 -70.97 -439.45
 Custom
 TravelMap "Splendor Sky Aerie"
@@ -79,6 +79,9 @@ WaitForZoning
 286.54 273.57 838.68
 298.60 285.94 902.03
 339.84 286.42 963.88
+335.49 286.45 965.62
+Custom
+HailActor "Hydona" 3 1
 335.49 286.45 965.62
 Custom
 HailActor "Hydona" 3 1
