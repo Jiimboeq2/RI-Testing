@@ -1,15 +1,15 @@
-Bivuoac Daily
+Bivuoac Daily Quest Travel
 Custom
-CheckAndSet -NotInZone "Guild Hall" 8
+CheckAndSet -NotInZone "Guild Hall" 7
 0 0 0
 Custom
 RemoveFromDepot "Fuel Depot" "Zimaran Coal" 200 "aerated mineral water" 20 "Zimaran Candle" 60 "Zimaran Kindling" 60 "Zimaran Sandpaper" 60 "Zimaran Incense" 60
 0 0 0
 Custom
-CheckAndSet -InZone "Aether Wroughtlands" 56
+CheckAndSet -InZone "Aether Wroughtlands" 55
 0 0 0
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 23
+TimeStampEcho "Heading to Barren Sky to start the path in Splendor Sky Aerie"
 0 0 0
 Custom
 FastTravel "The Barren Sky"

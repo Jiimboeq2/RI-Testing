@@ -24,7 +24,7 @@ ZoneDoor "Zone to Zimara Breadth"
 WaitForZoning
 -699.38 229.89 -753.87
 Custom
-ClickAllActors
+ClickAllActors 5
 -711.87 229.62 -751.98
 Custom
 ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
