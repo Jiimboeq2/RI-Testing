@@ -1,4 +1,4 @@
-Download the RI Work In Progress Test Files and place them in InnerSpace\Scripts\RI\ZoneFiles folder.
+Download the Test Files and place them in InnerSpace\Scripts\RI\ZoneFiles folder.
 
 To start a quest from ZoneFiles, type 'RI_Runinstances Quest-QuestName'.
 
