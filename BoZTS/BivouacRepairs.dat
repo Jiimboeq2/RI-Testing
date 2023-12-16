@@ -1,10 +1,13 @@
 Bivouac: Repairs
 Repeatable
 Custom
+CheckPreReqs -ITEMQTY "Zimaran Sandpaper" 30
+711.79 -43.80 -472.62
+Custom
 HailActorGetQuest -Actor "Burnish" 
 711.79 -43.80 -472.62
 Custom
-Path -PL 119 -L -DFPWD -QA "-QD|200|-A|aether roots|-T|QSC:I have harvested the root|-E|H" -QA "-QD|200|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|200|-A|rough ore|-T|QSC:harvested the ore|-E|H" -CT "QSC:I have harvested the resources"
+Path -PL 119 -L -QA "-QD|200|-A|aether roots|-T|QSC:I have harvested the root|-E|H" -QA "-QD|200|-A|fallen branch|-T|QSC:harvested the wood|-E|H" -QA "-QD|200|-A|rough ore|-T|QSC:harvested the ore|-E|H" -CT "QSC:I have harvested the resources"
 697.21 -46.35 -431.16
 717.67 -43.55 -459.40
 717.67 -9.80 -459.40
@@ -126,17 +129,33 @@ Path -PL 119 -L -DFPWD -QA "-QD|200|-A|aether roots|-T|QSC:I have harvested the 
 693.19 -22.21 -457.58
 716.26 -43.79 -474.33
 Custom
-Path -PL 6 -L -CPSP
--469.79 123.11 -232.74
--340.35 117.85 -261.06
--251.86 102.84 -273.08
--147.83 74.33 -286.12
-28.74 48.03 -314.10
-181.31 24.25 -318.35
-350.08 11.42 -281.09
-445.44 22.86 -360.49
-516.20 26.31 -381.25
-620.31 26.31 -412.85
+Path -PL 25 -CPSP
+-365.42 149.93 -405.77
+-365.42 149.93 -405.77
+-339.70 145.68 -437.81
+-292.84 136.66 -491.52
+-243.25 136.49 -539.37
+-188.29 128.46 -570.94
+-144.40 122.39 -590.16
+-94.53 115.87 -602.59
+-40.71 109.00 -609.19
+15.01 101.95 -612.28
+69.28 95.08 -613.19
+119.99 88.65 -609.70
+179.27 81.14 -605.62
+233.77 74.00 -591.98
+282.97 67.03 -567.84
+321.56 60.79 -537.19
+362.43 53.29 -494.33
+404.59 45.31 -447.35
+436.64 39.25 -411.64
+488.17 32.28 -400.89
+540.34 24.49 -408.35
+602.97 14.23 -420.76
+653.90 -8.43 -437.24
+693.77 -36.02 -453.99
+714.53 -43.61 -464.61
+719.36 -43.73 -467.87
 620.31 -3.31 -412.85
 695.11 -46.16 -430.35
 Custom

@@ -1,10 +1,13 @@
 Bivouac: Healing
 Repeatable
 Custom
+CheckPreReqs -ITEMQTY "Zimaran Candle" 30
+711.79 -43.80 -472.62
+Custom
 HailActorGetQuest -Actor "Burnish" 
 711.79 -43.80 -472.62
 Custom
-Path -PL 119 -L -DFPWD -QA "-QD|200|-A|aether roots|-T|QSC:I have harvested the root|-E|H" -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the seeds|-E|H" -QA "-QD|200|-A|gem cluster|-T|QSC:Harvest trystine gems|-E|H" -CT "QSC:I have harvested the resources"
+Path -PL 119 -L -DFPWD -QA "-QD|200|-A|aether roots|-T|QSC:I have harvested the root|-E|H" -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the seeds|-E|H" -QA "-QD|200|-A|gem cluster|-T|QSC:gems|-E|H" -CT "QSC:I have harvested the resources"
 717.67 -43.55 -459.40
 717.67 -9.80 -459.40
 717.67 28.12 -459.40
