@@ -1,0 +1,25 @@
+Test Your Mettle: W.H.O.O.?
+Custom
+CheckPreReqs -ITEMQTY "Zimaran Coal" 15 -ITEMQTY "aerated mineral water" 1
+0 0 0
+Custom
+HailActorGetQuest -Actor "Hydona"
+335.49 286.45 965.62
+Custom
+HailActor "Hydona" 15 1
+335.49 286.45 965.62
+Custom
+CraftIt "Processed Norrathian Sample"
+330.74 286.46 962.63
+Custom
+HailActor "Hydona" 3 1
+335.49 286.45 965.62
+Custom
+ClickAllActors "Spare Defunct W.H.O.O."
+337.90 286.45 967.53
+Custom
+CraftIt "W.H.O.O. Basic"
+330.74 286.46 962.63
+Custom
+HailActor "Hydona" 3 1
+335.49 286.45 965.62

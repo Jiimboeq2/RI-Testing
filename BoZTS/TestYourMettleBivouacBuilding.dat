@@ -1,0 +1,58 @@
+Test Your Mettle: Bivouac Building
+Custom
+CheckPreReqs -ITEMQTY "Pepitas Seeds" 15 -ITEMQTY "Trystine Gem" 6 -ITEMQTY "Aether Ore" 1 -ITEMQTY "Bittersweet Vineroot" 9 -ITEMQTY "Corymbia Wood" 9 -ITEMQTY "Direbeak Hide" 9 -ITEMQTY "Breadfruit" 6 -ITEMQTY "Charger meat" 6
+0 0 0
+Custom
+HailActorGetQuest -Actor "Goldbeak" 
+331.19 286.45 957.75
+347.10 286.42 949.96
+297.55 309.33 914.52
+234.02 314.87 853.77
+84.37 340.02 924.92
+-28.42 354.07 944.79
+-199.75 358.82 901.41
+-326.42 336.67 868.55
+-456.79 313.87 834.73
+-578.86 292.57 804.57
+-704.42 270.98 782.12
+-829.40 249.49 759.77
+-991.31 207.23 740.23
+-1093.44 181.90 736.14
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+ClickAllActors 5
+-711.87 229.62 -751.98
+Custom
+ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
+-711.87 229.62 -751.98
+Custom
+WaitForZoning
+0 0 0
+878.86 -46.25 -332.62
+839.21 -46.29 -316.60
+749.21 -46.35 -334.57
+714.78 -45.21 -420.98
+713.16 -43.62 -457.59
+Custom
+HailActor "Dargrim" 8 1
+713.16 -43.62 -457.59
+720.37 -43.67 -470.15
+Custom
+CraftIt "Bivouac Healing Potions" 3
+720.37 -43.67 -470.15
+Custom
+CraftIt "Bivouac Repair Kits" 3
+720.37 -43.67 -470.15
+Custom
+CraftIt "Bivouac Barricades" 3
+720.37 -43.67 -470.15
+Custom
+CraftIt "Bivouac Provisions" 3
+720.37 -43.67 -470.15
+Custom
+HailActor "Dargrim" 6 1
+713.16 -43.62 -457.59

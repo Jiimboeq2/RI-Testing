@@ -1,0 +1,13 @@
+Test Your Mettle: Aetheric Safety
+Custom
+HailActorGetQuest -Actor "Dargrim" 
+713.16 -43.62 -457.59
+Custom
+HailActor "Dargrim" 8 1
+713.16 -43.62 -457.59
+Custom
+CraftIt "W.H.O.O. Ultimate" 1
+720.37 -43.67 -470.15
+Custom
+HailActor "Dargrim" 6 1
+713.16 -43.62 -457.59

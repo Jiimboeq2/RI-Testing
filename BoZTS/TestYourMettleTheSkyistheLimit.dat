@@ -1,0 +1,88 @@
+Test Your Mettle: The Sky is the Limit
+Custom
+CheckAndSet -NotInZone "Guild Hall" 16
+0 0 0
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Pepitas Seeds" 15 "Trystine Gem" 6 "Aether Ore" 1 "Bittersweet Vineroot" 9 "Corymbia Wood" 9 "Direbeak Hide" 9 "Breadfruit" 6 "Charger meat" 6
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Zimaran Coal" 200 "aerated mineral water" 20 "Zimaran Candle" 40 "Zimaran Kindling" 40 "Zimaran Sandpaper" 50 "Zimaran Incense" 50
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Pepitas Seeds" 15 -ITEMQTY "Trystine Gem" 6 -ITEMQTY "Aether Ore" 1 -ITEMQTY "Bittersweet Vineroot" 9 -ITEMQTY "Corymbia Wood" 9 -ITEMQTY "Direbeak Hide" 9 -ITEMQTY "Breadfruit" 6 -ITEMQTY "Charger meat" 6
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Portable Work Bench v2" 1 -ITEMQTY "aerated mineral water" 20 -ITEMQTY "Zimaran Coal" 200
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+-584.10 -51.31 -426.86
+-547.56 -61.91 -426.17
+Custom
+HailActorGetQuest -Actor "Orren"
+-542.90 -63.29 -429.00
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Thundering Steppes" 1 1
+6.87 -2.38 117.17
+Wait
+5
+0 0 0
+-532.63 -20.88 -401.42
+-459.91 -21.03 -402.30
+-459.41 -24.56 -375.87
+-471.78 -24.55 -360.77
+; check name of debri
+Custom
+ClickActor "Invasion Debris" 5
+-471.78 -24.55 -360.77
+Wait
+40
+-471.78 -24.55 -360.77
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+-584.10 -51.31 -426.86
+-547.56 -61.91 -426.17
+Custom
+HailActor "Orren" 1 1
+-542.90 -63.29 -429.00
+Custom
+ClickActor flight_path_isle01_a
+-463.43 -70.97 -439.45
+Custom
+TravelMap "Splendor Sky Aerie"
+-463.43 -70.97 -439.45
+WaitForZoning
+0 0 0
+-338.10 114.13 574.43
+-340.63 114.74 574.34
+-342.58 117.93 603.03
+-334.84 107.77 542.15
+-253.78 80.40 466.30
+-167.69 61.81 410.01
+-128.77 51.56 369.66
+-54.50 40.56 335.30
+43.55 47.19 331.54
+62.65 86.60 415.85
+111.50 133.91 506.18
+157.12 187.79 608.36
+262.44 231.94 715.86
+320.52 252.78 760.97
+286.54 273.57 838.68
+298.60 285.94 902.03
+339.84 286.42 963.88
+335.49 286.45 965.62
+Custom
+HailActor "Hydona" 3 1
+335.49 286.45 965.62
+Custom
+HailActor "Hydona" 3 1
+335.49 286.45 965.62

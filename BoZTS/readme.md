@@ -1,0 +1,25 @@
+RI_Runinstances Quest-TestYourMettleTheSkyistheLimit
+
+RI_Runinstances Quest-TestYourMettleTimetoPreen
+
+RI_Runinstances Quest-TestYourMettleWHOO
+
+RI_Runinstances Quest-TestYourMettleWhere
+
+RI_Runinstances Quest-TestYourMettleTheBreadthoftheMatter
+
+RI_Runinstances Quest-TestYourMettleTheWidthoftheBreadth
+
+RI_Runinstances Quest-TestYourMettleBivouacBuilding
+
+RI_Runinstances Quest-TestYourMettleAethericSafety
+
+RI_Runinstances Quest-DisassembleNo
+
+RI_Runinstances Quest-DisassembleARockyBeginning
+
+RI_Runinstances Quest-DisassembleHideifYouCan
+
+RI_Runinstances Quest-DisassembleTrickingtheEyes
+
+RI_Runinstances Quest-DisassembleADifferentApproach

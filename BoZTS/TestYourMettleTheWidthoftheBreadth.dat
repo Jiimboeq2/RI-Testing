@@ -1,0 +1,22 @@
+Test Your Mettle: The Width of the Breadth
+Custom
+CheckPreReqs -ITEMQTY "aerated mineral water" 1
+0 0 0
+Custom
+HailActorGetQuest -Actor "Goldbeak" 
+331.19 286.45 957.75
+Custom
+HailActor "Goldbeak" 10 1
+331.19 286.45 957.75
+Custom
+CheckPreReqs -ITEMQTY "Zimaran Invasion Debris" 1
+0 0 0
+Custom
+CheckQuestStep "Speak to Goldbeak" 6
+331.19 286.45 957.75
+Custom
+CraftIt "Additional Zimaran Sample"
+331.46 286.46 963.42
+Custom
+HailActor "Goldbeak" 3 1
+331.19 286.45 957.75

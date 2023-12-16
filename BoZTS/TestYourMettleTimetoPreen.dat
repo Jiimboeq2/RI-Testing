@@ -1,0 +1,16 @@
+Test Your Mettle: Time to Preen
+Custom
+HailActorGetQuest -Actor "Hydona"
+335.49 286.45 965.62
+Custom
+HailActor "Hydona" 3 1
+335.49 286.45 965.62
+Custom
+CraftIt "Preening Oil"
+330.74 286.46 962.63 142.23 0.00 0.00
+Custom
+HailActor "Hydona" 3 1
+335.49 286.45 965.62
+Custom
+HailActor "Hydona" 3 1
+335.49 286.45 965.62
