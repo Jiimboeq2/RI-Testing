@@ -1,0 +1,82 @@
+Ballads of Zimara: Vaashkaani Crescendo
+Custom
+HailActorGetQuest -Actor "Sirran the Lunatic"
+106.63 377.93 667.41
+152.81 361.42 669.82
+210.95 378.52 653.36
+Custom
+ClickActor "Fly from Strungstone Peaks"
+212.64 378.85 652.89
+Custom
+TravelMap "Isles of Wisdom"
+212.64 378.85 652.89
+Custom
+ClickActor "Fly from Isles of Wisdom"
+-676.67 141.86 -20.35
+Custom
+TravelMap "Auric Palisades"
+-676.67 141.86 -20.35
+-709.47 145.39 -366.67
+-711.15 145.96 -392.13
+-663.46 130.08 -422.26
+-634.99 126.49 -449.81
+-659.72 144.77 -485.64
+-674.99 174.37 -544.34
+-639.92 181.59 -565.17
+-587.22 172.69 -583.63
+-495.96 162.78 -605.31
+Custom
+ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Argent Sanctuary [Solo]"
+288.76 164.76 -126.28
+-76.77 3.63 -0.36
+Custom
+WaitForZoning
+0 0 0
+Custom
+MessageBox "Complete Zone and stand at exit door and hit resume"
+0 0 0
+Custom
+ZoneDoor Exit
+105.13, 7.94, -319.53
+-495.96 162.78 -605.31
+Custom
+ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Golden Rule [Solo]"
+288.76 164.76 -126.28
+-76.77 3.63 -0.36
+Custom
+WaitForZoning
+0 0 0
+Custom
+MessageBox "Complete Zone and stand at exit door and hit resume"
+0 0 0
+Custom
+ZoneDoor Exit
+592.22 71.11 -53.65
+-494.90 192.83 -609.40
+-524.44 192.19 -599.33
+-583.29 192.85 -578.92
+-642.50 192.40 -563.63
+-673.97 192.99 -538.49
+-665.58 192.28 -495.04
+-633.82 192.00 -448.67
+-669.25 192.18 -419.77
+-712.85 192.28 -391.83
+-709.35 145.34 -360.30
+Custom
+ClickActor "Fly from Auric Palisades"
+-709.56 145.35 -360.27
+Custom
+TravelMap "Isles of Wisdom"
+-709.56 145.35 -360.27
+-703.18 144.16 13.35
+-777.85 189.99 27.76
+-828.73 189.75 28.51
+-863.48 189.99 86.34
+-873.69 189.46 141.49
+-896.92 189.64 218.46
+-914.27 189.77 295.49
+-903.18 189.02 326.03
+-911.86 189.59 330.13
+Custom
+HailActor "Miranna Ameema" 7 1
+-911.86 189.59 330.13

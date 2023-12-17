@@ -1,0 +1,115 @@
+Destruction of Amassed Weapons
+Custom
+HailActorGetQuest -Actor "Hooatio"
+-859.34 189.67 369.57
+-867.60 188.91 351.67
+-912.42 186.75 304.56
+-895.87 166.22 216.97
+-872.84 159.36 128.18
+-836.75 144.42 38.95
+-736.10 142.50 20.50
+-677.47 141.90 -18.79
+Custom
+ClickActor "Fly from Isles of Wisdom"
+-677.47 141.90 -18.79
+Custom
+TravelMap "Auric Palisades"
+-677.47 141.90 -18.79
+-656.86 132.26 -397.03
+Custom
+ClickActor "Zakir Rish Weapons"
+-654.29 132.58 -392.86
+-667.59 133.30 -396.53
+-656.70 132.42 -395.33
+Custom
+ClickActor "Zakir Rish Weapons"
+-521.86 94.52 -501.65
+-514.82 94.57 -508.73
+Custom
+ClickActor "Zakir Rish Weapons"
+-505.63 94.73 -506.12
+-494.22 94.46 -481.99
+Custom
+ClickActor "Zakir Rish Weapons"
+-497.24 94.58 -487.26
+-449.48 98.10 -542.53
+Custom
+ClickActor "Zakir Rish Weapons"
+-395.10 117.71 -595.98
+-364.76 122.49 -616.81
+Custom
+ClickActor "Zakir Rish Weapons"
+-361.77 122.18 -614.77
+-358.63 122.19 -620.21
+Custom
+ClickActor "Zakir Rish Weapons"
+-356.36 124.24 -647.21
+-350.01 126.39 -675.55
+Custom
+ClickActor "Zakir Rish Weapons"
+-340.00 126.71 -674.06
+-390.74 121.75 -608.33
+Custom
+ClickActor "Zakir Rish Weapons"
+-429.24 101.30 -560.84
+-500.30 94.55 -495.22
+Custom
+ClickActor "Zakir Rish Weapons"
+-580.68 113.96 -445.21
+-642.52 128.90 -412.37
+Custom
+ClickActor "Zakir Rish Weapons"
+-679.36 130.24 -419.86
+-711.14 147.17 -387.56
+-708.96 145.43 -358.56
+Custom
+Path -PL 22 -L -QA "-A|a maedjinn|-T|QSC:maedjinn|-E|K" -QA "-A|Zakir Rish Weapons|-T|QSC:Zakir|-E|UseItem-brittle arcanum concoction" -QA "-A|Zakir Rish Weapons|-T|QSC:Zakir|-E|H" -CT "QSC:I sabotaged"
+-687.43 150.42 -377.62
+-656.86 132.26 -397.03
+-654.29 132.58 -392.86
+-667.59 133.30 -396.53
+-656.70 132.42 -395.33
+-521.86 94.52 -501.65
+-514.82 94.57 -508.73
+-505.63 94.73 -506.12
+-494.22 94.46 -481.99
+-497.24 94.58 -487.26
+-449.48 98.10 -542.53
+-395.10 117.71 -595.98
+-364.76 122.49 -616.81
+-361.77 122.18 -614.77
+-358.63 122.19 -620.21
+-356.36 124.24 -647.21
+-350.01 126.39 -675.55
+-340.00 126.71 -674.06
+-390.74 121.75 -608.33
+-429.24 101.30 -560.84
+-500.30 94.55 -495.22
+-580.68 113.96 -445.21
+-642.52 128.90 -412.37
+-679.36 130.24 -419.86
+-711.14 147.17 -387.56
+-708.96 145.43 -358.56
+Custom
+ClickActor "Fly from Auric Palisades"
+-708.96 145.43 -358.56
+Custom
+TravelMap "Isles of Wisdom"
+-708.96 145.43 -358.56
+-682.39 142.57 -13.65
+-714.41 144.05 13.87
+-777.85 141.99 27.76
+-828.73 142.75 28.51
+-863.48 152.99 86.34
+-873.69 160.46 141.49
+-896.92 166.64 218.46
+-914.27 186.77 295.49
+-903.18 188.02 326.03
+-893.78 187.87 320.56
+-858.91 189.67 368.05
+Custom
+HailActor "Hooatio"
+-858.91 189.67 368.05
+Custom
+Quest "ZakirRishRemoval"
+0 0 0

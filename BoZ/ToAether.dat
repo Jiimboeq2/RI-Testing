@@ -1,0 +1,56 @@
+Travel to Aether
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 44
+0 0 0
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 11
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
+Custom
+TravelMap "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -L -CPSP -R
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+ClickAllActors
+-711.87 229.62 -751.98
+Custom
+ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
+-711.87 229.62 -751.98
+Custom
+WaitForZoning
+0 0 0
+Custom
+Path -PL 6 -L -CPSP -R
+878.86 -46.25 -332.62
+839.21 -46.29 -316.60
+749.21 -46.35 -334.57
+714.78 -45.21 -420.98
+713.16 -43.62 -457.59
