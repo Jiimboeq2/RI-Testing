@@ -32,12 +32,130 @@ ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Argent Sanctuary [Solo]"
 Custom
 WaitForZoning
 0 0 0
+-76.77 3.63 -0.36
+-62.59 3.09 -2.79
+-41.89 3.06 -24.41
+-16.78 2.96 -45.51
+17.93 2.96 -32.74
+-13.27 2.65 -12.63
+-13.96 2.65 18.76
+3.02 2.96 36.12
+24.95 3.46 27.40
+47.23 3.52 8.13
+55.47 3.53 0.18
 Custom
-MessageBox "Complete Zone and stand at exit door and hit resume"
-0 0 0
+Target Tazir Tanziri
+98.85 3.53 -1.50
+Named
+Tazir Tanziri
+StandardNamed
+SameLock
+KillAdd
+a silver shard
+DontMoveBehind
+98.85 3.53 -1.50
+61.68 3.47 -7.87
+86.00 3.53 2.72
+107.24 3.53 2.58
+131.85 3.58 5.20
+104.91 3.53 -1.36
+164.86 3.76 0.39
+168.91 3.76 22.72
+180.18 3.76 20.54
+182.74 3.76 -0.72
+214.82 3.46 -0.54
+213.16 3.49 -49.46
+213.10 3.46 -0.14
+211.38 3.45 41.75
+Custom
+Target Sansobog
+211.38 3.45 41.75
+StandardNamed
+SameLock
+DontKillAdd
+DontMoveBehind
+211.38 3.45 41.75
+Custom
+Target Akharys
+212.03 3.45 43.21
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+212.03 3.45 43.21
+216.64 3.46 1.30
+251.26 3.46 1.06
+263.11 3.45 25.13
+262.42 3.45 62.62
+267.57 3.46 0.80
+263.67 3.45 -33.32
+Custom
+Target Uah'Lu the Unhallowed
+262.12 3.45 -29.66
+StandardNamed
+SameLock
+KillAdd
+a fallen
+DontMoveBehind
+262.12 3.45 -29.66
+263.69 3.54 -9.05
+274.11 3.46 -1.43
+293.80 3.49 -0.47
+294.26 3.50 -0.82
+Custom
+ClickActor portal_to_aviary
+294.26 3.50 -0.82
+-56.67 26.58 -247.22
+-11.71 11.87 -247.22
+39.39 9.07 -247.48
+54.21 7.94 -275.40
+76.15 7.94 -279.42
+98.79 7.94 -270.65
+121.87 14.70 -286.67
+146.20 30.07 -302.59
+122.30 7.94 -233.52
+93.93 11.43 -201.60
+71.17 11.43 -217.50
+69.41 11.43 -204.71
+Custom
+Target Xuxuquaxul
+69.41 11.43 -204.71
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+69.41 11.43 -204.71
+92.13 11.78 -220.79
+82.37 7.94 -281.51
+71.93 7.94 -292.25
+Custom
+Target Ra'Zaal's ghul
+71.93 7.94 -292.25
+StandardNamed
+SameLock
+KillAdd
+Ra'Zaal's ghul
+DontMoveBehind
+71.93 7.94 -292.25
+Custom
+HailActor "General Ra'Zaal" 4
+95.59 7.94 -303.52
+Custom
+Target General Ra'Zaal
+71.93 7.94 -292.25
+StandardNamed
+SameLock
+KillAdd
+Ra'Zaal's ghul
+DontMoveBehind
+71.93 7.94 -292.25
+83.95 7.94 -298.55
 Custom
 ZoneDoor Exit
-105.13, 7.94, -319.53
+102.51 7.94 -317.70
+Custom
+WaitForZoning
+0 0 0
 -495.96 162.78 -605.31
 Custom
 ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Golden Rule [Solo]"
@@ -46,12 +164,149 @@ ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Golden Rule [Solo]"
 Custom
 WaitForZoning
 0 0 0
+-65.50 3.09 1.00
+-56.83 3.03 -7.51
+-39.51 3.03 -24.53
+-18.67 8.96 -35.83
+-6.61 13.81 -34.72
+1.10 17.69 -29.37
+6.32 19.85 -21.58
+9.91 19.92 0.13
+42.95 20.33 -0.21
+66.43 20.36 0.03
+84.95 20.30 1.86
+114.36 20.30 0.17
+132.27 20.33 -0.40
 Custom
-MessageBox "Complete Zone and stand at exit door and hit resume"
+Target Nezri En'Sallef
+114.57 20.30 0.06
+Named
+Nezri En'Sallef
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+114.57 20.30 0.06
+95.85 20.33 0.82
+77.51 20.30 0.11
+123.59 20.30 -0.05
+148.57 20.36 -0.21
+206.30 31.50 -8.32
+212.01 31.52 -20.11
+Custom
+ClickActor orb_rains 5
+224.53 32.40 -43.14
+Custom
+ClickActor orb_hale 5
+201.07 32.34 -45.36
+259.98 31.50 1.80
+Custom
+ClickActor orb_gales 5
+202.63 32.24 42.61
+Custom
+ClickActor orb_cyclones 5
+221.29 31.32 43.58
+218.64 31.50 0.22
+257.99 31.50 0.66
+261.23 31.52 19.80
+Custom
+Target Isos
+263.05 31.25 41.60
+Named
+Isos
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+263.05 31.25 41.60
+Custom
+ClickActor orb_thunder 5
+260.52 32.41 63.22
+261.42 31.45 -21.38
+259.20 31.50 0.35
+261.20 31.47 -26.77
+Custom
+Target The Storm Mistress
+260.81 31.25 -37.83
+Named
+The Storm Mistress
+StandardNamed
+SameLock
+KillAdd
+lightning anchor
+DontMoveBehind
+260.81 31.25 -37.83
+264.95 31.50 -4.95
+277.97 31.53 -0.92
+Custom
+ClickActor portal_to_forum
+277.97 31.53 -0.92
+350.00 3.52 0.00
+377.98 3.51 0.00
+410.07 3.52 -0.67
+Custom
+Target Hezodhan
+429.11 6.14 0.75
+Named
+Hezodhan
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+429.11 6.14 0.75
+Custom
+ClickActor transport_carpet_01
+438.85 6.82 0.12
+372.89 31.20 4.89
+359.18 31.61 -0.57
+337.75 31.49 -1.71
+306.25 31.49 -5.64
+291.15 31.50 -1.33
+286.00 31.64 -0.37
+314.55 34.57 0.25
+340.44 48.71 -0.30
+392.32 71.37 -0.17
+393.38 71.33 -15.03
+391.46 71.33 21.00
+409.68 71.37 17.45
+Custom
+ClickActor teleport_prism_01
+412.47 71.38 17.42
+506.01 71.37 17.63
+521.82 71.37 17.51
+521.23 71.37 0.39
+550.70 71.32 -0.41
+552.25 71.14 45.39
+553.77 71.34 0.46
+553.55 71.57 -55.51
+552.56 71.34 1.59
+601.87 71.34 0.28
+603.06 71.11 38.07
+601.98 71.40 18.83
+602.01 71.40 -16.79
+602.00 71.11 -47.34
+Custom
+ClickActor djinn_boss_mirror
+616.62 71.11 -45.33
+Custom
+HailActor Ashnu
+614.40 71.14 -46.11
+Named
+Ashnu
+StandardNamed
+SameLock
+KillAdd
+Zakir-sar-ussur
+DontMoveBehind
+614.40 71.14 -46.11
+616.04 71.13 -47.21
+593.97 71.11 -54.84
+Custom
+ClickActor ZoneDoor
+593.97 71.11 -54.84
+Custom
+WaitForZoning
 0 0 0
-Custom
-ZoneDoor Exit
-592.22 71.11 -53.65
 -494.90 192.83 -609.40
 -524.44 192.19 -599.33
 -583.29 192.85 -578.92

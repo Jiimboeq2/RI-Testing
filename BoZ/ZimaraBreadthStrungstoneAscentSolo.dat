@@ -1,23 +1,3 @@
-Ballads of Zimara: Ascending Collection
-Custom
-HailActorGetQuest -Actor "Sirran the Lunatic"
-106.63 377.93 667.41
-152.81 361.42 669.82
-210.95 378.52 653.36
-Custom
-ClickActor "Fly from Strungstone Peaks"
-212.64 378.85 652.89
-Custom
-TravelMap "Zenith Helionae"
-212.64 378.85 652.89
-290.53 163.20 -90.15
-288.68 164.28 -120.23
-Custom
-ZoneDoor zone_portal_to_dun_zimara_breadth_02 "Zimara Breadth: Strungstone Ascent [Solo]"
-288.17 164.41 -122.91
-Custom
-WaitForZoning
-0 0 0
 554.50 219.89 -818.77
 Custom
 Path -PL 5 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
@@ -162,21 +142,3 @@ DontMoveBehind
 -236.77 432.60 882.37
 ZoneDoor Exit
 -242.98 432.11 891.88
-Custom
-WaitForZoning
-0 0 0
-279.61 161.58 -90.26
-309.35 167.15 -53.82
-Custom
-ClickActor "Fly from Zenith Helionae"
-313.10 167.48 -53.67
-Custom
-TravelMap "Strungstone Peaks"
-313.10 167.48 -53.67
-208.11 377.84 655.18
-166.12 362.97 670.29
-113.02 374.09 694.14
-111.85 378.00 668.63
-Custom
-HailActor "Sirran the Lunatic" 
-106.63 377.93 667.41
