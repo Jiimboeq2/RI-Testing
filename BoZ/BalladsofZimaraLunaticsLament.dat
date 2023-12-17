@@ -60,8 +60,8 @@ TravelMap "Isles of Wisdom"
 Custom
 QuestRepeatFaction "Zakir Rish Removal" "Isles of Wisdom" 10000 65
 -855.62 188.60 355.55
--855.62 188.60 355.55
 -859.07 188.82 352.52
+-856.00 188.74 337.74
 -843.93 188.72 336.20
 Custom
 BuyFromVendor "Rannaakh" "Bird Whistle" 1
@@ -158,14 +158,14 @@ Custom
 ClickActor "Zakir Rish Chest"
 -656.86 132.26 -397.03
 Custom
-CheckQuestStep "I found an ornate silver" 200
+CheckQuestStep "I found an ornate silver" 204
 -656.86 132.26 -397.03
 -654.29 132.58 -392.86
 Custom
 ClickActor "Zakir Rish Chest"
 -667.59 133.30 -396.53
 Custom
-CheckQuestStep "I found an ornate silver" 200
+CheckQuestStep "I found an ornate silver" 204
 -667.59 133.30 -396.53
 -656.70 132.42 -395.33
 -521.86 94.52 -501.65
@@ -175,7 +175,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -491.44 94.50 -481.15
 Custom
-CheckQuestStep "I found an ornate silver" 200
+CheckQuestStep "I found an ornate silver" 204
 -249.35 148.96 452.55
 -494.22 94.46 -481.99
 -497.24 94.58 -487.26
@@ -186,7 +186,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -364.76 122.49 -616.81
 Custom
-CheckQuestStep "I found an ornate silver" 200
+CheckQuestStep "I found an ornate silver" 204
 -361.77 122.18 -614.77
 -358.63 122.19 -620.21
 -356.36 124.24 -647.21
@@ -196,7 +196,10 @@ Custom
 ClickActor "Zakir Rish Chest"
 -390.74 121.75 -608.33
 Custom
-CheckQuestStep "I found an ornate silver" 200
+CheckQuestStep "I found an ornate silver" 204
+-390.74 121.75 -608.33
+Custom
+MessageBox "Unable to find the cloak, run around click chests til you find the cloak"
 -390.74 121.75 -608.33
 -429.24 101.30 -560.84
 -500.30 94.55 -495.22
@@ -220,6 +223,8 @@ TravelMap "Isles of Wisdom"
 -914.27 186.77 295.49
 -903.18 188.02 326.03
 -911.86 189.59 330.13
+-859.07 188.82 352.52
+-856.00 188.74 337.74
 -855.62 188.60 355.55
 Custom
 BuyFromVendor "Rannaakh" "Candied Fairy-Leaf Cake" 1
@@ -252,9 +257,6 @@ Path -PL 10 -DFPWD -QA "-A|Fairy-Leaf|-QD|10|-MTD|3|-E|H"
 -791.19 189.86 224.90
 -764.75 191.67 225.23
 Custom
-MessageBox "Go Harvest 16 Fairy-Leaf from around Isles of Wisdom and press Resume."
--754.70 164.19 308.16
-Custom
 Path -PL 10 -CPSP
 -516.13 146.55 263.87
 -566.86 139.77 279.67
@@ -268,6 +270,9 @@ Path -PL 10 -CPSP
 -844.59 185.98 310.73
 -808.73 189.29 256.06
 -791.19 189.86 224.90
+-764.75 191.67 225.23
+Custom
+MessageBox "Make sure you have harvested 16 Fairy-Leaf from around Isles of Wisdom and press Resume."
 -764.75 191.67 225.23
 Custom
 CraftIt "Candied Fairy-Leaf Cake" 4

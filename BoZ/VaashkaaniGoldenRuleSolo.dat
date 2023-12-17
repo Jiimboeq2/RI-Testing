@@ -1,0 +1,139 @@
+-65.50 3.09 1.00
+-56.83 3.03 -7.51
+-39.51 3.03 -24.53
+-18.67 8.96 -35.83
+-6.61 13.81 -34.72
+1.10 17.69 -29.37
+6.32 19.85 -21.58
+9.91 19.92 0.13
+42.95 20.33 -0.21
+66.43 20.36 0.03
+84.95 20.30 1.86
+114.36 20.30 0.17
+132.27 20.33 -0.40
+Custom
+Target Nezri En'Sallef
+114.57 20.30 0.06
+Named
+Nezri En'Sallef
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+114.57 20.30 0.06
+95.85 20.33 0.82
+77.51 20.30 0.11
+123.59 20.30 -0.05
+148.57 20.36 -0.21
+206.30 31.50 -8.32
+212.01 31.52 -20.11
+Custom
+ClickActor Orbs of Rain
+214.53 31.25 -44.24
+Custom
+ClickActor Orbs of Hail
+200.90 32.58 -41.64
+259.98 31.50 1.80
+Custom
+ClickActor Orbs of Gales
+202.65 32.06 47.54
+Custom
+ClickActor Orbs of Cyclones
+219.38 31.25 46.25
+Custom
+Target Isos
+260.58 31.40 61.91
+Named
+Isos
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+260.58 31.40 61.91
+Custom
+ClickActor Orb of Thunder
+260.52 32.41 63.22
+261.42 31.45 -21.38
+251.94 31.61 -40.65
+261.77 31.72 -19.19
+272.15 31.39 -40.41
+263.76 31.46 -23.65
+Custom
+Target The Storm Mistress
+260.81 31.25 -37.83
+Named
+The Storm Mistress
+StandardNamed
+SameLock
+KillAdd
+lightning anchor
+DontMoveBehind
+260.81 31.25 -37.83
+264.95 31.50 -4.95
+277.97 31.53 -0.92
+Custom
+ClickActor portal_to_forum
+277.97 31.53 -0.92
+350.00 3.52 0.00
+377.98 3.51 0.00
+410.07 3.52 -0.67
+Custom
+Target Hezodhan
+429.11 6.14 0.75
+Named
+Hezodhan
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+429.11 6.14 0.75
+Custom
+ClickActor transport_carpet_01
+438.85 6.82 0.12
+372.89 31.20 4.89
+359.18 31.61 -0.57
+337.75 31.49 -1.71
+306.25 31.49 -5.64
+291.15 31.50 -1.33
+286.00 31.64 -0.37
+314.55 34.57 0.25
+340.44 48.71 -0.30
+392.32 71.37 -0.17
+393.38 71.33 -15.03
+391.46 71.33 21.00
+409.68 71.37 17.45
+Custom
+ClickActor teleport_prism_01
+412.47 71.38 17.42
+506.01 71.37 17.63
+521.82 71.37 17.51
+521.23 71.37 0.39
+550.70 71.32 -0.41
+552.25 71.14 45.39
+553.77 71.34 0.46
+553.55 71.57 -55.51
+552.56 71.34 1.59
+601.87 71.34 0.28
+603.06 71.11 38.07
+601.98 71.40 18.83
+602.01 71.40 -16.79
+602.00 71.11 -47.34
+Custom
+ClickActor djinn_boss_mirror
+616.62 71.11 -45.33
+Custom
+HailActor Ashnu
+614.40 71.14 -46.11
+Named
+Ashnu
+StandardNamed
+SameLock
+KillAdd
+Zakir-sar-ussur
+DontMoveBehind
+614.40 71.14 -46.11
+616.04 71.13 -47.21
+593.97 71.11 -54.84
+Custom
+ClickActor ZoneDoor
+593.97 71.11 -54.84

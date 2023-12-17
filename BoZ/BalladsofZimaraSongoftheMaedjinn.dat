@@ -9,6 +9,12 @@ Custom
 CheckPreReqs -Completed "Zakir Rish Removal"
 0 0 0
 Custom
+SetActiveQuest "Ballads of Zimara: Song of the Maedjinn"
+0 0 0
+Custom
+CheckQuestStep "Miranna is waiting for the metalbound" 252
+0 0 0
+Custom
 Path
 -882.61 188.65 333.59
 Custom
@@ -90,7 +96,7 @@ Custom
 HailActor "Miranna Ameema" 6 1
 -911.86 189.59 330.13
 Custom
-CheckQuestStep "Miranna Ameema turned out to be" 96
+CheckQuestStep "Miranna Ameema turned out to be" 103
 -911.86 189.59 330.13
 Custom
 MessageBox "Check to see conversation with Miranna is updated"
@@ -201,6 +207,7 @@ TravelMap "Auric Palisades"
 -620.09 186.16 -626.67
 -653.91 207.96 -680.53
 -696.41 214.93 -657.67
+-702.51 215.52 -669.13
 -713.35 217.05 -666.47
 Custom
 PauseCombatBot 1
@@ -245,7 +252,7 @@ HailActor "Miranna Ameema" 3 1
 -911.86 189.59 330.13
 Custom
 MessageBox "Wait 6-10 minutes for Miranna to have a feather and then press Resume"
--859.29 189.67 367.79
+-911.86 189.59 330.13
 Custom
 HailActor "Miranna Ameema" 11 1
 -911.86 189.59 330.13
@@ -334,7 +341,7 @@ Path -PL 8 -CPSP
 740.02 196.16 191.29
 751.13 194.16 253.49
 Custom
-Path -PL 29 -L -R -DFPWD -QA "-QD|200|-A|a harrying|-T|QSC:Obtain life-sparked clay|-E|K" -QA "-QD|200|-A|a construct|-T|QSC:Obtain life-sparked clay|-E|K" -QA "-QD|200|-A|Life-sparked clay|-T|QSC:Obtain life-sparked clay|-E|H" -CT "QSC:I found the life-sparked clay"
+Path -PL 28 -L -R -DFPWD -QA "-QD|200|-A|a harrying|-T|QSC:Obtain life-sparked clay|-E|K" -QA "-QD|200|-A|a construct|-T|QSC:Obtain life-sparked clay|-E|K" -QA "-QD|200|-A|Life-sparked clay|-T|QSC:Obtain life-sparked clay|-E|H" -CT "QSC:I found the life-sparked clay"
 805.70 185.82 304.21
 756.73 185.34 318.66
 708.36 190.50 371.21

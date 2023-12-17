@@ -1,0 +1,121 @@
+-76.77 3.63 -0.36
+-62.59 3.09 -2.79
+-41.89 3.06 -24.41
+-16.78 2.96 -45.51
+17.93 2.96 -32.74
+-13.27 2.65 -12.63
+-13.96 2.65 18.76
+3.02 2.96 36.12
+24.95 3.46 27.40
+47.23 3.52 8.13
+55.47 3.53 0.18
+Custom
+Target Tazir Tanziri
+98.85 3.53 -1.50
+Named
+Tazir Tanziri
+StandardNamed
+SameLock
+KillAdd
+a silver shard
+DontMoveBehind
+98.85 3.53 -1.50
+61.68 3.47 -7.87
+86.00 3.53 2.72
+107.24 3.53 2.58
+131.85 3.58 5.20
+104.91 3.53 -1.36
+164.86 3.76 0.39
+168.91 3.76 22.72
+180.18 3.76 20.54
+182.74 3.76 -0.72
+214.82 3.46 -0.54
+213.16 3.49 -49.46
+213.10 3.46 -0.14
+211.38 3.45 41.75
+Custom
+Target Sansobog
+211.38 3.45 41.75
+StandardNamed
+SameLock
+DontKillAdd
+DontMoveBehind
+211.38 3.45 41.75
+Custom
+Target Akharys
+212.03 3.45 43.21
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+212.03 3.45 43.21
+216.64 3.46 1.30
+251.26 3.46 1.06
+263.11 3.45 25.13
+262.42 3.45 62.62
+267.57 3.46 0.80
+263.67 3.45 -33.32
+Custom
+Target Uah'Lu the Unhallowed
+262.12 3.45 -29.66
+StandardNamed
+SameLock
+KillAdd
+a fallen
+DontMoveBehind
+262.12 3.45 -29.66
+263.69 3.54 -9.05
+274.11 3.46 -1.43
+293.80 3.49 -0.47
+294.26 3.50 -0.82
+Custom
+ClickActor portal_to_aviary
+294.26 3.50 -0.82
+-56.67 26.58 -247.22
+-11.71 11.87 -247.22
+39.39 9.07 -247.48
+54.21 7.94 -275.40
+76.15 7.94 -279.42
+98.79 7.94 -270.65
+121.87 14.70 -286.67
+146.20 30.07 -302.59
+122.30 7.94 -233.52
+93.93 11.43 -201.60
+71.17 11.43 -217.50
+69.41 11.43 -204.71
+Custom
+Target Xuxuquaxul
+69.41 11.43 -204.71
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+69.41 11.43 -204.71
+92.13 11.78 -220.79
+82.37 7.94 -281.51
+71.93 7.94 -292.25
+Custom
+Target Ra'Zaal's ghul
+71.93 7.94 -292.25
+StandardNamed
+SameLock
+KillAdd
+Ra'Zaal's ghul
+DontMoveBehind
+71.93 7.94 -292.25
+Custom
+HailActor "General Ra'Zaal" 4
+95.59 7.94 -303.52
+Custom
+Target General Ra'Zaal
+71.93 7.94 -292.25
+StandardNamed
+SameLock
+KillAdd
+Ra'Zaal's ghul
+DontMoveBehind
+71.93 7.94 -292.25
+83.95 7.94 -298.55
+Custom
+ZoneDoor Exit
+102.51 7.94 -317.70

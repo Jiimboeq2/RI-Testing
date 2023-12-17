@@ -179,10 +179,10 @@ Custom
 ExamineItem "Sacred to the Aurai"
 0 0 0
 Custom
-MessageBox "Learn of an aviak item of significance taken by the Aurai by completing the Sacred to the Aurai collection, then reading the book."
+ReadBook "Sacred to the Aurai"
 0 0 0
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 11
+MessageBox "Learn of an aviak item of significance taken by the Aurai by completing the Sacred to the Aurai collection, then reading the book."
 0 0 0
 Custom
 FastTravel "Splendor Sky Aerie"

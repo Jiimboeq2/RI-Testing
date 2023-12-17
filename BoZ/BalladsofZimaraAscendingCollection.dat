@@ -20,7 +20,7 @@ WaitForZoning
 0 0 0
 554.50 219.89 -818.77
 Custom
-Path -PL 5 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H"
+Path -PL 5 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 597.14 210.02 -783.54
 618.04 201.65 -766.28
 616.63 197.28 -735.61
@@ -28,11 +28,18 @@ Path -PL 5 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12
 619.43 203.62 -636.30
 625.55 206.79 -577.86
 Custom
-HailActor "Rubblethrong" 
+Target Rubblethrong
+625.98 206.78 -573.72
+Named
+Rubblethrong
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
 625.98 206.78 -573.72
 636.63 205.98 -521.01
 Custom
-Path -PL 5 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H"
+Path -PL 5 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 653.76 207.49 -471.33
 690.26 208.18 -439.40
 754.66 232.92 -450.56
@@ -44,16 +51,23 @@ ClickActor telelport crystal
 649.65 207.46 -462.76
 714.31 176.57 273.68
 Custom
-Path -PL 3 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H"
+Path -PL 3 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 737.02 184.31 314.91
 747.53 186.53 348.26
 780.39 188.26 348.46
 Custom
-HailActor "Bolagehera" 
+Target Bolagehera
+790.50 189.05 386.00
+Named
+Bolagehera
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
 790.50 189.05 386.00
 790.63 188.77 414.18
 Custom
-Path -PL 10 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H"
+Path -PL 10 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 793.13 188.91 416.17
 812.43 189.04 426.87
 791.54 189.01 340.35
@@ -71,18 +85,21 @@ Path -PL 10 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:1
 544.28 278.90 534.81
 528.28 283.90 553.17
 Custom
-HailActor "Barlanka" 
+Target Barlanka
+528.28 283.90 553.17
+Named
+Barlanka
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
 528.28 283.90 553.17
 555.85 275.10 573.90
 Custom
-Path -PL 10 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H"
+Path -PL 10 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 543.17 275.20 602.56
 509.40 281.13 660.10
 532.92 277.50 620.83
-539.52 280.86 548.21
-692.12 270.86 503.61
-704.09 283.04 481.14
-582.70 271.50 542.82
 526.70 284.40 554.95
 473.71 308.70 607.87
 423.02 327.75 627.47
@@ -98,7 +115,7 @@ ClickActor telelport crystal
 343.71 402.33 597.42
 217.16 379.54 651.98
 Custom
-Path -PL 6 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H"
+Path -PL 6 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 162.79 361.98 670.28
 162.35 361.69 699.08
 123.61 369.03 696.24
@@ -107,11 +124,19 @@ Path -PL 6 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12
 106.13 375.78 696.76
 87.61 383.28 722.42
 Custom
-HailActor "Crisj'Jen the Bold" 
+Target Crisj'Jen the Bold
+94.13 382.59 717.34
+Named
+Crisj'Jen the Bold
+StandardNamed
+SameLock
+KillAdd
+an ancient temple dog
+DontMoveBehind
 94.13 382.59 717.34
 56.99 397.51 733.71
 Custom
-Path -PL 10 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H"
+Path -PL 10 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 39.32 400.98 738.67
 15.74 402.28 738.02
 -2.75 399.69 736.93
@@ -126,11 +151,18 @@ Path -PL 10 -QA "-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:1
 -201.76 423.60 900.33
 -214.91 430.43 899.87
 Custom
-HailActor "Fuejenyrus" 
--222.28 431.60 895.05
--236.63 433.01 876.62
+Target Fuejenyrus
+-230.40 432.51 876.88
+Named
+Fuejenyrus
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+-230.40 432.51 876.88
+-236.77 432.60 882.37
 ZoneDoor Exit
--244.37 432.11 893.33
+-242.98 432.11 891.88
 Custom
 WaitForZoning
 0 0 0
