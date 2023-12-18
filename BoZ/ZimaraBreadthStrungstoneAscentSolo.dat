@@ -104,10 +104,10 @@ Path -PL 6 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-
 106.13 375.78 696.76
 87.61 383.28 722.42
 Custom
-Target CrisjJen the Bold
+Target "CrisjJen the Bold"
 94.13 382.59 717.34
 Named
-CrisjJen the Bold
+"CrisjJen the Bold"
 StandardNamed
 SameLock
 KillAdd

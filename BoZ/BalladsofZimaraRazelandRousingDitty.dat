@@ -121,12 +121,15 @@ ClickActor Crystal
 -229.37 96.97 -349.97
 -222.47 95.85 -327.18
 -253.64 90.41 -318.75
+Custom
+Target "Gilded Back Demolisher"
+-255.02 91.27 -305.00
 Named
-Gilded Back Demolisher
+"Gilded Back Demolisher"
 StandardNamed
 SameLock
 KillAdd
-undead minion
+"undead minion"
 MoveBehind
 -255.02 91.27 -305.00
 -235.90 95.36 -252.51
@@ -138,7 +141,7 @@ MoveBehind
 47.44 144.75 -272.06
 91.82 145.23 -296.02
 Named
-Sina A'rak
+"Sina A'rak"
 StandardNamed
 SameLock
 KillAdd
@@ -154,11 +157,11 @@ DontMoveBehind
 -4.62 151.68 -24.09
 -17.97 156.13 59.62
 Named
-Doda K'Bael
+"Doda K'Bael"
 StandardNamed
 SameLock
 KillAdd
-Allied Guardian
+"Allied Guardian"
 MoveBehind
 -22.75 156.42 -2.21
 -9.72 157.13 4.59
@@ -181,11 +184,11 @@ HailActor "Miranna Ameema" 7
 101.20 153.87 -13.35
 137.91 157.99 8.34
 Named
-Queen Era'selka
+"Queen Era'selka"
 StandardNamed
 SameLock
 KillAdd
-Era'selka's Defender
+"Era'selka's Defender"
 DontMoveBehind
 146.75 160.95 53.56
 146.75 160.95 53.56

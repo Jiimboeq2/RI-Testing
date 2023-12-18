@@ -15,6 +15,9 @@
 -349.53 123.59 -642.09
 -338.63 124.92 -657.03
 -400.13 124.72 -636.04
+Custom
+Target Eaglovok
+-400.13 124.72 -636.04
 Named
 Eaglovok
 StandardNamed
@@ -30,12 +33,15 @@ ClickActor Crystal
 -229.37 96.97 -349.97
 -222.47 95.85 -327.18
 -253.64 90.41 -318.75
+Custom
+Target "Gilded Back Demolisher"
+-255.02 91.27 -305.00
 Named
-Gilded Back Demolisher
+"Gilded Back Demolisher"
 StandardNamed
 SameLock
 KillAdd
-undead minion
+"undead minion"
 MoveBehind
 -255.02 91.27 -305.00
 -235.90 95.36 -252.51
@@ -46,8 +52,11 @@ MoveBehind
 -1.23 139.55 -210.31
 47.44 144.75 -272.06
 91.82 145.23 -296.02
+Custom 
+Target "Sina A'rak"
+91.82 145.23 -296.02
 Named
-Sina A'rak
+"Sina A'rak"
 StandardNamed
 SameLock
 KillAdd
@@ -62,8 +71,11 @@ DontMoveBehind
 12.27 141.45 -86.80
 -4.62 151.68 -24.09
 -17.97 156.13 59.62
+Custom
+Target "Doda K'Bael"
+-22.75 156.42 -2.21
 Named
-Doda K'Bael
+"Doda K'Bael"
 StandardNamed
 SameLock
 KillAdd

@@ -44,14 +44,14 @@ WaitForZoning
 47.23 3.52 8.13
 55.47 3.53 0.18
 Custom
-Target Tazir Tanziri
+Target "Tazir Tanziri"
 98.85 3.53 -1.50
 Named
-Tazir Tanziri
+"Tazir Tanziri"
 StandardNamed
 SameLock
 KillAdd
-a silver shard
+"a silver shard"
 DontMoveBehind
 98.85 3.53 -1.50
 61.68 3.47 -7.87
@@ -90,12 +90,14 @@ DontMoveBehind
 267.57 3.46 0.80
 263.67 3.45 -33.32
 Custom
-Target Uah'Lu the Unhallowed
+Target "Uah'Lu the Unhallowed"
 262.12 3.45 -29.66
+Named
+"Uah'Lu the Unhallowed"
 StandardNamed
 SameLock
 KillAdd
-a fallen
+"a fallen"
 DontMoveBehind
 262.12 3.45 -29.66
 263.69 3.54 -9.05
@@ -120,6 +122,8 @@ ClickActor portal_to_aviary
 Custom
 Target Xuxuquaxul
 69.41 11.43 -204.71
+Named
+Xuxuquaxul
 StandardNamed
 SameLock
 KillAdd
@@ -129,12 +133,14 @@ DontMoveBehind
 82.37 7.94 -281.51
 71.93 7.94 -292.25
 Custom
-Target Ra'Zaal's ghul
+Target "Ra'Zaal's ghul"
 71.93 7.94 -292.25
+Named
+"Ra'Zaal's ghul"
 StandardNamed
 SameLock
 KillAdd
-Ra'Zaal's ghul
+"Ra'Zaal's ghul"
 DontMoveBehind
 71.93 7.94 -292.25
 Custom
@@ -143,10 +149,12 @@ HailActor "General Ra'Zaal" 4
 Custom
 Target General Ra'Zaal
 71.93 7.94 -292.25
+Named
+"General Ra'Zaal"
 StandardNamed
 SameLock
 KillAdd
-Ra'Zaal's ghul
+"Ra'Zaal's ghul"
 DontMoveBehind
 71.93 7.94 -292.25
 83.95 7.94 -298.55
@@ -181,7 +189,7 @@ Custom
 Target Nezri En'Sallef
 114.57 20.30 0.06
 Named
-Nezri En'Sallef
+"Nezri En'Sallef"
 StandardNamed
 SameLock
 KillAdd
@@ -193,6 +201,9 @@ DontMoveBehind
 148.57 20.36 -0.21
 206.30 31.50 -8.32
 212.01 31.52 -20.11
+Wait
+20
+212.01 31.52 -20.11
 Custom
 ClickActor orb_rains 5
 224.53 32.40 -43.14
@@ -200,6 +211,9 @@ Custom
 ClickActor orb_hale 5
 201.07 32.34 -45.36
 259.98 31.50 1.80
+Wait
+20
+202.63 32.24 42.61
 Custom
 ClickActor orb_gales 5
 202.63 32.24 42.61
@@ -217,6 +231,7 @@ Isos
 StandardNamed
 SameLock
 KillAdd
+"a crackling stormrider"
 DontMoveBehind
 263.05 31.25 41.60
 Custom
@@ -226,14 +241,14 @@ ClickActor orb_thunder 5
 259.20 31.50 0.35
 261.20 31.47 -26.77
 Custom
-Target The Storm Mistress
+Target "The Storm Mistress"
 260.81 31.25 -37.83
 Named
-The Storm Mistress
+"The Storm Mistress"
 StandardNamed
 SameLock
 KillAdd
-lightning anchor
+"lightning anchor"
 DontMoveBehind
 260.81 31.25 -37.83
 264.95 31.50 -4.95
@@ -302,7 +317,7 @@ DontMoveBehind
 616.04 71.13 -47.21
 593.97 71.11 -54.84
 Custom
-ClickActor ZoneDoor
+ZoneDoor Exit
 593.97 71.11 -54.84
 Custom
 WaitForZoning

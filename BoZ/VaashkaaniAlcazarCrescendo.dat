@@ -15,12 +15,21 @@
 602.60 71.36 29.49
 602.60 71.11 38.81
 Custom
-HailActor "Khazinehdar Zuhraasa" 
+Target "Khazinehdar Zuhraasa" 
 600.30 71.11 -47.85
+Named
+"Khazinehdar Zuhraasa" 
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+600.30 71.11 -47.85
+603.19 71.34 -0.33
 622.58 71.32 -0.82
+624.01 71.39 -0.85
 Custom
 ClickActor portal_to_throne_from_hoard
-622.58 71.32 -0.82
+624.01 71.39 -0.85
 683.16 71.32 -0.03
 698.94 71.32 -0.03
 701.71 71.39 -31.80
@@ -40,17 +49,33 @@ ClickActor portal_to_throne_from_hoard
 824.54 71.38 -49.15
 853.78 70.41 -47.29
 880.75 71.37 -31.49
-889.00 70.41 -1.12
+888.82 70.41 -0.22
 Custom
 ClickActor transport_carpet_01
 888.31 70.35 -6.39
+Wait 
+10
 828.69 70.04 0.14
 842.31 70.20 -0.74
 Custom
-HailActor "Zakir-Sar-Ussur" 
+PauseCombatBot 1
+842.31 70.20 -0.74
+Custom
+Target "Zakir-Sar-Ussur" 
 842.31 70.20 -0.74
 Custom
 UseItem "Glorious Maestra's Cithara"
+842.31 70.20 -0.74
+Custom
+PauseCombatBot 0
+842.31 70.20 -0.74
+Named
+"Zakir-Sar-Ussur" 
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+842.31 70.20 -0.74
 842.31 70.20 -0.74
 847.87 70.11 -13.22
 Custom
@@ -70,25 +95,23 @@ Custom
 HailActor "Lyrissa Nostrolo" 8 1
 376.98 22.92 -356.55
 Custom
-ClickActor Arca Location
+ClickActor "Arca Location"
 381.95 22.66 -359.25
 Custom
 HailActor "Lyrissa Nostrolo" 1
 381.95 22.66 -359.25
 Custom
-HailActor "a maedjinn alharin" 
+Target "Kapuji-bashi Haakhaz" 
 381.95 22.66 -359.25
-Custom
-HailActor "a maedjinn alharan" 
+Named
+"Kapuji-bashi Haakhaz"
+StandardNamed
+SameLock
+KillAdd
+"a maedjinn alharin" 
+DontMoveBehind 
 381.95 22.66 -359.25
-Custom
-HailActor "an iron maedjinn" 
-381.95 22.66 -359.25
-Custom
-HailActor "Kapuji-bashi Haakhaz" 
-381.95 22.66 -359.25
-Custom
-HailActor "Kapuji-bashi Haakhaz" 
+Target "an iron maedjinn" 
 381.95 22.66 -359.25
 Custom
 HailActor "Lyrissa Nostrolo" 10

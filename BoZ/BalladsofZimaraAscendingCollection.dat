@@ -124,10 +124,10 @@ Path -PL 6 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-
 106.13 375.78 696.76
 87.61 383.28 722.42
 Custom
-Target CrisjJen the Bold
+Target "Cris'Jen the Bold"
 94.13 382.59 717.34
 Named
-CrisjJen the Bold
+"Cris'Jen the Bold"
 StandardNamed
 SameLock
 KillAdd
@@ -135,7 +135,7 @@ DontMoveBehind
 94.13 382.59 717.34
 56.99 397.51 733.71
 Custom
-Path -PL 6 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+Path -PL 12 -L -R -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 39.32 400.98 738.67
 15.74 402.28 738.02
 -2.75 399.69 736.93
@@ -158,6 +158,9 @@ StandardNamed
 SameLock
 KillAdd
 DontMoveBehind
+-230.40 432.51 876.88
+Custom
+MessageBox "Make sure you have collected all of the keepsakes then press Resume"
 -230.40 432.51 876.88
 -236.77 432.60 882.37
 ZoneDoor Exit

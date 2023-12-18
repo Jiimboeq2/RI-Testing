@@ -11,10 +11,10 @@
 114.36 20.30 0.17
 132.27 20.33 -0.40
 Custom
-Target Nezri En'Sallef
+Target "Nezri En'Sallef"
 114.57 20.30 0.06
 Named
-Nezri En'Sallef
+"Nezri En'Sallef"
 StandardNamed
 SameLock
 KillAdd
@@ -27,6 +27,9 @@ DontMoveBehind
 188.73 31.48 0.99
 206.30 31.50 -8.32
 212.01 31.52 -20.11
+Wait
+20
+224.53 32.40 -43.14
 Custom
 ClickActor orb_rains 5
 224.53 32.40 -43.14
@@ -34,6 +37,9 @@ Custom
 ClickActor orb_hale 5
 201.07 32.34 -45.36
 219.22 31.50 -0.95
+Wait
+20
+202.63 32.24 42.61
 Custom
 ClickActor orb_gales 5
 202.63 32.24 42.61
@@ -51,6 +57,7 @@ Isos
 StandardNamed
 SameLock
 KillAdd
+"a crackling stormrider"
 DontMoveBehind
 263.05 31.25 41.60
 Custom
@@ -61,10 +68,10 @@ ClickActor orb_thunder 5
 259.20 31.50 0.35
 261.20 31.47 -26.77
 Custom
-Target The Storm Mistress
+Target "The Storm Mistress"
 260.81 31.25 -37.83
 Named
-The Storm Mistress
+"The Storm Mistress"
 StandardNamed
 SameLock
 KillAdd
@@ -115,6 +122,7 @@ ClickActor teleport_prism_01
 553.77 71.34 0.46
 553.55 71.57 -55.51
 552.56 71.34 1.59
+557.77 71.32 -0.65
 601.87 71.34 0.28
 603.06 71.11 38.07
 601.98 71.40 18.83
@@ -124,8 +132,8 @@ Custom
 ClickActor djinn_boss_mirror
 616.62 71.11 -45.33
 Custom
-HailActor Ashnu
-614.40 71.14 -46.11
+Target Ashnu
+615.85 71.13 -47.77
 Named
 Ashnu
 StandardNamed
@@ -133,9 +141,9 @@ SameLock
 KillAdd
 Zakir-sar-ussur
 DontMoveBehind
-614.40 71.14 -46.11
+615.85 71.13 -47.77
 616.04 71.13 -47.21
 593.97 71.11 -54.84
 Custom
-ClickActor ZoneDoor
+ZoneDoor Exit
 593.97 71.11 -54.84

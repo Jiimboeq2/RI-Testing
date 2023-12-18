@@ -3,10 +3,13 @@ Custom
 MakeActiveQuest "Ballads of Zimara: Hard Act to Follow"
 0 0 0
 Custom
-CheckQuestStep "I gave the bags" 73
+CheckQuestStep "I need to identify" 177
 0 0 0
 Custom
-CheckQuestStep "According to the book" 174
+CheckQuestStep "According to the book" 177
+0 0 0
+Custom
+CheckQuestStep "I gave the bags" 73
 0 0 0
 Custom
 HailActorGetQuest -Actor "Miranna Ameema"

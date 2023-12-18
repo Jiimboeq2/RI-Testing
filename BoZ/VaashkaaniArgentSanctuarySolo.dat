@@ -10,14 +10,14 @@
 47.23 3.52 8.13
 55.47 3.53 0.18
 Custom
-Target Tazir Tanziri
+Target "Tazir Tanziri"
 98.85 3.53 -1.50
 Named
-Tazir Tanziri
+"Tazir Tanziri"
 StandardNamed
 SameLock
 KillAdd
-a silver shard
+"a silver shard"
 DontMoveBehind
 98.85 3.53 -1.50
 107.24 3.53 2.58
@@ -32,19 +32,14 @@ DontMoveBehind
 213.10 3.46 -0.14
 211.38 3.45 41.75
 Custom
-Target Sansobog
-211.38 3.45 41.75
-StandardNamed
-SameLock
-DontKillAdd
-DontMoveBehind
-211.38 3.45 41.75
-Custom
 Target Akharys
 212.03 3.45 43.21
+Named
+Akharys
 StandardNamed
 SameLock
 KillAdd
+Sansobog
 DontMoveBehind
 212.03 3.45 43.21
 215.06 3.45 47.23
@@ -56,12 +51,14 @@ DontMoveBehind
 255.78 3.46 -0.67
 263.48 3.45 -28.89
 Custom
-Target Uah'Lu the Unhallowed
+Target "Uah'Lu the Unhallowed"
 262.12 3.45 -29.66
+Named
+"Uah'Lu the Unhallowed"
 StandardNamed
 SameLock
 KillAdd
-a fallen
+"a fallen"
 DontMoveBehind
 262.12 3.45 -29.66
 263.69 3.54 -9.05
@@ -86,6 +83,8 @@ ClickActor portal_to_aviary
 Custom
 Target Xuxuquaxul
 69.41 11.43 -204.71
+Named
+Xuxuquaxul
 StandardNamed
 SameLock
 KillAdd
@@ -95,24 +94,28 @@ DontMoveBehind
 82.37 7.94 -281.51
 71.93 7.94 -292.25
 Custom
-Target Ra'Zaal's ghul
+Target "Ra'Zaal's ghul"
 71.93 7.94 -292.25
+Named
+"Ra'Zaal's ghul"
 StandardNamed
 SameLock
 KillAdd
-Ra'Zaal's ghul
+"Ra'Zaal's ghul"
 DontMoveBehind
 71.93 7.94 -292.25
 Custom
 HailActor "General Ra'Zaal" 4
 95.59 7.94 -303.52
 Custom
-Target General Ra'Zaal
+Target "General Ra'Zaal"
 71.93 7.94 -292.25
+Named
+"General Ra'Zaal"
 StandardNamed
 SameLock
 KillAdd
-Ra'Zaal's ghul
+"Ra'Zaal's ghul"
 DontMoveBehind
 71.93 7.94 -292.25
 83.95 7.94 -298.55
