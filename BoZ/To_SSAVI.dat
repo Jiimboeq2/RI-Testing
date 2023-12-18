@@ -1,0 +1,28 @@
+To Splendor Vale Invasion
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
+Custom
+TravelMap "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -L -CPSP -R
+-327.48 117.67 617.16
+-330.20 218.69 611.32
+-357.78 364.08 573.79
+-409.78 325.30 495.46
+-444.00 304.02 438.50
+-508.14 289.54 356.47
+-597.69 278.49 314.58
+-670.74 275.03 281.77
+-755.06 272.83 241.06
+-798.10 275.22 183.35
+-798.10 236.40 183.35
+-798.13 175.21 183.45
+-794.77 174.52 193.36
+Custom
+ClickActor zone_portal_to_dun_hooluk_invasion_03
+-794.77 174.52 193.36
