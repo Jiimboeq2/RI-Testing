@@ -133,13 +133,13 @@ SameLock
 KillAdd
 DontMoveBehind
 94.13 382.59 717.34
-56.99 397.51 733.71
+94.13 382.59 717.34
+86.60 383.44 718.92
+37.22 401.11 738.48
+-3.62 398.87 734.19
+-51.98 387.13 714.26
 Custom
-Path -PL 12 -L -R -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
-39.32 400.98 738.67
-15.74 402.28 738.02
--2.75 399.69 736.93
--31.40 387.93 722.42
+Path -PL 8 -L -R -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
 -49.24 386.26 709.85
 -70.23 394.22 719.01
 -84.30 401.01 726.87

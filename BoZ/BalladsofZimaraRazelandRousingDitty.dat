@@ -106,6 +106,9 @@ Path -PL 45 -L -R -QA "-QD|100|-A|undead minion|-T|QSC:undead|-E|K" -QA "-QD|100
 -441.33 99.55 -551.17
 -391.31 121.77 -608.60
 -361.18 123.28 -628.76
+Custom
+Target Eaglovok
+-400.13 124.72 -636.04
 Named
 Eaglovok
 StandardNamed
@@ -140,6 +143,9 @@ MoveBehind
 -1.23 139.55 -210.31
 47.44 144.75 -272.06
 91.82 145.23 -296.02
+Custom
+Target "Sina A'rak"
+91.82 145.23 -296.02
 Named
 "Sina A'rak"
 StandardNamed
@@ -156,6 +162,9 @@ DontMoveBehind
 12.27 141.45 -86.80
 -4.62 151.68 -24.09
 -17.97 156.13 59.62
+Custom
+Target "Doda K'Bael"
+-22.75 156.42 -2.21
 Named
 "Doda K'Bael"
 StandardNamed
@@ -183,6 +192,9 @@ HailActor "Miranna Ameema" 7
 49.93 145.67 -35.39
 101.20 153.87 -13.35
 137.91 157.99 8.34
+Custom
+Target "Queen Era'selka"
+146.75 160.95 53.56
 Named
 "Queen Era'selka"
 StandardNamed

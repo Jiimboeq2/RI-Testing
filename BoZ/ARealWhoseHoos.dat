@@ -29,6 +29,9 @@ ClickActor "vine to ridge above 02"
 -485.75 238.94 -77.39
 -463.39 238.33 -75.15
 Custom
+FlyDown 5
+-464.80 238.38 -72.42
+Custom
 ClickActor "a sickly giant owl"
 -463.39 238.33 -75.15
 Custom

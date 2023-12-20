@@ -1,7 +1,7 @@
 Ballads of Zimara: Riddlestone Remediation Services
+1068.03 179.45 754.65
 Custom
-CheckAndSet -ActiveQuest "Ballads of Zimara: Riddlestone Remediation Services" 19
-0 0 0
+Target Crestcry
 1068.03 179.45 754.65
 Custom
 HailActor Crestcry 15 1
@@ -12,9 +12,6 @@ HailActor Crestcry 15 1
 Custom
 HailActor Oolchimedes 11 1
 1072.52 177.00 710.32
-1068.96 177.20 720.42
-Custom
-CheckAndSet -ActiveQuest "Ballads of Zimara: Riddlestone Remediation Services" 19
 1068.96 177.20 720.42
 1068.30 176.93 721.19
 1068.30 176.93 721.19

@@ -72,6 +72,9 @@ Path
 1066.37 179.50 756.18
 1068.03 179.45 754.65
 Custom
+Target "Crestry"
+1068.03 179.45 754.65
+Custom
 HailActor "Crestcry" 12 1 
 1068.03 179.45 754.65
 Wait
