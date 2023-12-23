@@ -31,7 +31,7 @@ HailActorGetQuest -Actor "Hootensia" 3 1
 -787.97 168.58 281.69
 -784.94 159.99 316.31
 Custom
-Path -PL 16 -L -QA "-QD|200|-A|Wild Flames|-T|QSC:I extinguished|-E|H" -QA "-QD|200|-A|a scorched shambler|-T|QSC:I extinguished|-E|K" -CT "QSC:I extinguished"
+Path -PL 16 -L -QA "-QD|200|-A|Wild Flames|-T|QSC:I extinguished|-E|H" -QA "-QD|200|-A|a scorched shambler|-T|QSC:Extinguish scorched shamblers|-E|K" -CT "QSC:I extinguished"
 -804.00 163.41 304.51
 -766.96 153.21 299.43
 -730.25 144.33 316.00

@@ -1,5 +1,14 @@
 Ballads of Zimara\: The Aerie Overture
 Custom
+CheckAndSet -NotInZone "Guild Hall" 7
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Celestial Coal" 200
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Celestial Coal" 200
+0 0 0
+Custom
 FastTravel "The Barren Sky"
 0 0 0
 -584.10 -51.31 -426.86

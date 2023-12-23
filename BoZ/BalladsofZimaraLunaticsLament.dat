@@ -1,6 +1,6 @@
 Ballads of Zimara: Lunatic\'s Lament
 Custom
-CheckAndSet -NotInZone "Guild Hall" 8
+CheckAndSet -NotInZone "Guild Hall" 7
 0 0 0
 Custom
 RemoveFromDepot "Fuel Depot" "Celestial Coal" 200
@@ -11,11 +11,11 @@ CheckPreReqs -ITEMQTY "Celestial Coal" 200
 Custom
 HailActorGetQuest -Actor "Miranna Ameema"
 -911.86 189.59 330.13
--897.79 188.05 330.60
--867.60 188.91 351.67
--895.87 166.22 216.97
--872.84 159.36 128.18
--836.75 144.42 38.95
+-897.79 228.05 330.60
+-867.60 228.91 351.67
+-895.87 226.22 216.97
+-872.84 229.36 128.18
+-836.75 224.42 38.95
 -736.10 142.50 20.50
 -677.47 141.90 -18.79
 Custom
@@ -28,17 +28,32 @@ TravelMap "Strungstone Peaks"
 159.77 362.23 675.11
 109.34 376.16 689.42
 106.63 377.93 667.41
-Custom
-ClickActor "cairn inscription" 5
+Wait
+5
 106.63 377.93 667.41
 Custom
 ClickActor "cairn inscription" 5
 106.63 377.93 667.41
-Custom
-ClickActor "cairn inscription" 5
+Wait
+5
 106.63 377.93 667.41
 Custom
 ClickActor "cairn inscription" 5
+Wait
+5
+106.63 377.93 667.41
+106.63 377.93 667.41
+Custom
+ClickActor "cairn inscription" 5
+Wait
+5
+106.63 377.93 667.41
+106.63 377.93 667.41
+Custom
+ClickActor "cairn inscription" 5
+106.63 377.93 667.41
+Wait
+5
 106.63 377.93 667.41
 106.14 376.54 690.76
 161.61 361.59 674.02
@@ -50,32 +65,35 @@ Custom
 TravelMap "Isles of Wisdom"
 213.27 378.94 653.07
 -703.18 144.16 13.35
--777.85 141.99 27.76
--828.73 142.75 28.51
--863.48 152.99 86.34
--873.69 160.46 141.49
--896.92 166.64 218.46
--914.27 186.77 295.49
+-777.85 221.99 27.76
+-828.73 222.75 28.51
+-863.48 222.99 86.34
+-873.69 220.46 141.49
+-896.92 226.64 218.46
+-914.27 226.77 295.49
 -855.62 188.60 355.55
 Custom
-QuestRepeatFaction "Zakir Rish Removal" "Isles of Wisdom" 10000 65
+QuestRepeatFaction "Zakir Rish Removal" "Isles of Wisdom" 10000 78
 -855.62 188.60 355.55
--859.07 188.82 352.52
 -856.00 188.74 337.74
 -843.93 188.72 336.20
+-842.98 188.76 336.55
+Custom
+ClickActor "Rannaakh"
+-841.49 188.87 337.56
 Custom
 BuyFromVendor "Rannaakh" "Bird Whistle" 1
 -838.66 188.75 338.08
 Custom
 MessageBox "Make sure you have obtained the Bird Whistle from Rannaakh"
--838.66 188.75 338.08
+-842.98 188.76 336.55
 -894.86 187.82 320.58
--913.80 184.15 277.48
--896.85 165.03 207.51
--865.46 153.00 84.56
--826.87 142.88 21.77
+-913.80 224.15 277.48
+-896.85 225.03 207.51
+-865.46 223.00 84.56
+-826.87 222.88 21.77
 Custom
-Path -PL 5 -L -QA "-A|miniature sword|-T|QSC:miniature swords|-E|H"
+Path -PL 5 -L -QA "-A|miniature sword|-T|QSC:miniature swords|-E|H" -CT "QSC: I have obtained a myriad"
 -879.41 144.07 2.68
 -855.59 142.73 2.08
 -801.81 144.23 1.01
@@ -158,14 +176,14 @@ Custom
 ClickActor "Zakir Rish Chest"
 -656.86 132.26 -397.03
 Custom
-CheckQuestStep "I found an ornate silver" 204
+CheckQuestStep "I found an ornate silver" 222
 -656.86 132.26 -397.03
 -654.29 132.58 -392.86
 Custom
 ClickActor "Zakir Rish Chest"
 -667.59 133.30 -396.53
 Custom
-CheckQuestStep "I found an ornate silver" 204
+CheckQuestStep "I found an ornate silver" 222
 -667.59 133.30 -396.53
 -656.70 132.42 -395.33
 -521.86 94.52 -501.65
@@ -175,7 +193,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -491.44 94.50 -481.15
 Custom
-CheckQuestStep "I found an ornate silver" 204
+CheckQuestStep "I found an ornate silver" 222
 -249.35 148.96 452.55
 -494.22 94.46 -481.99
 -497.24 94.58 -487.26
@@ -186,7 +204,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -364.76 122.49 -616.81
 Custom
-CheckQuestStep "I found an ornate silver" 204
+CheckQuestStep "I found an ornate silver" 222
 -361.77 122.18 -614.77
 -358.63 122.19 -620.21
 -356.36 124.24 -647.21
@@ -196,7 +214,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -390.74 121.75 -608.33
 Custom
-CheckQuestStep "I found an ornate silver" 204
+CheckQuestStep "I found an ornate silver" 222
 -390.74 121.75 -608.33
 Custom
 MessageBox "Unable to find the cloak, run around click chests til you find the cloak"
@@ -215,17 +233,20 @@ Custom
 TravelMap "Isles of Wisdom"
 -708.96 145.31 -360.20
 -703.18 144.16 13.35
--777.85 141.99 27.76
--828.73 142.75 28.51
--863.48 152.99 86.34
--873.69 160.46 141.49
--896.92 166.64 218.46
--914.27 186.77 295.49
--903.18 188.02 326.03
--911.86 189.59 330.13
--859.07 188.82 352.52
--856.00 188.74 337.74
+-777.85 221.99 27.76
+-828.73 222.75 28.51
+-863.48 222.99 86.34
+-873.69 220.46 141.49
+-896.92 226.64 218.46
+-914.27 226.77 295.49
+-903.18 228.02 326.03
+-911.86 229.59 330.13
+-859.44 189.16 336.98
 -855.62 188.60 355.55
+-843.13 188.72 336.53
+Custom
+ClickActor "Rannaakh"
+-841.49 188.87 337.56
 Custom
 BuyFromVendor "Rannaakh" "Candied Fairy-Leaf Cake" 1
 -841.49 188.87 337.56
@@ -235,59 +256,60 @@ MessageBox "Make sure you bought the Candied Fairy-Leaf Cake recipe"
 Custom
 ScribeBook "Candied Fairy-Leaf Cake"
 -841.49 188.87 337.56
-Custom
-MessageBox "Make sure you scribed the Candied Fairy-Leaf Cake recipe"
--841.49 188.87 337.56
 -856.80 188.73 336.12
--831.70 187.83 300.64
--754.70 164.19 308.16
+-831.70 227.83 300.64
+-754.70 224.19 308.16
 Custom
 PathHarvest 24 200 0 0 0 0 "Fairy-Leaf" 0 16
--865.00 174.31 121.16
--859.70 175.85 83.08
--864.99 176.83 57.36
--869.97 178.29 19.49
--860.68 180.86 15.12
--829.34 182.42 27.15
--791.42 184.25 3.91
--738.84 175.52 34.26
--690.65 160.21 28.62
--669.62 159.76 61.27
--611.55 162.22 141.21
--601.44 163.40 186.78
--556.11 165.03 231.28
--518.93 166.58 273.48
--517.02 167.93 324.59
--540.54 168.66 335.67
--559.20 174.20 318.22
--588.54 175.12 297.47
--657.26 176.84 302.07
--728.17 178.61 307.23
--762.84 194.70 309.76
--804.72 195.75 312.81
--836.83 196.69 297.93
--876.83 198.49 237.60
+-865.00 224.31 121.16
+-859.70 225.85 83.08
+-864.99 226.83 57.36
+-869.97 228.29 19.49
+-860.68 220.86 15.12
+-829.34 222.42 27.15
+-791.42 224.25 3.91
+-738.84 225.52 34.26
+-690.65 220.21 28.62
+-669.62 228.76 61.27
+-611.55 222.22 141.21
+-601.44 223.40 186.78
+-556.11 225.03 231.28
+-518.93 226.58 273.48
+-517.02 227.93 324.59
+-540.54 228.66 335.67
+-559.20 224.20 318.22
+-588.54 225.12 297.47
+-657.26 226.84 302.07
+-728.17 228.61 307.23
+-762.84 224.70 309.76
+-804.72 229.75 312.81
+-836.83 229.69 297.93
+-876.83 229.49 237.60
 -887.80 199.52 199.02
 Custom
 Path -PL 10 -CPSP
--516.13 146.55 263.87
--566.86 139.77 279.67
--647.59 143.19 295.76
--755.04 163.95 312.33
--825.45 165.51 292.91
--880.02 164.97 233.22
--909.51 177.50 251.34
--911.55 187.64 296.44
--874.93 188.53 328.88
--844.59 185.98 310.73
--808.73 189.29 256.06
--791.19 189.86 224.90
+-516.13 228.55 263.87
+-566.86 228.77 279.67
+-647.59 228.19 295.76
+-755.04 223.95 312.33
+-825.45 225.51 292.91
+-880.02 224.97 233.22
+-909.51 227.50 251.34
+-911.55 227.64 296.44
+-874.93 228.53 328.88
+-844.59 225.98 310.73
+-808.73 199.29 256.06
+-782.92 190.26 223.88
 -764.75 191.67 225.23
-Custom
-MessageBox "Make sure you have harvested 16 Fairy-Leaf from around Isles of Wisdom and press Resume."
--764.75 191.67 225.23
+-772.86 191.64 226.57
 Custom
 CraftIt "Candied Fairy-Leaf Cake" 4
+-764.69 191.67 222.83
+Custom
+CheckQuestStep "I found an ornate silver damask cloak for Sirran and baked" 319
+-764.69 191.67 222.83
+Custom
+MessageBox "make sure all cakes were crafted"
 -764.69 191.67 222.83
 -779.32 190.64 224.83
 -800.49 190.13 234.53

@@ -1,4 +1,5 @@
 Good for Firewood
+1072.52 177.00 710.32
 Custom
 HailActorGetQuest -Actor "Oolchimedes"
 1072.31 176.96 712.82
@@ -18,7 +19,7 @@ Path -PL 12 -L -DFPWD -QA "-A|Auduborian Corpse|-T|QSC:I destroyed|-E|H" -CT "QS
 593.07 105.51 437.69
 569.15 90.67 496.06
 531.24 82.37 521.99
-487.18 67.39 566.42
+488.05 70.05 531.20
 473.35 65.93 587.87
 489.73 77.55 446.01
 470.63 75.06 419.46
@@ -42,7 +43,7 @@ Path -PL 12 -L -DFPWD -QA "-A|Auduborian Corpse|-T|QSC:I destroyed|-E|H" -CT "QS
 1044.91 190.34 734.34
 1044.81 172.80 734.32
 1067.58 176.93 720.93
-1072.12 176.99 711.54
+1072.52 177.00 710.32
 Custom
 HailActor "Oolchimedes" 9 1 
 1072.78 176.96 714.08

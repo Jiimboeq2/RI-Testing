@@ -1,8 +1,9 @@
 Ballads of Zimara: Vaashkaani Crescendo (Reprise)
+-896.36 187.84 326.35
 Custom
 HailActorGetQuest -Actor "Miranna Ameema"
 -911.86 189.59 330.13
--867.60 188.91 351.67
+-896.36 187.84 326.35
 -912.42 186.75 304.56
 -895.87 166.22 216.97
 -872.84 159.36 128.18
@@ -33,7 +34,7 @@ WaitForZoning
 0 0 0
 522.19 71.37 17.97
 521.25 71.37 -1.33
-552.55 71.34 0.08
+552.55 71.39 0.08
 553.48 71.40 -25.52
 553.42 71.83 -53.23
 553.12 71.40 -18.95
@@ -83,18 +84,27 @@ ClickActor portal_to_throne_from_hoard
 853.78 70.41 -47.29
 880.75 71.37 -31.49
 888.82 70.41 -0.22
+888.93 70.41 0.23
 Custom
 ClickActor transport_carpet_01
-888.31 70.35 -6.39
+888.93 70.41 0.23
+Custom
+MessageBox "Click Carpet and Press Resume after landing"
+888.93 70.41 0.23
 Wait 
 10
-888.31 70.35 -6.39
+842.31 70.20 -0.74
+Custom
+WaitForMob "Zakir-Sar-Ussur" 200
+842.31 70.20 -0.74
+Custom
+Target "Zakir-Sar-Ussur" 
 842.31 70.20 -0.74
 Custom
 PauseCombatBot 1
 842.31 70.20 -0.74
-Custom
-Target "Zakir-Sar-Ussur" 
+Wait
+10 
 842.31 70.20 -0.74
 Custom
 UseItem "Glorious Maestra's Cithara"
@@ -134,6 +144,9 @@ Custom
 HailActor "Lyrissa Nostrolo" 1
 381.95 22.66 -359.25
 Custom
+WaitForMob "Kapuji-bashi Haakhaz" 200
+381.95 22.66 -359.25
+Custom
 Target "Kapuji-bashi Haakhaz" 
 381.95 22.66 -359.25
 Named
@@ -150,9 +163,6 @@ HailActor "Lyrissa Nostrolo" 10
 Custom
 HailActor "Vahravi" 9
 376.58 22.92 -356.51
-367.44 20.85 -337.61
-Custom
-MessageBox "Make sure dialogue complete then press Resume"
 367.44 20.85 -337.61
 Custom
 ZoneDoor Exit

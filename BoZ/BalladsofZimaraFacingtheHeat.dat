@@ -59,6 +59,12 @@ ZoneDoor zone_portal_to_dun_hooluk_invasion_03 "Splendor Sky Aerie: Vale Invasio
 Custom
 HailActor "Miranna Ameema" 4 1
 -807.17 85.20 269.90
+Custom
+CheckQuestStep "Do what is neccesary" 67
+-807.17 85.20 269.90
+Custom
+MessageBox "Make sure you hailed Miranna" 
+-807.17 85.20 269.90
 -800.58 73.13 302.06
 -792.50 66.70 331.66
 -774.18 65.71 346.29
@@ -120,7 +126,10 @@ DontMoveBehind
 -1024.84 180.13 751.03
 -1081.85 181.72 753.61
 Custom
-HailActor "Miranna Ameema" 1 1 1 1 1 1 1 1 1 1 1 1 2
+Target "Miranna Ameema"
+-1081.85 181.72 753.6
+Custom
+HailActorMultiOption "Miranna Ameema" 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
 -1081.85 181.72 753.6
 Custom
 HailActor "Miranna Ameema" 2 1
