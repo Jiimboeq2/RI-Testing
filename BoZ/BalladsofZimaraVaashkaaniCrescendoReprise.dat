@@ -86,16 +86,13 @@ ClickActor portal_to_throne_from_hoard
 888.82 70.41 -0.22
 888.93 70.41 0.23
 Custom
-ClickActor transport_carpet_01
+MessageBox "Click Carpet and Press Resume after landing"
 888.93 70.41 0.23
 Custom
-MessageBox "Click Carpet and Press Resume after landing"
+ClickActor transport_carpet_01
 888.93 70.41 0.23
 Wait 
 10
-842.31 70.20 -0.74
-Custom
-WaitForMob "Zakir-Sar-Ussur" 200
 842.31 70.20 -0.74
 Custom
 Target "Zakir-Sar-Ussur" 
