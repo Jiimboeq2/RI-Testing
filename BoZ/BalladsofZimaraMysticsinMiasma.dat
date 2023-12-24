@@ -91,6 +91,12 @@ PauseCombatBot 0
 848.31 48.61 48.41
 840.15 45.81 16.72
 813.64 45.72 -2.97
+Custom
+CheckQuestStep "I saved Sqokri" 100
+785.43 50.09 -39.71
+Custom
+MessageBox "Check to see why you did not save Sqorki. If he died you will need to zone out, reset the zone and restart."
+785.43 50.09 -39.71
 785.43 50.09 -39.71
 Custom
 FastTravel "Splendor Sky Aerie"

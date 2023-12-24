@@ -78,20 +78,7 @@ Path -PL 10 -CPSP
 255.98 287.37 739.95
 238.35 285.25 801.97
 240.09 296.73 772.36
-245.47 299.12 798.11
-251.33 301.07 818.72
-Custom
-FlyDown 5
-260.36 297.27 918.88
-Custom
-ClickActor "Jabber's Wish Catcher"
-263.25 286.42 922.19
-Custom
-ClickActor Jabber's Wish Catcher
-269.01 286.42 920.83
-227.78 282.66 863.39
-210.93 274.96 827.44
-208.40 274.96 821.17
 Custom
 HailActor "Jabber Longwind" 1 1
 207.65 274.96 819.59
+207.09 296.73 772.36

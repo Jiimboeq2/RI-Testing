@@ -1,8 +1,10 @@
-Helping Skirha
+Skirha's Preserving Prowess
+Repeatable
 1071.58 181.27 779.78
 Custom
 HailActorGetQuest -Actor "Skirha"
 1077.64 181.04 785.91
+1071.58 181.27 779.78
 951.06 164.86 756.11
 929.35 161.86 760.16
 Custom
@@ -27,13 +29,25 @@ TravelMap "Sanctuary"
 610.51 230.50 189.10
 675.14 61.26 178.47
 Custom
-Path -PL 14 -L -QA "-A|direbeak|-T|QSC:direbeak|-E|K" -QA "-A|Floral Devourer Seeds|-T|QSC:seeds|-E|H" -QA "-A|floral devourer|-T|QSC:devourer|-E|K" -CT "QSC:I've gathered"
-683.75 78.59 79.72
-626.07 86.19 118.54
-619.64 81.85 177.75
-571.44 93.95 197.02
-521.64 95.97 197.67
-455.87 105.12 186.27
+Path -PL 24 -L -QA "-A|direbeak|-T|QSC:direbeak|-E|K" -QA "-A|Floral Devourer Seeds|-T|QSC:seeds|-E|H" -QA "-A|floral devourer|-T|QSC:devourer|-E|K" -QA "-A|a beetle crab|-T|QSC:chitin" -QA "-A|a beetle crab larvae|-T|QSC:larvae" -CT "QSC:I've gathered"
+668.60 150.50 176.67
+723.26 150.66 165.77
+706.99 150.08 220.49
+739.12 150.56 197.62
+758.52 150.75 231.49
+802.31 150.59 231.99
+817.44 150.84 173.68
+851.69 150.30 148.00
+777.74 150.82 151.87
+759.76 150.85 52.40
+774.68 150.91 -18.99
+718.79 150.85 37.24
+683.75 150.59 79.72
+626.07 150.19 118.54
+619.64 150.85 177.75
+571.44 150.95 197.02
+521.64 150.97 197.67
+455.87 150.12 186.27
 449.15 213.10 217.98
 433.12 213.51 258.28
 380.16 213.02 283.29

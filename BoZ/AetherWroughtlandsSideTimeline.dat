@@ -1,0 +1,139 @@
+Aether Wroughtlands Side Timeline
+Custom
+CheckAndSet -InZone "Zimara Breadth" 35
+0 0 0
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 11
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+Custom
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+ClickAllActors 5
+-711.87 229.62 -751.98
+Custom
+ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
+-711.87 229.62 -751.98
+Custom
+Path -PL 6 -CPSP
+850.99 -32.22 -333.60
+838.92 -24.27 -342.48
+811.88 -23.93 -364.44
+790.71 -23.67 -381.29
+761.46 -23.32 -403.91
+735.00 -22.99 -424.36
+720.91 -22.82 -435.26
+720.91 -45.47 -435.25
+709.80 -45.34 -442.31
+Custom
+HailActor "Tehes" 1
+702.26 -43.97 -458.64
+Custom
+Quest "Clearing the Campsite"
+0 0 0
+Custom
+Quest "Citrine Solution"
+0 0 0
+Custom
+HailActor "Oolfonso" 1
+714.31 -43.64 -465.83
+Custom
+Quest "Antiviral Therapy"
+0 0 0
+Custom
+Quest "Maedjinn To Be Broken"
+0 0 0
+Custom
+Quest "Faux Metal Jacket"
+0 0 0
+Custom
+Quest "One-Step Distressing Technique"
+0 0 0
+Custom
+Quest "Riccawws Commandos"
+0 0 0
+Custom
+Quest "Maedjinn Out Like a Bandit"
+0 0 0
+Custom
+Quest "Corrosion Commotion"
+0 0 0
+Custom
+Quest "Precious Peaks and Precious Defenses"
+0 0 0
+Custom
+Path -PL 3 -CPSP
+706.14 -44.18 -452.41
+702.26 -43.97 -458.64
+709.97 -43.70 -464.11
+714.31 -43.64 -465.83
+Custom
+HailActor "Embri"
+699.97 -43.69 -466.82
+Custom
+Quest "Maedjinn Trouble in Ferric Fields"
+0 0 0
+Custom
+Quest "Shock the Maedjinn"
+0 0 0
+Custom
+Path -PL 20 -CPSP
+709.94 -7.80 -453.21
+709.94 29.91 -453.21
+709.94 128.04 -453.21
+709.94 171.46 -453.21
+642.95 207.68 -346.86
+541.27 263.91 -185.43
+499.20 282.92 -120.10
+431.99 295.90 -18.39
+347.09 310.79 110.52
+287.37 321.25 201.18
+226.19 331.98 294.07
+156.83 344.14 399.38
+72.79 354.52 465.35
+-21.23 364.07 489.08
+-32.28 347.80 477.95
+-32.28 273.46 477.95
+-32.28 188.87 477.95
+-32.28 118.07 477.95
+-32.32 109.79 478.01
+-70.44 119.12 453.52
+-58.66 91.96 452.14
+-27.89 87.19 479.26
+Custom
+HailActor "Ornetta"
+708 -44 -470
+Custom
+Quest "Full Metal Biologist"
+0 0 0
+Custom
+HailActor "Novice Minnahalle"
+708 -44 -470
+Custom
+Quest "Aetheric Interests with Arcane"
+0 0 0

@@ -3,10 +3,10 @@ Custom
 MakeActiveQuest "Ballads of Zimara: Razeland Rousing Ditty"
 0 0 0
 Custom
-CheckQuestStep "Attempt" 184
+CheckQuestStep "Attempt " 184
 0 0 0
 Custom
-CheckQuestStep "While" 119
+CheckQuestStep "While reducing" 119
 0 0 0
 Custom
 HailActorGetQuest -Actor "Ruhk"
@@ -118,7 +118,13 @@ ClickActor Crystal
 -334.46 124.62 -648.88
 -213.70 104.20 -413.71
 Custom
-TimeStampEcho "Making it accross from the Crystal portal"
+CheckAndSet -InZone "Zimara Breadth: Razing the Razelands [Solo]" 125
+-213.70 104.20 -413.71
+Custom
+MessageBox "GO to Zimara Breadth: Razing the Razelands [Solo] and click across the crystal portal. Press Resume."
+-213.70 104.20 -413.71
+Custom
+TimeStampEcho "Made it across from the Crystal portal inside Zimara Breadth: Razing the Razelands [Solo]"
 -213.70 104.20 -413.71
 -214.94 101.90 -386.96
 -229.37 96.97 -349.97
@@ -183,7 +189,7 @@ Custom
 WaitForZoning
 0 0 0
 Custom
-TimeStampEcho "Going to use the aviak flageolet"
+TimeStampEcho "Going to use the aviak flageolet in Zimara Breadth after Zimara Breadth: Razing the Razelands [Solo] is completed."
 -687.43 250.42 -377.62
 Custom
 Path
