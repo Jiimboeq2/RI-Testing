@@ -12,7 +12,7 @@ Custom
 MakeActiveQuest "Ballads of Zimara: Parliamentary Procedures"
 0 0 0
 Custom
-CheckQuestStep "The new arrival turned out" 43
+CheckQuestStep "The new arrival turned out" 48
 0 0 0
 Custom
 FastTravel "The Barren Sky"
@@ -41,12 +41,13 @@ HailActor "Miranna Ameema" 20 1
 -89.90 228.23 789.66
 -45.82 240.31 817.98
 -2.19 252.27 846.01
-Custom
-Path -PL 10 -CPSP
 46.63 265.65 877.37
 93.38 278.47 907.41
 110.02 297.24 958.42
 123.46 313.47 999.09
+130.76 307.86 939.13
+Custom
+Path -PL 4 -CPSP
 152.84 312.25 1015.31
 194.22 309.01 1036.86
 243.77 315.30 1028.76
@@ -104,10 +105,13 @@ Custom
 HailActor "Kindellan the Elder" 15 1
 -838.28 71.13 544.52
 Custom
-CheckQuestStep "Elder Kindellan, and the other" 106
+CheckQuestStep "Elder Kindellan, and the other" 118
 -838.28 71.13 544.52
 Custom
 HailActor "Kindellan the Elder" 15 1
+-838.28 71.13 544.52
+Custom
+CheckQuestStep "Elder Kindellan, and the other" 118
 -838.28 71.13 544.52
 Custom
 MessageBox "Complete the dialogue with Kindellan The Elder then press Resume."

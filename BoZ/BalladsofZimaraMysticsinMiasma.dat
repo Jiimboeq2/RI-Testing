@@ -1,7 +1,7 @@
 Ballads of Zimara: Mystics in Miasma
 Custom
 HailActorGetQuest -Actor "Crestcry"
-1068.03 179.45 754.65
+1063.29 178.56 754.14
 1064.43 195.60 753.28
 1020.29 191.85 694.71
 975.82 189.19 635.51
@@ -24,7 +24,8 @@ Custom
 HailActor "Miranna Ameema" 5 1
 665.40 78.12 348.89
 Custom
-Path -PL 28 -L -QA "-A|metallic shard|-T|QSC:7/7|-E|K" -QA "-A|carniverous corpse eater|-T|QSC:Defeat fear-affected|-E|K" -QA "-A|a fearful miasma|-T|QSC:Save Felfeather|-E|K" -CT "QSC:I helped most"
+Path -PL 29 -L -QA "-A|metallic shard|-T|QSC:7/7|-E|K" -QA "-A|carniverous corpse eater|-T|QSC:Defeat fear-affected|-E|K" -QA "-A|a fearful miasma|-T|QSC:Save Felfeather|-E|K" -CT "QSC:I helped most"
+665.40 78.12 348.89
 685.76 76.41 359.62
 721.79 77.47 374.77
 733.76 77.29 399.35
@@ -123,6 +124,7 @@ Path -PL 10 -CPSP
 1027.98 182.18 756.83
 1059.38 176.89 757.23
 1065.77 179.71 756.79
+1063.29 178.56 754.14
 Custom
 HailActor "Crestcry" 3 1
-1068.03 179.45 754.65
+1063.29 178.56 754.14
