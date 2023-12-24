@@ -1,10 +1,4 @@
-Travel to Aether
-Custom
-CheckAndSet -InZone "Aether Wroughtlands" 44
-0 0 0
-Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 11
-0 0 0
+To Aether
 Custom
 FastTravel "The Barren Sky"
 0 0 0
@@ -39,7 +33,7 @@ ZoneDoor "Zone to Zimara Breadth"
 WaitForZoning
 -699.38 229.89 -753.87
 Custom
-ClickAllActors
+ClickAllActors 5
 -711.87 229.62 -751.98
 Custom
 ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
