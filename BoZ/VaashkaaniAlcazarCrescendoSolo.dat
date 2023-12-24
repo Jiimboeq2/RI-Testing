@@ -1,0 +1,140 @@
+-495.96 162.78 -605.31
+Custom
+ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Alcazar Crescendo [Solo]"
+288.76 164.76 -126.28
+-76.77 3.63 -0.36
+Custom
+WaitForZoning
+0 0 0
+522.19 71.37 17.97
+521.25 71.37 -1.33
+552.55 71.39 0.08
+553.48 71.40 -25.52
+553.42 71.83 -53.23
+553.12 71.40 -18.95
+553.52 71.40 17.34
+553.81 71.17 43.69
+554.17 71.36 20.83
+554.28 71.33 1.57
+571.25 71.32 -1.20
+601.23 71.34 -1.50
+600.30 71.11 -47.85
+602.60 71.34 0.38
+602.60 71.36 29.49
+602.60 71.11 38.81
+Custom
+Target "Khazinehdar Zuhraasa" 
+600.30 71.11 -47.85
+Named
+"Khazinehdar Zuhraasa" 
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+600.30 71.11 -47.85
+603.19 71.34 -0.33
+622.58 71.32 -0.82
+624.01 71.39 -0.85
+Custom
+ClickActor portal_to_throne_from_hoard
+624.01 71.39 -0.85
+683.16 71.32 -0.03
+698.94 71.32 -0.03
+701.71 71.39 -31.80
+701.97 71.32 3.27
+701.99 71.39 30.28
+701.78 71.32 1.21
+722.12 71.41 -0.06
+756.83 70.75 -0.08
+790.40 71.38 -0.53
+802.13 70.41 28.45
+822.40 71.32 47.47
+855.04 70.41 46.30
+880.06 71.37 31.24
+889.37 70.41 -0.06
+881.38 71.31 -28.10
+855.84 70.41 -46.55
+824.54 71.38 -49.15
+853.78 70.41 -47.29
+880.75 71.37 -31.49
+888.82 70.41 -0.22
+888.93 70.41 0.23
+Custom
+MessageBox "Click Carpet and Press Resume after landing"
+888.93 70.41 0.23
+Custom
+ClickActor transport_carpet_01
+888.93 70.41 0.23
+Wait 
+10
+842.31 70.20 -0.74
+Custom
+Target "Zakir-Sar-Ussur" 
+842.31 70.20 -0.74
+Custom
+PauseCombatBot 1
+842.31 70.20 -0.74
+Wait
+10 
+842.31 70.20 -0.74
+Custom
+UseItem "Glorious Maestra's Cithara"
+842.31 70.20 -0.74
+Custom
+PauseCombatBot 0
+842.31 70.20 -0.74
+Named
+"Zakir-Sar-Ussur" 
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+842.31 70.20 -0.74
+842.31 70.20 -0.74
+847.87 70.11 -13.22
+Custom
+ClickActor portal_from_throne_to_prison
+847.87 70.11 -13.22
+224.90 35.44 -320.77
+224.90 35.44 -355.78
+249.66 35.48 -355.85
+295.90 24.29 -356.54
+296.59 24.29 -372.31
+310.99 24.29 -398.53
+320.81 20.85 -373.48
+328.06 20.85 -365.40
+353.03 20.85 -353.17
+376.98 22.92 -356.55
+Custom
+HailActor "Lyrissa Nostrolo" 8 1
+376.98 22.92 -356.55
+Custom
+ClickActor "Arca Location"
+381.95 22.66 -359.25
+Custom
+HailActor "Lyrissa Nostrolo" 1
+381.95 22.66 -359.25
+Custom
+WaitForMob "Kapuji-bashi Haakhaz" 200
+381.95 22.66 -359.25
+Custom
+Target "Kapuji-bashi Haakhaz" 
+381.95 22.66 -359.25
+Named
+"Kapuji-bashi Haakhaz"
+StandardNamed
+SameLock
+KillAdd
+"a maedjinn alharin" 
+DontMoveBehind 
+381.95 22.66 -359.25
+Custom
+HailActor "Lyrissa Nostrolo" 10
+376.58 22.92 -356.51
+Custom
+HailActor "Vahravi" 9
+376.58 22.92 -356.51
+367.44 20.85 -337.61
+Custom
+ZoneDoor Exit
+368.11 20.85 -336.29

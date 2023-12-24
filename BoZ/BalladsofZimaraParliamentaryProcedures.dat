@@ -9,6 +9,12 @@ Custom
 CheckPreReqs -Completed "Screeching with Sang'Huuu Scouts"
 0 0 0
 Custom
+MakeActiveQuest "Ballads of Zimara: Parliamentary Procedures"
+0 0 0
+Custom
+CheckQuestStep "The new arrival turned out" 43
+0 0 0
+Custom
 FastTravel "The Barren Sky"
 0 0 0
 Custom
@@ -35,6 +41,8 @@ HailActor "Miranna Ameema" 20 1
 -89.90 228.23 789.66
 -45.82 240.31 817.98
 -2.19 252.27 846.01
+Custom
+Path -PL 10 -CPSP
 46.63 265.65 877.37
 93.38 278.47 907.41
 110.02 297.24 958.42

@@ -1,3 +1,9 @@
+Custom
+ZoneDoor zone_portal_to_dun_zimara_breadth_02 "Zimara Breadth: Strungstone Ascent [Solo]"
+288.17 164.41 -122.91
+Custom
+WaitForZoning
+0 0 0
 554.50 219.89 -818.77
 Custom
 Path -PL 5 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
@@ -80,6 +86,7 @@ Path -PL 10 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|
 543.17 275.20 602.56
 509.40 281.13 660.10
 532.92 277.50 620.83
+554.84 275.13 566.50
 526.70 284.40 554.95
 473.71 308.70 607.87
 423.02 327.75 627.47
@@ -103,15 +110,11 @@ Path -PL 6 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-
 108.63 377.94 665.54
 106.13 375.78 696.76
 87.61 383.28 722.42
-Custom
-Target "CrisjJen the Bold"
 94.13 382.59 717.34
-Named
-"CrisjJen the Bold"
-StandardNamed
-SameLock
-KillAdd
-DontMoveBehind
+Custom
+Target "Crisj'Jen the Bold"
+83.71 383.68 720.44
+101.88 378.80 661.03
 94.13 382.59 717.34
 56.99 397.51 733.71
 Custom
