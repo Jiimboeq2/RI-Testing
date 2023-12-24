@@ -6,7 +6,10 @@ Custom
 CheckQuestStep "I gave the bags" 68
 0 0 0
 Custom
-HailActorGetQuest -Actor "Miranna Ameema"
+TimeStampEcho "Picking up the Ballads of Zimara: Hard Act to Follow"
+-689.63 229.48 -753.62
+Custom
+HailActor "Miranna Ameema" 10
 -689.63 229.48 -753.62
 Custom
 Path -PL 5 -L -R -QA "-QD|100|-A|Bag of Evidence|-T|QSC:I gathered all of the bags|-E|H" -CT "QSC:I gathered all of the bags"
@@ -68,6 +71,9 @@ HailActor "Ruhk" 9 1
 -803.33 220.05 241.02
 -794.50 190.13 225.60
 -776.79 191.34 223.47
+Custom
+TimeStampEcho "Picking up the Componenets to Freedom Quest"
+-776.99 191.51 224.39
 Custom
 HailActor "Ecihoolo" 6 1
 -776.99 191.51 224.39
