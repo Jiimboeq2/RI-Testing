@@ -99,7 +99,7 @@ Custom
 HailActor "Miranna Ameema" 6 1
 -911.86 189.59 330.13
 Custom
-CheckQuestStep "Miranna Ameema turned out to be" 103
+CheckQuestStep "Miranna Ameema turned out to be" 106
 -911.86 189.59 330.13
 Custom
 MessageBox "Check to see conversation with Miranna is updated"
@@ -233,11 +233,11 @@ CheckQuestStep "I used the"  236
 Custom 
 MessageBox "Use the wand on the behometh and press Resume."  
 -714.36 217.38 -659.82
--664.80 210.31 -684.00
--632.14 181.36 -571.61
--676.38 166.33 -529.08
--630.37 124.87 -441.45
--680.46 132.04 -413.95
+-664.80 250.31 -684.00
+-632.14 251.36 -571.61
+-676.38 256.33 -529.08
+-630.37 254.87 -441.45
+-680.46 252.04 -413.95
 -712.26 147.30 -386.09
 -708.83 145.30 -359.72
 Custom
