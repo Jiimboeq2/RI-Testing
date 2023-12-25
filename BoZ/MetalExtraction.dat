@@ -31,7 +31,7 @@ HailActorGetQuest -Actor "Hootensia" 3 1
 -787.97 168.58 281.69
 -784.94 159.99 316.31
 Custom
-Path -PL 36 -L -DFPWD -QA "-QD|60|-A|alloy residue|-T|QSC:Remove alloy residue|-E|K" -QA "-QD|60|-A|a scorched shambler|-T|QSC:Extinguish scorched shamblers|-E|K" -QA "-QD|60|-A|Gold Metal Deposit|-T|QSC:Shatter gold metal deposits|-E|H" -QA "-QD|60|-A|Silver Metal Deposit|-T|QSC:Shatter silver metal deposits|-E|H" -CT "QSC:I removed the"
+Path -PL 36 -L -DFPWD -QA "-QD|60|-A|alloy residue|-T|QSC:alloy residue|-E|K" -QA "-QD|60|-A|a scorched shambler|-T|QSC:scorched shamblers|-E|K" -QA "-QD|60|-A|Gold Metal Deposit|-T|QSC:gold metal deposits|-E|H" -QA "-QD|60|-A|Silver Metal Deposit|-T|QSC:silver metal deposits|-E|H" -CT "QSC:I removed the allow"
 -744.81 67.08 368.86
 -787.09 81.91 272.16
 -711.69 63.85 385.60

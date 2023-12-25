@@ -1,27 +1,5 @@
 Slimy Yet Satisfying
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 24
-0 0 0
-Custom
-FastTravel "Splendor Sky Aerie"
-0 0 0
--326.54 117.71 617.13
--326.54 176.59 617.13
--324.21 176.59 668.11
--322.35 176.59 701.02
--320.16 176.59 739.87
--318.05 176.59 777.22
--316.06 176.59 812.40
--314.14 203.06 846.30
--312.49 226.35 875.54
--308.01 226.35 954.77
--307.01 221.60 1020.26
--310.77 215.83 1067.70
--316.44 211.42 1103.52
--328.37 207.10 1137.04
--346.08 201.78 1176.83
--346.03 193.73 1176.83
-Custom
 HailActorGetQuest -Actor "Kudurri" 3 1
 -352.84 194.54 1182.00
 -351.16 232.96 1181.67
@@ -37,7 +15,7 @@ HailActorGetQuest -Actor "Kudurri" 3 1
 446.02 105.95 586.56
 464.27 59.32 567.69
 Custom
-Path -PL 16 -L -QA "-QD|200|-A|Fallen Timber|-T|QSC:6/6|-E|H" -QA "-QD|200|-A|black sky crawler|-T|QSC:6/6|-E|K" -QA "-QD|200|-A|a lemon slug|-T|QSC:10/10|-E|K" -CT "QSC:I've gathered"
+Path -PL 14 -L -QA "-QD|200|-A|Fallen Timber|-T|QSC:Timber|-E|H" -QA "-QD|200|-A|black sky crawler|-T|QSC:crawler|-E|K" -QA "-QD|200|-A|a lemon slug|-T|QSC:lemon|-E|H" -CT "QSC:I've gathered"
 489.43 69.28 581.57
 454.90 53.73 562.74
 487.05 74.96 473.52
@@ -54,6 +32,8 @@ Path -PL 16 -L -QA "-QD|200|-A|Fallen Timber|-T|QSC:6/6|-E|H" -QA "-QD|200|-A|bl
 422.59 63.82 426.07
 371.83 190.54 534.99
 283.66 204.82 511.54
+Custom
+Path -PL 10 -CPSP
 126.30 213.79 542.16
 -2.33 212.02 657.51
 -99.21 214.90 791.35

@@ -1,27 +1,5 @@
 Sleepy Solutions
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 24
-0 0 0
-Custom
-FastTravel "Splendor Sky Aerie"
-0 0 0
--326.54 117.71 617.13
--326.54 176.59 617.13
--324.21 176.59 668.11
--322.35 176.59 701.02
--320.16 176.59 739.87
--318.05 176.59 777.22
--316.06 176.59 812.40
--314.14 203.06 846.30
--312.49 226.35 875.54
--308.01 226.35 954.77
--307.01 221.60 1020.26
--310.77 215.83 1067.70
--316.44 211.42 1103.52
--328.37 207.10 1137.04
--346.08 201.78 1176.83
--346.03 193.73 1176.83
-Custom
 HailActorGetQuest -Actor "Kudurri" 3 1
 -352.84 194.54 1182.00
 -355.93 228.39 1182.97
@@ -45,7 +23,16 @@ HailActorGetQuest -Actor "Kudurri" 3 1
 202.05 301.93 1126.27
 268.67 308.34 1084.76
 Custom
+Target "Kiawk"
+271.07 282.05 1060.63
+Custom
 BuyFromVendor "Kiawk" "Powdered Melatonin" 1
+271.07 282.05 1060.63
+Custom
+CheckQuestStep "Acquire a slumber potion" 36
+271.07 282.05 1060.63
+Custom
+MessageBox "Purhcase the Powdered Melatonin"
 271.07 282.05 1060.63
 Custom
 Path -PL 20 -L -QA "-QD|200|-A|Hawberry|-T|QSC:6/6|-E|H" -QA "-QD|200|-A|Splendor Spearmint|-T|QSC:10/10|-E|H" -CT "QSC:I have the"
@@ -72,6 +59,8 @@ Path -PL 20 -L -QA "-QD|200|-A|Hawberry|-T|QSC:6/6|-E|H" -QA "-QD|200|-A|Splendo
 346.79 286.42 971.50
 352.76 285.99 989.42
 346.12 281.29 1015.35
+Custom
+Path -PL 10 -CPSP
 328.15 276.09 1035.70
 292.11 277.29 1049.36
 275.10 281.92 1063.37

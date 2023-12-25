@@ -143,8 +143,5 @@ Path -PL 3 -CPSP
 -823.35 174.88 170.42
 -822.29 174.92 185.97
 Custom
-HailActor "Tekeshi" 
--822.29 174.92 185.97
-Custom
 Quest "SplendorRecycling"
 0 0 0

@@ -56,19 +56,16 @@ Custom
 HailActor "Sassarish" 
 267.46 160.41 -73.70
 Custom
-Quest "The Flutters and Mutters Riddle"
+Quest "TheFluttersandMuttersRiddle"
 0 0 0
 Custom
-Quest "The Veins and Flakes Riddle"
+Quest "TheVeinsandFlakesRiddle"
 0 0 0
 Custom
-Quest "The Shock and Splinter Riddle"
+Quest "TheShockandSplinterRiddle"
 0 0 0
 Custom
-HailActor "Kupriania" 
-267.46 160.41 -73.70
-Custom
-Quest "Fancy Sphinx Feast"
+Quest "FancySphinxFeast"
 0 0 0
 Custom
 Path -PL 16 -CPSP
@@ -90,19 +87,16 @@ Path -PL 16 -CPSP
 -863.87 189.02 353.16
 -869.72 188.47 359.10
 Custom
-HailActor "Sqrauwk" 
--869.72 188.47 359.10
-Custom
-Quest "Stoking the Forge"
+Quest "StokingtheForge"
 0 0 0
 Custom
-Quest "Stormy Defenses"
+Quest "StormyDefenses"
 0 0 0
 Custom
-Quest "Forced Reduction in Force"
+Quest "ForcedReductioninForce"
 0 0 0
 Custom
-Quest "Mighty Mighty Metals"
+Quest "MightyMightyMetals"
 0 0 0
 Custom
 Path -PL 5 -CPSP
@@ -113,11 +107,8 @@ Path -PL 5 -CPSP
 -815.51 190.80 233.89
 -820.31 191.40 225.48
 Custom
-HailActor "Priest Oo'Rah" 
--820.31 191.40 225.48
-Custom
-Quest "Here Ghost Nothing"
+Quest "HereGhostNothing"
 0 0 0
 Custom
-Quest "Storms A Brewin"
+Quest "StormsABrewin"
 0 0 0
