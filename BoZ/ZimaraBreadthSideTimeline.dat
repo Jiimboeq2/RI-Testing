@@ -1,9 +1,9 @@
 Zimara Breadth Side Timeline
 Custom
-CheckAndSet -InZone "Zimara Breadth" 35
+CheckAndSet -InZone "Zimara Breadth" 34
 0 0 0
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 11
+CheckAndSet -InZone "Splendor Sky Aerie" 10
 0 0 0
 Custom
 FastTravel "Splendor Sky Aerie"

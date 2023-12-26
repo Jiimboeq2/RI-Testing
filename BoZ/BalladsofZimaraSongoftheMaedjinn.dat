@@ -12,7 +12,7 @@ Custom
 SetActiveQuest "Ballads of Zimara: Song of the Maedjinn"
 0 0 0
 Custom
-CheckQuestStep "Miranna is waiting for the metalbound" 258
+CheckQuestStep "Miranna is waiting for the metalbound" 264
 0 0 0
 Custom
 CheckQuestStep "I gave Miranna the spell" 189
@@ -351,10 +351,10 @@ Path -PL 8 -CPSP
 751.13 194.16 253.49
 Custom
 Path -PL 28 -L -R -DFPWD -QA "-QD|200|-A|a harrying|-T|QSC:Obtain life-sparked clay|-E|K" -QA "-QD|200|-A|a construct|-T|QSC:Obtain life-sparked clay|-E|K" -QA "-QD|200|-A|Life-sparked clay|-T|QSC:Obtain life-sparked clay|-E|H" -CT "QSC:I found the life-sparked clay"
-805.70 185.82 304.21
-756.73 185.34 318.66
-708.36 190.50 371.21
-734.04 210.57 440.65
+805.70 240.82 304.21
+756.73 240.34 318.66
+708.36 240.50 371.21
+734.04 240.57 440.65
 755.68 240.20 509.21
 717.40 262.16 536.48
 689.27 272.37 500.45
@@ -383,7 +383,7 @@ Path -PL 28 -L -R -DFPWD -QA "-QD|200|-A|a harrying|-T|QSC:Obtain life-sparked c
 779.52 189.18 412.50
 793.36 189.26 325.20
 Custom
-Path -PL 13 -CPSP
+Path -PL 30 -CPSP
 464.30 365.45 630.08
 496.23 356.52 610.44
 530.74 347.23 593.01
@@ -391,23 +391,23 @@ Path -PL 13 -CPSP
 601.96 328.14 557.58
 641.43 317.53 537.54
 670.80 317.19 522.63
-696.28 307.72 493.02
-707.47 300.92 467.67
-713.56 285.53 425.69
-715.45 270.12 392.88
-717.93 249.72 345.27
-720.58 227.93 294.45
-687.46 226.84 293.00
-609.56 229.44 300.14
-514.64 232.61 308.85
-437.44 235.19 315.93
-376.52 237.23 321.52
-320.61 239.10 326.64
-259.71 241.13 332.23
-189.43 242.79 336.26
-117.61 243.08 335.83
-32.23 243.44 335.32
--51.05 243.79 334.83
+696.28 317.72 493.02
+707.47 317.92 467.67
+713.56 317.53 425.69
+715.45 317.12 392.88
+717.93 317.72 345.27
+720.58 317.93 294.45
+687.46 317.84 293.00
+609.56 317.44 300.14
+514.64 317.61 308.85
+437.44 317.19 315.93
+376.52 317.23 321.52
+320.61 317.10 326.64
+259.71 317.13 332.23
+189.43 317.79 336.26
+117.61 317.08 335.83
+32.23 317.44 335.32
+-51.05 317.79 334.83
 -125.07 244.09 334.38
 -196.89 244.39 333.96
 -270.22 244.70 333.52
@@ -424,8 +424,15 @@ Path -PL 13 -CPSP
 -909.27 189.51 328.20
 -911.86 189.59 330.13
 Custom
-HailActor "Miranna Ameema" 6 1
+HailActor "Miranna Ameema" 7 1
 -911.86 189.59 330.13
+-906.94 189.05 326.35
+Custom
+CheckQuestStep "It gave them sacrificial items" 436
+-906.94 189.05 326.35
+Custom
+MessageBox "Check Miranna turn in was complete"
+-906.94 189.05 326.35
 -906.94 189.05 326.35
 Custom
 HailActor "Vahravi" 12 1

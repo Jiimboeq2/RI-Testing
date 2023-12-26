@@ -31,7 +31,7 @@ WaitForZoning
 0 0 0
 554.50 219.89 -818.77
 Custom
-Path -PL 5 -QA "-QD|200|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I recovered"
+Path -PL 5 -QA "-QD|50|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I gathered"
 597.14 210.02 -783.54
 618.04 201.65 -766.28
 616.63 197.28 -735.61
@@ -50,7 +50,7 @@ DontMoveBehind
 625.98 206.78 -573.72
 636.63 205.98 -521.01
 Custom
-Path -PL 5 -QA "-QD|200|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I recovered"
+Path -PL 5 -QA "-QD|50|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I gathered"
 653.76 207.49 -471.33
 690.26 208.18 -439.40
 754.66 232.92 -450.56
@@ -62,7 +62,7 @@ ClickActor telelport crystal
 649.65 207.46 -462.76
 714.31 176.57 273.68
 Custom
-Path -PL 3 -QA "-QD|200|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I recovered"
+Path -PL 3 -QA "-QD|50|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I gathered"
 737.02 184.31 314.91
 747.53 186.53 348.26
 780.39 188.26 348.46
@@ -78,7 +78,7 @@ DontMoveBehind
 790.50 189.05 386.00
 790.63 188.77 414.18
 Custom
-Path -PL 10 -QA "-QD|200|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I recovered"
+Path -PL 10 -QA "-QD|50|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I gathered"
 793.13 188.91 416.17
 812.43 189.04 426.87
 791.54 189.01 340.35
@@ -107,7 +107,7 @@ DontMoveBehind
 528.28 283.90 553.17
 555.85 275.10 573.90
 Custom
-Path -PL 10 -QA "-QD|200|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I recovered"
+Path -PL 10 -QA "-QD|50|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I gathered"
 543.17 275.20 602.56
 509.40 281.13 660.10
 532.92 277.50 620.83
@@ -127,7 +127,7 @@ ClickActor telelport crystal
 343.71 402.33 597.42
 217.16 379.54 651.98
 Custom
-Path -PL 6 -QA "-QD|200|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I recovered"
+Path -PL 6 -QA "-QD|50|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I gathered"
 162.79 361.98 670.28
 162.35 361.69 699.08
 123.61 369.03 696.24
@@ -143,7 +143,7 @@ Target "Crisj'Jen the Bold"
 94.13 382.59 717.34
 56.99 397.51 733.71
 Custom
-Path -PL 6 -QA "-QD|200|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I recovered"
+Path -PL 6 -QA "-QD|50|-A|arcane alloy|-T|QSC:arcane alloy|-E|H" -CT "QSC: I gathered"
 39.32 400.98 738.67
 15.74 402.28 738.02
 -2.75 399.69 736.93
@@ -169,7 +169,7 @@ DontMoveBehind
 -230.40 432.51 876.88
 -236.77 432.60 882.37
 Custom
-CheckQuestStep "I recovered " 166
+CheckQuestStep "I gathered " 176
 -236.77 432.60 882.37
 Custom
 MessageBox "Make sure you have collected all the arcane alloy needed"

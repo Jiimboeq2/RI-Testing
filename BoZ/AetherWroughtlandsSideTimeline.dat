@@ -54,37 +54,37 @@ Custom
 HailActor "Tehes" 1
 702.26 -43.97 -458.64
 Custom
-Quest "Clearing the Campsite"
+Quest "ClearingtheCampsite"
 0 0 0
 Custom
-Quest "Citrine Solution"
+Quest "CitrineSolution"
 0 0 0
 Custom
 HailActor "Oolfonso" 1
 714.31 -43.64 -465.83
 Custom
-Quest "Antiviral Therapy"
+Quest "AntiviralTherapy"
 0 0 0
 Custom
-Quest "Maedjinn To Be Broken"
+Quest "MaedjinnToBeBroken"
 0 0 0
 Custom
-Quest "Faux Metal Jacket"
+Quest "FauxMetalJacket"
 0 0 0
 Custom
-Quest "One-Step Distressing Technique"
+Quest "OneStepDistressingTechnique"
 0 0 0
 Custom
-Quest "Riccawws Commandos"
+Quest "RiccawwsCommandos"
 0 0 0
 Custom
-Quest "Maedjinn Out Like a Bandit"
+Quest "MaedjinnOutLikeaBandit"
 0 0 0
 Custom
-Quest "Corrosion Commotion"
+Quest "CorrosionCommotion"
 0 0 0
 Custom
-Quest "Precious Peaks and Precious Defenses"
+Quest "PreciousPeaksandPreciousDefenses"
 0 0 0
 Custom
 Path -PL 3 -CPSP
@@ -96,10 +96,10 @@ Custom
 HailActor "Embri"
 699.97 -43.69 -466.82
 Custom
-Quest "Maedjinn Trouble in Ferric Fields"
+Quest "MaedjinnTroubleinFerricFields"
 0 0 0
 Custom
-Quest "Shock the Maedjinn"
+Quest "ShocktheMaedjinn"
 0 0 0
 Custom
 Path -PL 20 -CPSP
@@ -129,11 +129,11 @@ Custom
 HailActor "Ornetta"
 708 -44 -470
 Custom
-Quest "Full Metal Biologist"
+Quest "FullMetalBiologist"
 0 0 0
 Custom
-HailActor "Novice Minnahalle"
+HailActor "NoviceMinnahalle"
 708 -44 -470
 Custom
-Quest "Aetheric Interests with Arcane"
+Quest "AethericInterestswithArcane"
 0 0 0
