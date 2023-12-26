@@ -6,19 +6,16 @@ Custom
 RemoveFromDepot "Fuel Depot" "Zimaran Coal" 60 "Zimaran Candle" 60 "Zimaran Kindling" 60 "Zimaran Sandpaper" 60 "Zimaran Incense" 60
 0 0 0
 Custom
-CheckAndSet -InZone "Aether Wroughtlands" 56
+CheckAndSet -InZone "Aether Wroughtlands" 53
 0 0 0
 Custom
-TimeStampEcho "Heading to Barren Sky to start the path in Splendor Sky Aerie"
+CheckAndSet -NotInZone "Splendor Sky Aerie" 16
 0 0 0
 Custom
 FastTravel "The Barren Sky"
 0 0 0
 Custom
-ClickActor zone_to_norrath TRUE FALSE 50
--589.04 -46.54 -401.60
-Custom
-TravelMap "Splendor Sky Aerie"
+FastTravel "Splendor Sky Aerie"
 0 0 0
 Custom
 Path -PL 6 -L -CPSP -R
@@ -71,7 +68,7 @@ Custom
 TimeStampEcho "Made quest active: Bivouac: Barricades"
 716.24 -43.70 -471.57
 Custom
-CheckAndSet -NotActiveQuest "Bivouac: Barricades" 78
+CheckAndSet -NotActiveQuest "Bivouac: Barricades" 75
 716.24 -43.70 -471.57
 Custom
 Quest "BivouacBarricades"
@@ -83,7 +80,7 @@ Custom
 TimeStampEcho "Made quest active: Bivouac: Healing"
 716.24 -43.70 -471.57
 Custom
-CheckAndSet -NotActiveQuest "Bivouac: Healing" 90
+CheckAndSet -NotActiveQuest "Bivouac: Healing" 87
 716.24 -43.70 -471.57
 Custom
 Quest "BivouacHealing"
@@ -95,7 +92,7 @@ Custom
 TimeStampEcho "Made quest active: Bivouac: Provisions"
 716.24 -43.70 -471.57
 Custom
-CheckAndSet -NotActiveQuest "Bivouac: Provisions" 102
+CheckAndSet -NotActiveQuest "Bivouac: Provisions" 99
 716.24 -43.70 -471.57
 Custom
 Quest "BivouacProvisions"
@@ -107,7 +104,7 @@ Custom
 TimeStampEcho "Made quest active: Bivouac: Repairs"
 716.24 -43.70 -471.57
 Custom
-CheckAndSet -NotActiveQuest "Bivouac: Repairs" 114
+CheckAndSet -NotActiveQuest "Bivouac: Repairs" 111
 716.24 -43.70 -471.57
 Custom
 Quest "BivouacRepairs"
