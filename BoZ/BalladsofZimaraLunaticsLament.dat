@@ -91,6 +91,9 @@ Custom
 BuyFromVendor "Rannaakh" "Bird Whistle" 1
 -838.66 188.75 338.08
 Custom
+CheckQuestStep "Acquire a bird whistle" 98
+-838.66 188.75 338.08
+Custom
 MessageBox "Make sure you have obtained the Bird Whistle from Rannaakh"
 -842.98 188.76 336.55
 -894.86 187.82 320.58
@@ -99,14 +102,14 @@ MessageBox "Make sure you have obtained the Bird Whistle from Rannaakh"
 -865.46 223.00 84.56
 -826.87 222.88 21.77
 Custom
-Path -PL 5 -L -QA "-A|miniature sword|-T|QSC:miniature swords|-E|H" -CT "QSC: I have obtained a myriad"
--879.41 144.07 2.68
--855.59 142.73 2.08
--801.81 144.23 1.01
--782.79 143.39 1.86
--692.21 143.88 19.71
--758.70 141.90 27.27
--683.02 142.87 -12.44
+Path -PL 5 -L -DFPWD -QA "-A|miniature sword|-T|QSC:miniature swords|-E|H" -CT "QSC: I have obtained a myriad"
+-879.41 181.07 2.68
+-855.59 181.73 2.08
+-801.81 181.23 1.01
+-782.79 181.39 1.86
+-692.21 181.88 19.71
+-758.70 181.90 27.27
+-683.02 181.87 -12.44
 -676.89 141.86 -20.85
 Custom
 ClickActor "Fly from Isles of Wisdom"
@@ -116,21 +119,21 @@ TravelMap "Zenith Helionae"
 -677.47 141.90 -18.79
 310.37 166.96 -56.58
 Custom
-Path -PL 13 -L -R -QA "-A|a Yazdani|-T|QSC:8/8|-E|K" -CT "QSC: I have obtained a myriad"
+Path -PL 13 -L -R -QA "-A|a Yazdani|-T|QSC:Yazdani|-E|K" -CT "QSC: I have obtained a myriad"
 310.37 166.96 -56.58
-193.19 145.65 -112.20
-180.73 145.78 -145.31
-180.23 152.15 -206.09
-139.46 152.25 -237.02
-82.03 144.55 -244.22
-12.76 138.31 -203.64
--84.45 138.11 -154.40
-27.83 140.69 -83.48
-20.76 151.33 -3.76
--40.22 155.52 39.84
-20.05 141.64 -74.33
-153.94 139.27 -70.38
-193.19 145.65 -112.20
+193.19 166.65 -112.20
+180.73 166.78 -145.31
+180.23 166.15 -206.09
+139.46 166.25 -237.02
+82.03 166.55 -244.22
+12.76 166.31 -203.64
+-84.45 166.11 -154.40
+27.83 166.69 -83.48
+20.76 166.33 -3.76
+-40.22 166.52 39.84
+20.05 166.64 -74.33
+153.94 166.27 -70.38
+193.19 166.65 -112.20
 310.37 166.96 -56.58
 Custom
 ClickActor "Fly from Zenith Helionae"
@@ -182,37 +185,50 @@ Custom
 ClickActor "Zakir Rish Chest"
 -656.86 132.26 -397.03
 Custom
-CheckQuestStep "I found an ornate silver" 227
+CheckQuestStep "I found an ornate silver" 243
 -656.86 132.26 -397.03
--654.29 132.58 -392.86
+-654.29 152.58 -392.86
 Custom
 ClickActor "Zakir Rish Chest"
 -667.59 133.30 -396.53
 Custom
-CheckQuestStep "I found an ornate silver" 227
+CheckQuestStep "I found an ornate silver" 243
 -667.59 133.30 -396.53
--656.70 132.42 -395.33
--521.86 94.52 -501.65
--514.82 94.57 -508.73
+-656.70 152.42 -395.33
+-521.86 104.52 -501.65
+-514.82 104.57 -508.73
 -505.63 94.73 -506.12
 Custom
 ClickActor "Zakir Rish Chest"
 -491.44 94.50 -481.15
 Custom
-CheckQuestStep "I found an ornate silver" 227
+CheckQuestStep "I found an ornate silver" 243
 -249.35 148.96 452.55
--494.22 94.46 -481.99
--497.24 94.58 -487.26
--449.48 98.10 -542.53
+-494.22 104.46 -481.99
+-497.24 104.58 -487.26
+-449.48 104.10 -542.53
 -395.10 117.71 -595.98
+-370.92 125.41 -662.37
+Custom
+ClickActor "Zakir Rish Chest"
+-370.92 125.41 -662.37
+Custom
+CheckQuestStep "I found an ornate silver" 243
+-370.92 125.41 -662.37
 -364.76 122.49 -616.81
 Custom
 ClickActor "Zakir Rish Chest"
 -364.76 122.49 -616.81
 Custom
-CheckQuestStep "I found an ornate silver" 227
+CheckQuestStep "I found an ornate silver" 243
 -361.77 122.18 -614.77
 -358.63 122.19 -620.21
+-356.36 124.24 -647.21
+Custom
+ClickActor "Zakir Rish Chest"
+-356.36 124.24 -647.21
+Custom
+CheckQuestStep "I found an ornate silver" 243
 -356.36 124.24 -647.21
 -350.01 126.39 -675.55
 -340.00 126.71 -674.06
@@ -220,14 +236,14 @@ Custom
 ClickActor "Zakir Rish Chest"
 -390.74 121.75 -608.33
 Custom
-CheckQuestStep "I found an ornate silver" 227
+CheckQuestStep "I found an ornate silver" 243
 -390.74 121.75 -608.33
 Custom
 MessageBox "Unable to find the cloak, run around click chests til you find the cloak"
 -390.74 121.75 -608.33
--429.24 101.30 -560.84
--500.30 94.55 -495.22
--580.68 113.96 -445.21
+-429.24 121.30 -560.84
+-500.30 124.55 -495.22
+-580.68 123.96 -445.21
 -642.52 128.90 -412.37
 -679.36 130.24 -419.86
 -711.14 147.17 -387.56
@@ -312,7 +328,7 @@ Custom
 CraftIt "Candied Fairy-Leaf Cake" 4
 -764.69 191.67 222.83
 Custom
-CheckQuestStep "I found an ornate silver damask cloak for Sirran and baked" 319
+CheckQuestStep "I found an ornate silver damask cloak for Sirran and baked" 335
 -764.69 191.67 222.83
 Custom
 MessageBox "Make sure all cakes were crafted"

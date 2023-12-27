@@ -28,7 +28,7 @@ Path -PL 6 -CPSP
 196.02 301.04 812.37
 195.94 273.60 812.28
 Custom
-CheckCompletedQuest "Jabbers Arts and Crafts" 35
+CheckCompletedQuest "Jabber's Arts and Crafts" 35
 0 0 0
 Custom
 Quest "JabbersArtsandCrafts"
@@ -47,9 +47,9 @@ Path -PL 12 -CPSP
 904.35 199.57 760.86
 984.56 189.48 756.32
 1033.71 183.21 761.91
-1067.15 181.19 776.20
-1071.76 181.24 780.20
-1073.16 181.05 781.92
+1067.85 181.25 775.33
+1067.85 181.25 775.33
+1067.85 181.25 775.33
 Custom
 Quest "CovertoCover"
 0 0 0
