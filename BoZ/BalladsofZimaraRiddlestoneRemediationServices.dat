@@ -30,12 +30,12 @@ FastTravel "Splendor Sky Aerie"
 287.52 225 227.12
 377.52 225 178.47
 467.52 225 178.47
+Custom
+Path -PL 32 -L -QA "-QD|200|-A|noxious swarm larvae|-T|QSC:swarm larvae|-E|H" -QA "-QD|200|-A|a wild aeraquis|-T|QSC:aeraquis|-E|K" -CT "QSC:I gathered the"
 557.52 225 178.47
 647.52 225 178.47
 675.14 151.26 178.47
 675.14 61.26 178.47
-Custom
-Path -PL 28 -L -QA "-QD|200|-A|noxious swarm larvae|-T|QSC:swarm larvae|-E|H" -QA "-QD|200|-A|a wild aeraquis|-T|QSC:aeraquis|-E|K" -CT "QSC:I gathered the"
 703.82 120 335.97
 723.81 120 318.88
 725.22 120 311.42

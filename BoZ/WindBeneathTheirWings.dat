@@ -27,31 +27,31 @@ Custom
 Target "a guarding grappler" 0 14
 -656.70 132.42 -395.33
 Wait
-5
+8
 -656.70 132.42 -395.33
 Custom
 ClickActor "Kreaw"
 -656.70 132.42 -395.33
 Wait
-5
+8
 -656.70 132.42 -395.33
 Custom
 Target "a guarding grappler" 0 14
 -497.24 94.58 -487.26
 Wait
-5
+8
 -497.24 94.58 -487.26
 Custom
 ClickActor "Qrashra"
 -497.24 94.58 -487.26
 Wait
-5
+8
 -497.24 94.58 -487.26
 Custom
 Target "a guarding grappler" 0 14
 -497.24 94.58 -487.26
 Wait
-5
+8
 -497.24 94.58 -487.26
 -497.24 94.58 -487.26
 Custom
@@ -61,7 +61,7 @@ Custom
 ClickActor "Hooatio"
 -480.86 94.49 -491.05
 Wait
-5
+8
 -480.86 94.49 -491.05
 -449.48 98.10 -542.53
 -395.10 117.71 -595.98
@@ -74,19 +74,28 @@ Custom
 ClickActor "Arrei"
 -364.76 122.49 -616.81
 Wait
-5
+8
 -364.76 122.49 -616.81
 -356.36 124.24 -647.21
 -350.01 126.39 -675.55
 Custom
-Target "a maedjinn guard" 0 14
+Target "a maedjinn guard" 0 5
 -350.01 126.39 -675.55
+-350.01 126.39 -675.55
+Custom
+Target "a maedjinn guard" 0 5
 -350.01 126.39 -675.55
 Custom
 ClickActor "Caiw"
 -350.01 126.39 -675.55
 Wait
-5
+8
+-350.01 126.39 -675.55
+Custom
+CheckQuestStep "I freed" 99
+-350.01 126.39 -675.55
+Custom
+CheckQuestStep "I am to use the oil" 24
 -350.01 126.39 -675.55
 -390.74 121.75 -608.33
 -350.03 168.72 -677.11

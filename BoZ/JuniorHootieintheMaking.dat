@@ -3,14 +3,19 @@ Custom
 MakeActiveQuest "Ballads of Zimara: Parliamentary Procedures"
 0 0 0
 Custom
-CheckQuestStep "The new arrival turned out" 14
+CheckQuestStep "The new arrival turned out" 16
 0 0 0
 Custom
-HailActorGetQuest -Actor "Coarsequill"
+TimeStampEcho "Picking up Ballads of Zimara: Parliamentary Procedures to avoid back tracking"
+Custom
+HailActor "Coarsequill" 5 1
 -343.03 117.94 602.52
 -332.52 119.12 627.12
 Custom
 HailActor "Miranna Ameema" 20 1
+-325.36 118.37 638.91
+Custom
+TimeStampEcho "Traveling to Jabber Longwind"
 -325.36 118.37 638.91
 Custom
 Path -PL 10 -CPSP
@@ -59,6 +64,7 @@ Path -PL 23 -L -DFPWD -QA "-QD|200|-A|dirt mound|-T|QSC:Gather buried nuts|-E|H"
 66.31 250 545.69
 73.61 250 684.09
 141.33 250 658.15
+148.29 237.07 658.97
 235.04 250 675.76
 298.84 250 669.07
 322.44 250 660.80

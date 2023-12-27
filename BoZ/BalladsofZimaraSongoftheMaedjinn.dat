@@ -285,7 +285,7 @@ TravelMap "Columnar Highgarden"
 313.10 167.48 -53.67
 615.73 207.12 -499.79
 Custom
-Path -PL 49 -L -R -QA "-QD|200|-A|an arcaneframe hammerhoof|-T|QSC:Hunt arcaneframe hammerhooves|-E|K" -QA "-QD|200|-A|an arcaneframe daggerclaw|-T|QSC:Hunt arcaneframe hammerhooves and daggerclaws|-E|K" -QA "-QD|200|-A|an arcaneframe razorfangs|-T|QSC:Hunt arcaneframe razorfangs|-E|K" -CT "QSC: I have completed"
+Path -PL 49 -L -R -QA "-QD|200|-A|an arcaneframe hammerhoof|-T|QSC:Hunt arcaneframe hammerhooves|-E|K" -QA "-QD|200|-A|an arcaneframe daggerclaw|-T|QSC:Hunt arcaneframe hammerhooves and daggerclaws|-E|K" -QA "-QD|200|-A|an arcaneframe razorfang|-T|QSC:Hunt arcaneframe razorfangs|-E|K" -CT "QSC: I have completed"
 623.26 236.61 -507.20
 633.77 237.62 -506.81
 653.64 240.42 -485.65
