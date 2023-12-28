@@ -1,8 +1,8 @@
 Fear the Cleaner
 Custom
-HailActorGetQuest -Actor "Kraske'sh"
+HailActorGetQuest -Actor "Kraskre'sh"
 638.52 84.75 342.02
-403.64 64.87 279.94
+600.79 85.63 328.84
 Custom
 ZoneDoor zone_portal_to_dun_hooluk_swamp_03 "Splendor Sky Aerie: Marshlands Miasma [Solo]"
 600.79 85.63 328.84
@@ -14,6 +14,7 @@ WaitForZoning
 721.79 77.47 374.77
 733.76 77.29 399.35
 763.64 71.59 412.33
+758.22 66.90 359.67
 746.93 71.59 417.28
 Custom
 ClickActor "Arcane Nullifier Location"
@@ -56,6 +57,7 @@ ClickActor "Arcane Nullifier Location"
 722.86 73.45 338.36
 762.85 63.22 305.80
 778.51 63.47 281.66
+819.13 44.15 130.82
 Custom
 ClickActor "Arcane Nullifier Location"
 821.30 44.15 135.07
@@ -76,3 +78,11 @@ ClickActor "Arcane Nullifier Location"
 Custom
 ZoneDoor Exit
 665.40 78.12 348.89
+Custom
+WaitForZoning
+0 0 0
+621.71 85.22 333.53
+636.60 85.12 339.72
+Custom
+HailActor "Kraskre'sh" 2
+638.52 84.75 342.02
