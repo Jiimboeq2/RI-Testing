@@ -20,8 +20,17 @@ HailActorGetQuest -Actor "Kudurri" 3 1
 -265.26 214.57 1142.11
 -77.06 249.78 1133.58
 52.17 278.54 1131.09
-202.05 301.93 1126.27
-268.67 308.34 1084.76
+40.00 223.35 591.51
+41.88 265.71 632.87
+77.72 291.67 699.49
+110.91 310.21 772.65
+122.72 329.99 859.09
+127.74 327.82 928.04
+128.68 334.89 994.05
+161.58 343.51 1017.68
+222.34 320.04 1035.91
+260.42 290.13 1065.32
+267.64 281.97 1060.94
 Custom
 Target "Kiawk"
 271.07 282.05 1060.63
@@ -29,13 +38,22 @@ Custom
 BuyFromVendor "Kiawk" "Powdered Melatonin" 1
 271.07 282.05 1060.63
 Custom
-CheckQuestStep "Acquire a slumber potion" 36
+CheckQuestStep "Acquire a slumber potion" 46
 271.07 282.05 1060.63
 Custom
-MessageBox "Purhcase the Powdered Melatonin"
+MessageBox "Purchase the Powdered Melatonin"
 271.07 282.05 1060.63
+271.02 281.97 1068.67
+271.02 298.06 1068.67
+247.19 294.21 1100.96
+200.56 289.11 1115.16
+138.24 283.11 1105.36
+90.93 275.95 1055.01
+75.65 287.88 1002.09
+69.90 289.62 931.27
+81.27 287.96 846.28
 Custom
-Path -PL 20 -L -QA "-QD|200|-A|Hawberry|-T|QSC:6/6|-E|H" -QA "-QD|200|-A|Splendor Spearmint|-T|QSC:10/10|-E|H" -CT "QSC:I have the"
+Path -PL 22 -L -QA "-QD|200|-A|Hawberry|-T|QSC:Hawberry|-E|H" -QA "-QD|200|-A|Splendor Spearmint|-T|QSC:Spearmint|-E|H" -CT "QSC:I have the"
 67.83 180.97 506.70
 106.85 183.97 531.21
 138.28 187.10 498.66

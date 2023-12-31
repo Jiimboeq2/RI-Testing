@@ -25,37 +25,26 @@ Custom
 HailActorGetQuest -Actor "Kudurri" 3 1
 -352.84 194.54 1182.00
 -342.56 193.15 1184.51
+Custom 
+Path -PL 30 -L -QA "-QD|200|-A|a tangle of vines|-T|QSC:fledgling|-E|K" -QA "-QD|200|-A|a tangled fledgling|-T|QSC:fledgling|-E|H" -QA "-QD|200|-A|a wandering fledgling|-T|QSC:fledgling|-E|H" -CT "QSC:I found all three"
 -314.52 194.44 1196.96
 -288.67 203.68 1212.21
 -269.42 207.15 1224.19
-Custom
-ClickActor "a wandering fledgling"
--269.42 207.15 1224.19
-Wait 
-5
--269.42 207.15 1224.19
-Custom
-Target "a tangle of vines"
 -269.42 207.15 1224.19
 -278.40 206.48 1220.14
 -295.32 197.95 1200.95
 -302.32 193.20 1149.09
 -317.04 193.61 1166.40
+-357.58 194.28 1084.20
+-357.58 194.28 1084.20
 -368.18 199.12 1226.82
 -386.66 202.30 1234.47
 -405.55 207.52 1223.08
 -423.64 208.50 1201.15
+-429.84 206.71 1167.92
+-429.84 206.71 1167.92
 -441.84 209.05 1180.25
 -463.63 211.36 1156.52
--479.31 214.60 1139.44
-Custom
-ClickActor "a wandering fledgling"
--479.31 214.60 1139.44
-Wait 
-5
--479.31 214.60 1139.44
-Custom
-Target "a tangle of vines"
 -479.31 214.60 1139.44
 -492.30 217.20 1135.43
 -506.28 220.07 1128.39
@@ -63,15 +52,6 @@ Target "a tangle of vines"
 -469.80 221.12 1089.72
 -483.59 226.02 1078.18
 -511.41 229.09 1073.97
--530.52 227.52 1074.78
-Custom
-ClickActor "a tangled fledgling"
--530.52 227.52 1074.78
-Wait 
-5
--530.52 227.52 1074.78
-Custom
-Target "a tangle of vines"
 -530.52 227.52 1074.78
 -507.21 227.10 1080.21
 -478.01 224.23 1083.00

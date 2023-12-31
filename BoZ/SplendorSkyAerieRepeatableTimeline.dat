@@ -1,4 +1,4 @@
-Splendor Sky Aerie Side Timeline
+Splendor Sky Aerie Side Repeatable Timeline
 Custom
 CheckAndSet -NotInZone "Splendor Sky Aerie" 7
 0 0 0
@@ -12,11 +12,6 @@ FastTravel "Splendor Sky Aerie"
 -327.97 114.88 597.60
 -329.02 113.25 580.77
 -329.34 112.99 575.54
-Custom
-Quest "InNeedofReeds"
-0 0 0
-Custom
-Path -PL 6 -CPSP
 -329.34 112.99 575.54
 -329.34 199.48 575.54
 -329.34 271.71 575.54
@@ -28,13 +23,7 @@ Path -PL 6 -CPSP
 196.02 301.04 812.37
 195.94 273.60 812.28
 Custom
-CheckCompletedQuest "Jabber's Arts and Crafts" 35
-0 0 0
-Custom
 Quest "JabbersArtsandCrafts"
-0 0 0
-Custom
-TimeStampEcho "Completed Jabber's Arts and Crafts Repeatable once"
 0 0 0
 Custom
 Path -PL 12 -CPSP
@@ -53,19 +42,7 @@ Path -PL 12 -CPSP
 1067.85 181.25 775.33
 1075.01 181.05 783.16
 Custom
-Quest "CovertoCover"
-0 0 0
-Custom
-Quest "HelpingSkirha"
-0 0 0
-Custom
-CheckCompletedQuest "Skirha's Preserving Prowess" 66
-0 0 0
-Custom
 Quest "SkirhasPreservingProwess"
-0 0 0
-Custom
-TimeStampEcho "Completed Skirha's Preserving Prowess Repeatable once"
 0 0 0
 Custom
 Path -PL 8 -CPSP
@@ -80,9 +57,6 @@ Path -PL 8 -CPSP
 657.54 151.00 359.92
 646.16 135.53 348.50
 646.31 83.21 348.52
-Custom
-Quest "FeartheCleaner"
-0 0 0
 Custom
 Path -PL 20 -CPSP
 643.15 84.26 343.16
@@ -108,19 +82,7 @@ Path -PL 20 -CPSP
 -354.84 222.37 1187.48
 -354.79 194.82 1187.47
 Custom
-Quest "AdventuresinNestsitting"
-0 0 0
-Custom
-Quest "SleepySolutions"
-0 0 0
-Custom
-CheckCompletedQuest "Slimy Yet Satisfying" 122
-0 0 0
-Custom
 Quest "SlimyYetSatisfying"
-0 0 0
-Custom
-TimeStampEcho "Completed Slimy Yet Satisfying Repeatable once"
 0 0 0
 Custom
 Path -PL 18 -CPSP
@@ -145,26 +107,5 @@ Path -PL 18 -CPSP
 -832.82 176.24 152.29
 -833.55 176.03 151.32
 Custom
-Quest "AScorchFueledRage"
-0 0 0
-Custom
-Quest "MetalExtraction"
-0 0 0
-Custom
-CheckCompletedQuest "More Metal Extraction" 158
-0 0 0
-Custom
 Quest "MoreMetalExtraction"
-0 0 0
-Custom
-TimeStampEcho "Completed More Metal Extraction Repeatable once"
-0 0 0
-Custom
-Path -PL 3 -CPSP
--833.55 176.03 151.32
--824.71 174.53 162.30
--823.35 174.88 170.42
--822.29 174.92 185.97
-Custom
-Quest "SplendorRecycling"
 0 0 0

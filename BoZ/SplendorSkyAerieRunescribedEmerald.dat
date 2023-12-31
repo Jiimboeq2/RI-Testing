@@ -1,0 +1,74 @@
+Splendor Sky Aerie: Runescribed Emerald
+Repeatable
+Custom
+CheckAndSet -NotInZone "Splendor Sky Aerie" 8
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Emerald"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Splendor Sky Aerie Runescribed Emerald"
+0 0 0
+Custom
+Path -PL 20 -CPSP
+-331.53 191.76 614.60
+-327.62 127.83 611.38
+-327.62 192.64 611.38
+-247.85 183.07 550.23
+-163.21 172.73 482.49
+-91.71 163.99 425.26
+-18.95 155.09 367.02
+51.20 146.51 310.88
+119.92 138.11 255.88
+191.78 130.92 263.10
+290.80 120.52 275.70
+300.62 120.44 275.79
+300.62 120.44 275.79
+313.57 120.01 288.26
+333.94 120.29 285.11
+380.01 120.90 267.32
+442.67 121.20 227.47
+431.99 125.89 179.19
+484.12 120.04 194.20
+532.86 120.25 172.38
+588.68 120.81 192.16
+613.15 120.42 219.86
+675.14 120 330.68
+675.14 120 240.68
+675.14 120.26 178.47
+Custom
+Path -PL 11 -DFPWD -QA "-QD|200|-A|a beetle crab|-T|QSC:crab|-E|K" -CT "QSC: I have infused"
+668.60 150.50 176.67
+723.26 150.66 165.77
+706.99 150.08 220.49
+739.12 150.56 197.62
+758.52 150.75 231.49
+802.31 150.59 231.99
+817.44 150.84 173.68
+851.69 150.30 148.00
+777.74 150.82 151.87
+759.76 150.85 52.40
+774.68 150.91 -18.99
+718.79 150.85 37.24
+718.79 225 37.24
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Emerald" 71
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Emerald"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Splendor Sky Aerie: Runescribed Emerald"
+0 0 0
+Custom
+CheckAndSet -ActiveQuest "Splendor Sky Aerie: Runescribed Emerald" 44
+0 0 0
+Custom
+TimeStampEcho "Splendor Sky Aerie: Runescribed Emerald Completed"
+0 0 0

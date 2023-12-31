@@ -50,6 +50,9 @@ WaitForZoning
 45.53 3.50 -14.37
 54.11 3.53 -2.26
 80.66 3.53 -0.31
+Custom
+MessageBox "Kill Tazir Tanziri and target a silver shard whenever it spawns"
+80.66 3.53 -0.31
 99.71 3.53 -0.06
 Custom
 Target "Tazir Tanziri"
@@ -57,13 +60,14 @@ Target "Tazir Tanziri"
 Named
 "Tazir Tanziri"
 StandardNamed
-SameLock
+DiffLock
 KillAdd
 "a silver shard"
 DontMoveBehind
 98.85 3.53 -1.50
 121.13 3.53 0.05
 145.42 3.53 0.16
+153.18 3.75 0.12
 162.34 3.76 0.25
 170.96 3.76 -20.30
 178.21 3.76 -17.99

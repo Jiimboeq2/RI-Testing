@@ -15,7 +15,7 @@ HailActorGetQuest -Actor "Kudurri" 3 1
 446.02 105.95 586.56
 464.27 59.32 567.69
 Custom
-Path -PL 14 -L -QA "-QD|200|-A|Fallen Timber|-T|QSC:Timber|-E|H" -QA "-QD|200|-A|black sky crawler|-T|QSC:crawler|-E|K" -QA "-QD|200|-A|a lemon slug|-T|QSC:lemon|-E|H" -CT "QSC:I've gathered"
+Path -PL 14 -L -QA "-QD|200|-A|Fallen Timber|-T|QSC:Timber|-E|H" -QA "-QD|200|-A|a black sky crawler|-T|QSC:crawler|-E|K" -QA "-QD|200|-A|a lemon slug|-T|QSC:lemon|-E|H" -CT "QSC:I've gathered"
 489.43 69.28 581.57
 454.90 53.73 562.74
 487.05 74.96 473.52

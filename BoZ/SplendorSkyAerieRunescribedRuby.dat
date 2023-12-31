@@ -1,0 +1,100 @@
+Splendor Sky Aerie: Runescribed Ruby
+Repeatable
+Custom
+CheckAndSet -NotInZone "Splendor Sky Aerie" 8
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Ruby"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Splendor Sky Aerie Runescribed Ruby"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-312.13 112.56 585.34
+-288.91 110.13 574.26
+-245.64 111.86 554.07
+-211.87 111.69 546.92
+-166.15 111.31 553.51
+-178.09 111.92 604.20
+-173.53 111.21 505.29
+-132.43 128.33 502.06
+-102.44 136.89 512.56
+-66.73 150.32 524.04
+-29.80 152.69 523.10
+Custom
+Path -PL 50 -CPSP -DFPWD -QA "-QD|200|-A|a highland reinhopper|-T|QSC:hopper|-E|H" -CT "QSC: I have infused"
+262.29 240 670.35
+240.93 240 676.35
+311.45 240 602.57
+339.18 240 607.64
+363.44 240 651.74
+295.89 240 607.58
+289.54 240 571.74
+260.10 240 545.46
+248.58 240 563.28
+229.42 240 669.63
+214.01 240 578.02
+201.83 240 589.41
+192.52 240 598.86
+118.80 240 660.18
+37.23 240 593.74
+-13.63 240 545.00
+25.29 240 502.22
+66.31 240 545.69
+73.61 240 684.09
+141.33 290 658.15
+235.04 240 675.76
+298.84 240 669.07
+322.44 240 660.80
+310.75 240 673.68
+401.51 122.41 282.04
+427.06 122.83 285.60
+451.13 122.67 287.30
+489.51 122.58 283.95
+515.92 122.61 297.35
+532.72 122.63 317.44
+535.00 122.79 340.29
+518.76 122.54 370.70
+504.66 122.31 403.08
+496.62 122.92 435.50
+499.63 122.64 455.41
+513.54 122.10 520.92
+545.21 122.25 505.20
+569.14 122.63 489.59
+620.37 122.04 477.55
+647.76 122.70 492.97
+661.15 115.19 469.42
+684.52 122.75 462.49
+653.61 116.03 434.34
+663.07 122.65 402.75
+620.43 122.47 359.38
+610.32 122.56 343.63
+586.82 122.50 314.58
+552.91 122.79 304.37
+502.49 122.57 294.72
+521.97 122.55 258.02
+551.24 122.71 198.81
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Ruby" 97
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Ruby"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Splendor Sky Aerie: Runescribed Ruby"
+0 0 0
+Custom
+CheckAndSet -ActiveQuest "Splendor Sky Aerie: Runescribed Ruby" 32
+0 0 0
+Custom
+TimeStampEcho "Splendor Sky Aerie: Runescribed Ruby Completed"
+0 0 0

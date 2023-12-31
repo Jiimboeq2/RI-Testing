@@ -15,7 +15,10 @@ HailActorGetQuest -Actor "Skirha"
 675.14 275 240.68
 675.14 263.26 178.47
 Custom
-Path -PL 11 -L -QA "-QD|200|-A|a beetle crab|-T|QSC:chitin|-E|K" -QA "-QD|200|-A|a beetle crab larvae|-T|QSC:larvae|-E|H" -CT "QSC:I've got the necessary"
+MessageBox "Gather 10 beetle crab larvae, then press Resume"
+675.14 61.26 178.47
+Custom
+Path -PL 11 -L -QA "-QD|200|-A|a beetle crab|-T|QSC:chitin|-E|K" -QA "-QD|200|-A|a beetle crab larvae|-MTD|4|-T|QSC:larvae|-E|H" -CT "QSC:I've got the necessary"
 668.60 150.50 176.67
 723.26 150.66 165.77
 706.99 150.08 220.49
@@ -28,15 +31,15 @@ Path -PL 11 -L -QA "-QD|200|-A|a beetle crab|-T|QSC:chitin|-E|K" -QA "-QD|200|-A
 759.76 150.85 52.40
 774.68 150.91 -18.99
 718.79 150.85 37.24
-718.79 250 37.24
-808.79 275 127.24
-898.79 275 217.24
-988.79 275 307.24
-1063.93 275 397.24
-1063.93 275 487.24
-1063.93 275 577.24
-1063.93 275 667.24
-1063.93 275 757.24
+718.79 225 37.24
+790 275 127.24
+790 275 217.24
+790 275 307.24
+790 275 397.24
+790 275 487.24
+790 275 577.24
+880 275 667.24
+970 275 757.24
 1063.93 275 771.90
 1068.02 181.23 775.05
 1074.25 181.05 783.68

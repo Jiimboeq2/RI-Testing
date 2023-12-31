@@ -16,10 +16,12 @@ WaitForZoning
 763.64 71.59 412.33
 758.22 66.90 359.67
 746.93 71.59 417.28
+739.92 66.40 358.02
 Custom
 ClickActor "Arcane Nullifier Location"
 748.99 62.32 342.14
 732.96 72.65 339.46
+739.92 66.40 358.02
 789.33 59.20 273.13
 800.21 60.43 285.62
 Custom
@@ -56,7 +58,7 @@ ClickActor "Arcane Nullifier Location"
 686.87 71.04 319.71
 722.86 73.45 338.36
 762.85 63.22 305.80
-778.51 63.47 281.66
+771.81 61.30 289.78
 819.13 44.15 130.82
 Custom
 ClickActor "Arcane Nullifier Location"

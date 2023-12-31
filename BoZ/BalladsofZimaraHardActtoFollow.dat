@@ -3,10 +3,10 @@ Custom
 MakeActiveQuest "Ballads of Zimara: Hard Act to Follow"
 0 0 0
 Custom
-CheckQuestStep "I need to identify" 177
+CheckQuestStep "According to the book" 177
 0 0 0
 Custom
-CheckQuestStep "According to the book" 177
+CheckQuestStep "I need to identify" 79
 0 0 0
 Custom
 CheckQuestStep "I gave the bags" 73
@@ -60,7 +60,7 @@ TravelMap "Isles of Wisdom"
 -905.98 279.55 283.40
 -905.98 253.14 283.40
 -903.78 228.08 326.61
--909.46 189.51 330.13
+-909.46 228.51 330.13
 -911.72 189.53 331.77
 Custom
 HailActor "Ruhk" 9 1
@@ -78,7 +78,7 @@ Custom
 HailActor "Ecihoolo" 6 1
 -776.99 191.51 224.39
 Custom
-TimeStampEcho "Go to Zenith Helionae and collect the '!' pages for the collection."
+TimeStampEcho "Go to Zenith Helionae and collect the ! pages for the collection."
 -776.99 191.51 224.39
 -782.61 220.24 219.74
 -815.88 229.16 266.16
@@ -87,7 +87,7 @@ TimeStampEcho "Go to Zenith Helionae and collect the '!' pages for the collectio
 -895.87 226.22 216.97
 -872.84 229.36 128.18
 -836.75 224.42 38.95
--736.10 142.50 20.50
+-736.10 224.50 20.50
 -677.47 141.90 -18.79
 Custom
 ClickActor "Fly from Isles of Wisdom"

@@ -193,7 +193,7 @@ Custom
 TimeStampEcho "Finished metalmorphic besieger and greenwood"
 0 0 0
 Custom
-CheckQuestStep "Before speaking with the" 221
+TimeStampEcho "Starting to harvest metallic crystals"
 0 0 0
 Custom
 PathHarvest 15 25 1 1 1 0 "metallic crystal" "Before speaking with the hooluk" 1
@@ -214,7 +214,7 @@ PathHarvest 15 25 1 1 1 0 "metallic crystal" "Before speaking with the hooluk" 1
 -664.98 89.21 617.23
 -639.05 86.07 620.83
 Custom
-CheckQuestStep "Before speaking with the" 221
+CheckQuestStep "Before speaking with the hooluk" 221
 0 0 0
 Custom
 MessageBox "Please click the remaining needed crystals (6/6)"

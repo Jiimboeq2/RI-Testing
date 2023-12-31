@@ -93,34 +93,39 @@ ClickActor transport_carpet_01
 888.93 70.41 0.23
 Wait 
 10
-842.31 70.20 -0.74
+828.69 70.04 0.14
+828.69 70.04 0.14
+Custom
+MessageBox "Begin fight, once boss stops talking UseItem Glorious Maestra's Cithara"
+838.61 70.07 -0.39
 Custom
 Target "Zakir-Sar-Ussur" 
-842.31 70.20 -0.74
+838.61 70.07 -0.39
 Custom
 PauseCombatBot 1
-842.31 70.20 -0.74
+838.61 70.07 -0.39
 Wait
 10 
-842.31 70.20 -0.74
+838.61 70.07 -0.39
+838.61 70.07 -0.39
 Custom
 UseItem "Glorious Maestra's Cithara"
-842.31 70.20 -0.74
+838.61 70.07 -0.39
 Custom
 PauseCombatBot 0
-842.31 70.20 -0.74
+838.61 70.07 -0.39
 Named
 "Zakir-Sar-Ussur" 
 StandardNamed
 SameLock
 KillAdd
 DontMoveBehind
-842.31 70.20 -0.74
-842.31 70.20 -0.74
-847.87 70.11 -13.22
+838.61 70.07 -0.39
+838.61 70.07 -0.39
+847.89 70.30 -14.46
 Custom
 ClickActor portal_from_throne_to_prison
-847.87 70.11 -13.22
+847.89 70.30 -14.46
 224.90 35.44 -320.77
 224.90 35.44 -355.78
 249.66 35.48 -355.85

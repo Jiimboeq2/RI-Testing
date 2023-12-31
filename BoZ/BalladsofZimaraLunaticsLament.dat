@@ -91,7 +91,7 @@ Custom
 BuyFromVendor "Rannaakh" "Bird Whistle" 1
 -838.66 188.75 338.08
 Custom
-CheckQuestStep "Acquire a bird whistle" 98
+CheckQuestStep "Acquire a bird whistle" 95
 -838.66 188.75 338.08
 Custom
 MessageBox "Make sure you have obtained the Bird Whistle from Rannaakh"
@@ -266,6 +266,7 @@ TravelMap "Isles of Wisdom"
 -859.44 189.16 336.98
 -855.62 188.60 355.55
 -843.13 188.72 336.53
+-841.85 188.94 337.15
 Custom
 ClickActor "Rannaakh"
 -841.49 188.87 337.56
