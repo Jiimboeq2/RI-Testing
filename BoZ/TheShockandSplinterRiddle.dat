@@ -77,5 +77,5 @@ Path -PL 5 -CPSP
 263.66 160.57 -70.07
 264.33 160.26 -72.29
 Custom
-HailActor "Sassarish" 1
+HailActor "Sassarish" 3 1
 264.33 160.26 -72.29

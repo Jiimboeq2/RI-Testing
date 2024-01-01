@@ -155,6 +155,9 @@ Custom
 ClickActor "cairn rock04" 5
 106.63 377.93 667.41
 Custom
+MessageBox "Make sure quest updated and Sirran is hailable"
+106.63 377.93 667.41
+Custom
 HailActor "Sirran the Lunatic" 7 1
 106.63 377.93 667.41
 161.61 361.59 674.02

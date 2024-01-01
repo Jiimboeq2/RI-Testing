@@ -3,10 +3,10 @@ Custom
 MakeActiveQuest "Ballads of Zimara: Vaashkaani Crescendo"
 0 0 0
 Custom
-CheckQuestStep "Now that I have the Golden Key" 154
+CheckQuestStep "Now that I have the Golden Key" 161
 0 0 0
 Custom
-CheckQuestStep "The key worked" 154
+CheckQuestStep "The key worked" 161
 0 0 0
 Custom
 HailActorGetQuest -Actor "Sirran the Lunatic"
@@ -61,6 +61,7 @@ Named
 "Tazir Tanziri"
 StandardNamed
 DiffLock
+98.85 3.53 -1.50
 KillAdd
 "a silver shard"
 DontMoveBehind
@@ -76,14 +77,15 @@ DontMoveBehind
 212.03 3.45 43.21
 Custom
 Target Akharys
-212.03 3.45 43.21
+211.38 3.45 41.75
 Named
-Akharys
+"Akharys"
 StandardNamed
 SameLock
 KillAdd
-Sansobog
+"Sansobog"
 DontMoveBehind
+211.38 3.45 41.75
 211.38 3.45 41.75
 213.48 3.74 18.30
 213.99 3.46 3.17
@@ -241,6 +243,8 @@ ClickActor orb_thunder 5
 261.42 31.45 -21.38
 259.20 31.50 0.35
 261.20 31.47 -26.77
+261.72 31.25 -36.19
+259.20 31.50 0.35
 Custom
 Target "The Storm Mistress"
 260.81 31.25 -37.83

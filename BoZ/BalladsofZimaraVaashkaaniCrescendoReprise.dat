@@ -86,14 +86,13 @@ ClickActor portal_to_throne_from_hoard
 888.82 70.41 -0.22
 888.93 70.41 0.23
 Custom
-MessageBox "Click Carpet and Press Resume after landing"
+ClickActor transport_carpet_01 5
 888.93 70.41 0.23
-Custom
-ClickActor transport_carpet_01
-888.93 70.41 0.23
-Wait 
-10
+Wait
+5
 828.69 70.04 0.14
+Custom
+MessageBox "Click Carpet and Press Resume after landing"
 828.69 70.04 0.14
 Custom
 MessageBox "Begin fight, once boss stops talking UseItem Glorious Maestra's Cithara"
@@ -101,26 +100,14 @@ MessageBox "Begin fight, once boss stops talking UseItem Glorious Maestra's Cith
 Custom
 Target "Zakir-Sar-Ussur" 
 838.61 70.07 -0.39
-Custom
-PauseCombatBot 1
-838.61 70.07 -0.39
-Wait
-10 
-838.61 70.07 -0.39
-838.61 70.07 -0.39
-Custom
-UseItem "Glorious Maestra's Cithara"
-838.61 70.07 -0.39
-Custom
-PauseCombatBot 0
-838.61 70.07 -0.39
+854.26 69.97 -0.06
 Named
 "Zakir-Sar-Ussur" 
 StandardNamed
 SameLock
 KillAdd
 DontMoveBehind
-838.61 70.07 -0.39
+854.26 69.97 -0.06
 838.61 70.07 -0.39
 847.89 70.30 -14.46
 Custom
