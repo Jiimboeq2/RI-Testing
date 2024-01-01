@@ -1,0 +1,65 @@
+Aether Wroughtlands Experiment BU-T13-R Timeline
+Repeatable
+Custom
+TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
+0 0 0
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 14
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
+0 0 0
+Custom
+Quest "AetherWroughtlandsExperimentBUT13RsArcaneGenerator"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Harmonic Controller"
+0 0 0
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Harmonic Controller" 26
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Harmonic Controller"
+0 0 0
+Custom
+Quest "AetherWroughtlandsExperimentBUT13RsHarmonicController"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus"
+0 0 0
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus" 38
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus"
+0 0 0
+Custom
+Quest "AetherWroughtlandsExperimentBUT13RsSensoryFocus"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis"
+0 0 0
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 50
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis"
+0 0 0
+Custom
+Quest "AetherWroughtlandsExperimentBUT13RsUpperChassis"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis"
+0 0 0
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 62
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis"
+0 0 0
+Custom
+Quest "AetherWroughtlandsExperimentBUT13RsLowerChassis"
+0 0 0
+Custom
+TimeStampEcho "Ending Aether Wroughtlands Experiment BU-T13-R Timeline"
+0 0 0

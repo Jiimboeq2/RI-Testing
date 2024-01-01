@@ -59,3 +59,6 @@ CheckCompletedQuest "Splendor Sky Aerie: Runescribed Ruby" 61
 Custom
 Quest "SplendorSkyAerieRunescribedRuby"
 0 0 0
+Custom
+TimeStampEcho "Ending Splendor Sky Aerie: Runescribed Ring Timeline"
+0 0 0

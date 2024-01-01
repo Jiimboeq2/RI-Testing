@@ -1,0 +1,93 @@
+Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 42
+0 0 0
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 11
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+Custom
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+ClickAllActors 5
+-711.87 229.62 -751.98
+Custom
+ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
+-711.87 229.62 -751.98
+885.23 -45.55 -322.18
+Custom
+Path -PL 10 -CPSP
+882.82 69.79 -322.87
+837.00 83.47 -332.39
+691.51 85.17 -360.76
+573.38 86.54 -383.79
+469.79 87.75 -403.99
+364.12 88.98 -421.82
+261.96 90.16 -437.09
+163.22 91.30 -451.85
+55.58 92.53 -457.98
+-71.73 93.99 -461.24
+-168.44 95.70 -510.23
+-208.44 95.70 -510.23
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 90
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Aether Wroughtlands Experiment BU-T13-R's Arcane Generator"
+0 0 0
+Custom
+Path -PL 10 -DFPWD -QA "-QD|200|-A|a blightmetal stalker|-T|QSC:stalker|-E|H" -CT "QSC: I have infused"
+-206.99 83.58 -480.35
+-244.57 61.61 -560.47
+-268.27 55.03 -536.21
+-294.48 69.48 -510.33
+-323.00 71.73 -470.33
+-324.27 79.62 -426.81
+-367.90 76.87 -381.91
+-402.07 80.27 -459.66
+-367.24 66.26 -486.71
+-323.80 53.39 -503.26
+-245.31 43.96 -523.88
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 90
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
+0 0 0
+Custom
+CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 62
+0 0 0
+Custom
+TimeStampEcho "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator Completed"
+0 0 0
