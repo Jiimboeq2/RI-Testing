@@ -65,7 +65,13 @@ Custom
 Quest "TheShockandSplinterRiddle"
 0 0 0
 Custom
+CheckCompletedQuest "Fancy Sphinx Feast" 72
+0 0 0
+Custom
 Quest "FancySphinxFeast"
+0 0 0
+Custom
+TimeStampEcho "Completed Fancy Sphinx Feast Repeatable once"
 0 0 0
 Custom
 Path -PL 16 -CPSP

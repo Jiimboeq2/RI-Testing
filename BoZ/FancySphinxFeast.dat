@@ -9,7 +9,7 @@ ClickActor "Sassarish's Provisions" 5
 273.57 162.52 -62.23
 273.57 220.52 -62.23
 Custom
-Path -PL 27 -L -R -QA "-QD|200|-A|a winged viper|-T|QSC:winged viper meat|-E|K" -QA "-QD|200|-A|a frenzy watermaw|-T|QSC:frenzy watermaw meat|-E|K" -QA "-QD|200|-A|Zenith Potatoe|-T|QSC:Zenith Potatoes|-E|H" -QA "-QD|200|-A|Winged Viper Eggs|-T|QSC:Winged Viper Eggs|-E|H" -CT "QSC:I've successfully"
+Path -PL 27 -L -R -QA "-QD|200|-A|a winged viper|-T|QSC:winged viper meat|-E|K" -QA "-QD|200|-A|a frenzy watermaw|-T|QSC:frenzy watermaw meat|-E|K" -QA "-QD|200|-A|Zenith Potatoe|-T|QSC:Zenith Potatoes|-E|H" -QA "-QD|200|-A|Winged Viper Eggs|-T|QSC:Winged Viper Eggs|-E|H" -CT "QSC:I found all"
 273.57 222.50 -62.23
 255.88 201.57 -120.26
 229.35 182.42 -53.39

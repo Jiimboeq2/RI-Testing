@@ -5,7 +5,7 @@ HailActorGetQuest -Actor "Riccaww"
 705.54 -45.48 -441.52
 715.13 -19.63 -460.70
 Custom
-Path -PL 46 -L -R -QA "-QD|200|-A|Zakir Rish Irondynes|-T|QSC:Zakir Rish Irondynes|-E|K" -QA "-QD|200|-A|Metalloid Ambushers|-T|QSC:Metalloid Ambushers|-E|K" -CT "QSC:My task to"
+Path -PL 45 -L -R -QA "-QD|200|-A|Zakir Rish Irondynes|-T|QSC:Zakir Rish Irondynes|-E|K" -QA "-QD|200|-A|Metalloid Ambushers|-T|QSC:Metalloid Ambushers|-E|K" -CT "QSC:My task to"
 661.57 23.48 -433.56
 603.55 32.67 -408.75
 533.15 37.36 -378.64

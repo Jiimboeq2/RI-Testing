@@ -41,7 +41,7 @@ ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
 -711.87 229.62 -751.98
 885.23 -45.55 -322.18
 Custom
-Path -PL 4 -CPSP
+Path -PL 8 -CPSP
 882.82 69.79 -322.87
 882.82 250.79 -322.87
 925.05 250.14 514.90
@@ -49,6 +49,8 @@ Path -PL 4 -CPSP
 661.93 348.14 474.43
 506.88 350.92 438.43
 429.95 352.28 430.94
+347.70 258.61 220.16
+371.43 301.78 259.07
 Custom
 CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 91
 0 0 0
