@@ -1,10 +1,21 @@
 Aether Wroughtlands Experiment BU-T13-R Timeline
-Repeatable
+Custom
+TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R"
+0 0 0
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R" 13
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R"
+0 0 0
+Custom
+Quest "AetherWroughtlandsExperimentBUT13R"
+0 0 0
 Custom
 TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
 0 0 0
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 14
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 25
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
@@ -16,7 +27,7 @@ Custom
 TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Harmonic Controller"
 0 0 0
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Harmonic Controller" 26
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Harmonic Controller" 37
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Harmonic Controller"
@@ -28,7 +39,7 @@ Custom
 TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus"
 0 0 0
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus" 38
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus" 49
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus"
@@ -40,7 +51,7 @@ Custom
 TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis"
 0 0 0
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 50
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 61
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis"
@@ -52,7 +63,7 @@ Custom
 TimeStampEcho "Check Completed Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis"
 0 0 0
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 62
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 73
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis"

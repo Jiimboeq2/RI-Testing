@@ -57,6 +57,23 @@ RI_Runinstances Quest-BalladsofZimaraVaashkaaniCrescendoReprise
 
 RI_Runinstances Quest-BalladsofZimaraFractalChorusFinale
 
+Side Quests:
+
+RI_Runinstances Quest-SplendorSkyAerieSideTimeline
+
+RI_Runinstances Quest-ZimaraBreadthSideTimeline
+
+RI_Runinstances Quest-AetherWroughtlandsSideTimeline
+
+
+POI Quests
+
+RI_Runinstances Quest-SplendorSkyAerieRunescribedRingTimeline
+
+RI_Runinstances Quest-ZimaraBreadthCursedFeathersTimeline
+
+RI_Runinstances Quest-AetherWroughtlandsExperimentBUT13RTimeline 
+
 
 Download the Test Files and place them in InnerSpace\Scripts\RI\ZoneFiles folder.
 
