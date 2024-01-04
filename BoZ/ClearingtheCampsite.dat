@@ -4,7 +4,7 @@ Custom
 HailActorGetQuest -Actor "Tehes"
 702.39 -43.97 -457.49
 Custom
-Path -PL 32 -L -QA "-QD|200|-A|a vicious lavafang|-T|QSC:vicious lavafang|-E|K" -QA "-QD|200|-A|giant ironshell snapper|-T|QSC:giant ironshell snapper|-E|K" -QA "-QD|200|-A|an ironshell snapper|-T|QSC:ironshell snapper|-E|K" -CT "QSC:The number of threatening"
+Path -PL 32 -L -QA "-QD|200|-A|a vicious lavafang|-T|QSC:vicious lavafang|-E|K" -QA "-QD|200|-A|giant ironshell snapper|-T|QSC:giant ironshell snapper|-E|K" -QA "-QD|200|-A|an ironshell snapper|-T|QSC:ironshell snapper|-E|K" -CT "QSC:The number of threatening beasts"
 702.39 5.74 -457.49
 631.26 6.50 -433.47
 622.38 6.93 -392.28

@@ -1,9 +1,9 @@
 Aether Wroughtlands Side Timeline
 Custom
-CheckAndSet -InZone "Zimara Breadth" 35
+CheckAndSet -InZone "Aether Wroughtlands" 41
 0 0 0
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 11
+CheckAndSet -InZone "Splendor Sky Aerie" 10
 0 0 0
 Custom
 FastTravel "Splendor Sky Aerie"
@@ -51,17 +51,11 @@ Path -PL 6 -CPSP
 720.91 -45.47 -435.25
 709.80 -45.34 -442.31
 Custom
-HailActor "Tehes" 1
-702.26 -43.97 -458.64
-Custom
 Quest "ClearingtheCampsite"
 0 0 0
 Custom
 Quest "CitrineSolution"
 0 0 0
-Custom
-HailActor "Oolfonso" 1
-714.31 -43.64 -465.83
 Custom
 Quest "AntiviralTherapy"
 0 0 0
@@ -69,22 +63,16 @@ Custom
 Quest "MaedjinnToBeBroken"
 0 0 0
 Custom
-Quest "FauxMetalJacket"
-0 0 0
-Custom
 Quest "OneStepDistressingTechnique"
-0 0 0
-Custom
-Quest "RiccawwsCommandos"
-0 0 0
-Custom
-Quest "MaedjinnOutLikeaBandit"
 0 0 0
 Custom
 Quest "CorrosionCommotion"
 0 0 0
 Custom
-Quest "PreciousPeaksandPreciousDefenses"
+Quest "FauxMetalJacket"
+0 0 0
+Custom
+Quest "MaedjinnOutLikeaBandit"
 0 0 0
 Custom
 Path -PL 3 -CPSP
@@ -93,7 +81,7 @@ Path -PL 3 -CPSP
 709.97 -43.70 -464.11
 714.31 -43.64 -465.83
 Custom
-CheckCompletedQuest "Maedjinn Trouble in Ferric Fields" 100
+CheckCompletedQuest "Maedjinn Trouble in Ferric Fields" 91
 0 0 0
 Custom
 Quest "MaedjinnTroubleinFerricFields"
@@ -102,10 +90,25 @@ Custom
 TimeStampEcho "Completed Maedjinn Trouble in Ferric Fields Repeatable once"
 0 0 0
 Custom
-Quest "MaedjinnTroubleinFerricFields"
+Quest "ShocktheMaedjinn"
 0 0 0
 Custom
-Quest "ShocktheMaedjinn"
+CheckCompletedQuest "Aetheric Interests with Arcane" 103
+0 0 0
+Custom
+Quest "AethericInterestswithArcane"
+0 0 0
+Custom
+TimeStampEcho "Completed Aetheric Interests with Arcane Repeatable once"
+0 0 0
+Custom
+Quest "RiccawwsCommandos"
+0 0 0
+Custom
+Quest "PreciousPeaksandPreciousDefenses"
+0 0 0
+Custom
+Quest "MaedjinnMischiefManaged"
 0 0 0
 Custom
 Path -PL 20 -CPSP
@@ -132,7 +135,7 @@ Path -PL 20 -CPSP
 -58.66 91.96 452.14
 -27.89 87.19 479.26
 Custom
-CheckCompletedQuest "Full Metal Biologist" 139
+CheckCompletedQuest "Full Metal Biologist" 142
 0 0 0
 Custom
 Quest "FullMetalBiologist"
@@ -141,11 +144,5 @@ Custom
 TimeStampEcho "Completed Full Metal Biologist Repeatable once"
 0 0 0
 Custom
-CheckCompletedQuest "Aetheric Interests with Arcane" 148
-0 0 0
-Custom
-Quest "AethericInterestswithArcane"
-0 0 0
-Custom
-TimeStampEcho "Completed Aetheric Interests with Arcane Repeatable once"
+TimeStampEcho "Ending Aether Wroughtlands Side Quest Timeline"
 0 0 0

@@ -4,7 +4,7 @@ Custom
 HailActorGetQuest -Actor "Tehes"
 702.39 -43.97 -457.49
 Custom
-Path -PL 31 -L -QA "-QD|200|-A|a lumbering lava rock|-T|QSC:Citrine Geode|-E|K" QA "-QD|200|-A|Citrine Geode|-T|QSC:Citrine Geode|-E|H" -QA "-QD|200|-A|a firespine gnawer|-T|QSC:firespine gnawers|-E|K" -CT "QSC:I gathered"
+Path -PL 31 -L -QA "-QD|200|-A|a lumbering lava rock|-T|QSC:Citrine Geode|-E|K" -QA "-QD|200|-A|Citrine Geode|-T|QSC:Citrine Geode|-E|H" -QA "-QD|200|-A|a firespine gnawer|-T|QSC:firespine gnawers|-E|K" -CT "QSC:I gathered"
 702.39 5.74 -457.49
 631.26 6.50 -433.47
 698.43 -22.19 -442.74

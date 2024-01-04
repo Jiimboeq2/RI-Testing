@@ -5,7 +5,7 @@ HailActorGetQuest -Actor "Oolfonso"
 715.13 -43.58 -460.70
 715.13 -19.63 -460.70
 Custom
-Path -PL 31 -L -QA "-QD|200|-A|lavafang|-T|QSC:lavafang|-E|K" QA "-QD|200|-A|Flame Thistle|-T|QSC:Flame Thistle|-E|H" -CT "QSC:I gathered"
+Path -PL 31 -L -QA "-QD|200|-A|lavafang|-T|QSC:lavafang|-E|K" -QA "-QD|200|-A|Flame Thistle|-T|QSC:Flame Thistle|-E|H" -CT "QSC:I gathered"
 661.57 23.48 -433.56
 603.55 32.67 -408.75
 533.15 37.36 -378.64

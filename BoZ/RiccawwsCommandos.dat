@@ -20,10 +20,10 @@ HailActor "Riccaww" 2 1
 -410.82 68.88 -507.06
 -421.36 54.98 -513.85
 Custom
-HailActor "Riccaw" 5 
+HailActor "Riccaw" 5
 -421.36 54.98 -513.85
 Custom
-Path -PL 16 -L -QA "-QD|200|-A|a volatile rock formation|-T|QSC:formation|-E|K" 
+Path -PL 16 -L -QA "-QD|200|-A|a volatile rock formation|-T|QSC:formation|-E|K" -CT "QSC:I reduced the remaining"
 -417.61 54.68 -511.42
 -553.64 42.87 -624.90
 -596.29 44.12 -587.31
@@ -55,10 +55,10 @@ Path -PL 16 -L -QA "-QD|200|-A|a volatile rock formation|-T|QSC:formation|-E|K"
 -805.04 141.44 165.74
 -805.04 102.45 165.74
 Custom
-HailActor "Riccaww" 1
+HailActor "Riccaww" 2
 -805.26 102.43 155.97
 Custom
-Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a silverloid sentinel|-T|QSC:a silverloid sentinel|-E|K" 
+Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a silverloid sentinel|-T|QSC:a silverloid sentinel|-E|K" -CT "QSC:I thinned the number"
 -805.26 102.43 155.97
 -774.90 112.77 184.95
 -767.72 130.50 203.68
@@ -87,5 +87,5 @@ Path -PL 10 -CPSP
 -64.45 92.47 447.24
 -35.95 87.18 476.68
 Custom
-HailActor "Riccaww" 1
+HailActor "Riccaww" 2
 -32.89 87.18 480.97
