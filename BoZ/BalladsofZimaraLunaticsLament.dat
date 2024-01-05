@@ -78,9 +78,6 @@ TravelMap "Isles of Wisdom"
 -896.92 226.64 218.46
 -914.27 226.77 295.49
 -855.62 188.60 355.55
-Custom
-QuestRepeatFaction "Zakir Rish Removal" "Isles of Wisdom" 10000 84
--855.62 188.60 355.55
 -856.00 188.74 337.74
 -843.93 188.72 336.20
 -842.98 188.76 336.55
@@ -91,7 +88,7 @@ Custom
 BuyFromVendor "Rannaakh" "Bird Whistle" 1
 -838.66 188.75 338.08
 Custom
-CheckQuestStep "Acquire a bird whistle" 95
+CheckQuestStep "Acquire a bird whistle" 92
 -838.66 188.75 338.08
 Custom
 MessageBox "Make sure you have obtained the Bird Whistle from Rannaakh"
@@ -188,14 +185,14 @@ Custom
 ClickActor "Zakir Rish Chest"
 -656.86 132.26 -397.03
 Custom
-CheckQuestStep "I found an ornate silver" 243
+CheckQuestStep "I found an ornate silver" 240
 -656.86 132.26 -397.03
 -654.29 152.58 -392.86
 Custom
 ClickActor "Zakir Rish Chest"
 -667.59 133.30 -396.53
 Custom
-CheckQuestStep "I found an ornate silver" 243
+CheckQuestStep "I found an ornate silver" 240
 -667.59 133.30 -396.53
 -656.70 152.42 -395.33
 -521.86 104.52 -501.65
@@ -205,7 +202,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -491.44 94.50 -481.15
 Custom
-CheckQuestStep "I found an ornate silver" 243
+CheckQuestStep "I found an ornate silver" 240
 -249.35 148.96 452.55
 -494.22 104.46 -481.99
 -497.24 104.58 -487.26
@@ -216,14 +213,14 @@ Custom
 ClickActor "Zakir Rish Chest"
 -370.92 125.41 -662.37
 Custom
-CheckQuestStep "I found an ornate silver" 243
+CheckQuestStep "I found an ornate silver" 240
 -370.92 125.41 -662.37
 -364.76 122.49 -616.81
 Custom
 ClickActor "Zakir Rish Chest"
 -364.76 122.49 -616.81
 Custom
-CheckQuestStep "I found an ornate silver" 243
+CheckQuestStep "I found an ornate silver" 240
 -361.77 122.18 -614.77
 -358.63 122.19 -620.21
 -356.36 124.24 -647.21
@@ -231,7 +228,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -356.36 124.24 -647.21
 Custom
-CheckQuestStep "I found an ornate silver" 243
+CheckQuestStep "I found an ornate silver" 240
 -356.36 124.24 -647.21
 -350.01 126.39 -675.55
 -340.00 126.71 -674.06
@@ -239,7 +236,7 @@ Custom
 ClickActor "Zakir Rish Chest"
 -390.74 121.75 -608.33
 Custom
-CheckQuestStep "I found an ornate silver" 243
+CheckQuestStep "I found an ornate silver" 240
 -390.74 121.75 -608.33
 Custom
 MessageBox "Unable to find the cloak, run around click chests til you find the cloak"
@@ -332,7 +329,7 @@ Custom
 CraftIt "Candied Fairy-Leaf Cake" 4
 -764.69 191.67 222.83
 Custom
-CheckQuestStep "I found an ornate silver damask cloak for Sirran and baked" 335
+CheckQuestStep "I found an ornate silver damask cloak for Sirran and baked" 336
 -764.69 191.67 222.83
 Custom
 MessageBox "Make sure all cakes were crafted"
