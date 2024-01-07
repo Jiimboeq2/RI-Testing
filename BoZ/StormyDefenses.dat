@@ -160,7 +160,7 @@ Path -PL 20 -L -R -DFPWD -QA "-QD|200|-A|Storm Stone Location|-T|QSC:I returned 
 -572.81 148.65 135.25
 -572.81 220.65 135.25
 Custom
-CheckQuestStep "I set the storm" 170
+CheckQuestStep "Squark anticipates" 170
 0 0 0
 Custom
 CheckQuestStep "Squark has asked me" 86
@@ -176,5 +176,5 @@ Path -PL 5 -CPSP
 -887.70 228.74 359.16
 -871.31 188.96 361.79
 Custom
-HailActor "Sqrauwk" 2
+HailActor "Sqrauwk" 1
 -871.37 188.70 359.54

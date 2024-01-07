@@ -81,19 +81,13 @@ Path -PL 3 -CPSP
 709.97 -43.70 -464.11
 714.31 -43.64 -465.83
 Custom
-CheckCompletedQuest "Maedjinn Trouble in Ferric Fields" 91
-0 0 0
-Custom
 Quest "MaedjinnTroubleinFerricFields"
-0 0 0
-Custom
-TimeStampEcho "Completed Maedjinn Trouble in Ferric Fields Repeatable once"
 0 0 0
 Custom
 Quest "ShocktheMaedjinn"
 0 0 0
 Custom
-CheckCompletedQuest "Aetheric Interests with Arcane" 103
+CheckCompletedQuest "Aetheric Interests with Arcane" 94
 0 0 0
 Custom
 Quest "AethericInterestswithArcane"
@@ -109,6 +103,9 @@ Quest "PreciousPeaksandPreciousDefenses"
 0 0 0
 Custom
 Quest "MaedjinnMischiefManaged"
+0 0 0
+Custom
+Quest "MaedjinnTroubleinFerricFields"
 0 0 0
 Custom
 Path -PL 20 -CPSP
@@ -135,7 +132,7 @@ Path -PL 20 -CPSP
 -58.66 91.96 452.14
 -27.89 87.19 479.26
 Custom
-CheckCompletedQuest "Full Metal Biologist" 142
+CheckCompletedQuest "Full Metal Biologist" 139
 0 0 0
 Custom
 Quest "FullMetalBiologist"

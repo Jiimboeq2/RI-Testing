@@ -34,7 +34,7 @@ HailActorGetQuest -Actor "Oolfonso"
 -674.69 114.01 -237.88
 -745.19 102.67 -223.42
 Custom
-Path -PL 28 -L -R -QA "-QD|200|-A|corroded silver deposit|-T|QSC:golem|-E|H" -QA "-QD|200|-A|a silverloid|-T|QSC:a silverloid|-E|UseItem-Seaspray Wand" -QA "-QD|200|-A|a metalloid|-T|QSC:golem|-E|UseItem-Seaspray Wand" -CT "QSC:I found all of"
+Path -PL 44 -L -R -QA "-QD|200|-A|corroded silver deposit|-T|QSC:golem|-E|H" -QA "-QD|200|-A|a silverloid|-T|QSC:a silverloid|-E|UseItem-Seaspray Wand" -QA "-QD|200|-A|a metalloid|-T|QSC:golem|-E|UseItem-Seaspray Wand" -CT "QSC:Oolfonso's seaspray wand"
 -818.57 105.79 -149.55
 -837.23 102.25 -98.46
 -837.79 99.16 -49.82
