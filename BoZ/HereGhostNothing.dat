@@ -22,6 +22,7 @@ HailActorGetQuest -Actor "Priest Oo'Rah"
 -497.53 186.33 -607.88
 -495.96 162.78 -605.31
 -489.46 162.15 -607.57
+-493.22 162.42 -606.02
 Custom
 ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Argent Sanctuary [Solo]"
 288.76 164.76 -126.28
@@ -35,9 +36,6 @@ WaitForZoning
 -10.72 3.01 -33.76
 18.10 2.96 -28.93
 28.23 3.49 -27.27
-Custom
-MessageBox "Use the “Blessed Stratos Censer” to free the souls of (8) Suffering Aviak Ghosts"
-45.53 3.50 -14.37
 45.53 3.50 -14.37
 54.11 3.53 -2.26
 80.66 3.53 -0.31
@@ -57,9 +55,6 @@ DontMoveBehind
 145.42 3.53 0.16
 162.34 3.76 0.25
 170.96 3.76 -20.30
-Custom
-MessageBox "Use the “Blessed Stratos Censer” to free the souls of (8) Suffering Aviak Ghosts"
-178.21 3.76 -17.99
 178.21 3.76 -17.99
 186.57 3.77 -1.39
 205.15 3.46 0.21
@@ -77,9 +72,6 @@ DontMoveBehind
 211.38 3.45 41.75
 213.48 3.74 18.30
 213.99 3.46 3.17
-Custom
-MessageBox "Use the “Blessed Stratos Censer” to free the souls of (8) Suffering Aviak Ghosts"
-253.66 3.46 -0.35
 253.66 3.46 -0.35
 261.96 3.74 -15.58
 261.45 3.45 -40.90
@@ -89,9 +81,6 @@ Target "Uah'Lu the Unhallowed"
 265.38 3.45 -61.05
 255.26 3.46 1.70
 258.23 3.75 -14.27
-260.57 3.45 -53.93
-Custom
-MessageBox "Use the “Blessed Stratos Censer” to free the souls of (8) Suffering Aviak Ghosts"
 260.57 3.45 -53.93
 264.21 3.45 -30.56
 268.01 3.46 -3.54
@@ -118,9 +107,6 @@ DontMoveBehind
 69.41 11.43 -204.71
 90.16 11.43 -183.39
 59.13 9.07 -209.78
-33.73 7.94 -227.87
-Custom
-MessageBox "Use the “Blessed Stratos Censer” to free the souls of (8) Suffering Aviak Ghosts"
 33.73 7.94 -227.87
 31.57 7.94 -250.81
 44.11 7.94 -274.73
@@ -153,7 +139,7 @@ DontMoveBehind
 71.93 7.94 -292.25
 83.95 7.94 -298.55
 Custom
-MessageBox "Use the “Blessed Stratos Censer” to free the souls of (8) Suffering Aviak Ghosts"
+MessageBox "Use the “Blessed Stratos Censer” to free the souls of (8) Suffering Aviak Ghosts and press resume at exit"
 83.95 7.94 -298.55
 Custom
 ZoneDoor Exit

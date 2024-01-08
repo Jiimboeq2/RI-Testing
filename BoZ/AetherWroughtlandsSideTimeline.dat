@@ -69,6 +69,15 @@ Custom
 Quest "CorrosionCommotion"
 0 0 0
 Custom
+CheckCompletedQuest "Aetheric Interests with Arcane Uses" 76
+0 0 0
+Custom
+Quest "AethericInterestswithArcaneUses"
+0 0 0
+Custom
+TimeStampEcho "Completed Aetheric Interests with Arcane Repeatable once"
+0 0 0
+Custom
 Quest "FauxMetalJacket"
 0 0 0
 Custom
@@ -87,25 +96,13 @@ Custom
 Quest "ShocktheMaedjinn"
 0 0 0
 Custom
-CheckCompletedQuest "Aetheric Interests with Arcane" 94
-0 0 0
-Custom
-Quest "AethericInterestswithArcane"
-0 0 0
-Custom
-TimeStampEcho "Completed Aetheric Interests with Arcane Repeatable once"
+CheckCompletedQuest "Riccawws Commandos" 106
 0 0 0
 Custom
 Quest "RiccawwsCommandos"
 0 0 0
 Custom
-Quest "PreciousPeaksandPreciousDefenses"
-0 0 0
-Custom
-Quest "MaedjinnMischiefManaged"
-0 0 0
-Custom
-Quest "MaedjinnTroubleinFerricFields"
+CheckCompletedQuest "Riccawws Commandos" 130
 0 0 0
 Custom
 Path -PL 20 -CPSP
@@ -132,7 +129,19 @@ Path -PL 20 -CPSP
 -58.66 91.96 452.14
 -27.89 87.19 479.26
 Custom
-CheckCompletedQuest "Full Metal Biologist" 139
+Quest "PreciousPeaksandPreciousDefenses"
+0 0 0
+Custom
+CheckCompletedQuest "Maedjinn Mischief Managed" 136
+0 0 0
+Custom
+Quest "MaedjinnMischiefManaged"
+0 0 0
+Custom
+TimeStampEcho "Completed Maedjinn Mischief Managed Repeatable once"
+0 0 0
+Custom
+CheckCompletedQuest "Full Metal Biologist" 142
 0 0 0
 Custom
 Quest "FullMetalBiologist"

@@ -102,6 +102,12 @@ ClickActor orb_thunder 5
 260.52 32.41 63.22
 261.42 31.45 -21.38
 259.20 31.50 0.35
+Custom
+TimeStampEcho "Checking to make sure all 4 orbs were clicked before starting Storm Mistress"
+259.20 31.50 0.35
+Custom
+CheckQuestStep "The Celestial Storm Orbs" 63
+259.20 31.50 0.35
 261.20 31.47 -26.77
 Custom
 Target "The Storm Mistress"
@@ -163,7 +169,7 @@ Custom
 ClickActor djinn_boss_mirror
 616.62 71.11 -45.33
 Custom
-WaitForMob "Ashnu" 200
+WaitForMob "Zakir-sar-ussur" 200
 614.40 71.14 -46.11
 Custom
 Target Ashnu

@@ -3,7 +3,7 @@ Custom
 CheckAndSet -InZone "Zimara Breadth" 33
 0 0 0
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 11
+CheckAndSet -InZone "Splendor Sky Aerie" 10
 0 0 0
 Custom
 FastTravel "Splendor Sky Aerie"
@@ -56,13 +56,13 @@ Path -PL 19 -CPSP
 310.27 200.25 -77.74
 Custom
 CheckCompletedQuest "Zimara Breadth: Dol-Feather" 94
-0 0 0
+310.27 200.25 -77.74
 Custom
 SetActiveQuest "Zimara Breadth: Dol-Feather"
-0 0 0
+310.27 200.25 -77.74
 Custom
 TimeStampEcho "SetActiveQuest Zimara Breadth Dol-Feather"
-0 0 0
+310.27 200.25 -77.74
 Custom
 Path -PL 13 -QA "-QD|200|-A|a winged viper|-T|QSC:winged viper|-E|K" -CT "QSC:I have the rotten"
 310.37 190.96 -56.58
@@ -82,16 +82,16 @@ Path -PL 13 -QA "-QD|200|-A|a winged viper|-T|QSC:winged viper|-E|K" -CT "QSC:I 
 25.26 179.34 -46.57
 Custom
 CheckCompletedQuest "Zimara Breadth: Dol-Feather" 94
-0 0 0
+25.26 179.34 -46.57
 Custom
 SetActiveQuest "Zimara Breadth: Dol-Feather"
-0 0 0
+25.26 179.34 -46.57
 Custom
 TimeStampEcho "SetActiveQuest Zimara Breadth: Dol-Feather"
-0 0 0
+25.26 179.34 -46.57
 Custom
 CheckAndSet -ActiveQuest "Zimara Breadth: Dol-Feather" 65
-0 0 0
+25.26 179.34 -46.57
 Custom
 TimeStampEcho "Zimara Breadth: Dol-Feather Completed"
-0 0 0
+25.26 179.34 -46.57
