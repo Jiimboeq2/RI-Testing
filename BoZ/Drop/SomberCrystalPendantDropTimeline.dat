@@ -1,0 +1,51 @@
+Somber Crystal Pendant Drop Timeline
+-339.63 85.59 358.65
+Custom
+Path -PL 20 -CPSP -QA "-A|a metalmorphic tormenter|-T|QSC:metalmorphic tormenter|-E|K"
+-328.41 112.82 575.04
+-474.66 60.77 145.66
+-461.00 60.79 153.45
+-446.85 60.85 156.68
+-431.07 60.74 164.39
+-421.00 60.75 176.57
+-409.57 61.07 191.94
+-392.95 65.24 200.58
+-394.78 60.79 215.74
+-386.83 60.72 231.82
+-383.45 60.83 249.43
+-381.23 60.65 277.94
+-386.25 60.59 296.19
+-397.87 60.92 304.83
+-404.20 60.66 316.96
+-413.35 60.87 325.28
+-430.16 60.73 330.70
+-442.85 60.72 325.35
+-446.94 75.52 372.20
+-384.48 78.05 367.85
+-338.22 84.56 348.62
+-328.02 89.74 402.99
+-284.71 88.85 458.83
+-345.79 112.76 562.01
+-341.84 116.35 602.10
+-328.41 112.82 575.04
+Custom
+CheckCompletedQuest "Somber Crystal Pendant"
+-339.63 85.59 358.65
+Custom
+Quest "SomberCrystalPendantDropTimeline"
+-339.63 85.59 358.65
+Custom
+SetActiveQuest "Somber Crystal Pendant"
+-339.63 85.59 358.65
+Custom
+CheckQuest -Active "Somber Crystal Pendant" 48
+-339.63 85.59 358.65
+Custom
+TimeStampEcho "SetActiveQuest Somber Crystal Pendant"
+-339.63 85.59 358.65
+Custom
+CheckAndSet -NotActiveQuest "Somber Crystal Pendant" 2
+-339.63 85.59 358.65
+Custom
+TimeStampEcho "Completed Pickup of Somber Crystal Pendant"
+-339.63 85.59 358.65

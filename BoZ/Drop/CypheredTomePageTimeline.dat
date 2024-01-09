@@ -1,0 +1,207 @@
+Cyphered Tome Page Timeline
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 41
+0 0 0
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 10
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+Custom
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+ClickAllActors 5
+-711.87 229.62 -751.98
+Custom
+ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
+-711.87 229.62 -751.98
+Custom
+CheckCompletedQuest "Craving Cyphered Tome Page" 40
+287.52 225 227.12
+Custom
+Quest "CravingCypheredTomePageDropTimeline"
+287.52 225 227.12
+Custom
+CheckQuest -Active "Craving Cyphered Tome Page" 40
+287.52 225 227.12
+Custom
+SetActiveQuest "Craving Cyphered Tome Page"
+287.52 225 227.12
+Custom
+TimeStampEcho "SetActiveQuest Craving Cyphered Tome Page"
+287.52 225 227.12
+Custom
+CheckAndSet -NotActiveQuest "Craving Cyphered Tome Page" 22
+287.52 225 227.12
+Custom
+CheckCompletedQuest "Thirsting Cyphered Tome Page" 114
+-339.63 85.59 358.65
+Custom
+Quest "ThirstingCypheredTomePageDropTimeline"
+-339.63 85.59 358.65
+Custom
+CheckQuest -Active "Thirsting Cyphered Tome Page" 114
+-339.63 85.59 358.65
+Custom
+SetActiveQuest "Thirsting Cyphered Tome Page"
+-339.63 85.59 358.65
+Custom
+TimeStampEcho "SetActiveQuest Thirsting Cyphered Tome Page"
+-339.63 85.59 358.65
+Custom
+CheckAndSet -NotActiveQuest "Thirsting Cyphered Tome Page" 99
+-339.63 85.59 358.65
+Custom
+Path -PL 8 -CPSP
+182.31 271.23 806.49
+104.74 247.39 725.77
+82.83 199.92 673.21
+24.66 171.20 619.80
+-13.88 145.29 580.71
+-11.64 128.41 528.53
+-26.82 108.65 458.98
+-37.24 38.89 380.78
+-23.00 42.85 290.01
+Custom
+CheckCompletedQuest "Ravenous Cyphered Tome Page" 69
+-23.00 42.85 290.01
+Custom
+Quest "RavenousCypheredTomePageDropTimeline"
+-23.00 42.85 290.01
+Custom
+CheckQuest -Active "Ravenous Cyphered Tome Page" 69
+-23.00 42.85 290.01
+Custom
+SetActiveQuest "Ravenous Cyphered Tome Page"
+-23.00 42.85 290.01
+Custom
+TimeStampEcho "SetActiveQuest Ravenous Cyphered Tome Page"
+-23.00 42.85 290.01
+Custom
+CheckAndSet -NotActiveQuest "Ravenous Cyphered Tome Page" 54
+-23.00 42.85 290.01
+Custom
+Path -PL 5 -CPSP
+-31.02 44.52 300.55
+-70.81 45.59 334.79
+-107.58 45.86 369.49
+-165.11 55.56 429.16
+-238.14 75.12 453.09
+-301.23 91.38 433.83
+-339.63 85.59 358.65
+Custom
+CheckCompletedQuest "Starved Cyphered Tome Page" 96
+-339.63 85.59 358.65
+Custom
+Quest "StarvedCypheredTomePageDropTimeline"
+-339.63 85.59 358.65
+Custom
+CheckQuest -Active "Starved Cyphered Tome Page" 96
+-339.63 85.59 358.65
+Custom
+SetActiveQuest "Starved Cyphered Tome Page"
+-339.63 85.59 358.65
+Custom
+TimeStampEcho "SetActiveQuest Starved Cyphered Tome Page"
+-339.63 85.59 358.65
+Custom
+CheckAndSet -NotActiveQuest "Starved Cyphered Tome Page" 81
+-339.63 85.59 358.65
+Custom
+Path -PL 10 -CPSP
+-462.68 213.27 431.01
+-536.55 213.27 358.77
+-585.48 213.27 316.15
+-646.05 212.29 288.53
+-701.36 209.55 268.06
+-758.06 206.87 235.57
+-793.80 198.21 211.20
+-822.30 188.88 190.29
+-838.08 180.31 164.96
+-838.08 174.51 164.96
+-831.34 176.14 152.57
+-833.96 176.02 149.34
+Custom
+CheckCompletedQuest "Voracious Cyphered Tome Page" 146
+-833.96 176.02 149.34
+Custom
+Quest "VoraciousCypheredTomePageDropTimeline"
+-833.96 176.02 149.34
+Custom
+CheckQuest -Active "Voracious Cyphered Tome Page" 146
+-833.96 176.02 149.34
+Custom
+SetActiveQuest "Voracious Cyphered Tome Page"
+-833.96 176.02 149.34
+Custom
+TimeStampEcho "SetActiveQuest Voracious Cyphered Tome Page"
+-833.96 176.02 149.34
+Custom
+CheckAndSet -NotActiveQuest "Voracious Cyphered Tome Page" 131
+-833.96 176.02 149.34
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+Quest "Thirsting Cyphered Tome Page"
+0 0 0
+Custom
+Quest "Starved Cyphered Tome Page"
+0 0 0
+Custom
+Quest "Craving Cyphered Tome Page"
+0 0 0
+Custom
+Quest "Ravenous Cyphered Tome Page"
+0 0 0
+Custom
+Quest "Voracious Cyphered Tome Page"
+0 0 0

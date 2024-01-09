@@ -1,0 +1,47 @@
+Ominous Tattered Wrappings Drop Timeline
+-23.00 42.85 290.01
+Custom
+Path -PL 22 -QA "-A|a woodland bristlehide|-T|QSC:bristlehide|-E|K"
+-31.02 44.52 300.55
+-70.81 45.59 334.79
+-107.58 45.86 369.49
+-165.11 55.56 429.16
+-238.14 75.12 453.09
+-301.23 91.38 433.83
+-339.63 85.59 358.65
+-319.86 89.46 299.49
+-255.52 112.84 272.43
+-211.63 121.89 284.73
+-250.55 117.73 258.85
+-241.77 125.41 226.74
+-201.90 144.92 203.44
+-166.19 157.42 179.13
+-140.43 166.83 163.48
+-159.13 161.00 162.59
+-224.05 162.82 120.75
+-263.85 173.17 66.90
+-246.96 186.53 30.18
+-211.63 121.89 284.73
+-165.11 55.56 429.16
+-70.81 45.59 334.79
+Custom
+TimeStampEcho "Checking for Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+ExamineItem "Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+SetActiveQuest "Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+CheckQuest -Active "Ominous Tattered Wrappings" 44
+-70.81 45.59 334.79
+Custom
+TimeStampEcho "SetActiveQuest Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+CheckAndSet -NotActiveQuest "Ominous Tattered Wrappings" 2
+-70.81 45.59 334.79
+Custom
+TimeStampEcho "Completed Ominous Tattered Wrappings Pickup"
+-70.81 45.59 334.79
