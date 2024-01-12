@@ -1,6 +1,15 @@
 Spectral Tattered Wrappings Drop Timeline
 262.29 240 670.35
 Custom
+ExamineItem "Spectral Tattered Wrappings"
+262.29 240 670.35
+Custom
+SetActiveQuest "Spectral Tattered Wrappings"
+262.29 240 670.35
+Custom
+CheckQuest -Active "Spectral Tattered Wrappings" 85
+262.29 240 670.35
+Custom
 Path -PL 53 -QA "-QD|200|-A|a wild aeraquis|-T|QSC:aeraquis|-E|K"
 262.29 240 670.35
 240.93 240 676.35
@@ -58,22 +67,22 @@ Path -PL 53 -QA "-QD|200|-A|a wild aeraquis|-T|QSC:aeraquis|-E|K"
 262.29 240 670.35
 Custom
 TimeStampEcho "Checking for Spectral Tattered Wrappings"
-262.29 240 670.35
+262.29 200 670.35
 Custom
 ExamineItem "Spectral Tattered Wrappings"
-262.29 240 670.35
+262.29 122 670.35
 Custom
 SetActiveQuest "Spectral Tattered Wrappings"
-262.29 240 670.35
+262.29 200 670.35
 Custom
-CheckQuest -Active "Spectral Tattered Wrappings" 76
-262.29 240 670.35
+CheckQuest -Active "Spectral Tattered Wrappings" 85
+262.29 200 670.35
 Custom
 TimeStampEcho "SetActiveQuest Spectral Tattered Wrappings"
-262.29 240 670.35
+262.29 200 670.35
 Custom
-CheckAndSet -NotActiveQuest "Spectral Tattered Wrappings" 2
-262.29 240 670.35
+CheckAndSet -NotActiveQuest "Spectral Tattered Wrappings" 11
+262.29 200 670.35
 Custom
 TimeStampEcho "Completed Pickup of Spectral Tattered Wrappings"
--339.63 85.59 358.65
+262.29 200 670.35

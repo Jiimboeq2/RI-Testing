@@ -1,0 +1,77 @@
+Gloomy Crystal Pendant Drop Timeline
+-213.71 200 -205.72
+Custom
+ExamineItem "Gloomy Crystal Pendant"
+-213.71 200 -205.72
+Custom
+SetActiveQuest "Gloomy Crystal Pendant"
+-213.71 200 -205.72
+Custom
+CheckQuest -Active "Gloomy Crystal Pendant" 74
+-213.71 200 -205.72
+Custom
+Path -PL 20 -CPSP -QA "-A|a mystic grappler|-T|QSC:grappler|-E|K"
+-213.71 200 -205.72
+-235.67 200 -208.99
+-353.02 200 -250.81
+-369.26 200 -341.63
+-245.75 200 -394.09
+-233.47 200 -397.45
+-164.14 200 -429.48
+-120.13 200 -332.95
+-142.15 200 -286.62
+-132.13 200 -271.14
+-149.13 200 -251.79
+-167.77 200 -285.78
+-177.72 200 -275.35
+-272.61 200 -359.54
+-244.74 200 -394.11
+-204.37 200 -374.04
+-195.20 200 -373.69
+-163.86 200 -428.95
+-170.37 200 -449.57
+-260.37 200 -499.57
+-360.37 200 -549.57
+-401.44 200 -599.64
+-336.54 200 -657.93
+-425.22 200 -617.91
+-456.86 200 -611.36
+-489.86 200 -593.43
+-521.49 200 -620.08
+-537.81 200 -575.08
+-586.06 200 -546.76
+-534.41 200 -511.95
+-499.16 200 -509.41
+-472.43 200 -506.99
+-559.95 200 -460.77
+-568.14 200 -470.50
+-616.76 200 -450.59
+-665.48 200 -489.91
+-644.09 225 -559.80
+-625.52 225 -610.69
+-606.82 225 -606.14
+-586.17 225 -611.57
+-489.86 200 -593.43
+-360.37 200 -549.57
+-260.37 200 -499.57
+Custom
+TimeStampEcho "Checking for Gloomy Crystal Pendant"
+262.29 200 670.35
+Custom
+ExamineItem "Gloomy Crystal Pendant"
+310.37 166.96 -56.58
+Custom
+SetActiveQuest "Gloomy Crystal Pendant"
+310.37 166.96 -56.58
+Custom
+CheckQuest -Active "Gloomy Crystal Pendant" 74
+310.37 166.96 -56.58
+Custom
+TimeStampEcho "SetActiveQuest Gloomy Crystal Pendant"
+310.37 166.96 -56.58
+Custom
+CheckAndSet -NotActiveQuest "Gloomy Crystal Pendant" 11
+310.37 166.96 -56.58
+Custom
+TimeStampEcho "Completed Pickup of Gloomy Crystal Pendant"
+310.37 166.96 -56.58

@@ -32,9 +32,6 @@ Custom
 CheckCompletedQuest "Somber Crystal Pendant"
 -339.63 85.59 358.65
 Custom
-Quest "SomberCrystalPendantDropTimeline"
--339.63 85.59 358.65
-Custom
 SetActiveQuest "Somber Crystal Pendant"
 -339.63 85.59 358.65
 Custom
