@@ -16,7 +16,7 @@ HailActorGetQuest -Actor "Oolfonso"
 -100.45 107.98 -483.81
 -206.20 115.38 -488.11
 Custom
-Path -PL 46 -L -R -QA "-QD|200|-A|Patinaed Copper|-T|QSC:golem|-E|H" -QA "-QD|200|-A|a copperbind|-T|QSC:a copperbind|-E|UseItem-Seaspray Wand" -QA "-QD|200|-A|a metalloid|-T|QSC:golem|-E|UseItem-Seaspray Wand" -CT "QSC:I found all of"
+Path -PL 46 -L -R -QA "-QD|200|-A|Patinaed Copper|-T|QSC:seaspray wand proved|-E|H" -QA "-QD|200|-A|a copperbind|-T|QSC:copperbind soldiers|-E|UseItem-Seaspray Wand" -QA "-QD|200|-A|a metalloid|-T|QSC:metalloid golems|-E|UseItem-Seaspray Wand" -CT "QSC:Oolfonso's seaspray wand proved"
 -206.20 56.27 -488.11
 -217.09 54.43 -508.15
 -230.82 52.07 -533.41
