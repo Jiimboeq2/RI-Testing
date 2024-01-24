@@ -1,0 +1,30 @@
+To Splendor Mistic Miasma
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
+Custom
+TravelMap "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -L -CPSP -R
+-327.48 117.67 617.16
+-330.20 218.69 611.32
+-294.33 251.99 582.21
+-200.18 251.99 505.80
+-92.46 251.99 449.07
+10.87 251.99 416.37
+169.21 251.99 366.28
+334.21 251.99 342.39
+437.17 251.99 335.03
+576.30 247.25 331.69
+576.30 179.22 331.69
+576.64 140.76 331.63
+578.90 123.07 313.24
+578.90 83.57 313.15
+597.84 86.11 322.66
+Custom
+ClickActor zone_portal_to_dun_hooluk_swamp_03
+597.84 86.11 322.66

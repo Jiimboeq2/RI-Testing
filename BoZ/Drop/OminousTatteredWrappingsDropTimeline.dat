@@ -1,0 +1,84 @@
+Ominous Tattered Wrappings Drop Timeline
+-23.00 42.85 290.01
+Custom
+ExamineItem "Ominous Tattered Wrappings"
+-23.00 42.85 290.01
+Custom
+SetActiveQuest "Ominous Tattered Wrappings"
+-23.00 42.85 290.01
+Custom
+CheckQuest -Active "Ominous Tattered Wrappings" 81
+-23.00 42.85 290.01
+Custom
+Path -PL 22 -QA "-A|a woodland bristlehide|-T|QSC:bristlehide|-E|K"
+-49.39 71.95 324.57
+-63.86 72.61 344.47
+-97.02 73.95 380.81
+-125.58 79.61 409.81
+-161.26 88.26 436.18
+-191.69 95.42 456.32
+-216.47 101.37 473.14
+-256.43 109.45 461.46
+-298.11 113.48 437.07
+-330.36 114.63 412.28
+-348.10 115.44 390.49
+-354.50 116.35 359.51
+-344.18 117.01 340.53
+-320.20 125.45 323.30
+-288.27 131.40 298.56
+-256.29 138.39 287.81
+-217.26 146.25 290.66
+-204.16 151.70 271.98
+-203.63 144.11 256.25
+-210.16 151.83 234.89
+-213.76 157.17 208.82
+-192.77 168.17 192.54
+-156.37 176.04 178.40
+-121.95 183.19 185.39
+-144.53 187.84 179.40
+-187.23 189.66 159.35
+-227.47 187.65 120.54
+-250.46 186.47 96.93
+-261.55 197.11 71.59
+-262.17 202.29 41.91
+-282.37 200.74 16.56
+-303.63 199.95 10.82
+-330.91 198.95 16.79
+-363.55 197.68 30.26
+-385.05 196.86 36.64
+-334.48 204.23 13.37
+-284.73 217.11 -21.00
+-217.26 237.87 -18.28
+-201.09 236.82 4.97
+-177.47 234.59 62.01
+-150.87 237.99 82.58
+-119.47 236.85 84.59
+-109.29 244.53 112.06
+-102.56 227.94 160.54
+-93.64 204.02 207.81
+-94.57 168.20 259.85
+-99.11 139.51 298.56
+-100.53 113.71 333.46
+-71.16 80.14 346.22
+-54.42 61.70 328.23
+Custom
+TimeStampEcho "Checking for Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+ExamineItem "Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+SetActiveQuest "Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+CheckQuest -Active "Ominous Tattered Wrappings" 81
+-70.81 45.59 334.79
+Custom
+TimeStampEcho "SetActiveQuest Ominous Tattered Wrappings"
+-70.81 45.59 334.79
+Custom
+CheckAndSet -NotActiveQuest "Ominous Tattered Wrappings" 11
+-70.81 45.59 334.79
+Custom
+TimeStampEcho "Completed Ominous Tattered Wrappings Pickup"
+-70.81 45.59 334.79

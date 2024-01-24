@@ -1,0 +1,48 @@
+Haunting Tattered Wrappings
+-326.11 305.95 612.86
+Custom
+Path -PL 28 -QA "-QD|200|-A|a menacing shockspine|-T|QSC:menacing shokspine|-E|K"
+-326.11 305.95 612.86
+-407.56 309.18 624.91
+-472.68 311.51 647.13
+-522.94 313.30 665.96
+-567.83 314.91 682.90
+-591.29 315.74 691.85
+-628.34 317.00 692.26
+-654.77 318.07 677.07
+-673.69 319.15 650.96
+-665.06 320.87 687.21
+-632.03 323.59 760.55
+-593.87 325.00 742.47
+-550.00 326.63 721.68
+-499.63 324.55 707.65
+-477.31 315.26 669.20
+-476.45 299.51 593.00
+-539.57 283.06 577.62
+-586.35 280.99 547.11
+-628.48 278.57 495.27
+-650.11 277.22 526.02
+-666.77 298.31 551.39
+-681.31 316.70 567.91
+-716.72 327.23 605.46
+-773.25 324.27 665.40
+-727.59 321.06 726.31
+-649.26 318.23 731.34
+-617.82 316.60 704.54
+-551.86 313.86 672.08
+-476.37 310.60 626.01
+Custom
+TimeStampEcho "Checking for Haunting Tattered Wrappings"
+-476.37 310.60 626.01
+Custom
+SetActiveQuest "Haunting Tattered Wrappings"
+-476.37 310.60 626.01
+Custom
+CheckAndSet -NotActiveQuest "Haunting Tattered Wrappings" 50
+-476.37 310.60 626.01
+Custom
+CheckQuest -Active "Haunting Tattered Wrappings" 2
+-476.37 310.60 626.01
+Custom
+TimeStampEcho "Completed Haunting Tattered Wrappings"
+-476.37 310.60 626.01

@@ -1,0 +1,128 @@
+Ballads of Zimara: Parliamentary Procedures
+Custom
+CheckPreReqs -Completed "Junior Hootie in the Making"
+0 0 0
+Custom
+CheckPreReqs -Completed "Earning Your Talons"
+0 0 0
+Custom
+CheckPreReqs -Completed "Screeching with Sang'Huuu Scouts"
+0 0 0
+Custom
+MakeActiveQuest "Ballads of Zimara: Parliamentary Procedures"
+0 0 0
+Custom
+CheckQuestStep "The new arrival turned out" 48
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
+Custom
+TravelMap "Splendor Sky Aerie"
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+Custom
+HailActorGetQuest -Actor "Coarsequill"
+-343.03 117.94 602.52
+-332.52 119.12 627.12
+Custom
+HailActor "Miranna Ameema" 20 1
+-325.36 118.37 638.91
+-324.25 164.87 639.05
+-273.64 177.86 671.63
+-225.51 191.05 702.55
+-178.64 203.90 732.66
+-133.94 216.15 761.37
+-89.90 228.23 789.66
+-45.82 240.31 817.98
+-2.19 252.27 846.01
+46.63 265.65 877.37
+93.38 278.47 907.41
+110.02 297.24 958.42
+123.46 313.47 999.09
+130.76 307.86 939.13
+Custom
+Path -PL 4 -CPSP
+152.84 312.25 1015.31
+194.22 309.01 1036.86
+243.77 315.30 1028.76
+265.07 318.00 1025.28
+265.05 294.76 1025.27
+316.90 305.08 1002.47
+Custom
+ClickActor "qst_widget_hooluk_parliament_chamber_door"
+314.49 305.08 999.54
+Custom
+CheckQuestStep "Enter" 86
+314.49 305.08 999.54
+Custom
+Path
+317.50 315.25 1009.67
+284.08 311.55 1022.41
+252.55 308.65 1029.22
+199.32 311.19 1034.64
+159.51 314.78 1020.20
+141.76 318.59 980.12
+144.58 321.43 946.39
+154.32 324.42 911.74
+170.33 327.40 879.66
+210.66 325.92 854.10
+217.74 290.51 831.87
+202.41 278.57 824.58
+202.48 274.89 824.44
+210.77 274.96 820.40
+Custom
+ClickActor "Talisman of Seven Talons"
+210.77 274.96 820.40
+210.77 287.85 820.40
+210.77 345.26 820.40
+200.43 341.54 836.40
+160.03 329.89 897.64
+143.72 324.94 928.72
+134.18 328.52 964.33
+141.93 322.29 1004.93
+163.55 318.16 1024.43
+196.48 306.89 1025.66
+232.58 298.59 1022.03
+268.36 295.12 1017.70
+297.88 304.70 1014.22
+315.94 305.08 1002.88
+313.21 305.13 996.94
+Custom
+ClickActor "qst_widget_hooluk_parliament_chamber_door"
+314.49 305.08 999.54
+Custom
+WaitForZoning
+0 0 0
+-832.92 71.14 552.56
+-838.28 71.13 544.52
+Custom
+HailActor "Kindellan the Elder" 15 1
+-838.28 71.13 544.52
+Custom
+CheckQuestStep "Elder Kindellan, and the other" 118
+-838.28 71.13 544.52
+Custom
+HailActor "Kindellan the Elder" 15 1
+-838.28 71.13 544.52
+Custom
+CheckQuestStep "Elder Kindellan, and the other" 118
+-838.28 71.13 544.52
+Custom
+MessageBox "Complete the dialogue with Kindellan The Elder then press Resume."
+-838.28 71.13 544.52
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+-332.52 119.12 627.12
+Custom
+HailActor "Miranna Ameema" 4 1
+-325.36 118.37 638.91

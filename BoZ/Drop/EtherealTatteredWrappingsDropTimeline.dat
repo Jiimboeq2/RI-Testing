@@ -1,0 +1,60 @@
+Ethereal Tattered Wrappings Drop Timeline
+-427.33 100.89 446.01
+Custom
+ExamineItem "Ethereal Tattered Wrappings"
+-427.33 100.89 446.01
+Custom
+SetActiveQuest "Ethereal Tattered Wrappings"
+-427.33 100.89 446.01
+Custom
+CheckQuest -Active "Ethereal Tattered Wrappings" 57
+-427.33 100.89 446.01
+Custom
+Path -PL 20 -CPSP -QA "-A|a horned charger|-T|QSC:Hunt horned chargers|-E|K"
+-328.41 112.82 575.04
+-474.66 112.77 145.66
+-461.00 112.79 153.45
+-446.85 112.85 156.68
+-431.07 112.74 164.39
+-421.00 112.75 176.57
+-409.57 112.07 191.94
+-392.95 112.24 200.58
+-394.78 112.79 215.74
+-386.83 112.72 231.82
+-383.45 112.83 249.43
+-381.23 112.65 277.94
+-386.25 112.59 296.19
+-397.87 112.92 304.83
+-404.20 112.66 316.96
+-413.35 112.87 325.28
+-430.16 112.73 330.70
+-442.85 112.72 325.35
+-446.94 112.52 372.20
+-384.48 112.05 367.85
+-338.22 112.56 348.62
+-328.02 112.74 402.99
+-284.71 112.85 458.83
+-345.79 112.76 562.01
+-341.84 116.35 602.10
+-328.41 112.82 575.04
+Custom
+CheckCompletedQuest "Ethereal Tattered Wrappings"
+-339.63 85.59 358.65
+Custom
+ExamineItem "Ethereal Tattered Wrappings"
+-339.63 85.59 358.65
+Custom
+SetActiveQuest "Ethereal Tattered Wrappings"
+-339.63 85.59 358.65
+Custom
+CheckQuest -Active "Ethereal Tattered Wrappings" 57
+-339.63 85.59 358.65
+Custom
+TimeStampEcho "SetActiveQuest Ethereal Tattered Wrappings"
+-339.63 85.59 358.65
+Custom
+CheckAndSet -NotActiveQuest "Ethereal Tattered Wrappings" 11
+-339.63 85.59 358.65
+Custom
+TimeStampEcho "Completed Pickup of Ethereal Tattered Wrappings"
+-339.63 85.59 358.65

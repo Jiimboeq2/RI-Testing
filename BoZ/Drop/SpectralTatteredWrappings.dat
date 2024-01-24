@@ -1,0 +1,47 @@
+Spectral Tattered Wrappings
+-496.30 138.79 114.51
+Custom
+Path -PL 26 -QA "-QD|200|-A|a dune prowler|-T|QSC:dune prowler|-E|K"
+-496.30 138.79 114.51
+-522.28 137.69 102.43
+-580.98 138.63 98.53
+-628.56 138.35 99.94
+-662.46 138.12 114.79
+-676.22 137.88 150.14
+-658.65 149.74 167.32
+-606.59 144.40 175.16
+-541.01 139.59 202.73
+-495.78 136.81 243.28
+-437.77 134.02 249.79
+-393.01 131.98 251.20
+-335.02 129.31 259.97
+-306.54 145.21 288.32
+-265.18 142.60 326.28
+-204.54 139.78 337.19
+-154.57 137.46 330.61
+-85.10 134.21 314.64
+-82.24 132.14 287.80
+-129.03 127.73 267.46
+-184.68 123.94 244.35
+-226.80 121.11 228.49
+-276.68 117.94 221.20
+-321.61 115.08 214.55
+-364.80 112.30 205.33
+-410.59 119.31 196.85
+-452.18 122.54 173.38
+-500.06 118.38 127.74
+Custom
+TimeStampEcho "Checking for Spectral Tattered Wrappings"
+-500.06 118.38 127.74
+Custom
+SetActiveQuest "Spectral Tattered Wrappings"
+-500.06 118.38 127.74
+Custom
+CheckAndSet -NotActiveQuest "Spectral Tattered Wrappings" 50
+-500.06 118.38 127.74
+Custom
+CheckQuest -Active "Spectral Tattered Wrappings" 2
+-500.06 118.38 127.74
+Custom
+TimeStampEcho "Completed Spectral Tattered Wrappings"
+-500.06 118.38 127.74

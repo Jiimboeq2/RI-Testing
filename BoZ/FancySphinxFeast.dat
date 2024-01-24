@@ -1,0 +1,43 @@
+Fancy Sphinx Feast
+Repeatable
+273.57 162.52 -62.23
+Custom
+HailActorGetQuest -Actor "Kupriania"
+273.57 162.52 -62.23
+Custom
+ClickActor "Sassarish's Provisions" 5
+273.57 162.52 -62.23
+273.57 220.52 -62.23
+Custom
+Path -PL 27 -L -R -QA "-QD|200|-A|a winged viper|-T|QSC:winged viper meat|-E|K" -QA "-QD|200|-A|a frenzy watermaw|-T|QSC:frenzy watermaw meat|-E|K" -QA "-QD|200|-A|Zenith Potatoe|-T|QSC:Zenith Potatoes|-E|H" -QA "-QD|200|-A|Winged Viper Eggs|-T|QSC:Winged Viper Eggs|-E|H" -CT "QSC:I found all"
+273.57 222.50 -62.23
+255.88 201.57 -120.26
+229.35 182.42 -53.39
+243.48 193.07 -43.28
+282.22 211.11 2.43
+277.42 228.71 30.93
+218.29 220.56 67.72
+148.53 211.68 49.64
+101.31 205.66 28.70
+50.78 203.75 7.20
+14.00 198.95 -12.60
+-7.55 183.42 -24.20
+-2.56 183.42 -33.47
+-29.16 179.96 -47.79
+-41.65 184.99 -70.41
+-60.99 179.80 -110.97
+-47.78 184.25 -185.54
+-27.47 190.10 -229.84
+-6.39 196.63 -254.75
+53.65 189.01 -267.53
+110.56 192.75 -255.92
+157.62 190.72 -222.30
+182.05 190.85 -176.21
+212.45 190.65 -135.01
+243.28 185.57 -104.03
+274.37 180.26 -70.35
+274.31 161.51 -70.38
+273.13 163.06 -60.61
+Custom
+ClickActor "Sassarish's Provisions" 5
+273.57 162.52 -62.23

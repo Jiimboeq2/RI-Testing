@@ -1,0 +1,117 @@
+Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 42
+0 0 0
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 11
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+Custom
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+ClickAllActors 5
+-711.87 229.62 -751.98
+Custom
+ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
+-711.87 229.62 -751.98
+885.23 -45.55 -322.18
+Custom
+Path -PL 15 -CPSP
+882.82 69.79 -322.87
+837.00 83.47 -332.39
+691.51 85.17 -360.76
+573.38 86.54 -383.79
+469.79 87.75 -403.99
+364.12 88.98 -421.82
+261.96 90.16 -437.09
+163.22 91.30 -451.85
+55.58 92.53 -457.98
+-71.73 93.99 -461.24
+-168.44 95.70 -510.23
+-208.44 95.70 -510.23
+-135.16 197.05 -368.26
+-135.39 183.95 -307.09
+-139.49 161.74 -160.85
+-150.55 159.58 20.16
+-157.83 159.62 134.12
+-264.24 159.69 223.61
+-293.52 159.70 242.01
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus" 114
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Aether Wroughtlands Experiment BU-T13-R's Sensory Focus"
+0 0 0
+Custom
+Path -PL 26 -DFPWD -QA "-QD|200|-A|an emerald devourer|-E|K" -CT "QSC: I have completed"
+-353.06 159.73 279.40
+-361.92 130.52 264.01
+-284.11 127.02 288.74
+-192.76 124.54 310.92
+-121.37 122.65 321.91
+-85.39 139.95 331.63
+-19.48 138.06 360.19
+-42.38 136.36 411.62
+-101.73 134.58 442.05
+-134.25 155.00 437.94
+-222.26 159.95 432.16
+-271.17 175.20 430.43
+-338.36 173.29 404.16
+-437.58 159.10 331.50
+-518.97 145.28 272.72
+-569.29 154.65 293.31
+-619.30 157.88 259.98
+-656.08 149.66 213.20
+-707.04 142.35 206.73
+-795.79 126.68 137.69
+-766.86 119.36 113.95
+-675.71 106.62 98.87
+-597.74 110.54 90.64
+-539.21 102.43 88.28
+-511.18 109.03 117.42
+-475.03 112.49 222.98
+-471.31 121.95 261.57
+-396.19 114.87 243.86
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus" 114
+0 0 0
+Custom
+SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus"
+0 0 0
+Custom
+CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus" 69
+0 0 0
+Custom
+TimeStampEcho "Aether Wroughtlands: Experiment BU-T13-R's Sensory Focus Completed"
+0 0 0

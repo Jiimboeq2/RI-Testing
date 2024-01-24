@@ -1,0 +1,108 @@
+Zimara Breadth: Tef-Feather
+Custom
+CheckAndSet -InZone "Zimara Breadth" 33
+0 0 0
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 11
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+-701.27 250.17 -755.11
+Custom
+Path -PL 19 -CPSP
+-702.34 229.78 -753.91
+-702.34 293.33 -753.91
+-653.72 284.75 -690.22
+-602.61 267.08 -624.62
+-560.60 252.56 -570.70
+-514.96 242.68 -513.86
+-457.69 231.85 -443.06
+-403.36 221.57 -375.89
+-346.64 219.70 -312.71
+-283.15 227.77 -249.27
+-231.01 234.61 -205.73
+-169.38 242.70 -154.25
+-102.74 251.44 -98.59
+-23.80 248.70 -60.51
+72.10 250.34 -29.99
+146.52 258.16 -6.37
+242.37 268.28 24.05
+290.91 279.37 -65.44
+300.19 281.65 -86.28
+307.53 210.86 -80.05
+310.27 200.25 -77.74
+Custom
+CheckCompletedQuest "Zimara Breadth: Tef-Feather" 105
+0 0 0
+Custom
+SetActiveQuest "Zimara Breadth: Tef-Feather"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Zimara Breadth Tef-Feather"
+0 0 0
+Custom
+Path -PL 4 -CPSP
+300.19 281.65 -86.28
+307.53 210.86 -80.05
+309.31 316.52 -210.32
+310.37 166.96 -56.58
+310.37 301.96 -56.58
+321.52 301.07 -575.26
+Custom
+Path -PL 17 -QA "-QD|200|-A|an endless sufferer|-T|QSC:aviak|-E|K" -QA "-QD|200|-A|an agonizing|-T|QSC:aviak|-E|K" -CT "QSC: I have completed"
+279.39 309.85 -600.03
+228.07 302.00 -614.69
+196.38 295.35 -645.52
+187.22 290.72 -675.24
+188.77 284.84 -715.20
+205.45 279.46 -766.90
+238.92 278.14 -778.45
+273.97 281.12 -751.90
+276.75 285.04 -727.24
+278.26 283.79 -692.02
+275.07 282.41 -653.29
+258.87 281.65 -634.25
+278.04 308.34 -617.16
+282.65 310.31 -664.95
+287.94 301.06 -714.51
+274.31 310.52 -742.83
+249.98 325.13 -745.62
+224.75 314.57 -720.43
+Custom
+CheckCompletedQuest "Zimara Breadth: Tef-Feather" 105
+0 0 0
+Custom
+SetActiveQuest "Zimara Breadth: Tef-Feather"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Zimara Breadth: Tef-Feather"
+0 0 0
+Custom
+CheckAndSet -ActiveQuest "Zimara Breadth: Tef-Feather" 65
+0 0 0
+Custom
+TimeStampEcho "Zimara Breadth: Tef-Feather Completed"
+0 0 0
