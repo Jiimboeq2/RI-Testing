@@ -3,7 +3,7 @@ Custom
 CheckAndSet -InZone "Zimara Breadth" 33
 0 0 0
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 11
+CheckAndSet -InZone "Splendor Sky Aerie" 10
 0 0 0
 Custom
 FastTravel "Splendor Sky Aerie"
@@ -32,30 +32,21 @@ ZoneDoor "Zone to Zimara Breadth"
 -1096.01 181.82 740.86
 -701.27 250.17 -755.11
 Custom
-Path -PL 19 -CPSP
--702.34 229.78 -753.91
--702.34 293.33 -753.91
--653.72 284.75 -690.22
--602.61 267.08 -624.62
--560.60 252.56 -570.70
--514.96 242.68 -513.86
--457.69 231.85 -443.06
--403.36 221.57 -375.89
--346.64 219.70 -312.71
--283.15 227.77 -249.27
--231.01 234.61 -205.73
--169.38 242.70 -154.25
--102.74 251.44 -98.59
--23.80 248.70 -60.51
-72.10 250.34 -29.99
-146.52 258.16 -6.37
-242.37 268.28 24.05
-290.91 279.37 -65.44
-300.19 281.65 -86.28
-307.53 210.86 -80.05
-310.27 200.25 -77.74
+Path -PL 10 -CPSP
+-697.33 229.61 -750.83
+-697.33 312.79 -750.83
+-666.76 327.57 -687.03
+-616.88 332.79 -647.03
+-470.34 332.74 -637.22
+-332.92 329.48 -626.79
+-210.47 326.57 -617.49
+-40.88 322.54 -604.62
+107.97 314.85 -588.54
+248.16 306.46 -571.73
+401.32 297.28 -553.35
+310.37 190.96 -56.58
 Custom
-CheckCompletedQuest "Zimara Breadth: Nab-Feather" 94
+CheckCompletedQuest "Zimara Breadth: Nab-Feather" 86
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Nab-Feather"
@@ -81,7 +72,7 @@ Path -PL 13 -QA "-QD|200|-A|an arcaneframe daggerclaw|-T|QSC:daggerclaw|-E|K" -C
 193.19 190.65 -112.20
 25.26 179.34 -46.57
 Custom
-CheckCompletedQuest "Zimara Breadth: Nab-Feather" 94
+CheckCompletedQuest "Zimara Breadth: Nab-Feather" 86
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Nab-Feather"
@@ -90,7 +81,7 @@ Custom
 TimeStampEcho "SetActiveQuest Zimara Breadth: Nab-Feather"
 0 0 0
 Custom
-CheckAndSet -ActiveQuest "Zimara Breadth: Nab-Feather" 62
+CheckAndSet -ActiveQuest "Zimara Breadth: Nab-Feather" 54
 0 0 0
 Custom
 TimeStampEcho "Zimara Breadth: Nab-Feather Completed"

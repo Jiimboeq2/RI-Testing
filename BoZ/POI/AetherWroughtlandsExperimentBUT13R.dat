@@ -1,7 +1,20 @@
 Aether Wroughtlands: Experiment BU-T13-R
 Repeatable
 Custom
-CheckAndSet -InZone "Aether Wroughtlands" 42
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+Custom
+TimeStampEcho "checking for Golem Core"
+885.23 -45.55 -322.18
+Custom
+ExamineItem "Golem Core"
+885.23 -45.55 -322.18
+Custom
+WaitForZoning
+885.23 -45.55 -322.18
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 56
 0 0 0
 Custom
 CheckAndSet -InZone "Splendor Sky Aerie" 11
@@ -42,6 +55,18 @@ ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
 -711.87 229.62 -751.98
 885.23 -45.55 -322.18
 Custom
+Path -PL 3 -CPSP
+885.23 -3.10 -322.18
+816.71 30.57 -362.35
+739.93 28.00 -396.94
+Custom
+FlyDown 2
+721.50 -44.20 -456.73
+Custom
+BuyFromVendor "Merchant Orikoo" "Will of the Wroughtlands" 20
+721.50 -44.20 -456.73
+885.23 -45.55 -322.18
+Custom
 TimeStampEcho "This part assumes you are at the zone in to Aether Wroughtlands"
 885.23 -3.10 -322.18
 Custom
@@ -51,7 +76,7 @@ Path -PL 3 -CPSP
 739.93 28.00 -396.94
 694.62 26.34 -427.36
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R" 127
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R" 146
 694.62 26.34 -427.36
 Custom
 TimeStampEcho "Begin hunting for Golem Core"
@@ -108,13 +133,7 @@ Path -PL 46 -QA "-QD|200|-A|a Zakir Rish irondyne|-T|QSC:Zakir Rish Irondynes|-E
 292.94 69.48 -371.10
 292.96 7.69 -371.00
 Custom
-TimeStampEcho "checking for Golem Core"
-292.96 7.69 -371.00
-Custom
-ExamineItem "Golem Core"
-292.96 7.69 -371.00
-Custom
-CheckQuest -Active "Aether Wroughtlands: Experiment BU-T13-R" 127
+CheckQuest -Active "Aether Wroughtlands: Experiment BU-T13-R" 146
 292.96 7.69 -371.00
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R"
@@ -123,7 +142,7 @@ Custom
 TimeStampEcho "SetActiveQuest Aether Wroughtlands: Experiment BU-T13-R"
 292.96 7.69 -371.00
 Custom
-CheckAndSet -NotActiveQuest "Aether Wroughtlands: Experiment BU-T13-R" 55
+CheckAndSet -NotActiveQuest "Aether Wroughtlands: Experiment BU-T13-R" 83
 292.96 7.69 -371.00
 Custom
 TimeStampEcho "End of Loop - Picking up POIs now"
@@ -240,3 +259,6 @@ FlyDown 2
 Custom
 ClickActor poi_component_harmonic_controller
 -736.72 297.95 606.38
+Custom
+TimeStampEcho "Aether Wroughtlands: Experiment BU-T13-R's Pickup Completed"
+0 0 0

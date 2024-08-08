@@ -67,7 +67,7 @@ TravelMap "Albalatin Terrace"
 -781.63 176.37 262.58
 78.88 712.29 -105.08
 Custom
-Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a Zakir Rish|-T|QSC:Zakir Rish|-E|K" -QA "-QD|200|-A|Albalatin arcanum cache|-T|QSC:cache|-E|H" -QA "-QD|200|-A|Am Dhahab arcanum cache|-T|QSC:cache|-E|H" -CT "QSC:I thinned the number"
+Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a Zakir Rish|-T|QSC:Zakir Rish|-E|K" -QA "-QD|200|-A|Albalatin Arcanum Cache|-T|QSC:cache|-E|H" -QA "-QD|200|-A|Am Dhahab arcanum cache|-T|QSC:cache|-E|H" -CT "QSC:I thinned the number"
 78.07 652.80 -105.99
 78.07 725.65 -105.99
 3.19 712.53 -115.78

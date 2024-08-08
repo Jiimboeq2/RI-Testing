@@ -1,35 +1,41 @@
-Full Metal Biologist
-Repeatable
--30.86 87.18 474.14
+Voracious Cyphered Tome Page Pickup Timeline
+0 0 0
 Custom
-HailActorGetQuest -Actor "Ornetta"
--25.01 87.18 474.35
--48.25 87.16 462.02
--53.17 127.09 452.26
+TimeStampEcho "checking for Voracious Cyphered Tome Page"
+0 0 0
 Custom
-Path -PL 96 -L -QA "-QD|200|-A|an ironshell snapper|-T|QSC:ironshell carpace|-E|K" -QA "-QD|200|-A|a silvershell snapper|-T|QSC:silvershell carpace|-E|K" -QA "-QD|200|-A|a coppershell snapper|-T|QSC:coppershell carpace|-E|K" -QA "-QD|200|-A|a golden viper|-T|QSC:viper|-E|K" -QA "-QD|200|-A|a golden muck|-T|QSC:fluidic gold|-E|K" -QA "-QD|200|-A|a goldshell snapper|-T|QSC:goldshell snapper|-E|K" -CT "QSC:I was able to retrieve"
--59.27 155.72 440.22
--66.28 176.06 422.66
--85.43 169.10 398.33
--98.42 162.66 373.17
--92.11 150.90 321.91
--68.56 143.43 312.72
--48.42 136.60 332.74
--31.99 131.51 377.91
--19.68 130.67 403.78
-2.57 130.14 411.32
-52.15 139.08 414.34
-119.93 161.41 412.76
-161.92 197.53 411.77
-226.64 265.69 410.26
-264.33 305.39 409.38
-334.58 332.83 407.73
-399.15 355.38 425.49
-454.39 376.32 456.19
-497.45 394.36 490.10
-544.03 395.16 527.37
-596.84 390.19 569.58
-566.78 384.37 634.54
+CheckCompletedQuest "Voracious Cyphered Tome Page" 140
+885.23 -45.55 -322.18
+Custom
+SetActiveQuest "Voracious Cyphered Tome Page"
+885.23 -45.55 -322.18
+Custom
+CheckQuest -Active "Voracious Cyphered Tome Page" 140
+885.23 -45.55 -322.18
+Custom
+UseItem "Will of the Wroughtlands"
+0 0 0
+Custom
+ExamineItem "Voracious Cyphered Tome Page"
+0 0 0
+Custom
+TimeStampEcho "Begin hunting for Voracious Cyphered Tome Page"
+886.25 -45.53 -322.14
+886.25 -10.02 -322.14
+Custom
+Path -PL 8 -CPSP
+886.25 90.79 -322.14
+886.25 186.78 -322.14
+886.25 310.49 -322.14
+835.40 326.82 -248.83
+794.83 344.78 -159.61
+768.70 359.33 -84.32
+733.47 348.43 -11.50
+681.83 330.34 79.17
+631.69 314.05 158.26
+575.98 297.75 233.86
+Custom
+Path -PL 76 -CPSP -QA "-QD|200|-A|a goldshell snapper|-T|QSC:viper|-E|K"
 571.01 334.54 649.78
 566.67 309.75 669.09
 562.99 291.51 709.71
@@ -109,5 +115,29 @@ Path -PL 96 -L -QA "-QD|200|-A|an ironshell snapper|-T|QSC:ironshell carpace|-E|
 -38.53 87.16 457.14
 -26.51 87.18 475.12
 Custom
-HailActor "Ornetta" 5 1
--25.01 87.18 474.35
+FlyDown 5
+-26.51 87.18 475.12
+Custom
+TimeStampEcho "checking for Voracious Cyphered Tome Page"
+-26.51 87.18 475.12
+Custom
+ExamineItem "Voracious Cyphered Tome Page"
+-26.51 87.18 475.12
+Custom
+CheckCompletedQuest "Voracious Cyphered Tome Page" 140
+-26.51 87.18 475.12
+Custom
+CheckQuest -Active "Voracious Cyphered Tome Page" 140
+-26.51 87.18 475.12
+Custom
+SetActiveQuest "Voracious Cyphered Tome Page"
+-26.51 87.18 475.12
+Custom
+TimeStampEcho "SetActiveQuest Voracious Cyphered Tome Page"
+-26.51 87.18 475.12
+Custom
+CheckAndSet -NotActiveQuest "Voracious Cyphered Tome Page" 15
+-26.51 87.18 475.12
+Custom
+TimeStampEcho "Completed pickup of Voracious Cyphered Tome Page"
+-26.51 87.18 475.12

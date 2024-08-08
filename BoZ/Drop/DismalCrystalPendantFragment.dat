@@ -1,0 +1,38 @@
+Dismal Crystal Pendant Fragment Timeline
+0 0 0
+Custom
+TimeStampEcho "Checking for Dismal Crystal Pendant Fragment"
+0 0 0
+Custom
+ExamineItem "Dismal Crystal Pendant Fragment"
+0 0 0
+Custom
+SetActiveQuest "Dismal Crystal Pendant Fragment"
+0 0 0
+Custom
+CheckAndSet -Completed "Dismal Crystal Pendant Fragment" 35
+0 0 0
+Custom
+Path -PL 16 -CPSP -QA "-QD|200|-A|a scorched shambler|-T|QSC:Extinguish scorched shamblers|-E|K"
+-804.00 163.41 304.51
+-766.96 153.21 299.43
+-730.25 144.33 316.00
+-689.61 148.82 334.34
+-630.58 148.89 373.35
+-634.71 153.14 452.83
+-587.86 156.42 476.01
+-564.90 160.21 546.24
+-584.92 152.80 646.29
+-605.07 147.28 671.01
+-691.37 116.24 653.29
+-764.64 105.94 589.78
+-812.66 104.44 503.80
+-854.84 136.83 448.80
+-829.07 137.27 434.44
+-796.70 138.31 374.99
+Custom
+CheckQuest -Active "Dismal Crystal Pendant Fragment" 2
+0 0 0
+Custom
+TimeStampEcho "Completed Dismal Crystal Pendant Fragment"
+0 0 0

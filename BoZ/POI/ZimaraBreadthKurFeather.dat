@@ -3,36 +3,51 @@ Custom
 CheckAndSet -InZone "Zimara Breadth" 33
 0 0 0
 Custom
-CheckAndSet -InZone "Splendor Sky Aerie" 11
+CheckAndSet -InZone "Splendor Sky Aerie" 10
 0 0 0
 Custom
 FastTravel "Splendor Sky Aerie"
 0 0 0
 Custom
-Path -PL 19 -CPSP
--702.34 229.78 -753.91
--702.34 293.33 -753.91
--653.72 284.75 -690.22
--602.61 267.08 -624.62
--560.60 252.56 -570.70
--514.96 242.68 -513.86
--457.69 231.85 -443.06
--403.36 221.57 -375.89
--346.64 219.70 -312.71
--283.15 227.77 -249.27
--231.01 234.61 -205.73
--169.38 242.70 -154.25
--102.74 251.44 -98.59
--23.80 248.70 -60.51
-72.10 250.34 -29.99
-146.52 258.16 -6.37
-242.37 268.28 24.05
-290.91 279.37 -65.44
-300.19 281.65 -86.28
-307.53 210.86 -80.05
-310.27 200.25 -77.74
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
 Custom
-CheckCompletedQuest "Zimara Breadth: Kur-Feather" 114
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+-701.27 250.17 -755.11
+Custom
+Path -PL 10 -CPSP
+-697.33 229.61 -750.83
+-697.33 312.79 -750.83
+-666.76 327.57 -687.03
+-616.88 332.79 -647.03
+-470.34 332.74 -637.22
+-332.92 329.48 -626.79
+-210.47 326.57 -617.49
+-40.88 322.54 -604.62
+107.97 314.85 -588.54
+248.16 306.46 -571.73
+401.32 297.28 -553.35
+478.21 283.86 -540.52
+588.19 261.45 -517.64
+Custom
+CheckCompletedQuest "Zimara Breadth: Kur-Feather" 121
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Kur-Feather"
@@ -40,14 +55,6 @@ SetActiveQuest "Zimara Breadth: Kur-Feather"
 Custom
 TimeStampEcho "SetActiveQuest Zimara Breadth Kur-Feather"
 0 0 0
-310.37 166.96 -56.58
-Custom
-ClickActor "Fly from Zenith Helionae"
-313.10 167.48 -53.67
-Custom
-TravelMap "Columnar Highgarden"
-313.10 167.48 -53.67
-615.73 207.12 -499.79
 Custom
 Path -PL 49 -QA "-QD|200|-A|an arcaneframe hammerhoof|-T|QSC:hammerhoof|-E|K" -CT "QSC: I have completed"
 623.26 236.61 -507.20
@@ -101,7 +108,7 @@ Path -PL 49 -QA "-QD|200|-A|an arcaneframe hammerhoof|-T|QSC:hammerhoof|-E|K" -C
 618.14 219.61 -513.94
 618.14 206.12 -513.94
 Custom
-CheckCompletedQuest "Zimara Breadth: Kur-Feather" 114
+CheckCompletedQuest "Zimara Breadth: Kur-Feather" 121
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Kur-Feather"
@@ -110,7 +117,7 @@ Custom
 TimeStampEcho "SetActiveQuest Zimara Breadth: Kur-Feather"
 0 0 0
 Custom
-CheckAndSet -ActiveQuest "Zimara Breadth: Kur-Feather" 50
+CheckAndSet -ActiveQuest "Zimara Breadth: Kur-Feather" 57
 0 0 0
 Custom
 TimeStampEcho "Zimara Breadth: Kur-Feather Completed"

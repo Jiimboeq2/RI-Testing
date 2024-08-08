@@ -1,16 +1,16 @@
 Muted Crystal Pendant Drop Timeline
 310.37 166.96 -56.58
 Custom
-ExamineItem "Muted Crystal Pendant"
+CheckAndSet -Completed "Muted Crystal Pendant Fragment" 31
 310.37 166.96 -56.58
 Custom
-SetActiveQuest "Muted Crystal Pendant"
+ExamineItem "Muted Crystal Pendant Fragment"
 310.37 166.96 -56.58
 Custom
-CheckQuest -Active "Muted Crystal Pendant" 46
+SetActiveQuest "Muted Crystal Pendant Fragment"
 310.37 166.96 -56.58
 Custom
-Path -PL 13 -QA "-A|a Yazdani wardress|-T|QSC:Yazdani|-E|K"
+Path -PL 13 -CPSP -QA "-A|a Yazdani wardress|-T|QSC:Yazdani|-E|K"
 310.37 166.96 -56.58
 193.19 166.65 -112.20
 180.73 166.78 -145.31
@@ -27,23 +27,8 @@ Path -PL 13 -QA "-A|a Yazdani wardress|-T|QSC:Yazdani|-E|K"
 193.19 166.65 -112.20
 310.37 166.96 -56.58
 Custom
-TimeStampEcho "Checking for Muted Crystal Pendant"
-262.29 200 670.35
-Custom
-ExamineItem "Muted Crystal Pendant"
+CheckAndSet -NotActiveQuest "Muted Crystal Pendant Fragment" 2
 310.37 166.96 -56.58
 Custom
-SetActiveQuest "Muted Crystal Pendant"
-310.37 166.96 -56.58
-Custom
-CheckQuest -Active "Muted Crystal Pendant" 46
-310.37 166.96 -56.58
-Custom
-TimeStampEcho "SetActiveQuest Muted Crystal Pendant"
-310.37 166.96 -56.58
-Custom
-CheckAndSet -NotActiveQuest "Muted Crystal Pendant" 11
-310.37 166.96 -56.58
-Custom
-TimeStampEcho "Completed Pickup of Muted Crystal Pendant"
+TimeStampEcho "Completed Pickup of Muted Crystal Pendant Fragment"
 310.37 166.96 -56.58

@@ -1,9 +1,44 @@
 Zimara Breadth Cursed Feathers Timeline
 Custom
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+Custom
+WaitForZoning
+885.23 -45.55 -322.18
+Custom
+Path -PL 3 -CPSP
+885.23 -3.10 -322.18
+816.71 30.57 -362.35
+739.93 28.00 -396.94
+Custom
+FlyDown 2
+721.50 -44.20 -456.73
+Custom
+BuyFromVendor "Merchant Orikoo" "Will of the Wroughtlands" 20
+721.50 -44.20 -456.73
+Custom
+MessageBox "Buy 20 Will of the Wroughtlands from Merchant Orikoo"
+721.50 -44.20 -456.73
+Custom
+Path -PL 3 -CPSP
+720.79 -44.04 -453.45
+720.79 -17.31 -453.45
+764.17 -15.73 -421.71
+881.50 -6.09 -338.71
+881.50 -46.24 -338.70
+889.16 -45.68 -335.72
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+898.04 -45.75 -330.00
+Custom
+WaitForZoning
+0 0 0
+Custom
 TimeStampEcho "Check Completed Zimara Breadth: Dol-Feather"
 0 0 0
 Custom
-CheckCompletedQuest "Zimara Breadth: Dol-Feather" 13
+CheckCompletedQuest "Zimara Breadth: Dol-Feather" 62
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Dol-Feather"
@@ -12,10 +47,24 @@ Custom
 Quest "ZimaraBreadthDolFeather"
 0 0 0
 Custom
+FlyDown 5
+0 0 0
+Custom
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+898.04 -45.75 -330.00
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+898.04 -45.75 -330.00
+Custom
+WaitForZoning
+0 0 0
+Custom
 TimeStampEcho "Check Completed Zimara Breadth: Nab-Feather"
 0 0 0
 Custom
-CheckCompletedQuest "Zimara Breadth: Nab-Feather" 25
+CheckCompletedQuest "Zimara Breadth: Nab-Feather" 88
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Nab-Feather"
@@ -24,10 +73,24 @@ Custom
 Quest "ZimaraBreadthNabFeather"
 0 0 0
 Custom
+FlyDown 5
+0 0 0
+Custom
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+898.04 -45.75 -330.00
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+898.04 -45.75 -330.00
+Custom
+WaitForZoning
+0 0 0
+Custom
 TimeStampEcho "Check Completed Zimara Breadth: Tef-Feather"
 0 0 0
 Custom
-CheckCompletedQuest "Zimara Breadth: Tef-Feather" 37
+CheckCompletedQuest "Zimara Breadth: Tef-Feather" 114
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Tef-Feather"
@@ -36,10 +99,24 @@ Custom
 Quest "ZimaraBreadthTefFeather"
 0 0 0
 Custom
+FlyDown 5
+0 0 0
+Custom
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+898.04 -45.75 -330.00
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+898.04 -45.75 -330.00
+Custom
+WaitForZoning
+0 0 0
+Custom
 TimeStampEcho "Check Completed Zimara Breadth: Kur-Feather"
 0 0 0
 Custom
-CheckCompletedQuest "Zimara Breadth: Kur-Feather" 49
+CheckCompletedQuest "Zimara Breadth: Kur-Feather" 140
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Kur-Feather"
@@ -48,10 +125,24 @@ Custom
 Quest "ZimaraBreadthKurFeather"
 0 0 0
 Custom
+FlyDown 5
+0 0 0
+Custom
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+898.04 -45.75 -330.00
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+898.04 -45.75 -330.00
+Custom
+WaitForZoning
+0 0 0
+Custom
 TimeStampEcho "Check Completed Zimara Breadth: Cip-Feather"
 0 0 0
 Custom
-CheckCompletedQuest "Zimara Breadth: Cip-Feather" 61
+CheckCompletedQuest "Zimara Breadth: Cip-Feather" 152
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Cip-Feather"

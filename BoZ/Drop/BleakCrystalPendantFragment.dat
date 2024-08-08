@@ -1,0 +1,58 @@
+Bleak Crystal Pendant Fragment Timeline
+Repeatable
+Custom
+Path -PL 5 -CPSP
+343.71 196.52 602.03
+-467.55 196.52 545.74
+-550.55 196.52 525.76
+-609.07 165.80 513.78
+Custom
+Path -PL 32 -L -R -QA "-QD|200|-A|a metalmorphic besieger|-T|QSC:Slay metalmorphic|-E|K" -QA "-QD|200|-A|a fire-ravaged greenwood|-T|QSC:Obtain greenwood|-E|K" -CT "QSC:Before speaking with the hooluk"
+-717.30 153.47 578.56
+-667.40 150 612.82
+-632.78 150 678.76
+-881.86 125 567.20
+-821.50 125 623.35
+-702.04 125 662.27
+-715.86 125 665.24
+-717.70 125 577.49
+-755.35 125 569.73
+-791.60 125 572.26
+-803.04 125 586.02
+-826.33 125 582.71
+-871.32 125 577.30
+-884.29 125 565.68
+-873.10 125 538.88
+-846.85 125 531.64
+-772.92 125 500.33
+-751.19 125 522.98
+-730.23 125 521.13
+-677.33 125 527.98
+-573.09 125 543.58
+-541.21 125 625.78
+-524.79 125 669.10
+-583.35 125 676.12
+-625.75 125 673.23
+-737.93 150 651.16
+-788.37 150 676.57
+-819.75 175 675.43
+-845.50 175 669.55
+-889.29 175 739.38
+-875.86 175 767.23
+-932.49 200 775.06
+-961.36 200 751.65
+Custom
+TimeStampEcho "Checking for Bleak Crystal Pendant Fragment"
+539.53 84.54 328.25
+Custom
+SetActiveQuest "Bleak Crystal Pendant Fragment"
+539.53 84.54 328.25
+Custom
+CheckAndSet -NotActiveQuest "Bleak Crystal Pendant Fragment" 39
+539.53 84.54 328.25
+Custom
+CheckQuest -Active "Bleak Crystal Pendant Fragment" 11
+539.53 84.54 328.25
+Custom
+TimeStampEcho "Completed Bleak Crystal Pendant Fragment"
+539.53 84.54 328.25

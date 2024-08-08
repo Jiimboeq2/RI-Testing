@@ -1,0 +1,40 @@
+Craving Cyphered Tome Page Timeline
+Custom
+SetActiveQuest "Craving Cyphered Tome Page"
+-326.54 117.71 617.13
+Custom
+CheckAndSet -NotActiveQuest "Craving Cyphered Tome Page" 37
+-347.67 118.20 599.78
+Custom
+Path -PL 4 -CPSP
+618.95 252.96 -514.06
+533.92 252.96 -457.24
+448.49 252.96 -403.54
+351.97 252.96 -342.86
+261.15 252.96 -285.76
+Custom
+Path -PL 13 -CPSP -QA "-A|a Yazdani wardress|-T|QSC:Yazdani|-E|K"
+310.37 166.96 -56.58
+193.19 166.65 -112.20
+180.73 166.78 -145.31
+180.23 166.15 -206.09
+139.46 166.25 -237.02
+82.03 166.55 -244.22
+12.76 166.31 -203.64
+-84.45 166.11 -154.40
+27.83 166.69 -83.48
+20.76 166.33 -3.76
+-40.22 166.52 39.84
+20.05 166.64 -74.33
+153.94 166.27 -70.38
+193.19 166.65 -112.20
+310.37 166.96 -56.58
+Custom
+TimeStampEcho "Checking for Craving Cyphered Tome Page"
+-347.67 118.20 599.78
+Custom
+CheckQuest -Active "Craving Cyphered Tome Page" 14
+-347.67 118.20 599.78
+Custom
+TimeStampEcho "Completed Pickup of Craving Cyphered Tome Page"
+-347.67 118.20 599.78

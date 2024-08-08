@@ -39,7 +39,7 @@ Custom
 MessageBox "Make sure you have obtained Tincture Conveyance Sigil"
 -781.63 176.37 262.58
 Custom
-Path -PL 4 -CPSP
+Path -PL 6 -CPSP
 -97.58 208.23 450.39
 -165.83 217.34 480.89
 -272.92 230.90 511.83
@@ -49,6 +49,7 @@ Path -PL 4 -CPSP
 -409.79 262.79 602.83
 -409.79 252.61 602.83
 -402.84 252.58 603.21
+-401 253 603
 Custom
 ClickActor "Fly from Fiddtan Crest"
 -402.84 252.58 603.21
@@ -60,6 +61,8 @@ Wait
 531.24 257.14 639.44
 542.43 255.87 651.29
 557.79 255.18 667.64
+Custom
+Path -PL 9 -L -QA "-QD|200|-A|Tincture Boundary Ward|-T|QSC:Tincture Boundary Ward|-E|H" -CT "QSC:I have gained access to the Tincture"
 584.43 249.98 712.24
 599.89 249.98 721.51
 626.63 247.55 790.12
@@ -89,7 +92,7 @@ TravelMap "Albalatin Terrace"
 128.39 650.34 -32.70
 132.38 650.42 3.73
 Custom
-Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a Zakir|-T|QSC:platinum|-E|H" -CT "QSC:I was able to claim"
+Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a Zakir|-T|QSC:gold|-E|H" -CT "QSC:I was able to claim"
 78.07 652.80 -105.99
 78.07 725.65 -105.99
 3.19 712.53 -115.78
@@ -103,6 +106,12 @@ Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a Zakir|-T|QSC:platinum|-E|H" -CT "QSC:I w
 -52.88 752.46 -87.46
 -53.41 651.74 -88.46
 132.38 650.42 3.73
+78.88 712.29 -105.08
+Custom
+ExamineItem "Platinum Tortile Sigil"
+78.88 712.29 -105.08
+Custom
+MessageBox "Make sure you have obtained Platinum Tortile Sigil"
 78.88 712.29 -105.08
 Custom
 Path -PL 10 -L -QA "-QD|200|-A|Albalatin Boundary Ward|-T|QSC:Albalatin Boundary Ward|-E|H" -CT "QSC:Disable Albalatin"
@@ -127,6 +136,30 @@ TravelMap "Glistervein Grove"
 Wait 5
 -53.41 651.74 -88.46
 726.80 275.73 205.55
+Custom
+Path -PL 10 -L -DFPWD -QA "-QD|200|-A|a Zakir|-T|QSC:platinum|-E|H" -CT "QSC:I was able to claim"
+726.80 345.15 205.55
+672.88 316.71 222.38
+674.57 357.45 220.42
+674.64 386.33 220.41
+770.01 364.42 280.22
+852.75 382.22 331.46
+896.55 397.09 232.28
+818.71 399.55 179.36
+828.18 199.15 175.36
+825.71 369.48 177.94
+823.35 366.55 7.87
+757.18 354.28 -26.90
+744.37 359.53 73.25
+723.01 356.91 154.16
+775.68 352.35 281.80
+758.64 409.02 263.29
+730.47 369.72 211.05
+625.99 313.69 202.14
+535.68 298.93 198.08
+433.00 282.12 195.81
+347.77 267.94 212.34
+283.01 255.44 252.19
 Custom
 Path -PL 10 -L -QA "-QD|200|-A|Tincture Boundary Ward|-T|QSC:Tincture Boundary Ward|-E|H" -CT "QSC:Disable Tincture"
 726.80 345.15 205.55

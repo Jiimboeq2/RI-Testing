@@ -1,0 +1,74 @@
+Voracious Cyphered Tome Page Timeline
+Custom
+TimeStampEcho "Hunting for Voracious Cyphered Tome Page"
+616.09 248.95 -503.88
+Custom
+CheckCompletedQuest "Voracious Cyphered Tome Page" 71
+616.09 248.95 -503.88
+Custom
+ExamineItem "Voracious Cyphered Tome Page"
+616.09 248.95 -503.88
+Custom
+SetActiveQuest "Voracious Cyphered Tome Page"
+616.09 248.95 -503.88
+Custom
+TimeStampEcho "Begin hunting for Voracious Cyphered Tome Page kills"
+616.09 248.95 -503.88
+Custom
+Path -PL 8 -CPSP
+616.09 248.95 -503.88
+616.84 260.68 -470.82
+623.13 260.67 -360.86
+634.99 260.07 -285.54
+660.19 255.93 -182.87
+691.90 255.93 -62.39
+702.27 212.26 -9.67
+714.02 196.16 54.53
+727.79 196.16 122.79
+740.02 196.16 191.29
+751.13 194.16 253.49
+Custom
+Path -PL 29 -CPSP -QA "-QD|200|-A|a harrying|-T|QSC:harrying|-E|K"
+805.70 240.82 304.21
+756.73 240.34 318.66
+708.36 240.50 371.21
+734.04 240.57 440.65
+755.68 240.20 509.21
+717.40 262.16 536.48
+689.27 272.37 500.45
+702.57 283.26 476.61
+720.81 286.89 493.42
+693.59 291.73 517.17
+645.02 286.45 544.46
+573.42 272.41 539.88
+534.00 282.26 550.02
+466.01 311.37 610.35
+401.20 337.82 622.20
+374.24 356.64 587.11
+389.01 368.31 544.40
+427.95 380.58 555.20
+417.33 382.70 580.29
+379.44 397.80 586.73
+344.47 402.06 598.21
+367.71 400.45 601.82
+424.15 327.39 625.82
+508.93 289.94 570.26
+580.13 271.92 543.80
+665.90 292.15 531.12
+698.96 292.84 523.31
+734.34 254.01 523.63
+759.21 224.44 471.59
+779.52 189.18 412.50
+793.36 189.26 325.20
+Custom
+TimeStampEcho "SetActiveQuest Voracious Cyphered Tome Page"
+793.36 189.26 325.20
+Custom
+CheckQuest -Active "Voracious Cyphered Tome Page" 29
+793.36 189.26 325.20
+Custom
+SetActiveQuest "Voracious Cyphered Tome Page"
+793.36 189.26 325.20
+Custom
+TimeStampEcho "Finished Voracious Cyphered Tome Page"
+793.36 189.26 325.20

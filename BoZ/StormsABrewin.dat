@@ -106,6 +106,9 @@ Custom
 TimeStampEcho "Checking to make sure all 4 orbs were clicked before starting Storm Mistress"
 259.20 31.50 0.35
 Custom
+CheckQuestStep "I've removed" 113
+259.20 31.50 0.35
+Custom
 CheckQuestStep "The Celestial Storm Orbs" 63
 259.20 31.50 0.35
 261.20 31.47 -26.77

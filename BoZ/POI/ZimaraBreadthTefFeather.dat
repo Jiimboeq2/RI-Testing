@@ -55,22 +55,21 @@ Path -PL 19 -CPSP
 307.53 210.86 -80.05
 310.27 200.25 -77.74
 Custom
-CheckCompletedQuest "Zimara Breadth: Tef-Feather" 105
+CheckCompletedQuest "Zimara Breadth: Tef-Feather" 104
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Tef-Feather"
 0 0 0
 Custom
-TimeStampEcho "SetActiveQuest Zimara Breadth Tef-Feather"
-0 0 0
-Custom
 Path -PL 4 -CPSP
 300.19 281.65 -86.28
-307.53 210.86 -80.05
 309.31 316.52 -210.32
-310.37 166.96 -56.58
 310.37 301.96 -56.58
 321.52 301.07 -575.26
+289.01 294.92 -453.20
+Custom
+TimeStampEcho "SetActiveQuest Zimara Breadth Tef-Feather"
+0 0 0
 Custom
 Path -PL 17 -QA "-QD|200|-A|an endless sufferer|-T|QSC:aviak|-E|K" -QA "-QD|200|-A|an agonizing|-T|QSC:aviak|-E|K" -CT "QSC: I have completed"
 279.39 309.85 -600.03
@@ -92,7 +91,7 @@ Path -PL 17 -QA "-QD|200|-A|an endless sufferer|-T|QSC:aviak|-E|K" -QA "-QD|200|
 249.98 325.13 -745.62
 224.75 314.57 -720.43
 Custom
-CheckCompletedQuest "Zimara Breadth: Tef-Feather" 105
+CheckCompletedQuest "Zimara Breadth: Tef-Feather" 104
 0 0 0
 Custom
 SetActiveQuest "Zimara Breadth: Tef-Feather"
@@ -101,7 +100,7 @@ Custom
 TimeStampEcho "SetActiveQuest Zimara Breadth: Tef-Feather"
 0 0 0
 Custom
-CheckAndSet -ActiveQuest "Zimara Breadth: Tef-Feather" 65
+CheckAndSet -ActiveQuest "Zimara Breadth: Tef-Feather" 69
 0 0 0
 Custom
 TimeStampEcho "Zimara Breadth: Tef-Feather Completed"

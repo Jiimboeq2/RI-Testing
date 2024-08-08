@@ -1,0 +1,94 @@
+Craving Cyphered Tome Page Pickup Timeline
+885.23 -45.55 -322.18
+Custom
+TimeStampEcho "checking for Craving Cyphered Tome Page"
+885.23 -45.55 -322.18
+Custom
+CheckCompletedQuest "Craving Cyphered Tome Page" 91
+714.61 -43.59 -460.22
+Custom
+ExamineItem "Craving Cyphered Tome Page"
+885.23 -45.55 -322.18
+Custom
+SetActiveQuest "Craving Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+CheckQuest -Active "Craving Cyphered Tome Page" 91
+714.61 -43.59 -460.22
+Custom
+Path -PL 3 -CPSP
+885.23 -3.10 -322.18
+816.71 30.57 -362.35
+739.93 28.00 -396.94
+715.13 -43.58 -460.70
+715.13 -43.58 -460.70
+715.13 -19.63 -460.70
+Custom
+TimeStampEcho "Begin hunting for Craving Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+Path -PL 31 -CPSP -QA "-QD|200|-A|lavafang|-T|QSC:lavafang|-E|K"
+661.57 23.48 -433.56
+603.55 32.67 -408.75
+533.15 37.36 -378.64
+506.75 39.12 -367.35
+455.40 42.26 -366.90
+388.54 47.22 -405.99
+358.62 49.11 -410.56
+330.50 53.25 -354.30
+268.60 59.20 -300.43
+187.68 64.48 -329.91
+111.66 69.21 -337.13
+116.57 71.41 -308.45
+203.92 78.04 -245.68
+258.45 81.91 -261.39
+347.93 87.62 -285.67
+383.82 90.01 -301.02
+409.20 92.35 -329.20
+464.69 96.36 -363.49
+511.88 99.29 -365.17
+556.84 102.60 -334.64
+616.65 107.38 -284.74
+580.83 110.71 -243.48
+557.60 113.01 -213.90
+536.78 116.48 -161.92
+533.77 119.01 -120.51
+504.97 121.25 -142.07
+450.63 106.68 -185.23
+404.51 88.19 -241.77
+384.03 68.42 -317.66
+350.91 49.01 -388.83
+382.18 41.29 -393.25
+442.02 32.32 -400.42
+502.68 25.59 -407.33
+572.64 17.76 -418.25
+628.92 -3.55 -432.53
+700.79 -39.19 -449.30
+700.69 -44.99 -449.13
+Custom
+FlyDown 5
+714.61 -43.59 -460.22
+Custom
+TimeStampEcho "checking for Craving Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+ExamineItem "Craving Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+CheckCompletedQuest "Craving Cyphered Tome Page" 91
+714.61 -43.59 -460.22
+Custom
+CheckQuest -Active "Craving Cyphered Tome Page" 91
+714.61 -43.59 -460.22
+Custom
+SetActiveQuest "Craving Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+TimeStampEcho "SetActiveQuest Craving Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+CheckAndSet -NotActiveQuest "Craving Cyphered Tome Page" 28
+714.61 -43.59 -460.22
+Custom
+TimeStampEcho "Completed pickup of Craving Cyphered Tome Page"
+714.61 -43.59 -460.22

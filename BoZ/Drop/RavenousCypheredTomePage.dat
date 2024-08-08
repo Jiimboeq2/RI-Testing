@@ -1,0 +1,54 @@
+Ravenous Cyphered Tome Page
+Custom
+TimeStampEcho "Hunting for Ravenous Cyphered Tome Page"
+0 0 0
+Custom
+CheckCompletedQuest "Ravenous Cyphered Tome Page" 51
+-185.56 160.60 -319.50
+Custom
+ExamineItem "Ravenous Cyphered Tome Page"
+0 0 0
+Custom
+SetActiveQuest "Ravenous Cyphered Tome Page"
+0 0 0
+Custom
+TimeStampEcho "Begin hunting for Ravenous Cyphered Tome Page kills"
+0 0 0
+Custom
+Path -PL 23 -CPSP -QA "-QD|200|-A|a metal-infected daggerclaw|-T|QSC:daggerclaws|-E|K"
+-159.45 151.75 -291.69
+-139.88 151.37 -327.07
+-149.51 147.73 -386.89
+-166.07 137.45 -431.95
+-199.39 137.55 -434.47
+-214.86 131.87 -416.64
+-217.21 130.43 -381.96
+-217.06 132.37 -344.20
+-219.33 131.71 -289.49
+-227.04 137.45 -257.54
+-243.90 139.38 -225.24
+-265.53 141.10 -200.71
+-290.57 142.55 -191.93
+-314.86 143.84 -193.45
+-342.45 145.35 -201.21
+-363.05 146.95 -220.79
+-365.79 148.45 -248.85
+-359.28 150.00 -277.30
+-341.71 151.59 -301.56
+-320.01 153.03 -317.88
+-288.12 154.79 -323.35
+-257.98 156.41 -328.41
+-217.63 158.60 -336.41
+-185.56 160.60 -319.50
+Custom
+TimeStampEcho "SetActiveQuest Ravenous Cyphered Tome Page"
+-185.56 160.60 -319.50
+Custom
+CheckQuest -Active "Ravenous Cyphered Tome Page" 19
+-185.56 160.60 -319.50
+Custom
+SetActiveQuest "Ravenous Cyphered Tome Page"
+-185.56 160.60 -319.50
+Custom
+TimeStampEcho "Finished Ravenous Cyphered Tome Page"
+-185.56 160.60 -319.50

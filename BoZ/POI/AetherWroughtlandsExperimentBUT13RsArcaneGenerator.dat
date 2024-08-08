@@ -1,6 +1,13 @@
 Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator
 Custom
-CheckAndSet -InZone "Aether Wroughtlands" 42
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+Custom
+WaitForZoning
+885.23 -45.55 -322.18
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 49
 0 0 0
 Custom
 CheckAndSet -InZone "Splendor Sky Aerie" 11
@@ -41,9 +48,16 @@ ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
 -711.87 229.62 -751.98
 885.23 -45.55 -322.18
 Custom
-Path -PL 10 -CPSP
-882.82 69.79 -322.87
-837.00 83.47 -332.39
+Path -PL 3 -CPSP
+885.23 -3.10 -322.18
+816.71 30.57 -362.35
+739.93 28.00 -396.94
+Custom
+FlyDown 2
+721.50 -44.20 -456.73
+Custom
+BuyFromVendor "Merchant Orikoo" "Will of the Wroughtlands" 20
+721.50 -44.20 -456.73
 691.51 85.17 -360.76
 573.38 86.54 -383.79
 469.79 87.75 -403.99
@@ -55,7 +69,7 @@ Path -PL 10 -CPSP
 -168.44 95.70 -510.23
 -208.44 95.70 -510.23
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 90
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 104
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
@@ -77,7 +91,7 @@ Path -PL 10 -DFPWD -QA "-QD|200|-A|a blightmetal stalker|-T|QSC:stalker|-E|H" -C
 -323.80 53.39 -503.26
 -245.31 43.96 -523.88
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 90
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 104
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
@@ -86,7 +100,7 @@ Custom
 TimeStampEcho "SetActiveQuest Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator"
 0 0 0
 Custom
-CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 62
+CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator" 76
 0 0 0
 Custom
 TimeStampEcho "Aether Wroughtlands: Experiment BU-T13-R's Arcane Generator Completed"
