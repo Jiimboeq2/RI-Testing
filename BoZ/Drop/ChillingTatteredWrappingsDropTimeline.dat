@@ -1,13 +1,16 @@
 Chilling Tattered Wrappings Drop Timeline
 -715.08 60.79 433.10
 Custom
+CheckCompletedQuest "Chilling Tattered Wrappings" 59
+-715.08 60.79 433.10
+Custom
 ExamineItem "Chilling Tattered Wrappings"
 -715.08 60.79 433.10
 Custom
 SetActiveQuest "Chilling Tattered Wrappings"
 -715.08 60.79 433.10
 Custom
-CheckQuest -Active "Chilling Tattered Wrappings" 68
+CheckQuest -Active "Chilling Tattered Wrappings" 59
 -715.08 60.79 433.10
 Custom
 Path -PL 36 -CPSP -QA "-QD|60|-A|an alloy residue|-T|QSC:alloy residue|-E|K"
@@ -52,19 +55,7 @@ Custom
 CheckCompletedQuest "Chilling Tattered Wrappings"
 -715.08 60.79 433.10
 Custom
-ExamineItem "Chilling Tattered Wrappings"
--715.08 60.79 433.10
-Custom
-SetActiveQuest "Chilling Tattered Wrappings"
--715.08 60.79 433.10
-Custom
-CheckQuest -Active "Chilling Tattered Wrappings" 68
--715.08 60.79 433.10
-Custom
-TimeStampEcho "SetActiveQuest Chilling Tattered Wrappings"
--715.08 60.79 433.10
-Custom
-CheckAndSet -NotActiveQuest "Chilling Tattered Wrappings" 11
+CheckAndSet -NotActiveQuest "Chilling Tattered Wrappings" 2
 -715.08 60.79 433.10
 Custom
 TimeStampEcho "Completed Pickup of Chilling Tattered Wrappings"

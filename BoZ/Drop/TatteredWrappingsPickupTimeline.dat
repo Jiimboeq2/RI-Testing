@@ -1,0 +1,83 @@
+Tattered Wrappings Timeline
+Custom
+CheckAndSet -NotInZone "Splendor Sky Aerie" 11
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+-327.48 117.58 616.17
+Custom
+Path -PL 8 -CPSP
+-332.52 119.12 627.12
+-332.52 225 627.12
+-242.52 225 547.12
+-147.52 225 487.12
+-57.52 225 427.12
+37.52 225 387.12
+107.52 225 327.12
+197.52 225 287.12
+287.52 225 227.12
+Custom
+Quest "SpectralTatteredWrappingsDropTimeline"
+287.52 225 227.12
+Custom
+Path -PL 8 -CPSP
+287.52 225 227.12
+182.31 271.23 806.49
+104.74 247.39 725.77
+82.83 247.92 673.21
+24.66 247.20 619.80
+-13.88 247.29 580.71
+-11.64 247.41 528.53
+-26.82 247.65 458.98
+-37.24 247.89 380.78
+-23.00 247.85 290.01
+Custom
+Quest "OminousTatteredWrappingsDropTimeline"
+-23.00 42.85 290.01
+Custom
+Path -PL 5 -CPSP
+-31.02 44.52 300.55
+-70.81 209.59 334.79
+-107.58 209.86 369.49
+-165.11 209.56 429.16
+-238.14 209.12 453.09
+-301.23 209.38 433.83
+-339.63 209.59 358.65
+Custom
+Quest "EtherealTatteredWrappingsDropTimeline"
+-339.63 209.59 358.65
+-339.63 209.59 358.65
+Custom
+Quest "HauntingTatteredWrappingsDropTimeline"
+-339.63 209.59 358.65
+Custom
+Path -PL 18 -CPSP
+331.19 286.45 957.75
+320.41 286.42 932.36
+283.78 273.79 838.21
+306.75 247.37 746.89
+186.47 209.13 658.65
+112.78 209.03 546.05
+44.09 209.33 418.80
+-2.22 209.26 394.99
+-116.06 209.38 420.31
+-230.82 209.44 452.25
+-305.24 209.60 428.90
+-363.58 209.23 377.18
+-538.38 209.02 371.80
+-546.26 209.80 382.85
+-572.19 209.30 426.45
+-599.82 209.81 483.30
+-621.89 209.76 498.64
+-669.98 209.70 421.54
+-715.08 209.79 433.10
+Custom
+Quest "ChillingTatteredWrappingsDropTimeline"
+-715.08 60.79 433.10
+Custom
+TimeStampEcho "Finished collecting drop items for Tattered Wrappings"
+-715.08 60.79 433.10

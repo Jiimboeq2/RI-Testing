@@ -10,154 +10,9 @@ FastTravel "Splendor Sky Aerie"
 0 0 0
 -327.48 117.58 616.17
 Custom
-Path -PL 8 -CPSP
--332.52 119.12 627.12
--332.52 225 627.12
--242.52 225 547.12
--147.52 225 487.12
--57.52 225 427.12
-37.52 225 387.12
-107.52 225 327.12
-197.52 225 287.12
-287.52 225 227.12
-Custom
-CheckCompletedQuest "Spectral Tattered Wrappings" 40
-287.52 225 227.12
-Custom
-Quest "SpectralTatteredWrappingsDropTimeline"
-287.52 225 227.12
-Custom
-CheckQuest -Active "Spectral Tattered Wrappings" 40
-287.52 225 227.12
-Custom
-SetActiveQuest "Spectral Tattered Wrappings"
-287.52 225 227.12
-Custom
-TimeStampEcho "SetActiveQuest Spectral Tattered Wrappings"
-287.52 225 227.12
-Custom
-CheckAndSet -NotActiveQuest "Spectral Tattered Wrappings" 22
-287.52 225 227.12
-Custom
-Path -PL 8 -CPSP
-182.31 271.23 806.49
-104.74 247.39 725.77
-82.83 199.92 673.21
-24.66 199.20 619.80
--13.88 199.29 580.71
--11.64 199.41 528.53
--26.82 199.65 458.98
--37.24 199.89 380.78
--23.00 199.85 290.01
-Custom
-CheckCompletedQuest "Ominous Tattered Wrappings" 69
--23.00 42.85 290.01
-Custom
-Quest "OminousTatteredWrappingsDropTimeline"
--23.00 42.85 290.01
-Custom
-CheckQuest -Active "Ominous Tattered Wrappings" 69
--23.00 42.85 290.01
-Custom
-SetActiveQuest "Ominous Tattered Wrappings"
--23.00 42.85 290.01
-Custom
-TimeStampEcho "SetActiveQuest Ominous Tattered Wrappings"
--23.00 42.85 290.01
-Custom
-CheckAndSet -NotActiveQuest "Ominous Tattered Wrappings" 54
--23.00 42.85 290.01
-Custom
-Path -PL 5 -CPSP
--31.02 44.52 300.55
--70.81 209.59 334.79
--107.58 209.86 369.49
--165.11 209.56 429.16
--238.14 209.12 453.09
--301.23 209.38 433.83
--339.63 209.59 358.65
-Custom
-CheckCompletedQuest "Ethereal Tattered Wrappings" 96
--339.63 85.59 358.65
-Custom
-Quest "EtherealTatteredWrappingsDropTimeline"
--339.63 85.59 358.65
-Custom
-CheckQuest -Active "Ethereal Tattered Wrappings" 96
--339.63 85.59 358.65
-Custom
-SetActiveQuest "Ethereal Tattered Wrappings"
--339.63 85.59 358.65
-Custom
-TimeStampEcho "SetActiveQuest Ethereal Tattered Wrappings"
--339.63 85.59 358.65
-Custom
-CheckAndSet -NotActiveQuest "Ethereal Tattered Wrappings" 81
--339.63 85.59 358.65
-Custom
-Path -PL 2 -CPSP
--238.14 209.12 453.09
--301.23 209.38 433.83
--339.63 209.59 358.65
-Custom
-CheckCompletedQuest "Haunting Tattered Wrappings" 114
--339.63 85.59 358.65
-Custom
-Quest "HauntingTatteredWrappingsDropTimeline"
--339.63 85.59 358.65
-Custom
-CheckQuest -Active "Haunting Tattered Wrappings" 114
--339.63 85.59 358.65
-Custom
-SetActiveQuest "Haunting Tattered Wrappings"
--339.63 85.59 358.65
-Custom
-TimeStampEcho "SetActiveQuest Haunting Tattered Wrappings"
--339.63 85.59 358.65
-Custom
-CheckAndSet -NotActiveQuest "Haunting Tattered Wrappings" 99
--339.63 85.59 358.65
-Custom
-Path -PL 18 -CPSP
-331.19 286.45 957.75
-320.41 286.42 932.36
-283.78 273.79 838.21
-306.75 247.37 746.89
-186.47 209.13 658.65
-112.78 209.03 546.05
-44.09 209.33 418.80
--2.22 209.26 394.99
--116.06 209.38 420.31
--230.82 209.44 452.25
--305.24 209.60 428.90
--363.58 209.23 377.18
--538.38 209.02 371.80
--546.26 209.80 382.85
--572.19 209.30 426.45
--599.82 209.81 483.30
--621.89 209.76 498.64
--669.98 209.70 421.54
--715.08 60.79 433.10
-Custom
-CheckCompletedQuest "Chilling Tattered Wrappings" 153
--715.08 60.79 433.10
-Custom
-Quest "ChillingTatteredWrappingsDropTimeline"
--715.08 60.79 433.10
-Custom
-CheckQuest -Active "Chilling Tattered Wrappings" 153
--715.08 60.79 433.10
-Custom
-SetActiveQuest "Chilling Tattered Wrappings"
--715.08 60.79 433.10
-Custom
-TimeStampEcho "SetActiveQuest Chilling Tattered Wrappings"
--715.08 60.79 433.10
-Custom
-CheckAndSet -NotActiveQuest "Chilling Tattered Wrappings" 138
--715.08 60.79 433.10
-Custom
 Path -PL 6 -CPSP
+-712.38 217.13 669.22
+-779.11 214.23 679.87
 -831.08 211.98 688.16
 -906.92 208.68 700.26
 -978.49 205.58 711.68
@@ -177,6 +32,10 @@ Custom
 ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
 -711.87 229.62 -751.98
 Custom
+WaitForZoning
+-711.87 229.62 -751.98
+850.99 -32.22 -333.60
+Custom
 Path -PL 6 -CPSP
 850.99 -32.22 -333.60
 838.92 -24.27 -342.48
@@ -189,7 +48,7 @@ Path -PL 6 -CPSP
 709.80 -45.34 -442.31
 Custom
 Quest "OminousTatteredWrappings"
-0 0 0
+709.80 -45.34 -442.31
 Custom
 Path -PL 10 -CPSP
 562.22 36.61 -392.98
@@ -203,32 +62,29 @@ Path -PL 10 -CPSP
 -252.57 130.24 -43.59
 -352.97 136.75 22.53
 -430.61 145.91 72.73
--496.30 138.79 114.51
 Custom
-Quest "SpectralTatteredWrappings"
-0 0 0
+Quest "ChillingTatteredWrappings"
+-450.65 121.81 -529.74
 Custom
 Path -PL 10 -CPSP
--495.82 123.30 131.97
--489.22 131.17 34.51
--488.38 129.14 -89.24
--487.68 127.42 -193.77
--473.01 126.67 -236.29
 -457.31 124.80 -348.27
 -449.68 123.08 -452.35
 -450.65 121.81 -529.74
+-473.01 126.67 -236.29
+-487.68 127.42 -193.77
+-488.38 129.14 -89.24
+-489.22 131.17 34.51
+-495.82 123.30 131.97
 Custom
-Quest "ChillingTatteredWrappings"
-0 0 0
+Quest "SpectralTatteredWrappings"
+-496.30 138.79 114.51
 Custom
-Path -PL 10 -CPSP
--445.52 133.02 -521.95
--374.89 148.01 -454.31
--291.02 148.60 -378.46
--214.62 149.13 -309.37
--108.79 149.87 -213.66
--20.28 150.49 -133.63
-72.54 151.14 -49.68
+Path -PL 8 -CPSP
+-314.67 53.70 86.62
+-108.79 176.87 -213.66
+-20.28 176.49 -133.63
+2.57 176.40 8.18 202
+72.54 176.14 -49.68
 152.83 176.73 17.08
 242.65 211.39 90.60
 335.36 247.17 166.49
@@ -236,7 +92,7 @@ Path -PL 10 -CPSP
 507.53 303.74 296.10
 Custom
 Quest "EtherealTatteredWrappings"
-0 0 0
+507.53 303.74 296.10
 Custom
 Path -PL 10 -CPSP
 530.92 294.62 264.58
@@ -253,4 +109,7 @@ Path -PL 10 -CPSP
 -326.11 305.95 612.86
 Custom
 Quest "HauntingTatteredWrappings"
-0 0 0
+-326.11 305.95 612.86
+Custom
+TimeStampEcho "Finished kills for Tattered Wrappings"
+-326.11 305.95 612.86

@@ -1,0 +1,43 @@
+Muted Crystal Pendant Fragment Timeline
+297.22 230.47 680.92
+Custom
+CheckAndSet -Completed "Muted Crystal Pendant Fragment" 40
+297.22 230.47 680.92
+Custom
+ExamineItem "Muted Crystal Pendant Fragment"
+297.22 230.47 680.92
+Custom
+SetActiveQuest "Muted Crystal Pendant Fragment"
+297.22 230.47 680.92
+Custom
+Path -PL 5 -CPSP
+297.22 230.47 680.92
+311.45 205.80 590.99
+240.67 201.20 537.77
+227.02 154.19 482.56
+165.87 92.79 402.47
+264.38 44.84 331.09
+343.04 49.27 278.53
+403.64 64.87 279.94
+Custom
+Path -PL 24 -QA "-A|healthy aububorian bark|-T|QSC:8/8" -QA "-A|a metal inflicted auduborian|-T|QSC:8/8"
+502.01 81.06 292.16
+539.37 86.34 346.86
+563.70 103.98 404.56
+569.15 90.67 496.06
+651.35 113.15 445.74
+660.68 121.78 407.78
+654.93 120.30 392.43
+635.19 114.41 393.05
+615.21 101.18 386.81
+613.48 90.58 356.26
+638.52 84.75 342.02
+592.58 86.17 291.93
+561.95 85.03 262.49
+515.42 88.62 252.19
+Custom
+CheckQuest -Active "Muted Crystal Pendant Fragment" 2
+539.53 84.54 328.25
+Custom
+TimeStampEcho "Completed Muted Crystal Pendant Fragment"
+539.53 84.54 328.25

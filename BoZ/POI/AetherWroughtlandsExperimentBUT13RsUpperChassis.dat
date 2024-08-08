@@ -1,6 +1,13 @@
 Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis
 Custom
-CheckAndSet -InZone "Aether Wroughtlands" 42
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+Custom
+WaitForZoning
+885.23 -45.55 -322.18
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 49
 0 0 0
 Custom
 CheckAndSet -InZone "Splendor Sky Aerie" 11
@@ -41,9 +48,16 @@ ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
 -711.87 229.62 -751.98
 885.23 -45.55 -322.18
 Custom
-Path -PL 15 -CPSP
-882.82 69.79 -322.87
-837.00 83.47 -332.39
+Path -PL 3 -CPSP
+885.23 -3.10 -322.18
+816.71 30.57 -362.35
+739.93 28.00 -396.94
+Custom
+FlyDown 2
+721.50 -44.20 -456.73
+Custom
+BuyFromVendor "Merchant Orikoo" "Will of the Wroughtlands" 20
+721.50 -44.20 -456.73
 691.51 85.17 -360.76
 573.38 86.54 -383.79
 469.79 87.75 -403.99
@@ -54,15 +68,8 @@ Path -PL 15 -CPSP
 -71.73 93.99 -461.24
 -168.44 95.70 -510.23
 -208.44 95.70 -510.23
--135.16 197.05 -368.26
--135.39 183.95 -307.09
--139.49 161.74 -160.85
--150.55 159.58 20.16
--157.83 159.62 134.12
--264.24 159.69 223.61
--293.52 159.70 242.01
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 114
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 121
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis"
@@ -101,7 +108,7 @@ Path -PL 26 -DFPWD -QA "-QD|200|-A|a coppershell snapper|-T|QSC:snapper|-T|QSC:d
 -471.31 121.95 261.57
 -396.19 114.87 243.86
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 114
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 121
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis"
@@ -110,9 +117,8 @@ Custom
 TimeStampEcho "SetActiveQuest Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis"
 0 0 0
 Custom
-CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 69
+CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis" 76
 0 0 0
 Custom
 TimeStampEcho "Aether Wroughtlands: Experiment BU-T13-R's Upper Chassis Completed"
 0 0 0
-

@@ -18,7 +18,7 @@ UseItem  "Embri's Maedjinn Illusion"
 -1.73 91.28 -447.14
 5.92 -13.89 -453.76
 Custom
-Path -PL 40 -L -DFPWD -QA "-QD|200|-A|Iron Zakir Rish Mirror|-T|QSC:Zakir Rish|-E|H" -CT "QSC:mirror"
+Path -PL 40 -L -DFPWD -QA "-QD|200|-A|Iron Zakir Rish Mirror|-T|QSC:Iron Zakir Rish Mirror|-E|H" -CT "QSC:Iron Zakir Rish Mirror"
 5.92 -13.89 -453.76
 5.92 53.36 -453.76
 9.76 64.24 -526.80
@@ -68,7 +68,7 @@ Path -PL 40 -L -DFPWD -QA "-QD|200|-A|Iron Zakir Rish Mirror|-T|QSC:Zakir Rish|-
 -714.42 144.71 -441.03
 -714.36 58.59 -441.11
 Custom
-Path -PL 24 -L -DFPWD -QA "-QD|200|-A|Copper Zakir Rish Mirror|-T|QSC:Zakir Rish|-E|H" -CT "QSC:mirror"
+Path -PL 24 -L -DFPWD -QA "-QD|200|-A|Copper Zakir Rish Mirror|-T|QSC:Copper Zakir Rish Mirror|-E|H" -CT "QSC:Copper Zakir Rish Mirror"
 -714.36 58.59 -441.11
 -714.36 118.38 -441.11
 -748.60 112.90 -468.23

@@ -92,9 +92,6 @@ Wait
 5
 828.69 70.04 0.14
 Custom
-MessageBox "Click Carpet and Press Resume after landing"
-828.69 70.04 0.14
-Custom
 MessageBox "Begin fight, once boss stops talking UseItem Glorious Maestra's Cithara"
 838.61 70.07 -0.39
 Custom

@@ -1,7 +1,7 @@
 Haunting Tattered Wrappings
 -326.11 305.95 612.86
 Custom
-Path -PL 28 -QA "-QD|200|-A|a menacing shockspine|-T|QSC:menacing shokspine|-E|K"
+Path -PL 28 -CPSP -QA "-QD|200|-A|a menacing shockspine|-T|QSC:menacing shokspine|-E|K"
 -326.11 305.95 612.86
 -407.56 309.18 624.91
 -472.68 311.51 647.13

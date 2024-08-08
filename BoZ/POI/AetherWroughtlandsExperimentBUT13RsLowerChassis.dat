@@ -1,6 +1,13 @@
 Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis
 Custom
-CheckAndSet -InZone "Aether Wroughtlands" 42
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+Custom
+WaitForZoning
+885.23 -45.55 -322.18
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 49
 0 0 0
 Custom
 CheckAndSet -InZone "Splendor Sky Aerie" 11
@@ -41,18 +48,28 @@ ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
 -711.87 229.62 -751.98
 885.23 -45.55 -322.18
 Custom
-Path -PL 8 -CPSP
-882.82 69.79 -322.87
-882.82 250.79 -322.87
-925.05 250.14 514.90
-790.78 345.87 497.96
-661.93 348.14 474.43
-506.88 350.92 438.43
-429.95 352.28 430.94
-347.70 258.61 220.16
-371.43 301.78 259.07
+Path -PL 3 -CPSP
+885.23 -3.10 -322.18
+816.71 30.57 -362.35
+739.93 28.00 -396.94
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 91
+FlyDown 2
+721.50 -44.20 -456.73
+Custom
+BuyFromVendor "Merchant Orikoo" "Will of the Wroughtlands" 20
+721.50 -44.20 -456.73
+691.51 85.17 -360.76
+573.38 86.54 -383.79
+469.79 87.75 -403.99
+364.12 88.98 -421.82
+261.96 90.16 -437.09
+163.22 91.30 -451.85
+55.58 92.53 -457.98
+-71.73 93.99 -461.24
+-168.44 95.70 -510.23
+-208.44 95.70 -510.23
+Custom
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 110
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis"
@@ -80,7 +97,7 @@ Path -PL 17 -DFPWD -QA "-QD|200|-A|a wild goldbeak|-T|QSC:goldbeak|-E|K" -CT "QS
 717.26 312.30 525.41
 729.39 311.95 490.37
 Custom
-CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 91
+CheckCompletedQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 110
 0 0 0
 Custom
 SetActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis"
@@ -89,7 +106,7 @@ Custom
 TimeStampEcho "SetActiveQuest Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis"
 0 0 0
 Custom
-CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 57
+CheckAndSet -ActiveQuest "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis" 76
 0 0 0
 Custom
 TimeStampEcho "Aether Wroughtlands: Experiment BU-T13-R's Lower Chassis Completed"
