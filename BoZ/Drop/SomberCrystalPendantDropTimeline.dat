@@ -1,0 +1,49 @@
+Somber Crystal Pendant Drop Timeline
+-339.63 85.59 358.65
+Custom
+CheckCompletedQuest "Somber Crystal Pendant Fragment" 46
+-339.63 85.59 358.65
+Custom
+ExamineItem "Somber Crystal Pendant Fragment"
+-339.63 85.59 358.65
+Custom
+SetActiveQuest "Somber Crystal Pendant Fragment"
+-339.63 85.59 358.65
+Custom
+CheckQuest -Active "Bleak Crystal Pendant Fragment" 46
+-339.63 85.59 358.65
+Custom
+Path -PL 26 -CPSP -QA "-A|metalmorphic tormentor|-T|QSC:metalmorphic tormentor|-E|K"
+179.25 322.13 -561.36
+178.57 316.22 -594.94
+178.99 308.81 -663.69
+188.84 305.59 -691.08
+212.92 312.14 -707.14
+237.99 319.70 -717.45
+259.74 317.23 -715.22
+273.06 314.63 -696.62
+291.84 309.89 -656.92
+316.22 305.52 -624.92
+368.22 305.37 -587.88
+460.10 313.52 -528.74
+531.44 319.84 -482.81
+614.13 327.17 -429.58
+730.11 337.40 -354.92
+760.10 367.13 -335.62
+795.35 370.54 -306.79
+823.97 373.46 -280.12
+854.81 376.06 -282.54
+872.24 378.08 -302.42
+861.48 380.47 -327.85
+801.12 374.57 -366.92
+697.71 359.11 -423.73
+612.26 346.34 -470.67
+512.14 331.50 -523.52
+431.08 319.72 -562.32
+330.24 305.77 -594.52
+Custom
+CheckQuest -NotActiveQuest "Somber Crystal Pendant Fragment" 2
+-339.63 85.59 358.65
+Custom
+TimeStampEcho "Completed Pickup of Somber Crystal Pendant Fragment"
+-339.63 85.59 358.65

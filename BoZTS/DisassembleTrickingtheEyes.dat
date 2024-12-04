@@ -1,0 +1,25 @@
+Disassemble: Tricking the Eyes
+697.13 -46.35 -439.70
+Custom
+HailActorGetQuest -Actor "Burnish" 
+697.13 -46.35 -439.70
+Custom
+ClickActor "Stray Feathers"
+723.92 -45.47 -441.77
+Wait
+5
+719.67 -43.70 -469.03
+720.19 -43.65 -470.92
+Custom
+ClickActor "Bivouac Forge"
+720.19 -43.65 -470.92
+721.16 -43.58 -473.73
+Custom
+TimeStampEcho "Trying not to bounce off the forge to craft"
+721.16 -43.58 -473.73
+Custom
+CraftIt "Hooluk Illusion Potion" 1
+717.88 -43.65 -471.42
+Custom
+HailActor "Burnish" 4 1
+697.13 -46.35 -439.70

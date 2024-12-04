@@ -24,11 +24,12 @@ Path
 Custom
 ClickActor mariners_bell TRUE FALSE 50
 6.87 -2.38 117.17
+Custom
+TravelMap "The Great Divide"
+6.87 -2.38 117.17
 Wait
 20
 0 0 0
-Custom
-TravelMap "The Great Divide"
 1356.05 -540.25 473.10
 1356.05 -518.33 473.10
 1356.05 -498.18 473.10
@@ -278,7 +279,7 @@ Path
 5.83 -2.38 117.54
 Custom
 ClickActor mariners_bell TRUE FALSE 50
-4.21 -2.38 118.78
+6.87 -2.38 117.17
 Custom
 TravelMap "The Sinking Sands"
 6.87 -2.38 117.17
@@ -338,6 +339,9 @@ Wait
 1203.18 -465.56 457.05
 1135.77 -474.67 458.49
 1110.06 -468.89 440.47
+Wait
+10
+0 0 0
 Custom
 ClickActor "thurgadin_entrance_from_dock" FALSE FALSE 10
 Wait
@@ -361,7 +365,7 @@ Wait
 612.53 -300.42 484.69
 575.68 -288.00 470.04
 Wait
-200
+20
 0 0 0
 Custom
 HailActor "Qho Augren" 2 1
@@ -388,6 +392,9 @@ Wait
 673.34 -249.64 110.28
 674.42 -251.45 76.34
 673.49 -244.99 53.11
+Wait
+20
+0 0 0
 Custom
 ClickActor "exit_to_great_divide_north" FALSE FALSE 10
 0 0 0
@@ -450,6 +457,9 @@ Wait
 660.37 -142.62 29.13
 738.19 -150.02 39.90
 793.34 -181.77 49.53
+Wait
+20
+0 0 0
 Custom
 ClickActor "Name -> thurgadin_entrance_from_gd" FALSE FALSE 10
 812.92 -180.91 54.55

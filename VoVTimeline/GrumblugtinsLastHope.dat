@@ -1,0 +1,29 @@
+Grumblugtin's Last Hope
+Custom
+HailActorGetQuest -Actor "Dahmodar"
+-633.56 88.97 -511.18
+-628.17 88.91 -512.97
+-609.78 86.03 -522.72
+-591.85 83.45 -528.86
+-566.49 81.98 -528.66
+-542.42 82.60 -530.22
+Custom
+ZoneDoor "zone to svarni dungeon 01" "Svarni Expanse: Carrion Crag [Solo]"
+-522.20 90.33 -533.96
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor Exit
+-367.25 193.19 -722.26
+-563.96 81.94 -528.32
+-574.05 82.31 -529.81
+-584.25 82.86 -528.75
+-593.63 84.30 -525.29
+-603.58 85.00 -523.50
+-613.22 87.01 -521.36
+-622.07 88.91 -516.58
+-630.88 88.88 -511.72
+Custom
+HailActor "Dahmodar" 4
+-631.61 88.97 -511.33

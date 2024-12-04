@@ -1,0 +1,64 @@
+Test Your Mettle Timeline
+Custom
+CheckAndSet -NotInZone "Guild Hall" 13
+0 0 0
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Pepitas Seeds" 15 "Trystine Gem" 6 "Aether Ore" 1 "Bittersweet Vineroot" 9 "Corymbia Wood" 9 "Direbeak Hide" 9 "Breadfruit" 6 "Charger meat" 6
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Zimaran Coal" 200 "aerated mineral water" 20 "Zimaran Candle" 40 "Zimaran Kindling" 40 "Zimaran Sandpaper" 50 "Zimaran Incense" 50
+0 0 0
+Custom
+TimeStampEcho "Complete Remove From Depot"
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Pepitas Seeds" 15 -ITEMQTY "Trystine Gem" 6 -ITEMQTY "Aether Ore" 1 -ITEMQTY "Bittersweet Vineroot" 9 -ITEMQTY "Corymbia Wood" 9 -ITEMQTY "Direbeak Hide" 9 -ITEMQTY "Breadfruit" 6 -ITEMQTY "Charger meat" 6
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Portable Work Bench v2" 1 -ITEMQTY "aerated mineral water" 20 -ITEMQTY "Zimaran Coal" 200
+0 0 0
+Custom
+TimeStampEcho "Complete Pre Req Check"
+0 0 0
+Custom
+Quest "TestYourMettleTheSkyistheLimit"
+0 0 0
+Custom
+Quest "TestYourMettleTimetoPreen"
+0 0 0
+Custom
+Quest "TestYourMettleWHOO"
+0 0 0
+Custom
+Quest "TestYourMettleWhere"
+0 0 0
+Custom
+Quest "TestYourMettleTheBreadthoftheMatter"
+0 0 0
+Custom
+Quest "TestYourMettleTheWidthoftheBreadth"
+0 0 0
+Custom
+Quest "TestYourMettleBivouacBuilding"
+0 0 0
+Custom
+Quest "TestYourMettleAethericSafety"
+0 0 0
+Custom
+Quest "DisassembleNo"
+0 0 0
+Custom
+Quest "DisassembleARockyBeginning"
+0 0 0
+Custom
+Quest "DisassembleHideifYouCan"
+0 0 0
+Custom
+Quest "DisassembleTrickingtheEyes"
+0 0 0
+Custom
+Quest "DisassembleADifferentApproach"
+0 0 0
+Custom
+Quest "BivuoacDailyTradeskillMission"
+0 0 0

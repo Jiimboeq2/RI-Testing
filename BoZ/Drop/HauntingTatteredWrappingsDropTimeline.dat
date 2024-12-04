@@ -1,0 +1,47 @@
+Haunting Tattered Wrappings Drop Timeline
+-431.63 209.59 116.65
+Custom
+CheckCompletedQuest "Haunting Tattered Wrappings" 44
+-431.89 85.57 115.55
+Custom
+ExamineItem "Haunting Tattered Wrappings"
+-431.29 85.33 116.97
+Custom
+SetActiveQuest "Haunting Tattered Wrappings"
+-431.89 85.57 115.55
+Custom
+CheckQuest -Active "Haunting Tattered Wrappings" 44
+-431.89 85.57 115.55
+Custom
+Path -PL 26 -CPSP -QA "-A|a pond creeper|-T|QSC:pond creeper|-E|K"
+-431.89 85.57 115.55
+-444.74 80.93 138.80
+-462.24 76.81 154.94
+-462.24 59.77 154.94
+-476.11 59.74 165.39
+-490.89 59.75 180.81
+-495.60 59.81 206.05
+-488.74 59.83 227.60
+-488.66 59.82 240.90
+-501.39 59.84 263.83
+-499.50 59.84 280.72
+-481.79 59.80 291.02
+-455.73 59.86 304.06
+-442.59 59.79 309.20
+-431.04 59.81 303.09
+-417.51 59.76 291.84
+-409.65 59.74 281.91
+-410.39 59.78 240.55
+-429.32 59.76 224.93
+-444.16 59.76 207.13
+-450.04 59.76 189.04
+-459.61 59.76 164.74
+-465.02 60.86 152.18
+-444.74 80.93 138.80
+-431.89 85.57 115.55
+Custom
+CheckAndSet -NotActiveQuest "Haunting Tattered Wrappings" 2
+-431.89 85.57 115.55
+Custom
+TimeStampEcho "Completed Pickup of Haunting Tattered Wrappings"
+-431.89 85.57 115.55

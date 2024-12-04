@@ -1,0 +1,74 @@
+Stirring Up Trouble in Nektulos
+Repeatable
+Custom
+CheckPreReqs -ITEMQTY "Glowing Kindling" 6 
+0 0 0
+Custom
+CheckAndSet -InZone "Nektulos Forest" 24
+0 0 0
+Custom
+FastTravel "Isle of Mara"
+0 0 0
+6.87 -2.38 117.17
+Custom
+ClickActor mariners_bell TRUE FALSE 50
+6.87 -2.38 117.17
+Custom
+TravelMap "Nektulos"
+835.17 3.80 -46.61
+829.36 6.03 -58.53
+813.49 6.03 -91.05
+800.20 6.03 -118.30
+789.60 4.94 -140.04
+770.59 -0.90 -133.36
+763.86 -0.90 -128.11
+766.72 -0.90 -128.99
+765.39 -0.90 -131.20
+Custom
+HailActorGetQuest -Actor "Drahk Bonebroth"
+766.72 -0.90 -128.99
+Custom 
+Wait 1
+0 0 0 
+770.30 -0.90 -136.51
+Custom
+ClickActor -Actor "Provisioner's Barrel"
+769.41 -0.90 -134.32
+Custom
+Path -PL 12 -R -YD 10 -QA "-QD|20|-A|ethereal condensate|-E|H"
+771.72 -0.90 -131.11
+717.96 -0.90 -111.96
+694.38 -0.90 -85.06
+661.61 -0.90 -77.06
+632.23 -0.90 -60.57
+595.62 -0.84 -40.02
+585.19 2.07 -54.50
+613.16 -0.63 -67.76
+640.90 -0.90 -80.75
+684.68 -0.90 -100.47
+736.73 -0.90 -124.85
+773.57 -0.90 -131.74
+756.86 -0.90 -125.00
+Custom
+CraftIt "Oggok Kvass" 3
+796.48 -0.90 -139.79
+Custom
+CraftIt "Surf and Turf Stew" 3
+796.48 -0.90 -139.79
+Custom
+Path 
+776.58 -0.90 -145.32
+766.72 -0.90 -128.99
+765.39 -0.90 -131.20
+Custom
+HailActor -Actor "Drahk Bonebroth" 1
+766.72 -0.90 -128.99
+Custom 
+Wait 1
+0 0 0 
+Custom
+HailActor -Actor "Drahk Bonebroth" 1
+766.72 -0.90 -128.99
+Custom 
+Wait 1
+0 0 0 

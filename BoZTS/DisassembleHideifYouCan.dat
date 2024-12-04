@@ -1,0 +1,17 @@
+Disassemble: Hide if You Can
+Custom
+HailActorGetQuest -Actor "Burnish" 
+697.13 -46.35 -439.70
+720.19 -43.65 -470.92
+Custom
+CraftIt "Recipe for Invisibility Potion" 1
+720.37 -43.67 -470.15
+Custom
+ScribeBook "Invisibility Potion for Burnish"
+720.37 -43.67 -470.15
+Custom
+CraftIt "Invisibility Potion for Burnish" 1
+720.37 -43.67 -470.15
+Custom
+HailActor "Burnish" 4 1
+697.13 -46.35 -439.70

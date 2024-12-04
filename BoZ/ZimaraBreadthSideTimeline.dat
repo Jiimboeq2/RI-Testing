@@ -1,0 +1,120 @@
+Zimara Breadth Side Timeline
+Custom
+CheckAndSet -InZone "Zimara Breadth" 34
+0 0 0
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 10
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+Path -PL 6 -CPSP
+-698.41 230.04 -754.81
+-698.41 279.05 -754.81
+-664.58 269.24 -726.83
+-608.89 256.08 -680.33
+-533.45 257.06 -607.42
+-438.31 258.75 -523.29
+-342.02 260.45 -437.66
+-250.10 262.08 -355.92
+-155.77 263.56 -295.64
+-60.14 265.04 -237.09
+18.39 266.15 -234.09
+107.55 267.38 -229.15
+190.91 268.53 -204.90
+232.70 269.47 -147.38
+275.98 270.51 -85.67
+260.94 270.86 -66.44
+260.94 219.61 -66.44
+260.92 160.78 -66.46
+Custom
+HailActor "Sassarish" 
+267.46 160.41 -73.70
+Custom
+Quest "TheFluttersandMuttersRiddle"
+0 0 0
+Custom
+Quest "TheVeinsandFlakesRiddle"
+0 0 0
+Custom
+Quest "TheShockandSplinterRiddle"
+0 0 0
+Custom
+CheckCompletedQuest "Fancy Sphinx Feast" 72
+0 0 0
+Custom
+Quest "FancySphinxFeast"
+0 0 0
+Custom
+TimeStampEcho "Completed Fancy Sphinx Feast Repeatable once"
+0 0 0
+Custom
+Path -PL 16 -CPSP
+267.46 160.41 -73.70
+267.46 255.80 -73.70
+267.46 348.60 -73.70
+184.28 347.93 -25.81
+90.17 328.66 30.10
+-10.41 308.24 87.89
+-113.59 287.30 147.17
+-207.91 268.16 201.36
+-305.35 248.39 257.34
+-399.92 236.39 310.06
+-505.25 227.13 321.65
+-618.07 217.36 327.49
+-742.01 206.63 333.90
+-838.26 204.55 338.88
+-863.88 202.06 353.11
+-863.87 189.02 353.16
+-869.72 188.47 359.10
+Custom
+Quest "StokingtheForge"
+0 0 0
+Custom
+Quest "StormyDefenses"
+0 0 0
+Custom
+Quest "ForcedReductioninForce"
+0 0 0
+Custom
+Quest "MightyMightyMetals"
+0 0 0
+Custom
+Path -PL 5 -CPSP
+-869.72 188.47 359.10
+-848.17 186.02 311.48
+-832.37 190.25 284.42
+-812.53 189.39 250.75
+-815.51 190.80 233.89
+-820.31 191.40 225.48
+Custom
+Quest "HereGhostNothing"
+0 0 0
+Custom
+Quest "StormsABrewin"
+0 0 0

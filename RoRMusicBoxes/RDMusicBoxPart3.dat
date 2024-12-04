@@ -1,0 +1,344 @@
+RI_Runinstances Quest-RDMusicBoxPart3
+Custom
+FastTravel "Takish Badlands"
+233.06 48.01 1180.02
+243.87 133.15 1189.58
+146.72 129.62 1063.70
+94.56 127.30 920.68
+71.05 125.46 799.83
+41.90 123.19 650.02
+26.13 120.76 488.20
+13.97 119.48 403.46
+2.77 118.14 314.33
+Custom
+CheckCompletedQuest "The Eafrygia Music Box Key" 60
+2.77 118.14 314.33
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Eafrygia Music Box" 60
+2.77 31.08 314.33
+Custom
+CheckQuestStep "Raj'Dur Plateaus: The Eafrygia Music Box" "I should return" 60
+2.77 31.08 314.33
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Eafrygia Music Box"
+2.77 31.08 314.33
+2.77 -1.52 314.33
+-1.59 2.68 29.20
+Custom
+Path -PL 30 -L -R -QA "-QD|100|-A|shadowy grappler|-T|QSC:I need to find the Eafrygia music box key|-E|K" -CT "QSC:I have found the correct key"
+-1.59 39.26 29.20
+40.80 -0.55 318.99
+40.80 -45.13 318.99
+40.80 -68.11 318.99
+14.35 -69.51 281.53
+-49.88 -69.51 288.66
+-37.26 -67.59 364.28
+-20.37 -67.59 445.56
+-61.16 -45.19 480.67
+-15.41 -45.19 530.00
+13.76 -64.82 544.81
+39.24 -56.24 591.55
+100.66 -56.24 632.59
+217.44 -56.24 689.80
+223.94 -60.97 628.14
+249.93 -74.66 601.51
+270.33 -54.26 560.31
+205.30 -54.26 479.96
+132.67 -54.26 557.20
+32.69 -67.57 485.76
+26.34 -65.19 553.97
+-14.45 7.00 16.68
+Custom 
+ExamineItem "Eafrygia Key Clue" 1
+0 0 0
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Eafrygia Music Box"
+0 0 0
+Custom
+CheckQuest -NotActive "The Eafrygia Music Box Key" 13
+0 0 0
+Custom
+Path 
+-29.14 -0.72 377.60
+-14.45 7.00 16.68
+10.35 -0.50 136.20
+13.30 -0.52 62.09
+Custom
+CheckCompletedQuest "The Doria Music Box Key" 112
+13.30 -0.52 62.09
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Doria Music Box" 112
+13.30 -0.52 62.09
+Custom
+CheckQuestStep "Raj'Dur Plateaus: The Doria Music Box" "I should return" 112
+13.30 -0.52 62.09
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Doria Music Box"
+13.30 -0.52 62.09
+Custom
+Path -PL 31 -L -R -QA "-QD|100|-A|a Mhyt|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+13.30 -0.52 62.09
+1.52 2.81 30.44
+-54.74 -0.52 64.16
+17.76 -0.52 60.31
+61.68 -0.52 52.12
+107.28 -0.51 73.73
+150.83 0.13 69.47
+166.07 -0.01 38.51
+142.99 0.05 0.78
+114.98 0.10 -12.30
+92.87 0.87 -50.13
+114.18 1.36 -85.76
+52.61 0.41 -65.45
+30.91 0.41 -78.56
+0.70 0.41 -173.73
+-15.17 0.41 -157.30
+-38.89 1.59 -180.99
+6.60 0.41 -190.58
+-58.09 0.41 -168.66
+-50.26 0.41 -198.76
+-24.62 0.41 -228.52
+11.51 0.41 -231.21
+9.64 0.58 -192.19
+Custom 
+ExamineItem "Doria Key Clue" 1
+0 0 0
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Doria Music Box"
+0 0 0
+Custom
+CheckQuest -NotActive "The Doria Music Box Key" 94
+0 0 0
+Custom 
+Path 
+167.11 91.17 40.14
+163.67 120.81 7.71
+164.18 153.78 -81.07
+178.61 158.96 -166.92
+170.94 177.61 -251.72
+160.68 182.95 -340.85
+145.79 188.38 -431.39
+130.25 142.73 -534.43
+114.44 109.93 -595.64
+100.87 121.60 -641.70
+75.97 143.30 -718.44
+Custom
+CheckCompletedQuest "The Lydia Music Box Key" 177
+75.97 143.30 -718.44
+Custom
+CheckQuestStep "Raj'Dur Plateaus: The Lydia Music Box" "I should return" 177
+75.97 143.30 -718.44
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Lydia Music Box" 177
+75.97 143.30 -718.44
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Lydia Music Box"
+75.97 143.30 -718.44
+Custom
+Path -PL 37 -L -R -QA "-QD|100|-A|a grove stalker|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+75.97 143.30 -718.44
+97.42 121.41 -638.12
+129.02 121.09 -649.30
+126.29 137.03 -716.48
+73.64 144.69 -722.39
+39.42 159.73 -739.44
+4.17 165.36 -734.71
+-39.75 163.30 -723.29
+-8.83 163.36 -782.41
+22.03 160.95 -843.78
+38.12 163.47 -862.71
+105.10 162.07 -832.33
+163.48 160.64 -813.56
+153.06 159.08 -776.10
+138.38 142.35 -723.14
+136.02 104.86 -565.23
+165.71 102.03 -538.60
+203.43 98.61 -520.67
+258.05 91.88 -510.12
+309.02 88.64 -512.71
+409.97 74.20 -525.80
+439.12 53.70 -410.20
+439.12 82.70 -410.20
+390.80 50.20 -362.96
+346.70 61.37 -374.07
+323.30 69.91 -408.59
+233.13 81.90 -423.79
+166.05 90.07 -423.28
+93.77 103.31 -434.45
+Custom 
+ExamineItem "Lydia Key Clue" 1
+0 0 0
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Lydia Music Box"
+0 0 0
+Custom
+CheckQuest -NotActive "The Lydia Music Box Key" 178
+0 0 0
+Custom
+Path 
+79.33 230.01 -531.70
+9.93 230.93 -540.16
+-94.02 225.22 -467.69
+-174.82 221.24 -460.27
+-233.62 217.57 -517.07
+-305.72 213.29 -579.40
+-371.82 207.31 -691.26
+Custom
+CheckCompletedQuest "The Dedoria Music Box Key" 235
+-371.82 207.31 -691.26
+Custom
+CheckQuestStep "Raj'Dur Plateaus: The Dedoria Music Box" "I should return" 235
+-371.82 207.31 -691.26
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Dedoria Music Box" 235
+-371.82 207.31 -691.26
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Dedoria Music Box"
+-371.82 207.31 -691.26
+Custom
+Path -PL 33 -L -R -QA "-QD|100|-A|a residual sparklet|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+-371.82 207.31 -691.26
+-402.28 191.94 -727.44
+-402.28 210.72 -727.44
+-505.06 173.31 -674.33
+-492.14 147.53 -633.50
+-595.20 142.62 -578.29
+-681.76 153.40 -607.86
+-723.56 159.08 -577.82
+-721.09 162.38 -504.53
+-672.08 146.80 -495.23
+-604.41 115.63 -453.36
+-558.22 90.35 -374.43
+-579.38 88.63 -341.52
+-577.43 125.77 -344.53
+-602.06 108.75 -297.81
+-584.40 93.50 -261.42
+-551.80 81.30 -212.55
+-494.48 78.93 -193.35
+-489.40 94.58 -236.40
+-497.44 125.03 -277.36
+-444.78 142.50 -327.16
+-417.42 157.43 -355.53
+-410.07 138.26 -396.91
+-437.64 115.65 -426.56
+-528.79 112.95 -424.08
+-578.58 115.36 -516.40
+Custom 
+ExamineItem "Dedoria Key Clue" 1
+0 0 0
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Dedoria Music Box"
+0 0 0
+Custom
+CheckQuest -NotActive "The Dedoria Music Box Key" 186
+0 0 0
+Custom
+Path 
+-481.69 203.25 -574.78
+-477.48 201.56 -479.85
+-487.86 200.20 -403.37
+-506.55 198.80 -326.38
+-526.90 179.84 -243.25
+-548.42 160.34 -155.46
+Custom
+CheckCompletedQuest "The Frygia Music Box Key" 297
+-548.42 160.34 -155.46
+Custom
+CheckQuestStep "Raj'Dur Plateaus: The Frygia Music Box" "I should return" 297
+-548.42 160.34 -155.46
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Frygia Music Box" 297
+-548.42 160.34 -155.46
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Frygia Music Box"
+-548.42 160.34 -155.46
+Custom
+Path -PL 39 -L -R -QA "-QD|100|-A|sand devourer|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+-628.18 166.62 22.46
+-588.90 141.74 -21.42
+-551.81 137.43 -9.83
+-430.68 108.30 -6.86
+-463.97 156.21 11.48
+-562.82 183.70 47.03
+-608.01 197.93 55.57
+-650.46 209.15 77.32
+-682.37 200.79 124.03
+-632.40 209.57 198.25
+-547.56 234.19 243.47
+-634.83 205.47 256.90
+-687.29 190.76 263.76
+-698.12 192.14 225.46
+-722.46 186.63 187.91
+-768.14 181.01 197.77
+-781.09 203.92 115.30
+-818.26 213.81 100.49
+-813.38 209.57 90.40
+-800.73 205.24 75.24
+-813.51 230.00 52.60
+-755.89 211.93 69.53
+-722.08 196.90 62.69
+-617.34 123.90 -96.50
+-591.48 128.86 -54.30
+-463.95 93.86 -96.19
+-432.08 36.77 -79.65
+-433.08 95.80 -80.38
+-433.13 120.88 -40.57
+-519.90 169.55 21.36
+-560.07 183.44 41.64
+Custom 
+ExamineItem "Frygia Key Clue" 1
+0 0 0
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Frygia Music Box"
+0 0 0
+Custom
+CheckQuest -NotActive "The Frygia Music Box Key" 243
+0 0 0
+Custom
+Path 
+-698.12 192.14 225.46
+-722.46 186.63 187.91
+-768.14 181.01 197.77
+-781.09 203.92 115.30
+-818.26 213.81 100.49
+-813.38 209.57 90.40
+Custom
+CheckCompletedQuest "The Ardoria Music Box Key" 344
+-813.38 209.57 90.40
+Custom
+CheckQuestStep "Raj'Dur Plateaus: The Ardoria Music Box" "I should return" 344
+-813.38 209.57 90.40
+Custom
+CheckQuest -NotActive "Raj'Dur Plateaus: The Ardoria Music Box" 344
+-813.38 209.57 90.40
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Ardoria Music Box"
+-813.38 209.57 90.40
+Custom
+Path -PL 25 -L -R -QA "-QD|100|-A|dunetooth|-T|QSC:I should slay|-E|K" -CT "QSC:I have found the correct key"
+-837.52 277.05 -176.83
+-813.57 284.50 -200.87
+-786.89 280.87 -191.23
+-771.97 277.44 -163.91
+-741.63 273.40 -153.22
+-716.02 270.00 -164.20
+-702.90 266.39 -190.60
+-688.09 267.45 -203.56
+-671.27 264.14 -183.94
+-662.33 261.00 -159.59
+-654.75 256.03 -119.86
+-664.71 245.07 -62.95
+-669.20 235.31 -32.47
+-672.94 228.23 -10.43
+-683.67 218.50 17.97
+-700.25 208.77 43.81
+-730.77 186.33 80.34
+Custom 
+ExamineItem "Ardoria Key Clue" 1
+0 0 0
+Custom
+SetActiveQuest "Raj'Dur Plateaus: The Ardoria Music Box"
+0 0 0
+Custom
+CheckQuest -NotActive "The Ardoria Music Box Key" 305
+0 0 0

@@ -1,0 +1,97 @@
+Junior Hootie in the Making
+Custom
+MakeActiveQuest "Ballads of Zimara: Parliamentary Procedures"
+0 0 0
+Custom
+CheckQuestStep "The new arrival turned out" 16
+0 0 0
+Custom
+TimeStampEcho "Picking up Ballads of Zimara: Parliamentary Procedures to avoid back tracking"
+Custom
+HailActor "Coarsequill" 5 1
+-343.03 117.94 602.52
+-332.52 119.12 627.12
+Custom
+HailActor "Miranna Ameema" 20 1
+-325.36 118.37 638.91
+Custom
+TimeStampEcho "Traveling to Jabber Longwind"
+-325.36 118.37 638.91
+Custom
+Path -PL 10 -CPSP
+-340.66 116.24 602.69
+-338.49 114.74 588.80
+-338.49 160.28 588.80
+-338.49 204.94 588.80
+-338.49 236.77 588.80
+-274.04 250.15 610.05
+-198.07 265.59 637.15
+-129.93 272.57 659.37
+-53.15 277.27 683.75
+18.93 281.68 706.64
+82.26 285.56 726.75
+126.93 288.85 760.25
+162.64 291.49 788.01
+196.18 293.88 811.42
+196.15 273.45 811.37
+208.32 274.96 820.16
+Custom
+HailActorGetQuest -Actor "Jabber Longwind"
+207.65 274.96 819.59
+172.30 275 788.15
+158.64 275 720.60
+186.89 250 686.35
+262.06 250 677.14
+Custom
+Path -PL 23 -L -DFPWD -QA "-QD|200|-A|dirt mound|-T|QSC:Gather buried nuts|-E|H" -QA "-QD|200|-A|a wild aeraquis|-T|QSC:Hunt wild aeraquis|-E|K" -CT "QSC:I gathered plenty of nuts"
+262.29 250 670.35
+240.93 250 676.35
+311.45 250 602.57
+339.18 250 607.64
+363.44 250 651.74
+295.89 250 607.58
+289.54 250 571.74
+260.10 250 545.46
+248.58 250 563.28
+229.42 250 669.63
+214.01 250 578.02
+201.83 250 589.41
+192.52 250 598.86
+118.80 250 660.18
+37.23 250 593.74
+-13.63 250 545.00
+25.29 250 502.22
+66.31 250 545.69
+73.61 250 684.09
+141.33 250 658.15
+148.29 237.07 658.97
+235.04 250 675.76
+298.84 250 669.07
+322.44 250 660.80
+310.75 250 673.68
+Custom
+Path -P 8 -CPSP
+187.42 233.62 652.04
+199.92 235.21 664.74
+217.22 303.18 682.30
+228.63 303.50 693.88
+233.30 303.60 708.24
+236.41 303.54 748.53
+240.09 303.73 772.36
+245.47 303.12 798.11
+Custom
+FlyDown 5
+251.33 301.07 818.72
+260.36 297.27 918.88
+Custom
+ClickActor "Jabber's Wish Catcher"
+263.01 286.42 923.18
+Custom
+ClickActor "Jabber's Wish Catcher"
+263.01 286.42 923.18
+227.78 282.66 863.39
+210.93 274.96 827.44
+208.40 274.96 821.17
+Custom
+HailActor "Jabber Longwind" 1 1
+207.65 274.96 819.59

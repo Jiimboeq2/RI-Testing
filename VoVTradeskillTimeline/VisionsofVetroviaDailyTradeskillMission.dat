@@ -1,0 +1,19 @@
+Visions of Vetrovia Daily Tradeskill Mission
+Custom
+CheckAndSet -InZone "Renfry's Basement" 10
+0 0 0
+Custom
+UseRenfry
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+Custom
+HailActor "Renfry" 0
+4.84 0.02 20.78
+Wait
+50
+0 0 0
+Custom
+VoVCheckDaily
+0 0 0

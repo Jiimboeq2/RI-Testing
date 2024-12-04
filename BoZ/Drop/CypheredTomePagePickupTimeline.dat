@@ -1,0 +1,57 @@
+Cyphered Tome Page Pickup Timeline
+Custom
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+Custom
+Quest "CravingCypheredTomePagePickup"
+287.52 225 227.12
+Custom
+Quest "ThirstingCypheredTomePagePickup"
+-339.63 85.59 358.65
+Custom
+Path -PL 8 -CPSP
+182.31 271.23 806.49
+104.74 247.39 725.77
+82.83 199.92 673.21
+24.66 171.20 619.80
+-13.88 145.29 580.71
+-11.64 128.41 528.53
+-26.82 108.65 458.98
+-37.24 38.89 380.78
+-23.00 42.85 290.01
+Custom
+Quest "RavenousCypheredTomePagePickup"
+-23.00 42.85 290.01
+Custom
+Path -PL 5 -CPSP
+-31.02 44.52 300.55
+-70.81 45.59 334.79
+-107.58 45.86 369.49
+-165.11 55.56 429.16
+-238.14 75.12 453.09
+-301.23 91.38 433.83
+-339.63 85.59 358.65
+Custom
+Quest "StarvedCypheredTomePagePickup"
+-339.63 85.59 358.65
+Custom
+Path -PL 10 -CPSP
+-462.68 213.27 431.01
+-536.55 213.27 358.77
+-585.48 213.27 316.15
+-646.05 212.29 288.53
+-701.36 209.55 268.06
+-758.06 206.87 235.57
+-793.80 198.21 211.20
+-822.30 188.88 190.29
+-838.08 180.31 164.96
+-838.08 174.51 164.96
+-831.34 176.14 152.57
+-833.96 176.02 149.34
+Custom
+Quest "VoraciousCypheredTomePagePickup"
+-833.96 176.02 149.34
+Custom
+TimeStampEcho "Completed Cyphered Tome Page Pickup"
+-833.96 176.02 149.34

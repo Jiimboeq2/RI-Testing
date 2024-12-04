@@ -1,0 +1,125 @@
+Splendor Recycling
+Custom
+HailActorGetQuest -Actor "Tekeshi" 
+-822.29 174.92 185.97
+-798.22 174.54 190.27
+Custom
+ZoneDoor zone_portal_to_dun_hooluk_invasion_03 "Splendor Sky Aerie: Vale Invasion [Solo]"
+-798.22 174.54 190.27
+-802.33 84.58 261.50
+Custom
+HailActor "Tekeshi" 4 1
+-798.18 76.63 285.91
+-800.58 73.13 302.06
+Custom
+Path -PL 26 -L -QA "-QD|200|-A|Wish-polished Silver|-T|QSC:I've gathered the|-E|H" -QA "-A|Wish-burnished Gold|-T|QSC:I've gathered the|-E|H" -QA "-QD|200|-A|Wish-burnished Silver|-T|QSC:I've gathered the|-E|H" -QA "-A|Wish-polished Gold|-T|QSC:I've gathered the|-E|H" -CT "QSC:I've gathered the"
+-792.50 66.70 331.66
+-774.77 69.53 324.36
+-748.80 63.20 412.22
+-742.74 57.77 465.97
+-745.63 55.54 514.68
+-722.96 76.34 558.02
+-738.45 85.73 576.87
+-740.49 57.64 466.10
+-742.71 81.45 649.22
+-713.25 76.15 626.70
+-670.00 63.79 602.17
+-639.21 65.33 639.98
+-624.40 77.42 671.53
+-610.81 72.57 655.19
+-581.56 76.80 664.81
+-540.24 80.36 681.15
+-567.99 78.30 659.95
+-588.76 73.55 637.26
+-600.72 67.20 611.66
+-586.30 72.67 591.23
+-558.63 79.82 563.84
+-575.28 81.16 542.11
+-585.00 86.30 519.50
+-589.66 66.79 510.63
+-619.73 61.32 495.61
+-653.15 69.31 436.64
+-685.86 65.24 409.77
+-716.61 64.16 384.95
+-742.71 81.45 649.22
+-798.18 76.63 285.91
+Custom
+HailActor "Tekeshi" 4 1
+-798.18 76.63 285.91
+-747.02 62.86 390.87
+Wait
+200
+-745.26 62.92 407.13
+Custom
+Target Magmalatorr 0 14
+-745.26 62.92 407.1
+Custom
+Path -PL 8 -QA "-QD|200|-A|a Zakir Rish|-T|QSC:weapon|-E|H" -QA "-A|Zakir Rish|-T|QSC:weapon|-E|H" -CT "QSC: I claimed enough"
+-746.56 63.02 417.36
+-740.49 57.64 466.10
+-731.72 60.92 504.29
+-700.36 68.08 531.07
+-678.47 67.02 545.98
+-644.59 60.42 589.73
+-608.08 67.95 636.48
+-579.41 76.92 663.23
+-557.25 79.65 677.20
+Wait
+200
+-557.25 79.65 677.20
+Custom
+Target "Tkesh Tura" 0 14
+-557.25 79.65 677.2
+Custom
+Path -PL 11 -QA "-QD|150|-A|a Zakir Rish|-T|QSC:weapon|-E|H" -QA "-A|Zakir Rish|-T|QSC:weapon|-E|H" -CT "QSC: I claimed enough"
+-542.41 80.36 681.33
+-515.82 82.03 697.29
+-592.72 74.75 657.64
+-635.37 58.20 613.47
+-693.82 68.60 538.30
+-740.49 57.64 466.10
+-749.62 56.99 508.32
+-773.29 58.80 525.30
+-769.25 61.04 543.22
+-764.28 58.15 522.54
+-737.73 59.16 509.68
+-737.47 81.49 566.67
+-778.40 84.61 607.61
+-791.74 84.83 617.15
+Custom
+ClickActor "telelport crystal"
+-791.74 84.83 617.1
+Custom
+Path -PL 2 -QA "-QD|200|-A|a Zakir Rish|-T|QSC:weapon|-E|H" -QA "-A|Zakir Rish|-T|QSC:weapon|-E|H" -CT "QSC: I claimed enough"
+-987.14 170.55 635.39
+-997.48 171.22 660.66
+-1014.54 178.08 732.19
+Wait
+200
+-1014.54 178.08 732.19
+Custom
+Target Kusala'Din 0 14
+-1014.54 178.08 732.1
+Named
+Kusala'Din
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+-983.85 176.70 749.93
+-983.85 176.70 749.93
+Custom
+Path -PL 2 -QA "-QD|200|-A|a Zakir Rish|-T|QSC:weapon|-E|H" -QA "-A|Zakir Rish|-T|QSC:weapon|-E|H" -CT "QSC: I claimed enough"
+-983.85 176.70 749.93
+-983.85 176.70 749.93
+-1024.84 180.13 751.03
+-1092.51 181.79 741.61
+Custom
+ZoneDoor Exit
+-1092.51 181.79 741.61
+WaitForZoning
+0 0 0
+-822.29 174.92 185.97
+Custom
+HailActor "Tekeshi" 
+-822.29 174.92 185.97

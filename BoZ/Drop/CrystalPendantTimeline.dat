@@ -1,0 +1,37 @@
+Crystal Pendant Timeline
+Custom
+CheckAndSet -InZone "Splendor Sky Aerie" 8
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+-327.48 117.58 616.17
+Custom
+Path -PL 8 -CPSP
+-332.52 119.12 627.12
+-332.52 225 627.12
+-242.52 225 547.12
+-147.52 225 487.12
+-57.52 225 427.12
+37.52 225 387.12
+107.52 225 327.12
+197.52 225 287.12
+287.52 225 227.12
+Custom
+Quest "SomberCrystalPendantFragment"
+0 0 0
+Custom
+Quest "MutedCrystalPendantFragment"
+0 0 0
+Custom
+Quest "BleakCrystalPendantFragment"
+0 0 0
+Custom
+Quest "DismalCrystalPendantFragment"
+0 0 0
+Custom
+Quest "GloomyCrystalPendantFragment"
+0 0 0
+Custom
+TimeStampEcho "Completed Crystal Pendant Timeline"
+0 0 0

@@ -1,0 +1,76 @@
+Splendor Sky Aerie: Runescribed Ring Timeline
+Custom
+TimeStampEcho "Check Completed Splendor Sky Aerie: Dragon Runed Ring"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Dragon Runed Ring"
+0 0 0
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Dragon Runed Ring" 13
+0 0 0
+Custom
+Quest "SplendorSkyAerieDragonRunedRing"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Splendor Sky Aerie: Runescribed Sapphire"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Sapphire"
+0 0 0
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Sapphire" 25
+0 0 0
+Custom
+Quest "SplendorSkyAerieRunescribedSapphire"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Splendor Sky Aerie: Runescribed Emerald"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Emerald"
+0 0 0
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Emerald" 37
+0 0 0
+Custom
+Quest "SplendorSkyAerieRunescribedEmerald"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Splendor Sky Aerie: Runescribed Onyx"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Onyx"
+0 0 0
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Onyx" 49
+0 0 0
+Custom
+Quest "SplendorSkyAerieRunescribedOnyx"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Splendor Sky Aerie: Runescribed Opal"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Opal"
+0 0 0
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Opal" 61
+0 0 0
+Custom
+Quest "SplendorSkyAerieRunescribedOpal"
+0 0 0
+Custom
+TimeStampEcho "Check Completed Splendor Sky Aerie: Runescribed Ruby"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Ruby"
+0 0 0
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Ruby" 73
+0 0 0
+Custom
+Quest "SplendorSkyAerieRunescribedRuby"
+0 0 0
+Custom
+TimeStampEcho "Ending Splendor Sky Aerie: Runescribed Ring Timeline"
+0 0 0

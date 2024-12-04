@@ -1,0 +1,353 @@
+Ballads of Zimara: Vaashkaani Crescendo
+Custom
+MakeActiveQuest "Ballads of Zimara: Vaashkaani Crescendo"
+0 0 0
+Custom
+CheckQuestStep "Now that I have the Golden Key" 161
+0 0 0
+Custom
+CheckQuestStep "The key worked" 161
+0 0 0
+Custom
+HailActorGetQuest -Actor "Sirran the Lunatic"
+106.63 377.93 667.41
+152.81 361.42 669.82
+210.95 378.52 653.36
+Custom
+ClickActor "Fly from Strungstone Peaks"
+212.64 378.85 652.89
+Custom
+TravelMap "Isles of Wisdom"
+212.64 378.85 652.89
+Custom
+ClickActor "Fly from Isles of Wisdom"
+-676.67 141.86 -20.35
+Custom
+TravelMap "Auric Palisades"
+-676.67 141.86 -20.35
+-709.47 145.39 -366.67
+-711.15 145.96 -392.13
+-663.46 130.08 -422.26
+-634.99 126.49 -449.81
+-659.72 144.77 -485.64
+-674.99 174.37 -544.34
+-639.92 181.59 -565.17
+-587.22 172.69 -583.63
+-495.96 162.78 -605.31
+Custom
+ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Argent Sanctuary [Solo]"
+288.76 164.76 -126.28
+-76.77 3.63 -0.36
+Custom
+WaitForZoning
+0 0 0
+-75.22 3.61 0.26
+-46.65 3.03 -16.65
+-27.89 3.13 -28.40
+-10.72 3.01 -33.76
+18.10 2.96 -28.93
+28.23 3.49 -27.27
+45.53 3.50 -14.37
+54.11 3.53 -2.26
+80.66 3.53 -0.31
+Custom
+MessageBox "Kill Tazir Tanziri and target a silver shard whenever it spawns"
+80.66 3.53 -0.31
+99.71 3.53 -0.06
+Custom
+Target "Tazir Tanziri"
+98.85 3.53 -1.50
+Named
+"Tazir Tanziri"
+StandardNamed
+DiffLock
+98.85 3.53 -1.50
+KillAdd
+"a silver shard"
+DontMoveBehind
+98.85 3.53 -1.50
+121.13 3.53 0.05
+145.42 3.53 0.16
+153.18 3.75 0.12
+162.34 3.76 0.25
+170.96 3.76 -20.30
+178.21 3.76 -17.99
+186.57 3.77 -1.39
+205.15 3.46 0.21
+212.03 3.45 43.21
+Custom
+Target Akharys
+211.38 3.45 41.75
+Named
+"Akharys"
+StandardNamed
+SameLock
+KillAdd
+"Sansobog"
+DontMoveBehind
+211.38 3.45 41.75
+211.38 3.45 41.75
+213.48 3.74 18.30
+213.99 3.46 3.17
+253.66 3.46 -0.35
+261.96 3.74 -15.58
+261.45 3.45 -40.90
+262.12 3.45 -29.66
+Custom
+Target "Uah'Lu the Unhallowed"
+265.38 3.45 -61.05
+255.26 3.46 1.70
+258.23 3.75 -14.27
+260.57 3.45 -53.93
+264.21 3.45 -30.56
+268.01 3.46 -3.54
+279.76 3.45 -1.21
+294.40 3.55 -0.11
+Custom
+ClickActor portal_to_aviary 1
+296.45 3.65 -0.49
+-43.16 19.08 -247.76
+-11.40 11.71 -246.68
+8.92 7.94 -235.10
+32.87 7.94 -221.14
+55.75 7.94 -207.80
+86.24 11.43 -189.99
+Custom
+Target Xuxuquaxul
+69.41 11.43 -204.71
+Named
+Xuxuquaxul
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+69.41 11.43 -204.71
+90.16 11.43 -183.39
+59.13 9.07 -209.78
+33.73 7.94 -227.87
+31.57 7.94 -250.81
+44.11 7.94 -274.73
+68.09 7.94 -289.59
+86.03 7.94 -298.57
+Custom
+Target "Ra'Zaal's ghul"
+71.93 7.94 -292.25
+Named
+"Ra'Zaal's ghul"
+StandardNamed
+SameLock
+KillAdd
+"Ra'Zaal's ghul"
+DontMoveBehind
+71.93 7.94 -292.25
+Custom
+HailActor "General Ra'Zaal" 4
+95.59 7.94 -303.52
+Custom
+Target General Ra'Zaal
+71.93 7.94 -292.25
+Named
+"General Ra'Zaal"
+StandardNamed
+SameLock
+KillAdd
+"Ra'Zaal's ghul"
+DontMoveBehind
+71.93 7.94 -292.25
+83.95 7.94 -298.55
+Custom
+ZoneDoor Exit
+102.51 7.94 -317.70
+-495.96 162.78 -605.31
+Custom
+TimeStampEcho "Now entering Golden Rule Instance"
+-495.96 162.78 -605.31
+Custom
+ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Golden Rule [Solo]"
+288.76 164.76 -126.28
+-73.31 3.34 0.15
+-65.50 3.09 1.00
+-56.83 3.03 -7.51
+-39.51 3.03 -24.53
+-18.67 8.96 -35.83
+-6.61 13.81 -34.72
+1.10 17.69 -29.37
+6.32 19.85 -21.58
+9.91 19.92 0.13
+42.95 20.33 -0.21
+66.43 20.36 0.03
+84.95 20.30 1.86
+114.36 20.30 0.17
+132.27 20.33 -0.40
+Custom
+Target Nezri En'Sallef
+114.57 20.30 0.06
+Named
+"Nezri En'Sallef"
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+114.57 20.30 0.06
+95.85 20.33 0.82
+77.51 20.30 0.11
+123.59 20.30 -0.05
+148.57 20.36 -0.21
+172.39 25.55 0.44
+183.38 25.55 -3.35
+192.91 31.53 -0.86
+206.30 31.50 -8.32
+212.01 31.52 -20.11
+Wait
+20
+212.01 31.52 -20.11
+215.32 31.79 -12.13
+201.07 32.34 -45.36
+Custom
+ClickActor orb_rains 5
+224.53 32.40 -43.14
+Custom
+ClickActor orb_hale 5
+201.07 32.34 -45.36
+216.56 31.50 4.74
+Wait
+20
+202.63 32.24 42.61
+202.63 32.24 42.61
+221.29 31.32 43.58
+218.64 31.50 0.22
+Custom
+ClickActor orb_gales 5
+202.63 32.24 42.61
+Custom
+ClickActor orb_cyclones 5
+221.29 31.32 43.58
+218.64 31.50 0.22
+257.99 31.50 0.66
+261.23 31.52 19.80
+263.05 31.25 41.60
+Custom
+Target Isos
+263.05 31.25 41.60
+Named
+Isos
+StandardNamed
+SameLock
+KillAdd
+"a crackling stormrider"
+DontMoveBehind
+263.05 31.25 41.60
+Custom
+ClickActor orb_thunder 5
+260.52 32.41 63.22
+261.42 31.45 -21.38
+259.20 31.50 0.35
+261.20 31.47 -26.77
+261.72 31.25 -36.19
+259.20 31.50 0.35
+Custom
+Target "The Storm Mistress"
+260.81 31.25 -37.83
+260.81 31.25 -37.83
+264.95 31.50 -4.95
+277.97 31.53 -0.92
+Custom
+ClickActor portal_to_forum
+277.97 31.53 -0.92
+350.00 3.52 0.00
+377.98 3.51 0.00
+410.07 3.52 -0.67
+Custom
+Target Hezodhan
+439.70 6.86 0.61
+Named
+Hezodhan
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+439.70 6.86 0.61
+440.12 6.88 0.14
+Custom
+MessageBox "Click Carpet. Press Resume"
+440.12 6.88 0.14
+364.46 31.61 -0.64
+339.24 31.49 -1.40
+333.19 31.49 -7.07
+305.90 31.49 -7.54
+304.99 31.51 -1.77
+311.18 32.66 0.23
+350.20 53.81 -0.66
+394.05 71.37 0.01
+394.35 71.33 -19.59
+393.81 71.33 15.92
+412.06 71.33 17.65
+Custom
+ClickActor teleport_prism_01
+414.23 71.40 17.93
+506.01 71.37 17.63
+521.82 71.37 17.51
+521.23 71.37 0.39
+550.70 71.32 -0.41
+552.25 71.14 45.39
+553.77 71.34 0.46
+553.55 71.57 -55.51
+552.56 71.34 1.59
+601.87 71.34 0.28
+603.06 71.11 38.07
+601.98 71.40 18.83
+602.01 71.40 -16.79
+602.00 71.11 -47.34
+Custom
+ClickActor djinn_boss_mirror
+616.62 71.11 -45.33
+Custom
+WaitForMob "Ashnu" 200
+614.40 71.14 -46.11
+Custom
+Target Ashnu
+614.40 71.14 -46.11
+Named
+Ashnu
+StandardNamed
+SameLock
+KillAdd
+Zakir-sar-ussur
+DontMoveBehind
+614.40 71.14 -46.11
+616.04 71.13 -47.21
+593.97 71.11 -54.84
+Custom
+ZoneDoor Exit
+593.97 71.11 -54.84
+Custom
+WaitForZoning
+0 0 0
+-494.90 192.83 -609.40
+-524.44 192.19 -599.33
+-583.29 192.85 -578.92
+-642.50 192.40 -563.63
+-673.97 192.99 -538.49
+-665.58 192.28 -495.04
+-633.82 192.00 -448.67
+-669.25 192.18 -419.77
+-712.85 192.28 -391.83
+-709.35 145.34 -360.30
+Custom
+ClickActor "Fly from Auric Palisades"
+-709.56 145.35 -360.27
+Custom
+TravelMap "Isles of Wisdom"
+-709.56 145.35 -360.27
+-703.18 144.16 13.35
+-777.85 189.99 27.76
+-828.73 189.75 28.51
+-863.48 189.99 86.34
+-873.69 189.46 141.49
+-896.92 189.64 218.46
+-914.27 189.77 295.49
+-903.18 189.02 326.03
+-911.86 189.59 330.13
+Custom
+HailActor "Miranna Ameema" 7 1
+-911.86 189.59 330.13

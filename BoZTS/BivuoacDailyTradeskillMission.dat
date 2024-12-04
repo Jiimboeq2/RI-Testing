@@ -1,0 +1,114 @@
+Bivuoac Daily Tradeskill Mission
+Custom
+CheckAndSet -NotInZone "Guild Hall" 7
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Zimaran Coal" 60 "Zimaran Candle" 60 "Zimaran Kindling" 60 "Zimaran Sandpaper" 60 "Zimaran Incense" 60
+0 0 0
+Custom
+CheckAndSet -InZone "Aether Wroughtlands" 53
+0 0 0
+Custom
+CheckAndSet -NotInZone "Splendor Sky Aerie" 16
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+Path -PL 6 -L -CPSP -R
+-326.54 117.71 617.13
+-326.54 176.59 617.13
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+-432.48 229.29 624.57
+-493.34 226.64 634.28
+-572.71 223.20 646.94
+-649.21 219.87 659.15
+-712.38 217.13 669.22
+-779.11 214.23 679.87
+-831.08 211.98 688.16
+-906.92 208.68 700.26
+-978.49 205.58 711.68
+-1054.88 202.22 728.18
+-1079.74 201.12 734.14
+-1079.73 181.36 734.13
+Custom
+ZoneDoor "Zone to Zimara Breadth"
+-1096.01 181.82 740.86
+Custom
+WaitForZoning
+-699.38 229.89 -753.87
+Custom
+ClickAllActors 5
+-711.87 229.62 -751.98
+Custom
+ZoneDoor "Aether Wroughtlands" 1 FALSE 20 True
+-711.87 229.62 -751.98
+Custom
+WaitForZoning
+0 0 0
+Custom
+Path -PL 4 -L -CPSP -R
+878.86 -21.81 -332.62
+839.21 -21.81 -316.60
+749.21 -21.81 -334.57
+714.78 -21.81 -420.98
+713.16 -43.62 -457.59
+Custom
+HailActor "Burnish" 2
+711.79 -43.80 -472.62
+Custom
+MakeActiveQuest "Bivouac: Barricades"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Barricades"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Barricades" 75
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacBarricades"
+716.24 -43.70 -471.57
+Custom
+MakeActiveQuest "Bivouac: Healing"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Healing"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Healing" 87
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacHealing"
+716.24 -43.70 -471.57
+Custom
+MakeActiveQuest "Bivouac: Provisions"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Provisions"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Provisions" 99
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacProvisions"
+716.24 -43.70 -471.57
+Custom
+MakeActiveQuest "Bivouac: Repairs"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Repairs"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Repairs" 111
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacRepairs"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Ending Bivuoac Daily"
+716.24 -43.70 -471.57

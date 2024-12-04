@@ -1,0 +1,50 @@
+Ethereal Tattered Wrappings
+531.79 297.46 270.10
+Custom
+Path -PL 33 -QA "-QD|200|-A|a gold-tinted slider|-T|QSC:gold-tinted slider|-E|K"
+531.79 297.46 270.10
+596.71 302.59 262.45
+636.88 304.56 285.19
+654.74 306.06 253.69
+699.23 308.05 250.44
+710.52 308.83 261.49
+687.26 310.88 298.26
+675.33 312.81 342.87
+650.25 313.85 342.81
+632.08 314.87 355.99
+638.96 316.48 392.09
+653.17 317.84 420.60
+677.43 319.10 437.25
+703.05 320.88 405.54
+736.69 322.42 396.85
+745.87 323.99 366.94
+704.60 325.87 348.65
+715.41 327.07 322.47
+754.08 328.72 330.30
+757.67 330.65 375.76
+769.31 333.61 445.40
+769.56 335.31 485.90
+746.03 337.53 531.81
+723.48 331.08 534.31
+675.85 315.91 515.74
+641.43 305.57 454.78
+608.92 299.57 415.28
+556.74 292.04 455.90
+531.52 288.18 446.78
+539.32 282.58 402.47
+559.13 290.86 370.07
+Custom
+TimeStampEcho "Checking for Ethereal Tattered Wrappings"
+531.79 297.46 270.10
+Custom
+SetActiveQuest "Ethereal Tattered Wrappings"
+531.79 297.46 270.10
+Custom
+CheckAndSet -NotActiveQuest "Ethereal Tattered Wrappings" 50
+531.79 297.46 270.10
+Custom
+CheckQuest -Active "Ethereal Tattered Wrappings" 2
+531.79 297.46 270.10
+Custom
+TimeStampEcho "Completed Ethereal Tattered Wrappings"
+531.79 297.46 270.10

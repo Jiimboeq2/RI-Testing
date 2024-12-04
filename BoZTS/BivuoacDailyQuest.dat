@@ -1,0 +1,55 @@
+Bivuoac Daily Quest
+Custom
+HailActor "Burnish" 2
+711.79 -43.80 -472.62
+Custom
+MakeActiveQuest "Bivouac: Barricades"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Barricades"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Barricades" 17
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacBarricades"
+716.24 -43.70 -471.57
+Custom
+MakeActiveQuest "Bivouac: Healing"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Healing"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Healing" 29
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacHealing"
+716.24 -43.70 -471.57
+Custom
+MakeActiveQuest "Bivouac: Provisions"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Provisions"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Provisions" 41
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacProvisions"
+716.24 -43.70 -471.57
+Custom
+MakeActiveQuest "Bivouac: Repairs"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Made quest active: Bivouac: Repairs"
+716.24 -43.70 -471.57
+Custom
+CheckAndSet -NotActiveQuest "Bivouac: Repairs" 53
+716.24 -43.70 -471.57
+Custom
+Quest "BivouacRepairs"
+716.24 -43.70 -471.57
+Custom
+TimeStampEcho "Ending Bivuoac Daily"
+716.24 -43.70 -471.57

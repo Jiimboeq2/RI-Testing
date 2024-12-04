@@ -1,0 +1,187 @@
+Ballads of Zimara: Ascending Collection
+Custom
+HailActorGetQuest -Actor "Sirran the Lunatic"
+106.63 377.93 667.41
+152.81 361.42 669.82
+210.95 378.52 653.36
+Custom
+ClickActor "Fly from Strungstone Peaks"
+212.64 378.85 652.89
+Custom
+TravelMap "Zenith Helionae"
+212.64 378.85 652.89
+294.46 164.59 -63.12
+288.68 164.28 -120.23
+285.75 162.88 -67.66
+Custom
+ZoneDoor zone_portal_to_dun_zimara_breadth_02 "Zimara Breadth: Strungstone Ascent [Solo]"
+288.17 164.41 -122.91
+Custom
+WaitForZoning
+0 0 0
+554.50 219.89 -818.77
+Custom
+Path -PL 5 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+597.14 210.02 -783.54
+618.04 201.65 -766.28
+616.63 197.28 -735.61
+614.32 195.02 -685.17
+619.43 203.62 -636.30
+625.55 206.79 -577.86
+Custom
+Target Rubblethrong
+625.98 206.78 -573.72
+Named
+Rubblethrong
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+625.98 206.78 -573.72
+636.63 205.98 -521.01
+Custom
+Path -PL 5 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+653.76 207.49 -471.33
+690.26 208.18 -439.40
+754.66 232.92 -450.56
+737.39 228.60 -461.92
+696.24 208.28 -446.88
+649.65 207.46 -462.76
+Custom
+ClickActor telelport crystal
+649.65 207.46 -462.76
+714.31 176.57 273.68
+Custom
+Path -PL 3 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+737.02 184.31 314.91
+747.53 186.53 348.26
+780.39 188.26 348.46
+Custom
+Target Bolagehera
+790.50 189.05 386.00
+Named
+Bolagehera
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+790.50 189.05 386.00
+790.63 188.77 414.18
+Custom
+Path -PL 10 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+793.13 188.91 416.17
+812.43 189.04 426.87
+791.54 189.01 340.35
+710.00 190.29 357.82
+724.53 205.93 433.13
+760.17 226.50 477.68
+751.72 251.63 525.52
+708.31 261.39 531.98
+698.27 282.46 477.33
+721.95 286.83 485.59
+699.49 289.71 511.44
+692.09 292.56 520.37
+627.86 282.10 553.28
+585.35 272.21 543.47
+544.28 278.90 534.81
+528.28 283.90 553.17
+Custom
+Target Barlanka
+528.28 283.90 553.17
+Named
+Barlanka
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+528.28 283.90 553.17
+555.85 275.10 573.90
+Custom
+Path -PL 10 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+543.17 275.20 602.56
+509.40 281.13 660.10
+532.92 277.50 620.83
+554.84 275.13 566.50
+526.70 284.40 554.95
+473.71 308.70 607.87
+423.02 327.75 627.47
+388.84 344.09 613.56
+371.13 360.66 568.47
+399.95 370.91 544.34
+430.61 380.89 556.50
+427.30 382.40 576.35
+409.69 384.76 579.94
+343.71 402.33 597.42
+Custom
+ClickActor telelport crystal
+343.71 402.33 597.42
+217.16 379.54 651.98
+Custom
+Path -PL 6 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+162.79 361.98 670.28
+162.35 361.69 699.08
+123.61 369.03 696.24
+111.63 374.18 697.42
+108.63 377.94 665.54
+106.13 375.78 696.76
+87.61 383.28 722.42
+94.13 382.59 717.34
+Custom
+Target "Crisj'Jen the Bold"
+83.71 383.68 720.44
+101.88 378.80 661.03
+94.13 382.59 717.34
+56.99 397.51 733.71
+Custom
+Path -PL 6 -QA "-QD|200|-A|odd stone|-T|QSC:12/12|-E|H" -QA "-A|keepsake globe|-T|QSC:12/12|-E|H" -CT "QSC: I recovered"
+39.32 400.98 738.67
+15.74 402.28 738.02
+-2.75 399.69 736.93
+-31.40 387.93 722.42
+-49.24 386.26 709.85
+-70.23 394.22 719.01
+-84.30 401.01 726.87
+-100.17 407.37 753.35
+-135.71 416.33 784.87
+-173.11 405.92 813.93
+-180.15 407.23 865.69
+-201.76 423.60 900.33
+-214.91 430.43 899.87
+Custom
+Target Fuejenyrus
+-230.40 432.51 876.88
+Named
+Fuejenyrus
+StandardNamed
+SameLock
+KillAdd
+DontMoveBehind
+-230.40 432.51 876.88
+-236.77 432.60 882.37
+Custom
+CheckQuestStep "I recovered " 166
+-236.77 432.60 882.37
+Custom
+MessageBox "Make sure you have collected all the keepsake globes needed"
+-236.77 432.60 882.37
+Custom
+ZoneDoor Exit
+-244.99 432.11 891.43
+Custom
+WaitForZoning
+0 0 0
+279.61 161.58 -90.26
+309.35 167.15 -53.82
+Custom
+ClickActor "Fly from Zenith Helionae"
+313.10 167.48 -53.67
+Custom
+TravelMap "Strungstone Peaks"
+313.10 167.48 -53.67
+208.11 377.84 655.18
+166.12 362.97 670.29
+113.02 374.09 694.14
+111.85 378.00 668.63
+Custom
+HailActor "Sirran the Lunatic" 
+106.63 377.93 667.41

@@ -1,0 +1,76 @@
+Splendor Sky Aerie: Runescribed Sapphire
+Repeatable
+Custom
+CheckAndSet -NotInZone "Splendor Sky Aerie" 8
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+FastTravel "Splendor Sky Aerie"
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Sapphire"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Splendor Sky Aerie Runescribed Sapphire"
+0 0 0
+Custom
+Path -PL 2 -CPSP
+-331.53 191.76 614.60
+-334.81 215.25 613.75
+-376.30 231.73 615.61
+Custom
+Path -PL 35 -DFPWD -QA "-QD|200|-A|a lurking falcon|-T|QSC:falcon|-E|K" -CT "QSC: I have infused"
+-329.84 130.44 538.48
+-256.46 127.49 505.06
+-210.13 120.56 438.27
+-165.76 114.37 371.76
+-185.22 138.55 309.01
+-234.57 143.21 276.82
+-265.65 163.24 258.62
+-311.21 161.04 224.37
+-336.53 158.60 184.64
+-350.63 154.24 97.99
+-350.63 191.98 97.99
+-366.51 196.01 58.79
+-392.22 215.65 43.63
+-426.33 213.94 39.19
+-501.90 209.96 15.91
+-562.25 206.76 15.97
+-602.41 238.98 -10.37
+-607.87 281.62 -111.44
+-624.83 289.28 -81.63
+-685.39 281.28 -43.06
+-767.63 279.98 17.30
+-735.62 270.49 77.93
+-693.42 263.97 112.60
+-654.18 233.08 138.56
+-611.21 173.44 187.90
+-580.00 145.18 238.07
+-541.28 123.42 324.82
+-475.48 113.76 373.11
+-424.49 116.24 449.60
+-370.92 128.72 355.96
+-314.55 141.26 285.86
+-253.58 157.85 234.92
+-183.49 189.40 192.58
+-105.18 201.75 148.85
+-132.68 204.45 155.65
+-202.72 213.77 128.25
+-215.45 239.92 52.27
+Custom
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Sapphire" 73
+0 0 0
+Custom
+SetActiveQuest "Splendor Sky Aerie: Runescribed Sapphire"
+0 0 0
+Custom
+TimeStampEcho "SetActiveQuest Splendor Sky Aerie: Runescribed Sapphire"
+0 0 0
+Custom
+CheckAndSet -ActiveQuest "Splendor Sky Aerie: Runescribed Sapphire" 22
+0 0 0
+Custom
+TimeStampEcho "Splendor Sky Aerie: Runescribed Sapphire Completed"
+0 0 0

@@ -1,0 +1,23 @@
+Disassemble: No!
+Custom
+HailActorGetQuest -Actor "Burnish" 
+697.13 -46.35 -439.70
+Custom
+TimeStampEcho "Trying to Click Adjusted W.H.O.O. Components Clickie"
+713.37 -43.77 -471.91
+Custom
+ClickActor "Adjusted WH.O.O. Components"
+713.24 -43.83 -474.49
+Wait
+20
+713.24 -43.83 -474.49
+Custom
+UnpackItem "Adjusted W.H.O.O. Components"
+712.75 -43.79 -472.41
+718.45 -43.65 -471.19
+Custom
+CraftIt "Adjusted W.H.O.O." 1
+718.45 -43.65 -471.19
+Custom
+HailActor "Burnish" 6 1
+697.13 -46.35 -439.70

@@ -1,0 +1,32 @@
+Were Is the Messenger: Covers and Crunchies
+Custom
+HailActorGetQuest -Actor "Alghoza"
+525.64 144.94 -592.62
+Custom
+HailActor "Piccolo" 5
+523.46 145.02 -591.20
+Custom
+HailActor "Mibb Deinotamer" 6
+524.31 145.09 -584.70
+526.60 145.00 -589.95
+Custom
+CraftIt "Deino Saddle Blanket" 5
+528.63 144.93 -590.52
+Custom
+HailActor "Mibb Deinotamer" 3
+523.06 145.08 -585.03
+Custom
+CraftIt "Deino Treats" 2
+528.28 144.95 -590.39
+Custom
+ClickActor "a placid deino"
+521.36 145.51 -584.91
+Wait
+50
+0 0 0
+Custom
+WaitWhileMoving
+0 0 0
+Custom
+HailActor "Fivalt" 0
+-804.33 175.10 -710.66
